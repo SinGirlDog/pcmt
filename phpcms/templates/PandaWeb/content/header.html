@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta name="keywords" content="{$SEO['keyword']}">
+    <meta name="description" content="{$SEO['description']}">
+    <meta property="qc:admins" content="04371766676105453176526375" />
+    <!--[if IE]>
+        <script>
+        (function(){if(!/*@cc_on!@*/0)return;var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','),i=e.length;while(i--){document.createElement(e[i])}})()
+        </script>
+    <![endif]-->
+    <link href="{CSS_PATH_PDW}reset_panda.css" rel="stylesheet" type="text/css" />
+    <link href="{CSS_PATH_PDW}style.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="{JS_PATH_PDW}jquery-1.6.4.min.js" ></script>
+	<script type="text/javascript" src="{JS_PATH_PDW}tms-0.3.js"></script>
+	<script type="text/javascript" src="{JS_PATH_PDW}tms_presets.js"></script>
+	<script type="text/javascript" src="{JS_PATH_PDW}jquery.easing.1.3.js"></script>
+     <script type="text/javascript"> 
+       var TopHtml='<img src="{IMG_PATH_PDW}up.png" style="width:48px; height:48px" />';
+    </script>
+</head>
+<body>
+	<header>
+    	<nav class="main_nav">
+        	<a href="{siteurl($siteid)}" class="left"><img src="{IMG_PATH_PDW}logo.jpg" height="68" width="258" alt="{$SEO['site_title']}" title="{$SEO['site_title']}"></a>
+            <ul class="left">
+    			{pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
+            	<li><a href="{siteurl($siteid)}">首页</a></li>
+                {loop $data $r}
+            	<li><a href="{$r[url]}">{$r[catname]}</a></li>
+                {/loop}
+                {/pc}
+				{php echo runhook('glogal_menu')}
+            </ul>
+        </nav>
+    </header>

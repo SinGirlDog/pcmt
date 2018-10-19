@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/style.css">
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/content.css">
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/right.css">
+	<!-- 焦点图 -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery 1.7.1.js"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery.litenav.js"></script>
+	<!-- 焦点图 end -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/mpacc.js"></script>
+	<!--切换-->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/content.js"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/right.js"></script>
+</head>
+<body>
+	{template "content","header_NEW"}
+
+	<div class="content_middle">
+		<div class="position"><p>当前位置：{catpos($catid)} <a>正文</a></p></div>
+		<div class="cont_left">
+			<div class="cont_title">{$title}</div>
+			<div class="about_share">
+				<ul>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/time.png"></span>
+						<span>{$inputtime}</span>
+					</li>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/liulan.png"></span>
+						<span id="hits"><script language="JavaScript" src="{APP_PATH}api.php?op=count&id={$id}&modelid={$modelid}"></script>次</span>
+					</li>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/share.png"></span>
+						<span><div class="bshare-custom"><div class="bsPromo bsPromo2"></div><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a></div></span>
+						<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+						<script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+					</li>
+				</ul>
+			</div>
+			<div class="cont_main">
+				<div class="cont_m_head"></div>
+				<div class="zhegnwen">
+					<p>
+						{$content}
+					</p>
+				</div>
+				<div class="fenye">
+					{cat_url($pages,xhc)}
+				</div>
+				<div class="pre_next">
+					<strong>上一篇：</strong><a href="{cat_url($previous_page[url],'xhc')}">{$previous_page[title]}</a><br />
+					<strong>下一篇：</strong><a href="{cat_url($next_page[url],'xhc')}">{$next_page[title]}</a>
+				</div>
+				<div class="pinglun"></div>
+				<div class="cont_bottom">
+					<div class="cont_bottom_left">
+						<div class="cbl_hd">
+							<div class="blue_hd">
+								<span>相关新闻</span>
+							</div>
+						</div>
+						<ul class="xgxw_ul">
+							{pc:content action="relation" relation="$relation" id="$id" catid="$catid" num="5" keywords="$rs[keywords]"}
+							{loop $data $r}
+							<li><a href="{cat_url($r['url'],'xhc')}"><p>· {str_cut($r[title],60)}</p></a></li>
+							{/loop}
+							{/pc}
+						</ul>
+					</div>
+					<div class="cont_bottom_right">
+						<div class="cbl_hd">
+							<div class="blue_hd">
+								<span>考试资讯</span>
+							</div>
+						</div>
+						<ul class="kszx_ul">
+							{pc:content action="lists" catid="14" num="5" order="id DESC"}
+							{loop $data $r}
+							<li><a href="{cat_url($r['url'],'xhc')}"><p>· {str_cut($r[title],60)}</p></a></li>
+							{/loop}
+							{/pc}
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+				</div>
+			</div>
+		</div>
+		{template "content","right"}
+
+	</div>
+
+	{template "content","footer_NEW"}
+
+</body>
+</html>

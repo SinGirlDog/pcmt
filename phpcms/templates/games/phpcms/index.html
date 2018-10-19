@@ -1,0 +1,656 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRansitional//EN">
+<!-- saved from url=(0022)http://www.mobansky.net/ -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={$charset}">
+<title>{$meta_title}-{$_PHPCMS['meta_title']}-{$_PHPCMS['sitename']}</title>
+<meta name="keywords" content="{$meta_keywords}">
+<meta name="description" content="{$meta_description}">
+<meta name="generator" content="Phpcms {$version}">
+<link href="{$skindir}/style.css" rel="stylesheet" type="text/css">
+<SCRIPT language=Javascript src="{$skindir}/pic/menu.js"></SCRIPT>
+<script language="javascript">
+<!--
+var phpcms_path = "{PHPCMS_PATH}"
+//-->
+</script>
+<noscript>
+<iframe src="*.html"></iframe>
+</noscript>
+<script language="javascript" src="{PHPCMS_PATH}include/js/common.js"></script>
+<SCRIPT LANGUAGE="JavaScript" src="{PHPCMS_PATH}ads/ads.php?id=3"></SCRIPT>
+<style type="text/css">
+body { scrollbar-arrow-color: #CCCCCC; scrollbar-3dlight-color: #111111; scrollbar-highlight-color: #666666; scrollbar-face-color: #444444; scrollbar-shadow-color: #191919; scrollbar-track-color: #111111; scrollbar-darkshadow-color: #191919}
+</style>
+</head>
+<body {if $cat['enableprotect']}oncontextmenu='return false' ondragstart='return false' onselectstart ='return false' onselect='document.selection.empty()' oncopy='document.selection.empty()' onbeforecopy='return false'{/if}>
+<div style="position:absolute; left:0px; top:23px; width:10px; height:37px; z-index:2; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend022.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:10px; top:23px; width:486px; height:37px; z-index:3; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend032.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:495px; top:23px; width:70px; height:37px; z-index:4; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend042.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:0px; top:60px; width:768px; height:24px; z-index:5; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:0px; top:84px; width:768px; height:90px; z-index:5; BACKGROUND-COLOR:"><!--页顶横幅-->
+<div align="center">
+                    <object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="768" height="90">
+                      <param name="movie" value="http://www.jcsk.cn/images/banner_001.swf">
+                      <param name="quality" value="High">
+                      <param name="wmode" value="transparent">
+                      <embed src="http://www.jcsk.cn/images/banner_001.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="768" height="90" quality="High" wmode="transparent"> 
+                      </embed> </object>
+                  </div></div>
+</div>
+<div style="position:absolute; left:565px; top:23px; width:193px; height:37px; z-index:6; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend052.gif" width="100%" height="100%"></div><div style="position:absolute; left:758px; top:23px; width:10px; height:37px; z-index:7; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend062.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:0px; top:174px; width:183px; height:78px; z-index:8; BACKGROUND-COLOR:"><!--LOGO--><img src="{$get_imgurl($_PHPCMS[logo])}" width="100%" height="100%"></div>
+<div style="position:absolute; left:184px; top:174px; width:564px; height:78px; z-index:9; BACKGROUND-COLOR:"><!--banner--><SCRIPT LANGUAGE="JavaScript" src="{PHPCMS_PATH}ads/ads.php?id=1"></SCRIPT></div>
+<div style="position:absolute; left:6px; top:58px; width:768px; height:14px; z-index:23; BACKGROUND-COLOR:"><!--频道列表-->
+<div id="Whatever" align="center">
+    <ul class="TabBarLevel1" id="TabPage1">
+        <li {if $channelid==0}id="Tabi" class="Selected"{/if}><a href="{PHPCMS_PATH}">首页</a></li>
+      {loop $_CHANNEL $channel}
+        <li {if $channelid==$channel[channelid]}id="Tabi" class="Selected"{/if}><a href="{$channel['channelurl']}" class="white">{$channel['channelname']}</a></li>{/loop}
+    </ul>
+</div>
+<!--频道下属栏目列表-->
+{if $channelid && $mod==$_CHA['module']}
+      <table width="768" align="center" cellpadding="0"  cellspacing="0">
+       <tr>
+        <td class="bai">
+<a href="{$_CHANNEL[$channelid][channelurl]}" class="bai"> {$_CHA[channelname]}首页</a>
+{loop get_childcat(0) $cat}
+ | <a href="{$cat['caturl']}" class="bai">{$cat['catname']}</a>
+{/loop}
+| <a href="{PHPCMS_PATH}{$_CHA[channeldir]}/special/" class="bai">专题</a>
+| <a href="{PHPCMS_PATH}guestbook/?channelid={$channelid}" class="bai">留言本</a> 
+| <a href="{PHPCMS_PATH}{$_CHA[channeldir]}/search.php" class="bai">搜索</a>
+</td>
+       </tr>
+       </table>
+{/if}</div>
+<div style="position:absolute; left:0px; top:255px; width:768px; height:120px; z-index:5; BACKGROUND-COLOR:#000000">
+<!-- 菜单定义开始 -->
+<SCRIPT language=JavaScript>
+var nowPage=1;
+function showpage(num){
+	var old_layer    = document.getElementById("page"+nowPage);
+	var current_layer= document.getElementById("page"+num);
+	//var old_label    = document.getElementById("layer"+nowPage);
+	//var current_label= document.getElementById("layer"+num);
+	var label_layer = document.getElementById("layer_label");
+	var label = new Array('<span class=hot>热 门</span>','<font color=#c0c0c0>ABCD</font>','<font color=#c0c0c0>EFGH</font>','<font color=#c0c0c0>IJKL</font>','<font color=#c0c0c0>MNOP</font>','<font color=#c0c0c0>QRST</font>','<font color=#c0c0c0>WXYZ</font>');
+	var behav_layer = '';
+	for(i=1; i<=label.length; i++){
+		if(i == num)
+		{
+			behav_layer += '<li id="current"><a href="javascript:showpage(' +i+ ')"><span class=hot>' + label[i-1]+'</span></a></li>';
+		}else{
+			behav_layer += '<li><a href="javascript:showpage(' +i+ ')">' + label[i-1]+'</a></li>';
+		}
+	}
+	label_layer.innerHTML = behav_layer + '<li><a href="http://zj.jcsk.cn/" target="_blank">近期新游</a></li>';
+	//old_label.innerHTML='<li><a href="javascript:showpage('+nowPage+')">'+label[nowPage-1]+'</a></li>';
+	//current_label.innerHTML='<li id="current"><a href="javascript:showpage('+num+')"><strong>'+label[num-1]+'</strong></a></li>';
+	old_layer.style.display="none";
+	current_layer.style.display="";
+	//current_label.className="act";
+	//old_label.className="cancle";
+	nowPage=num;
+}
+</SCRIPT>
+      <DIV id=td-dh-sy>
+      <TABLE height=22 cellSpacing=0 cellPadding=0 width=768 align=center 
+      border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <DIV id=top-dh>
+            <UL id=layer_label></UL></DIV></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width=768 align=center border=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=768 align=center border=0><TBODY>
+              <TR>
+                <TD><A href="http://bo.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>刀剑</FONT></A> | <A href="http://rf.jcsk.cn/" 
+                  target=_blank>ＲＦ</A> | <A href="http://zt.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>征途</FONT></A> | <A 
+                  href="http://sgc.jcsk.cn/" target=_blank>三国策</A> | <A 
+                  href="http://ddr.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>劲舞团</FONT></A> | <A href="http://zfs.jcsk.cn/" 
+                  target=_blank>真封神</A> | <A href="http://lineage2.jcsk.cn/" 
+                  target=_blank>天堂二</A> | <A href="http://xyq.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>梦幻西游</FONT></A> | <A 
+                  href="http://rxjh.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>热血江湖</FONT></A> | <A 
+                  href="http://sdo.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>超级舞者</FONT></A> | <A href="http://cg.jcsk.cn/" 
+                  target=_blank>魔力宝贝</A> | <A href="http://baobao.jcsk.cn/" 
+                  target=_blank>宝宝总动员</A> | <A href="http://jx2.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>剑侠情缘II</FONT></A></TD></TR>
+              <TR>
+                <TD><A href="http://dragon.jcsk.cn/" target=_blank>龙族</A> | 
+                  <A href="http://mir.jcsk.cn/" target=_blank>传奇</A> | <A 
+                  href="http://ko.jcsk.cn/" target=_blank>骑士</A> | <A 
+                  href="http://hx2.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>华夏II</FONT></A> | <A 
+                  href="http://stoneage.jcsk.cn/newsa/index.shtml" 
+                  target=_blank>新石器</A> | <A href="http://mxd.jcsk.cn/" 
+                  target=_blank>冒险岛</A> | <A href="http://fscs.jcsk.cn/" 
+                  target=_blank>封神榜</A> | <A href="http://cq.jcsk.cn/" 
+                  target=_blank>幻想春秋</A> | <A href="http://sea.jcsk.cn/" 
+                  target=_blank>海之乐章</A> | <A href="http://wow.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>魔兽世界</FONT></A> | <A 
+                  href="http://woool.jcsk.cn/" target=_blank>传奇世界</A> | <A 
+                  href="http://xlqy2.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>仙侣奇缘II</FONT></A> | <A 
+                  href="http://eve.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>星战前夜EVE</FONT></A></TD></TR>
+              <TR>
+                <TD><A href="http://segame.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>嘉游</FONT></A> | <A href="http://dao.jcsk.cn/" 
+                  target=_blank>刀OL</A> | <A href="http://mabinogi.jcsk.cn/" 
+                  target=_blank>洛奇</A> | <A href="http://tth2.jcsk.cn/" 
+                  target=_blank>小＆花</A> | <A href="http://fo.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>QQ幻想</FONT></A> | <A 
+                  href="http://o2jam.jcsk.cn/" target=_blank>劲乐团</A> | <A 
+                  href="http://mir3.jcsk.cn/" target=_blank>传奇3G</A> | <A 
+                  href="http://joyxy.jcsk.cn/" target=_blank>快乐西游</A> | <A 
+                  href="http://world2.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>完美世界</FONT></A> | <A 
+                  href="http://baf.jcsk.cn/" target=_blank>超级乐者</A> | <A 
+                  href="http://pangya.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>魔法飞球</FONT></A> | <A href="http://so.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>三国群英传</FONT></A> | <A 
+                  href="http://ddo.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>龙与地下城</FONT></A></TD></TR>
+              <TR>
+                <TD><A href="http://dk.jcsk.cn/" target=_blank>挑战</A> | <A 
+                  href="http://habbochina.jcsk.cn/" target=_blank>哈宝</A> | <A 
+                  href="http://mu.jcsk.cn/" target=_blank>奇迹</A> | <A 
+                  href="http://ro.jcsk.cn/" target=_blank>ＲＯ</A> | <A 
+                  href="http://bnb.jcsk.cn/" target=_blank>泡泡堂</A> | <A 
+                  href="http://xzhonline.jcsk.cn/" target=_blank>新郑和</A> | <A 
+                  href="http://hdw.jcsk.cn/" target=_blank>海盗王</A> | <A 
+                  href="http://woh.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>钢甲洪流</FONT></A> | <A 
+                  href="http://nobu.jcsk.cn/" target=_blank>信长野望</A> | <A 
+                  href="http://kart.jcsk.cn/" target=_blank>疯狂赛车</A> | <A 
+                  href="http://fs.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>街头篮球</FONT></A> | <A href="http://cr.jcsk.cn/" 
+                  target=_blank>疯狂卡丁车</A> | <A href="http://mland.jcsk.cn/" 
+                  target=_blank>梦幻国度</A> | <A href="http://dj.jcsk.cn/" 
+                  target=_blank><FONT color=#ff0000>DJ</FONT></A></TD></TR>
+              <TR>
+                <TD><A href="http://hx.jcsk.cn/" target=_blank>华夏</A> | <A 
+                  href="http://jinyong.jcsk.cn/" target=_blank>网金</A> | <A 
+                  href="http://xy.jcsk.cn/" target=_blank>大话</A> | <A 
+                  href="http://jiangshan.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>江山</FONT></A> | <A href="http://tj2.jcsk.cn/" 
+                  target=_blank>天骄II</A> | <A href="http://shushijie.jcsk.cn/" 
+                  target=_blank>树世界</A> | <A href="http://dol.jcsk.cn/" 
+                  target=_blank>大航海</A> | <A href="http://td.jcsk.cn/" 
+                  target=_blank>天地玄门</A> | <A 
+                  href="http://ac.jcsk.cn/index.shtml" target=_blank><FONT 
+                  color=#ff0000>霸王大陆</FONT></A> | <A 
+                  href="http://shaolincn.jcsk.cn/" target=_blank>少林传奇</A> | <A 
+                  href="http://jx.jcsk.cn/" target=_blank>剑侠情缘</A> | <A 
+                  href="http://popkart.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>跑跑卡丁车</FONT></A> | <A 
+                  href="http://ge.jcsk.cn/" target=_blank>卓越之剑</A> | <A 
+                  href="http://gw.jcsk.cn/" target=_blank><FONT 
+                  color=#ff0000>激战</FONT></A></TD></TR>
+              </TBODY></TABLE></TD></TR>
+        <TR id=page2 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=704>| <A 
+                  href="http://bo.jcsk.cn/" target=_blank>刀剑</A> | <A 
+                  href="http://ctr.jcsk.cn/" target=_blank>飚车</A> | <A 
+                  href="http://mir.jcsk.cn/" target=_blank>传奇</A> | <A 
+                  href="http://mir3.jcsk.cn/" target=_blank>传奇三</A> | <A 
+                  href="http://sshock.jcsk.cn/" target=_blank>豆豆秀</A> | <A 
+                  href="http://woool.jcsk.cn/" target=_blank>传奇世界</A> | <A 
+                  href="http://sdo.jcsk.cn/" target=_blank>超级舞者</A> | <A 
+                  href="http://el.jcsk.cn/">帝国传奇</A> | <A 
+                  href="http://onlineworms.jcsk.cn/" target=_blank>百战天虫</A> | 
+                  <A href="http://earthciv.jcsk.cn/" target=_blank>地球文明</A> | 
+                  <A href="http://dq.jcsk.cn/" target=_blank>大清帝国</A> | <A 
+                  href="http://3dxy.jcsk.cn/" target=_blank>3D西游</A> | </TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>A-B-C-D </DIV></TD>
+                <TD>| <A href="http://a3.jcsk.cn/" 
+                  target=_blank>Ａ３</A> | <A href="http://saga.jcsk.cn/" 
+                  target=_blank>传说</A> | <A href="http://fod.jcsk.cn/" 
+                  target=_blank>傲世</A> | <A href="http://navyfield.jcsk.cn/" 
+                  target=_blank>大海战</A> | <A href="http://bbm.jcsk.cn/" 
+                  target=_blank>哔哔曼</A> | <A href="http://xy.jcsk.cn/" 
+                  target=_blank>大话西游</A> | <A 
+                  href="http://dto.jcsk.cn/">东方传说</A> | <A 
+                  href="http://91game.jcsk.cn/" target=_blank>91小游戏</A> | <A 
+                  href="http://bxqt.jcsk.cn/" target=_blank>碧雪情天</A> | <A 
+                  href="http://dragonheart.jcsk.cn/" target=_blank>赤龙剑心</A> | 
+                  <A href="http://cjsh.jcsk.cn/" target=_blank>成吉思汗</A> | <A 
+                  href="http://petrealm.jcsk.cn/" target=_blank>宠物王</A> | 
+              </TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://hammer.jcsk.cn/" 
+                  target=_blank>锤锤</A> | <A href="http://dao.jcsk.cn/" 
+                  target=_blank>刀OL</A> | <A href="http://dafashi.jcsk.cn/" 
+                  target=_blank>大法师</A> | <A href="http://eo.jcsk.cn/" 
+                  target=_blank>帝国在线</A> | <A href="http://dtfy.jcsk.cn/" 
+                  target=_blank>大唐风云</A> | <A href="http://ac.jcsk.cn/" 
+                  target=_blank>霸王大陆</A> | <A href="http://dol.jcsk.cn/" 
+                  target=_blank>大航海时代</A> | <A href="http://dj.jcsk.cn/" 
+                  target=_blank>DJMAX</A> | <A href="http://baf.jcsk.cn/" 
+                  target=_blank>超级乐者</A> | <A href="http://aszol.jcsk.cn/" 
+                  target=_blank>傲神传</A> | <A href="http://baobao.jcsk.cn/" 
+                  target=_blank>宝宝总动员</A></TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://by.jcsk.cn/" 
+                  target=_blank>霸业</A> | <A href="http://renewal.jcsk.cn/" 
+                  target=_blank>重生</A> | <A href="http://dt.jcsk.cn/" 
+                  target=_blank>大唐豪侠</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR id=page3 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=706>| <A 
+                  href="http://hx.jcsk.cn/">华夏</A> | <A 
+                  href="http://goqo.jcsk.cn/" target=_blank>GOQO</A> | <A 
+                  href="http://fscs.jcsk.cn/" target=_blank>封神榜</A> | <A 
+                  href="http://hl.jcsk.cn/" target=_blank>幻灵游侠</A> | <A 
+                  href="http://cq.jcsk.cn/" target=_blank>幻想春秋</A> | <A 
+                  href="http://nabi.jcsk.cn/" target=_blank>封神传说</A> | <A 
+                  href="http://woh.jcsk.cn/" target=_blank>钢甲洪流</A> | <A 
+                  href="http://heatproject.jcsk.cn/" target=_blank>火线任务</A> | 
+                  <A href="http://kuaik.jcsk.cn/" target=_blank>E 块冒险</A> | <A 
+                  href="http://herogame.jcsk.cn/" target=_blank>海天英雄传</A> | <A 
+                  href="http://cr.jcsk.cn/" target=_blank>疯狂卡丁车</A> |</TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>E-F-G-H </DIV></TD>
+                <TD>| <A href="http://ff.jcsk.cn/" 
+                  target=_blank>飞飞</A> | <A href="http://redmoon.jcsk.cn/" 
+                  target=_blank>红月</A> | <A href="http://rg.jcsk.cn/" 
+                  target=_blank>红宝石</A> | <A href="http://hhsj.jcsk.cn/" 
+                  target=_blank>航海世纪</A> | <A href="http://sea.jcsk.cn/" 
+                  target=_blank>海之乐章</A> | <A href="http://pp.jcsk.cn/" 
+                  target=_blank>海盗时代</A> | <A href="http://kart.jcsk.cn/" 
+                  target=_blank>疯狂赛车</A> | <A href="http://gw.jcsk.cn/" 
+                  target=_blank>行会战争</A> | <A href="http://laghaim.jcsk.cn/" 
+                  target=_blank>混乱冒险</A> | <A href="http://gl.jcsk.cn/" 
+                  target=_blank>古龙群侠传</A> | <A 
+                  href="http://stoneage.jcsk.cn/wga/" target=_blank>疯狂原始人</A> 
+                  | </TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://hh.jcsk.cn/" 
+                  target=_blank>辉煌</A> | <A href="http://i3hun.jcsk.cn/" 
+                  target=_blank>魂OL</A> | <A href="http://hdw.jcsk.cn/" 
+                  target=_blank>海盗王</A> | <A href="http://3konline.jcsk.cn/" 
+                  target=_blank>非常三国</A> | <A href="http://bm.jcsk.cn/" 
+                  target=_blank>欢乐潜水艇</A> | <A href="http://pet520.jcsk.cn/" 
+                  target=_blank>怪兽总动员</A> | <A href="http://eve.jcsk.cn/" 
+                  target=_blank>EVE</A> | <A href="http://fw.jcsk.cn/" 
+                  target=_blank>凤舞天骄</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR id=page4 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=706>| <A 
+                  href="http://mabinogi.jcsk.cn/" target=_blank>洛奇</A> | <A 
+                  href="http://dragon.jcsk.cn/" target=_blank>龙族</A> | <A 
+                  href="http://ddr.jcsk.cn/" target=_blank>劲舞团</A> | <A 
+                  href="http://o2jam.jcsk.cn/" target=_blank>劲乐团</A> | <A 
+                  href="http://fs.jcsk.cn/" target=_blank>街头篮球</A> | <A 
+                  href="http://jx.jcsk.cn/" target=_blank>剑侠情缘</A> | <A 
+                  href="http://joyxy.jcsk.cn/" target=_blank>快乐西游</A> | <A 
+                  href="http://karma.jcsk.cn/" target=_blank>雷霆战队</A> | <A 
+                  href="http://ddo.jcsk.cn/" target=_blank>龙与地下城</A> | <A 
+                  href="http://jx2.jcsk.cn/" target=_blank>剑侠情缘 II</A> | <A 
+                  href="http://gth.jcsk.cn/" target=_blank>绝对女神</A> |</TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>L-J-K-L </DIV></TD>
+                <TD>| <A href="http://jz.jcsk.cn/" 
+                  target=_blank>机战</A> | <A href="http://segame.jcsk.cn/" 
+                  target=_blank>嘉游</A> | <A href="http://lrmm.jcsk.cn/" 
+                  target=_blank>猎人MM</A> | <A href="http://jianghu.jcsk.cn/" 
+                  target=_blank>江湖OL</A> | <A href="http://lovebox.jcsk.cn/" 
+                  target=_blank>恋爱盒子</A> | <A href="http://star.jcsk.cn/" 
+                  target=_blank>流星学院</A> | <A href="http://kjking.jcsk.cn/" 
+                  target=_blank>孔雀王OL</A> | <A href="http://kele8.jcsk.cn/" 
+                  target=_blank>可乐吧OL</A> | <A href="http://jinyong.jcsk.cn/" 
+                  target=_blank>金庸群侠传</A> | <A href="http://jy2.jcsk.cn/" 
+                  target=_blank>金庸群侠传二</A> | <A href="http://cronous.jcsk.cn/" 
+                  target=_blank>科洛思OL</A> |</TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://droiyan.jcsk.cn/" 
+                  target=_blank>决战</A> | <A href="http://pk1937.jcsk.cn/" 
+                  target=_blank>抗战</A> | <A href="http://lastchaos.jcsk.cn/" 
+                  target=_blank>龙魂</A> | <A href="http://corum.jcsk.cn/" 
+                  target=_blank>科隆</A> | <A href="http://alod.jcsk.cn/" 
+                  target=_blank>领土</A> | <A href="http://kt.jcsk.cn/" 
+                  target=_blank>开天</A> | <A href="http://jushang.jcsk.cn/" 
+                  target=_blank>巨商</A> | <A href="http://pt.jcsk.cn/" 
+                  target=_blank>精灵</A> | <A href="http://kaixuan.jcsk.cn/" 
+                  target=_blank>凯旋</A> | <A href="http://igame.jcsk.cn/" 
+                  target=_blank>新浪IGame</A> | <A href="http://mbs.jcsk.cn/" 
+                  target=_blank>流星蝴蝶剑</A> | <A href="http://luanshi.jcsk.cn/" 
+                  target=_blank>乱世三国</A> | <A href="http://jiangshan.jcsk.cn/" 
+                  target=_blank>江山</A> </TD></TR></TBODY></TABLE></TD></TR>
+        <TR id=page5 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=706>| <A 
+                  href="http://moxiang.jcsk.cn/" target=_blank>墨香</A> | <A 
+                  href="http://moyu.jcsk.cn/" target=_blank>魔域</A> | <A 
+                  href="http://mxd.jcsk.cn/" target=_blank>冒险岛</A> | <A 
+                  href="http://bnb.jcsk.cn/" target=_blank>泡泡堂</A> | <A 
+                  href="http://wow.jcsk.cn/" target=_blank>魔兽世界</A> | <A 
+                  href="http://xyq.jcsk.cn/" target=_blank>梦幻西游</A> | <A 
+                  href="http://mland.jcsk.cn/" target=_blank>梦幻国度</A> | <A 
+                  href="http://cg.jcsk.cn/" target=_blank>魔力宝贝</A> | <A 
+                  href="http://mforest.jcsk.cn/" target=_blank>魔幻森林</A> | <A 
+                  href="http://popkart.jcsk.cn/" target=_blank>跑跑卡丁车</A> | <A 
+                  href="http://digimagics.jcsk.cn/" target=_blank>魔法奇兵</A> 
+              |</TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>M-N-O-P</DIV></TD>
+                <TD>| <A href="http://netdream.jcsk.cn/" 
+                  target=_blank>梦想</A> | <A href="http://wyd.jcsk.cn/" 
+                  target=_blank>命运</A> | <A href="http://appie.jcsk.cn/" 
+                  target=_blank>苹果派</A> | <A href="http://bangbang.jcsk.cn/" 
+                  target=_blank>嘭嘭帮</A> | <A href="http://pso.jcsk.cn/" 
+                  target=_blank>梦幻之星</A> | <A href="http://pangya.jcsk.cn/" 
+                  target=_blank>魔法飞球</A> | <A href="http://pcik.jcsk.cn/" 
+                  target=_blank>破天一剑</A> | <A href="http://mankind.jcsk.cn/" 
+                  target=_blank>ＭＫ星云</A> | <A href="http://nage.jcsk.cn/" 
+                  target=_blank>美丽世界</A> | <A href="http://popogame.jcsk.cn/" 
+                  target=_blank>泡泡小游戏</A> | <A href="http://more.jcsk.cn/dto/" 
+                  target=_blank>马场大亨</A> |</TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://tantra.jcsk.cn/" 
+                  target=_blank>密传</A> | <A href="http://mj.jcsk.cn/" 
+                  target=_blank>猛将</A> | <A href="http://shadowbane.jcsk.cn/" 
+                  target=_blank>魔剑</A> | <A href="http://ppi.jcsk.cn/" 
+                  target=_blank>碰碰I 时代</A> | <A href="http://wl.jcsk.cn/" 
+                  target=_blank>飘流幻境</A> | <A href="http://star31.jcsk.cn/" 
+                  target=_blank>明星3缺1</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR id=page6 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=706>| <A 
+                  href="http://mu.jcsk.cn/" target=_blank>奇迹</A> | <A 
+                  href="http://dk.jcsk.cn/" target=_blank>挑战</A> | <A 
+                  href="http://hero108.jcsk.cn/" target=_blank>水浒</A> | <A 
+                  href="http://fo.jcsk.cn/" target=_blank>QQ幻想</A> | <A 
+                  href="http://lineage2.jcsk.cn/" target=_blank>天堂二</A> | <A 
+                  href="http://rxjh.jcsk.cn/" target=_blank>热血江湖</A> | <A 
+                  href="http://sro.jcsk.cn/" target=_blank>丝路传说</A> | <A 
+                  href="http://stoneage.jcsk.cn/" target=_blank>石器时代</A> | <A 
+                  href="http://rich.jcsk.cn/" target=_blank>盛大富翁</A> | <A 
+                  href="http://so.jcsk.cn/" target=_blank>三国群英传</A> | <A 
+                  href="http://sohugame.jcsk.cn/" target=_blank>搜狐休闲</A> | <A 
+                  href="http://goth.jcsk.cn/" target=_blank>童话</A> |</TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://rf.jcsk.cn/" 
+                  target=_blank>ＲＦ</A> | <A href="http://lineage.jcsk.cn/" 
+                  target=_blank>天堂</A> | <A href="http://tj.jcsk.cn/" 
+                  target=_blank>天骄</A> | <A href="http://shushijie.jcsk.cn/" 
+                  target=_blank>树世界</A> | <A href="http://tj2.jcsk.cn/" 
+                  target=_blank>天骄二</A> | <A href="http://ts.jcsk.cn/" 
+                  target=_blank>吞食天地</A> | <A href="http://tw.jcsk.cn/" 
+                  target=_blank>天翼之链</A> | <A href="http://t2dk.jcsk.cn/" 
+                  target=_blank>天之炼狱</A> | <A href="http://td.jcsk.cn/" 
+                  target=_blank>天地玄门</A> | <A href="http://sanguohx.jcsk.cn/" 
+                  target=_blank>三国豪侠传</A> | <A 
+                  href="http://shaolincn.jcsk.cn/" target=_blank>少林传奇</A> | <A 
+                  href="http://lt.jcsk.cn/" target=_blank>圣战</A> |</TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>Q-R-S-T </DIV></TD>
+                <TD>| <A href="http://1000y.jcsk.cn/" 
+                  target=_blank>千年</A> | <A href="http://partita.jcsk.cn/" 
+                  target=_blank>神曲</A> | <A href="http://mo.jcsk.cn/" 
+                  target=_blank>天外</A> | <A href="http://sgc.jcsk.cn/" 
+                  target=_blank>三国策</A> | <A href="http://ssj.jcsk.cn/" 
+                  target=_blank>搜神记</A> | <A href="http://youxia.jcsk.cn/" 
+                  target=_blank>天之游侠</A> | <A href="http://asgard.jcsk.cn/" 
+                  target=_blank>神之领域</A> | <A href="http://3guo.jcsk.cn/" 
+                  target=_blank>三国世纪</A> | <A href="http://ci77.jcsk.cn/" 
+                  target=_blank>数码精灵</A> | <A href="http://thesa.jcsk.cn/" 
+                  target=_blank>天煞online</A> | <A href="http://fly.jcsk.cn/" 
+                  target=_blank>天下无双</A> | <A href="http://tendees.jcsk.cn/" 
+                  target=_blank>天地</A> |</TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://ko.jcsk.cn/" 
+                  target=_blank>骑士</A> | <A href="http://qqtang.jcsk.cn/" 
+                  target=_blank>QQ堂</A> | <A href="http://xiah.jcsk.cn/" 
+                  target=_blank>奇侠</A> | <A href="http://shenmue.jcsk.cn/" 
+                  target=_blank>莎木OL</A> | <A href="http://1003b.jcsk.cn/" 
+                  target=_blank>天上碑</A> | <A href="http://tankbb.jcsk.cn/" 
+                  target=_blank>坦克宝贝</A> | <A href="http://vrtank.jcsk.cn/" 
+                  target=_blank>铁甲争雄</A> | <A href="http://soma.jcsk.cn/" 
+                  target=_blank>圣者无敌</A> | <A href="http://sy.jcsk.cn/" 
+                  target=_blank>三国演义</A> | <A href="http://txsanguo.jcsk.cn/" 
+                  target=_blank>铁血三国志</A> | <A href="http://ew.jcsk.cn/" 
+                  target=_blank>神州天戈</A> | <A href="http://repent.jcsk.cn/" 
+                  target=_blank>使命</A> | </TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://glory.jcsk.cn/" 
+                  target=_blank>荣耀</A> | <A href="http://shinru.jcsk.cn/" 
+                  target=_blank>神泪</A> | <A href="http://ryl.jcsk.cn/" 
+                  target=_blank>神话</A> | <A href="http://rplan.jcsk.cn/" 
+                  target=_blank>天剑</A> | <A href="http://sl.jcsk.cn/" 
+                  target=_blank>天使</A> | <A href="http://snake.jcsk.cn/" 
+                  target=_blank>贪吃蛇OL</A> | <A href="http://m2.jcsk.cn/" 
+                  target=_blank>神甲奇兵</A> | <A href="http://qqr2.jcsk.cn/" 
+                  target=_blank>QQ音速</A> | <A href="http://iuiuu.jcsk.cn/" 
+                  target=_blank>什么什么大冒险</A> | <A href="http://sun.jcsk.cn/" 
+                  target=_blank>奇迹世界</A></TD></TR></TBODY></TABLE></TD></TR>
+        <TR id=page7 style="DISPLAY: none">
+          <TD>
+            <TABLE cellSpacing=0 cellPadding=0 width=100% align=center 
+              border=0><TBODY>
+              <TR>
+                <TD width=70></TD>
+                <TD width=706>| <A 
+                  href="http://conquer.jcsk.cn/" target=_blank>征服</A> | <A 
+                  href="http://tqxy.jcsk.cn/" target=_blank>信仰</A> | <A 
+                  href="http://xyd.jcsk.cn/" target=_blank>侠义道</A> | <A 
+                  href="http://planetside.jcsk.cn/" target=_blank>星际OL</A> | 
+                  <A href="http://world2.jcsk.cn/" target=_blank>完美世界</A> | <A 
+                  href="http://sw2.jcsk.cn/" target=_blank>轩辕剑二</A> | <A 
+                  href="http://do.jcsk.cn/" target=_blank>武林外史</A> | <A 
+                  href="http://to.jcsk.cn/" target=_blank>星钻物语</A> | <A 
+                  href="http://ro.jcsk.cn/" target=_blank>仙境传说ol</A> | <A 
+                  href="http://tth.jcsk.cn/" target=_blank>新绝代双骄</A> | <A 
+                  href="http://xlqy.jcsk.cn/" target=_blank>仙侣奇缘</A> | </TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://zt.jcsk.cn/" 
+                  target=_blank>征途</A> | <A href="http://asktao.jcsk.cn/" 
+                  target=_blank>问道</A> | <A href="http://zfs.jcsk.cn/" 
+                  target=_blank>真封神</A> | <A 
+                  href="http://laqia.jcsk.cn/">雅典娜</A> | <A 
+                  href="http://yxwz.jcsk.cn/" target=_blank>英雄王座</A> | <A 
+                  href="http://mz.jcsk.cn/" target=_blank>足球经理</A> | <A 
+                  href="http://sgo.jcsk.cn/" target=_blank>星战情缘</A> | <A 
+                  href="http://changeu.jcsk.cn/" target=_blank>星空幻想</A> | <A 
+                  href="http://eq.jcsk.cn/" target=_blank>无尽的任务 </A>| <A 
+                  href="http://xyf.jcsk.cn/" target=_blank>西游伏魔录</A> | <A 
+                  href="http://wanwang.jcsk.cn/" target=_blank>万王之王</A> | 
+              </TD></TR>
+              <TR>
+                <TD>
+                  <DIV align=center>W-X-Y-Z </DIV></TD>
+                <TD>| <A href="http://sealonline.jcsk.cn/" 
+                  target=_blank>希望</A> | <A href="http://metin.jcsk.cn/" 
+                  target=_blank>倚天</A> | <A href="http://yt2.jcsk.cn/" 
+                  target=_blank>倚天二</A> | <A href="http://swdol.jcsk.cn/" 
+                  target=_blank>轩辕剑</A> | <A href="http://space.jcsk.cn/" 
+                  target=_blank>星际家园</A> | <A href="http://7hero.jcsk.cn/" 
+                  target=_blank>战国英雄</A> | <A href="http://xk.jcsk.cn/" 
+                  target=_blank>侠客天下</A> | <A href="http://kqking.jcsk.cn/" 
+                  target=_blank>真孔雀王</A> | <A href="http://fs2.jcsk.cn/" 
+                  target=_blank>遗忘传说OL</A> | <A href="http://xyj.jcsk.cn/" 
+                  target=_blank>新西游记OL</A> | <A href="http://hero.jcsk.cn/" 
+                  target=_blank>英雄Hero</A> |</TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://helbreath.jcsk.cn/" 
+                  target=_blank>战场</A> | <A href="http://cd.jcsk.cn/" 
+                  target=_blank>永恒</A> | <A href="http://xjz.jcsk.cn/" 
+                  target=_blank>仙界传</A> | <A href="http://xkx.jcsk.cn/" 
+                  target=_blank>侠客行</A> | <A href="http://nds.jcsk.cn/" 
+                  target=_blank>佣兵传说</A> | <A href="http://arcane.jcsk.cn/" 
+                  target=_blank>英雄世纪</A> | <A href="http://wangsan.jcsk.cn/" 
+                  target=_blank>网络三国</A> | <A href="http://xa.jcsk.cn/" 
+                  target=_blank>笑傲江湖</A> | <A href="http://uo.jcsk.cn/" 
+                  target=_blank>网络创世纪</A> | <A href="http://eq2.jcsk.cn/" 
+                  target=_blank>无尽的任务2东方版</A></TD></TR>
+              <TR>
+                <TD></TD>
+                <TD>| <A href="http://muhon.jcsk.cn/" 
+                  target=_blank>武魂</A> | <A href="http://more.jcsk.cn/hero" 
+                  target=_blank>英雄</A> | <A href="http://zdr.jcsk.cn/" 
+                  target=_blank>炸弹人</A> | <A href="http://sg.jcsk.cn/" 
+                  target=_blank>幸福OL</A> | <A href="http://ns.jcsk.cn/" 
+                  target=_blank>蒸汽幻想</A> | <A href="http://nobu.jcsk.cn/" 
+                  target=_blank>信长野望OL</A> | <A href="http://xlqy2.jcsk.cn/" 
+                  target=_blank>仙侣奇缘II</A> | <A href="http://tth2.jcsk.cn/" 
+                  target=_blank>小鱼儿和花无缺</A> | <A 
+                  href="http://xzhonline.jcsk.cn/" target=_blank>新郑和OL</A> | 
+                  <A href="http://kok2.jcsk.cn/" 
+              target=_blank>万王之王二</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+      <SCRIPT language=javascript>showpage(1);</SCRIPT>
+<!-- 菜单定义结束 --></div>
+<div style="position:absolute; left:562px; top:35px; width:194px; height:14px; z-index:23; BACKGROUND-COLOR:"><font face="宋体" color=#FFFFFF style="font-size:9pt; "><!--页顶收藏-->	<a href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage ('{$_PHPCMS['siteurl']}');">设为首页</a>	<a href="#" onclick="window.external.addFavorite('{$_PHPCMS['siteurl']}','{$_PHPCMS['sitename']}')">加入收藏</a></font></div>
+<div style="position:absolute; left:6px; top:35px; width:756px; height:14px; z-index:23; BACKGROUND-COLOR:"><font face="宋体" color=#FFFFFF style="font-size:9pt; "><!--RSS--页顶--><a href="{$channelurl}rss.php?catid={$catid}"><img src="{PHPCMS_PATH}images/rss.gif" border="0"/></a>&nbsp;&nbsp;<font colro="#ffffff">线路:</font><a class="bai" herf="{$_PHPCMS['siteurl']}">
+电信</a>	<a class="bai" herf="{$_PHPCMS['siteurl']}">网通</a>	<a class="bai" herf="{$_PHPCMS['siteurl']}">铁通</a></font></div>
+<!--页顶结束-->
+
+
+<!--中部开始-->
+<div style="position:absolute; left:10px; top:381px; width:747px; height:275px; z-index:10; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/huandengbeijing.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:25px; top:780px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:174px; top:781px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:178px; top:781px; width:564px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:742px; top:781px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:48px; top:775px; width:120px; height:28px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:48px; top:783px; width:120px; height:16px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道1</font></p></div>
+<div style="position:absolute; left:10px; top:374px; width:748px; height:1385px; z-index:5; BACKGROUND-IMAGE:URL({$skindir}/pic/02.gif)"><!--中部图片背景--></div>
+<div style="position:absolute; left:0px; top:372px; width:768px; height:1383px; z-index:1; BACKGROUND-COLOR:#000000"><!--中部背景--></div>
+<div style="position:absolute; left:25px; top:937px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:100px; top:938px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:104px; top:938px; width:117px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:221px; top:938px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:547px; top:938px; width:203px; height:20px; z-index:9; BACKGROUND-IMAGE:URL({$skindir}/pic/Tbg.gif)"></div>
+<div style="position:absolute; left:547px; top:1118px; width:203px; height:20px; z-index:9;BACKGROUND-IMAGE:URL({$skindir}/pic/Tbg.gif)"></div>
+<div style="position:absolute; left:230px; top:1338px; width:310px; height:254px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainContents02Bg.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:237px; top:1589px; width:508px; height:163px; z-index:13; BACKGROUND-COLOR:"><!--文章10未定图片--></div>
+<div style="position:absolute; left:0px; top:1991px; width:10px; height:37px; z-index:14; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend02.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:10px; top:1991px; width:515px; height:37px; z-index:15; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend03.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:525px; top:1991px; width:70px; height:37px; z-index:16; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend04.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:595px; top:1991px; width:163px; height:37px; z-index:17; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend05.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:0px; top:1870px; width:768px; height:121px; z-index:18; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:758px; top:1991px; width:10px; height:37px; z-index:19; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend06.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:0px; top:1754px; width:768px; height:115px; z-index:20; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/copyBg.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:701px; top:1800px; width:53px; height:53px; z-index:21; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/nvidia.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:17px; top:1803px; width:42px; height:44px; z-index:22; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/ati.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:42px; top:413px; width:295px; height:210px; z-index:23; BACKGROUND-COLOR:"><!--首页幻灯-->{$slidepicarticle(0,1,0,1,0,5,30,1,0,1,265,190,5000,-1)}</div>
+<div style="position:absolute; left:315px; top:413px; width:190px; height:210px; z-index:23; BACKGROUND-COLOR:"><!--最新文章列表-->
+{$articlelist('0',1,0,1,0,0,10,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; left:525px; top:414px; width:190px; height:195px; z-index:23; BACKGROUND-IMAGE:URL({$skindir}/pic/Tbg.gif)"><!--最新图片列表-->
+{$picpicture('0',3,0,1,0,0,4,6,0,0,0,1,1,0,90,65,2)}</div>
+<div style="position:absolute; border:solid thin maroon; left:30px; top:664px; width:712px; height:107px; z-index:23; BACKGROUND-COLOR:"><!--中部广告--><div align="center">
+                    <object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="716" height="107">
+                      <param name="movie" value="http://www.jcsk.cn/images/header1.swf">
+                      <param name="quality" value="High">
+                      <param name="wmode" value="transparent">
+                      <embed src="http://www.jcsk.cn/images/header1.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="716" height="107" quality="High" wmode="transparent"> 
+                      </embed> </object>
+                  </div></div>
+<div style="position:absolute; border:solid thin maroon; left:30px; top:812px; width:716px; height:111px; z-index:23; BACKGROUND-COLOR:"><img src="http://www.jcsk.cn/images/banner2.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; border:solid thin maroon; left:24px; top:962px; width:199px; height:141px; z-index:23; BACKGROUND-COLOR:"><!--频道1文章-->{$articlelist('0',1,1,1,0,0,7,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; left:230px; top:938px; width:310px; height:80px; z-index:23; BACKGROUND-IMAGE:URL({$skindir}/pic/Tbg.gif)">
+<!--频道2图片文章-->{$picarticle('0',1,1,1,0,0,3,6,0,0,0,1,1,1,90,75,3)}</div>
+<div style="position:absolute; left:230px; top:1050px; width:310px; height:80px; z-index:23; "><!--频道2文章-->{$articlelist('0',1,1,1,0,0,6,16,0,0,0,0,0,0,0,0,1,2)}</div>
+<div style="position:absolute; border:solid thin maroon; left:548px; top:962px; width:200px; height:153px; z-index:23; BACKGROUND-COLOR:"><!--频道8文章-->{$articlelist('0',1,1,1,0,0,7,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; left:25px; top:1115px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:104px; top:1116px; width:117px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:100px; top:1116px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:218px; top:1116px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:937px; width:55px; height:24px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:945px; width:55px; height:14px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道2</font></p></div>
+<div style="position:absolute; left:231px; top:1116px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:323px; top:1116px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:327px; top:1116px; width:214px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:523px; top:1116px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:1114px; width:55px; height:25px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:1125px; width:55px; height:14px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道3</font></p></div>
+<div style="position:absolute; left:555px; width:88px; top:943px; width:200px; height:20px; z-index:9">123</div>
+<div style="position:absolute; left:555px; width:88px; top:1122px; width:200px; height:20px; z-index:9"><font color="cd853f"><b>下载排行榜>>></b></font></div>
+<div style="position:absolute; border:solid thin maroon; left:24px; top:1142px; width:199px; height:175px; z-index:23; BACKGROUND-COLOR:"><!--频道4文章-->{$articlelist('0',1,1,1,0,0,9,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; border:solid thin maroon; left:230px; top:1142px; width:310px; height:193px; z-index:23; BACKGROUND-COLOR:"><!--频道7边框--></div>
+<div style="position:absolute; left:230px; top:1142px; width:90px; height:100px; z-index:23; BACKGROUND-COLOR:maroon"><!--频道7图片文章-->{$picarticle('0',1,1,1,0,0,2,6,0,0,0,1,1,1,75,60,1)}</div>
+<div style="position:absolute; left:330px; top:1142px; width:210px; height:100px; z-index:23; BACKGROUND-COLOR:"><!--频道7图片文章-->{$articlelist('0',1,1,1,0,0,9,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div id="zhong" style="position:absolute; left:548px; top:1142px; width:200px; height:445px; z-index:23; BACKGROUND-IMAGE:URL({$skindir}/pic/Tbg.gif)"><!--下载图片-->{$picdown('0',2,0,1,$specialid,0,4,8,0,0,0,1,1,0,90,90,2)}</div>
+<div id="zhong" style="position:absolute; left:548px; top:1382px; width:200px; height:440px; z-index:23; BACKGROUND-COLOR:"><!--下载排行榜-->{$downlist('0',2,0,1,0,0,10,22,0,0,0,5,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; left:25px; top:1335px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:100px; top:1336px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:104px; top:1337px; width:117px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:218px; top:1337px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:250px; top:1116px; width:70px; height:24px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:250px; top:1125px; width:70px; height:14px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道4</font></p></div>
+<div style="position:absolute; border:solid thin maroon; left:27px; top:1370px; width:197px; height:207px; z-index:23; BACKGROUND-COLOR:"><!--频道5文章-->{$articlelist('0',1,1,1,0,0,10,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div style="position:absolute; left:25px; top:1593px; width:19px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/bullet_01.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:126px; top:1595px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong1.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:104px; top:1596px; width:117px; height:22px; z-index:11; BACKGROUND-IMAGE:URL({$skindir}/pic/hong2.gif)"></div>
+<div style="position:absolute; left:216px; top:1599px; width:4px; height:22px; z-index:11; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/hong3.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:1337px; width:55px; height:25px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:1345px; width:55px; height:14px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道5</font></p></div>
+<div style="position:absolute; left:44px; top:1595px; width:57px; height:24px; z-index:24; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/chinajoy_link.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:44px; top:1598px; width:55px; height:14px; z-index:25; BACKGROUND-COLOR:"><p align="center"><font color="ffffff">频道6</font></p></div>
+<div style="position:absolute; border:solid thin maroon; left:24px; top:1624px; width:197px; height:117px; z-index:25; BACKGROUND-COLOR:"><!--频道6文章-->{$articlelist('0',1,1,1,0,0,5,20,0,0,0,0,0,0,0,0,1,1)}</div>
+<div id="zhong" style="position:absolute; left:245px; top:1337px; width:288px; height:106px; z-index:25; BACKGROUND-COLOR:"><!--频道9文章-->{$articlelist('0',1,1,1,0,0,10,12,0,0,0,0,0,0,0,0,1,2)}</div>
+<div id="zhong" style="position:absolute; left:242px; top:1440px; width:288px; height:100px; z-index:25; BACKGROUND-COLOR:#8b4513"><!--频道9图片-->{$picarticle('0',1,1,1,0,0,3,6,0,0,0,1,1,1,80,75,3)}</div>
+<div id="zhong" style="position:absolute; left:250px; top:1596px; width:305px; height:108px; z-index:23"><!--频道10文章-->{$articlelist('0',1,1,1,0,0,14,8,0,0,0,0,0,0,0,0,1,2)}</div>
+<div id="zhong" style="position:absolute; left:540px; top:1596px; width:165px; height:108px; z-index:23; BACKGROUND-COLOR:#8b4513"><!--频道10图片-->{$picarticle('0',1,1,1,0,0,2,6,0,0,0,1,1,1,95,115,2)}</div>
+<div style="position:absolute; left:15px; top:1762px; width:356px; height:14px; z-index:23; BACKGROUND-COLOR:"><font face="宋体" color=#778899 style="font-size:9pt; "><b>Copyright   2005-2006 <font color="#ff0000">Jcsk.cn</font> All Rights Reserved</b></font></div>
+<div style="position:absolute; left:2px; top:1875px; width:761px; height:102px; z-index:23; BACKGROUND-COLOR:"><!--链接-->{$linklist(0,0,1,0,10,2)}
+{$linklist(0,0,0,0,10,2)}</div>
+<div style="position:absolute; left:70px; top:1818px; width:624px; height:75px; z-index:23; BACKGROUND-COLOR:">声明:对本站如有意见请联系  Email:Jcsk@mail.jcsk.cn</div>
+<div style="position:absolute; left:601px; top:1998px; width:161px; height:14px; z-index:23; BACKGROUND-COLOR:"><font face="宋体" color=#FFFFFF style="font-size:9pt; ">吉ICP备06002920号 &nbsp;&nbsp;&nbsp;统计<BR></font></div>
+<div style="position:absolute; left:769px; top:0px; width:147px; z-index:8; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent06.gif)">
+<!--右侧通栏菜单开始--><br><div id="youce" style="PADDING-TOP: 6px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)">{$slidepicpicture('0',3,0,1,0,5,36,0,30,5,147,130,5000,-1)}</div>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center><font size="2">最新推荐</font></div>
+<div id="youce" style="PADDING-LEFT: 5px;">{$articlelist('0',1,1,1,0,0,14,8,0,0,0,0,0,0,0,0,1,1)}</div>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center><font size="2">最新推荐</font></div>
+<div id="youce" style="PADDING-LEFT: 5px;">{$articlelist('0',1,1,1,0,0,14,8,0,0,0,0,0,0,0,0,1,1)}</div>
+<div><img src="{$skindir}/pic/y_newcontent11.gif"></div>
+</div>
+</div> 
+</body></html>

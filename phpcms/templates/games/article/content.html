@@ -1,0 +1,113 @@
+{template 'phpcms','header'}
+
+<div style="position:absolute; left:0px; top:372px; width:768px; height:1383px; z-index:1; BACKGROUND-COLOR:#000000"></div>
+<div style="position:absolute; left:0px; top:396px; width:129px; height:600px; z-index:2; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/200504301241507108457447.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:129px; top:396px; width:515px; height:209px; z-index:3; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/titleMenu01Bg.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:166px; top:422px; width:455px; height:126px; z-index:5; BACKGROUND-COLOR:"><font size="2">当前位置：<a href="{$channelurl}">{$channelname}首页</a> >> {$position} {$title}</font></div>
+<div style="position:absolute; left:129px; top:605px; width:515px; height:180px; z-index:4; BACKGROUND-IMAGE:URL({$skindir}/pic/yezhongbeijing.gif);">
+<!--自定义栏目开始-->
+<!--主标题--><div id="title">{$title} {if $pagenumber>1}({$page}){/if}</div>
+<!--副标题-->{if $subheading}<div class="subtitle" align="right">——{$subheading}</div>{/if}
+<!--文章属性-->
+        <div class="par" align="left"> {$adddate}&nbsp;&nbsp;作者：<a href="{PHPCMS_PATH}member/member.php?username={$username}" class="member_url">{$author}</a>&nbsp;&nbsp;来源：<a href="{$copyfromurl}" target="_blank">{$copyfromname}</a>
+		<br>浏览次数：<span id="hits">0</span>&nbsp;&nbsp;<a href="{PHPCMS_PATH}comment/index.php?item=articleid&itemid={$articleid}&itemurl={$itemurl}" class="commenturl">网友评论<span id="commentnumber1">0</span>条</a>&nbsp;&nbsp;文字大小：【<a href="javascript:fontZoom(16)">大</a>】【<a href="javascript:fontZoom(14)">中</a>】【<a href="javascript:fontZoom(12)">小</a>】 评分等级：{$stars}</div>
+
+	<hr align="center" width="495" size="1" noshade style="color:#cccccc">
+
+	{if $description}<div class="description"><strong>简介：</strong>{$description}</div>{/if}
+        <div class="content_text" id="{$addtime}1"><a href="{$itemurl}">来源：{$_PHPCMS['sitename']}({$PHP_SITEURL})<br/>作者：{$username}<br/>原文：{$title}({$itemurl})</a></div>
+        <div class="content_text" id="{$addtime}l">{$content}<p><br/>本文引用地址：<a href="{$itemurl}">{$itemurl}</a></p></div>
+{if $specialid}<div class="content_text" id="{$addtime}l">相关专题：<a href="{$special[specialurl]}" class="specialurl">{$special[specialname]}</a></div>{/if}
+        <div class="content_text" id="{$addtime}2"><a href="{$itemurl}">来源：{$_PHPCMS['sitename']}({$PHP_SITEURL})<br/>作者：{$username}<br/>原文：{$title}({$itemurl})</a></div>
+        <div class="content_text" align="center" id="fontzoom">{$pages}</div>
+        <div class="content_text" align="right" id="fontzoom">责任编辑：<a href="{PHPCMS_PATH}member/member.php?username={$checker}" class="member_url">{$checker}</a></div>
+        <div class="gray" id="pre_and_next"></div>
+       <br/>
+        <div class="gray" align="center" id="par">【<a href="javascript:window.external.addFavorite(window.location,'{$title}')">加入收藏</a>】　【<a href="{PHPCMS_PATH}mail/sendmail.php?subject=推荐《{$title}》&content={$title}<br/>{$itemurl}">告诉好友</a>】　【<a href="javascript:window.print();">打印本页</a>】　【<a href="javascript:window.close()">关闭窗口</a>】　【<a href="#top">返回顶部</a>】</div>
+  
+ <table width="495"  cellspacing="0" cellpadding="0" align="center">
+      <tr>
+        <td class="titlebar" width="25%">相关评论</td>
+        <td width="10" height="5%"><img src="{$skindir}/pic/tit3_r.gif"></td>
+        <td class="bg_titlebar" width="70%" align="right"> <a href="{PHPCMS_PATH}comment/index.php?item=articleid&itemid={$articleid}&itemurl={$itemurl}" class="more">共<span id="commentnumber">0</span>条评论 &nbsp;发表/查看更多评论</a>&nbsp;</td>
+        <td  width="36"><img src="{$skindir}/pic/tit2_r.gif"></td>
+      </tr>
+    </table>	
+<!--相关评论js调用--><script type="text/javascript" src="{PHPCMS_PATH}comment/list_js.php?item=articleid&itemid={$articleid}&commentnum=10&ordertype=1"></script>
+<table width="495" border="0" cellpadding="2" cellspacing="2" align="center">
+	<tr>
+	<td bgcolor="#708090" height="23"><b>发表评论</b> </td>
+	<td align="right" bgcolor="#708090"><a name="comment">　【<a href="#top">返回顶部</a>】【<a href="javascript:window.close();">关闭窗口</a>】&nbsp;</td>
+	</tr>
+	<form name="myform" method="post" action="{PHPCMS_PATH}comment/index.php?action=add&submit=1" onSubmit="return docheck();">
+	<input name="item" type="hidden" value="articleid">
+	<input name="itemid" type="hidden" value="{$articleid}">
+	<input name="itemurl" type="hidden" value="{$itemurl}">
+	<tr>
+	<td valign="top">
+        评分：
+        <input name="score" type="radio" class="radio" title="很差" value="1"> 1 
+        <input name="score" type="radio" class="radio" title="差" value="2"> 2 
+        <input name="score" type="radio" class="radio" title="一般" value="3" checked> 3 
+        <input name="score" type="radio" class="radio" title="好" value="4"> 4 
+        <input name="score" type="radio" class="radio" title="很好" value="5"> 5 
+        <br/>
+	<textarea name="content" cols="50" rows="8" id="content"></textarea><br/>
+	<span id="showcheckcode"></span>&nbsp;&nbsp;<input name="submit" type="submit" class="btn" value=" 发表 ">&nbsp;&nbsp;<input name="reset" type="reset" class="btn" value=" 重置 ">
+	</td>
+	<td valign="top">
+		<ul style="border:#c0c0c0 1px dotted;padding:5px;">
+		<li>请遵守《互联网电子公告服务管理规定》及中华人民共和国其他各项有关法律法规。 </li>
+		<li>严禁发表危害国家安全、损害国家利益、破坏民族团结、破坏国家宗教政策、破坏社会稳定、侮辱、诽谤、教唆、淫秽等内容的评论 。</li>
+		<li>用户需对自己在使用本站服务过程中的行为承担法律责任（直接或间接导致的）。</li> 
+		<li>本站管理员有权保留或删除评论内容。</li>
+		</ul>
+	</td>
+	</tr>
+	</form>
+	</table>
+	<script type=text/javascript>
+document.getElementById('{$addtime}1').style.display="none";
+document.getElementById('{$addtime}2').style.display="none";
+function docheck()
+{
+    myform.itemurl.value = window.location;
+    if(myform.content.value=="") {
+       alert("请输入评论内容!");
+       myform.content.focus();
+       return false;
+    }
+    return true;
+}
+</script>
+<script type="text/javascript" src="{$channelurl}show_js.php?articleid={$articleid}"></script>
+ <br>
+<font size="2">&nbsp;>>>>>推荐图文</font>
+<hr align="center" width="495" size="1" noshade style="color:#cccccc">
+ <!--图片文章列表--><center>
+{$picarticle(0,$channelid,0,0,0,0,5,8,0,0,0,1,1,1,80,70,5)}</center>
+<br>
+<!--尾部开始-->
+<div style="position:absolute; left:0px; width:515px; height:24px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend01.gif" width="100%" height="100%"></div>
+<br>
+<div style="position:absolute; left:0px; width:10px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend02.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:10px; width:274px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend03.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:284px; width:72px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend04.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:355px; width:151px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend05.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:505px; width:10px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend06.gif" width="100%" height="100%"></div>
+<!--尾部结束-->
+</div>
+
+<div style="position:absolute; left:0px; top:405px; width:129px; height:600px; z-index:10; BACKGROUND-COLOR:">
+<!--左边栏--><img border=0 src="{$skindir}/pic/200504301241507108457447.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:646px; top:405px; width:122px; height:600px; z-index:9; BACKGROUND-COLOR:">
+<!--右边栏--><img border=0 src="{$skindir}/pic/2005.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:769px; top:0px; width:147px; z-index:8; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent06.gif)">
+<!--右侧通栏菜单开始--><br><div id="youce" style="PADDING-TOP: 6px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"></div>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center><font size="2">最新推荐</font></div>
+<div id="youce" style="PADDING-LEFT: 5px;">{$articlelist('0',1,1,1,0,0,14,8,0,0,0,0,0,0,0,0,1,1)}</div>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center><font size="2">最新推荐</font></div>
+<div id="youce" style="PADDING-LEFT: 5px;">{$articlelist('0',1,1,1,0,0,14,8,0,0,0,0,0,0,0,0,1,1)}</div>
+<div><img src="{$skindir}/pic/y_newcontent11.gif"></div>
+</div>
+</body></html>

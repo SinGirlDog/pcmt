@@ -1,0 +1,37 @@
+<?php
+return array (
+  13 => 
+  array (
+    'catid' => '13',
+    'siteid' => '4',
+    'type' => '0',
+    'modelid' => '15',
+    'parentid' => '0',
+    'arrparentid' => '0',
+    'child' => '0',
+    'arrchildid' => '13',
+    'catname' => '静悄悄',
+    'style' => '',
+    'image' => '',
+    'description' => '灰色头像静静悄悄不会再跳动',
+    'parentdir' => '',
+    'catdir' => 'jingqiaoqiao',
+    'url' => 'http://black.pct.com/html/jingqiaoqiao/',
+    'items' => '0',
+    'hits' => '0',
+    'setting' => '{"workflowid":"","ishtml":"1","content_ishtml":"1","create_to_html_root":"0","template_list":"Black","category_template":"category","list_template":"list","show_template":"show","meta_title":"","meta_keywords":"","meta_description":"","presentpoint":"1","defaultchargepoint":"0","paytype":"0","repeatchargedays":"1","category_ruleid":"1","show_ruleid":"11"}',
+    'listorder' => '13',
+    'ismenu' => '1',
+    'sethtml' => '0',
+    'letter' => 'jingqiaoqiao',
+    'usable_type' => '',
+    'create_to_html_root' => '0',
+    'ishtml' => '1',
+    'content_ishtml' => '1',
+    'category_ruleid' => '1',
+    'show_ruleid' => '11',
+    'workflowid' => '',
+    'isdomain' => '0',
+  ),
+);
+?>

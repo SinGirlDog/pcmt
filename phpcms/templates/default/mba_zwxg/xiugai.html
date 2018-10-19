@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="{APP_PATH}statics_ZWXG/css/css.css" />
+	<link href="{APP_PATH}statics_ZWXG/themes/default/default.css" rel="stylesheet" />
+	<script src="{APP_PATH}statics_ZWXG/js/jquery.min.js"></script>
+	<script src="{APP_PATH}statics_ZWXG/js/pigai.js"></script>
+	<script src="{APP_PATH}statics_ZWXG/js/kindeditor-min.js"></script>
+	<script src="{APP_PATH}statics_ZWXG/js/emoticons.js"></script>
+	<script src="{APP_PATH}statics_ZWXG/js/zh_CN.js"></script>
+	<script>
+		var editor;
+		KindEditor.ready(function(K) {
+			editor = K.create('textarea[name="content"]', {
+				resizeType : 1,
+				allowPreviewEmoticons : false,
+				allowImageUpload : false,
+				items : [
+				'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+				'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+				'insertunorderedlist', '|', 'emoticons', 'image', 'link']
+			});
+		});
+	</script>
+	<script type="text/javascript" src="{APP_PATH}statics/js/dialog.js"></script>
+	<link href="{APP_PATH}statics/css/dialog_simp.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="top">
+		<div class="main">
+			<div class="logo"><a target="_black" href="###"><img src="{APP_PATH}statics_ZWXG/images/logo.jpg"></a></div>
+			<p>只要太阳还是升起，我就必能创造奇迹！</p>
+		</div>
+	</div>
+	<div class="jg_tu">
+		<div class="main xia1">
+			<h2>作文批改页面</h2>
+		</div>
+		<div class="main ssg">
+			<h6 class="hot">已批改作文</h6>
+			<h6>未批改作文</h6>
+			<div class="jg_con">
+				<div class="jg_s" style="display: block;">
+					<?php foreach ($infos_gai as $key => $val){ ?>
+					<ul>
+						<div class="jg_top">
+							编号：<span>{$val[zwid]}</span>
+							科目：<span>{$val[zw_type]}</span>
+							姓名：<span>{$val[name]}</span>
+							得分：<span>{$val[editfenshu]}分</span>
+							状态：<span><?php if($val['pay_status']){echo '已';}else{echo '未';} ?>支付</span>
+						</div>
+						<div class="content_jg">
+							<ul>
+								<li><span class="span_1">题目：</span><p>{$val[title]}</p></li>
+								<li>
+									<span class="span_1">作文原文：</span>
+									<p>{$val[content]}</p>
+								</li>
+								<?php 
+								if($val['yt_thumb'])
+								{
+									echo '<li><span class="span_1">作文原图：</span><img src="'.APP_PATH.$val['yt_thumb'].'"/></li>';
+								}
+								?>
+								<li class="pigai_img">
+									<span class="span_1">批改结果：</span>
+									<form>
+										<textarea name="content" readonly="readonly" style="visibility:hidden;width:970px;">
+											{$val[editcontent]}
+										</textarea>
+									</form>
+								</li>
+								<?php 
+								if($val['editthumb'])
+								{
+									echo '<li><span class="span_1">批改图示：</span><img src="'.APP_PATH.$val['editthumb'].'"/></li>';
+								}
+								?>
+							</ul>
+						</div>
+					</ul>
+					<?php } ?>
+				</div>
+				<div class="jg_s">
+					<?php foreach ($infos_wei as $key => $val){ ?>
+					<ul>
+						<form  method="post" enctype="multipart/form-data" action="{APP_PATH}index.php?m=mba_zwxg&c=index&a=xiugai_sub&siteid={SITEID}" name="myform" id="myform">
+							<div class="jg_top">
+								编号：<span>{$val[zwid]}<input type='hidden' name="zwid" value='{$val[zwid]}' /></span>
+								科目：<span>{$val[zw_type]}</span>
+								姓名：<span>{$val[name]}</span>
+								得分：<span><input type="text" name="fenshu" value="{$val[editfenshu]}">分</span>
+								状态：<span><?php if($val['pay_status']){echo '已';}else{echo '未';} ?>支付</span>
+							</div>
+							<div class="content_jg">
+								<ul>
+									<li><span class="span_1">题目：</span><p>{$val[title]}</p></li>
+									<li><span class="span_1">作文原文：</span>
+										<form>
+											<textarea name="content" style="visibility:hidden;width:970px;">
+												{$val[content]}
+											</textarea>
+										</form>
+									</li>
+									<?php 
+									if($val['yt_thumb'])
+									{
+										echo '<li><span class="span_1">作文原图：</span><img src="'.APP_PATH.$val['yt_thumb'].'"/></li>';
+									}
+									?>
+									<li><span class="span_1">批改图片：</span><input type="file" id="file" name="file" value="批改结果"/>
+										<input type="submit" id="submit" name='editsubmit' value="提交" class="shangchuan"/>
+									</li>
+								</ul>
+							</div>
+						</form>
+					</ul>
+					<?php } ?> 
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

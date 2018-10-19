@@ -1,0 +1,37 @@
+<?php
+return array (
+  11 => 
+  array (
+    'catid' => '11',
+    'siteid' => '3',
+    'type' => '0',
+    'modelid' => '13',
+    'parentid' => '0',
+    'arrparentid' => '0',
+    'child' => '0',
+    'arrchildid' => '11',
+    'catname' => '文章A',
+    'style' => '',
+    'image' => '',
+    'description' => '游戏站点：测试；模型：游戏-文章；栏目：文章A；',
+    'parentdir' => '',
+    'catdir' => 'articleA',
+    'url' => 'http://games.pct.com/html/articleA/',
+    'items' => '3',
+    'hits' => '0',
+    'setting' => '{"workflowid":"","ishtml":"1","content_ishtml":"1","create_to_html_root":"0","template_list":"PandaWeb","category_template":"category","list_template":"list","show_template":"show","meta_title":"","meta_keywords":"","meta_description":"","presentpoint":"1","defaultchargepoint":"0","paytype":"0","repeatchargedays":"1","category_ruleid":"1","show_ruleid":"11"}',
+    'listorder' => '11',
+    'ismenu' => '1',
+    'sethtml' => '0',
+    'letter' => 'wenzhanga',
+    'usable_type' => '',
+    'create_to_html_root' => '0',
+    'ishtml' => '1',
+    'content_ishtml' => '1',
+    'category_ruleid' => '1',
+    'show_ruleid' => '11',
+    'workflowid' => '',
+    'isdomain' => '0',
+  ),
+);
+?>

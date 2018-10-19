@@ -1,0 +1,326 @@
+.safe_center_middle{
+	width: 1000px;
+	margin:0 auto;
+	margin-top:10px;
+}
+.scm_hide{
+	display: none;
+}
+.scm_hd {
+	height: 40px;
+	border-bottom: 3px solid #ccc;
+}
+.scm_hd span{
+	width: 80px;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 40px;
+	height: 40px;
+}
+.scm_hd_on{
+	color:#ed2020;
+}
+.red_line{
+	width: 80px;
+	border: 2px solid #ed2020;
+	position:relative;
+	left:0px;
+	top:0px;
+}
+.scm_logreg_boxes{
+	margin-top: 30px;
+	background: #eee;
+	padding: 40px;
+}
+
+.log_reg{
+	border:1px solid #ccc;
+	background: #fff;
+	padding: 10px;
+	width: 36%;
+	margin-left: 50px;
+	float: left;
+}
+.log_reg_hd{
+	padding: 10px;
+	text-align: justify;
+}
+.log_reg_hd span{
+	font-size: 20px;
+	padding: 5px;
+}
+
+.scm_login div{
+	padding: 5px;
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	margin:0 auto;
+}
+.lg_pswd input{
+	width: 100%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.lg_phone input{
+	width: 100%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.remember{
+	float: left;
+}
+.forgotten{
+	float: right;
+}
+.lg_in{
+	text-align: center;
+}
+.lg_in button{
+	width: 50%;
+	height: 30px;
+	font-size:16px;
+	padding-left: 5px;
+	background: #1174b0;
+	border-radius: 5px;
+	color:#fff;
+}
+
+.scm_reg div{
+	padding: 5px;
+	width: 90%;
+	height: 40px;
+	line-height: 40px;
+	margin:0 auto;
+}
+.rg_pswd input{
+	width: 100%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.rg_check input{
+	width: 55%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.rg_check button{
+	width: 40%;
+	height: 36px;
+	margin:0 auto;
+	margin-left: 10px;
+	background: #1174b0;
+	border-radius: 5px;
+	color:#fff;
+}
+.rg_phone input{
+	width: 100%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.agree{
+	/*float: left;*/
+}
+.service_protocol{
+	/*float: left;*/
+}
+.rg_in{
+	text-align: center;
+}
+.rg_in button{
+	width: 50%;
+	height: 30px;
+	font-size:16px;
+	padding-left: 5px;
+	background: #1174b0;
+	border-radius: 5px;
+	color:#fff;
+}
+
+.other_way{
+	border-top: 1px solid #ccc;
+	padding: 10px;
+}
+.other_way a{
+	width: 46px;
+	height: 45px;
+	display: inline-block;
+	vertical-align: -16px;
+	margin-left: 15px;
+}
+.o_w_qq{
+	background: url(http://pic.qiantucdn.com/yang/img/icon2.png) no-repeat;
+	background-position-y: 0px;
+}
+.o_w_wx{
+	background: url(http://pic.qiantucdn.com/yang/img/icon2.png) no-repeat;
+	background-position-y: -47px;
+}
+.o_w_sina{
+	background: url(http://pic.qiantucdn.com/yang/img/icon2.png) no-repeat;
+	background-position-y: -94px;
+}
+.erweima{
+	float: right;
+	width: 40%;
+	padding: 50px;
+}
+.erweima div{
+	text-align: center;
+}
+.erweima p{
+	font-size: 18px;
+}
+.erweima img{
+	width: 100%;
+	height:100%;
+}
+.wei_xin{
+	width: 44%;
+	float:left;
+	margin-top: 15px;
+}
+.wei_bo{
+	width: 44%;
+	float: left;
+	margin-left:30px;
+	margin-top: 15px;
+}
+
+.about_pwd{
+	margin-top: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+.about_pwd a{
+	width: 290px;
+	height: 92px;
+	display: inline-block;
+	margin-left: 25px;
+}
+.pwd_edit{
+	background: url(../images/about_pwd.png) no-repeat;
+	background-position-x: 0px;
+}
+.pwd_recovery{
+	background: url(../images/about_pwd.png) no-repeat;
+	background-position-x: -316px;
+}
+.service_onlie{
+	background: url(../images/about_pwd.png) no-repeat;
+	background-position-x: -630px;
+}
+
+.account_protect{
+	height: 100px;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 30px; 
+}
+.account_protect div{
+	text-align: center;
+	line-height: 100px;
+	float: left;
+}
+.ap_one{
+	width: 40%;
+	margin-left: 10px;
+}
+.ap_two{
+	width: 25%;
+	margin-left: 15px;
+}
+.ap_three{
+	width: 30%;
+	margin-left: 20px;
+}
+.account_protect button{
+	width: 60%;
+	height: 40px;
+	font-size:16px;
+	background: #1174b0;
+	border-radius: 5px;
+	color:#fff;
+}
+.account_protect_hide{
+	display:none;
+}
+.pwd_manage{
+	/*height: 250px;*/
+	height: auto;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 30px; 
+}
+.pwd_m_step_0 a{
+	width: 290px;
+	height: 92px;
+	display: inline-block;
+	margin-left: 125px;
+}
+.pwd_m_edit div{
+	padding: 5px;
+	text-align: center;
+}
+.pwd_m_edit input{
+	width:40%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+
+.pwd_m_recovery a{
+	margin-top: 10px;
+	width: 292px;
+	height: 94px;
+	display: inline-block;
+	margin-left: 22px;
+}
+.rec_by_mail{
+	background: url(../images/recovery_pwd.png) no-repeat;
+	background-position-x: 0px;
+}
+.rec_by_phone{
+	background: url(../images/recovery_pwd.png) no-repeat;
+	background-position-x: -318px;
+}
+.rec_ser_online{
+	background: url(../images/recovery_pwd.png) no-repeat;
+	background-position-x: -632px;
+}
+.pwd_m_rec_byphone div{
+	padding: 5px;
+	text-align: center;
+}
+.pwd_m_rec_byphone input{
+	width:40%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}
+.rec_check input{
+	width:25%;
+}
+.pwd_manage button{
+	width:13%;
+	height: 35px;
+	font-size:16px;
+	background: #1174b0;
+	border-radius: 5px;
+	color:#fff;
+	margin-left:16px;
+}
+.pwd_m_rec_bymail div{
+	padding: 5px;
+	text-align: center;
+}
+.pwd_m_rec_bymail input{
+	width:40%;
+	height: 30px;
+	font-size:16px;
+	margin:0 auto;
+}

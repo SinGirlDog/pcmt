@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+	<meta property="wb:webmaster" content="614ad88064090d93" />
+	<meta name="keywords" content="{$SEO['keyword']}">
+	<meta name="description" content="{$SEO['description']}">
+	
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/style.css">
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/list.css">
+	<!-- 焦点图 -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery 1.7.1.js"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery.litenav.js"></script>
+	<!-- 焦点图 end -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/mpacc.js"></script>
+	<!--切换-->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/list.js"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/common.js"></script>
+</head>
+<body>
+	{template "content","header_NEW"}
+
+	<div class="list_top">
+		<img src="{IMG_PATH_XHC}18xhc/m3_5.png">
+	</div>
+
+	<div class="list_middle">
+		<div class="list_m_left">
+			{pc:content action="category_ignore_menu" catid="$catid" parentid="$parentid" num="11" siteid="$siteid" order="listorder ASC"}
+			{if $data}
+			<div class="list_m_left_menu">
+				<div class="lml_menu_hd"></div>
+				<ul class="lml_menu_bd">
+					<!-- {php echo '<pre/>'; var_dump($data);} -->
+					{loop $data $r}
+					{if $catid == $r[catid]}
+					<a href="{cat_url($r['url'],'xhc')}"><li class="menu_on">{$r[catname]}</li></a>
+					{else}
+					<a href="{cat_url($r['url'],'xhc')}"><li>{$r[catname]}</li></a>
+					{/if}
+					{/loop}
+				</ul>
+			</div>
+			{/if}
+			{/pc}
+			<div class="list_m_left_list">
+				<div class="lml_box lml_box_00">
+					<ul class="lml_content">
+						{pc:content action="lists" catid="$catid" num="2" order="id DESC" page="$page"}
+						{loop $data $r}
+						<li><a href="{cat_url($r['url'],'xhc')}"><p>{str_cut($r[title],70)}</p><span>{date('Y-m-d H:i:s',$r[updatetime])}</span></a></li>
+						{/loop}
+						{/pc}
+						<li><p>6016一级建造师成绩查询相关事项关事项关事项</p><span>6016/10/8 8:58:37</span></li>
+					</ul>
+					<div class="page_list">
+						{$pages}
+					</div>
+				</div>
+			</div>
+		</div>
+		{template "content","right"}
+		
+	</div>
+
+	{template "content","footer_NEW"}
+
+</body>
+</html>

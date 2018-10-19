@@ -1,0 +1,67 @@
+{template "content","header"}
+    <section class="list">
+    	<div class="alllist">
+            <article class="newstxt left">
+            	<ul class="about_download">
+                    <h3>软件名：{$title}</h3>
+                    {if $thumb}<img src="{$thumb}" width="275" height="180" />{/if}
+                    <img src="{thumb($r[thumb],300,180)}" width="300" height="180" align="right">
+                    <li>软件类型：{$copytype}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;支持平台：{$systems}</li>
+                    <li>软件类别：{$classtype}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;软件语言：{$language}</li>
+                    <li>软件等级：{$stars}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文件大小：{$filesize}</li>
+                    <li>更新时间：{$updatetime}</li>
+               	</ul>
+                <ul class="txt_download">
+                    <h3>软件简介：</h3>
+                    <li>{$content}</li>
+                </ul>
+                <ul class="txt_download">
+                    <h3>软件下载：</h3>
+                    {loop $downfile $r}
+                        <li class="link_download">{$r}</li>
+                    {/loop}
+                    {loop $downfiles $r}
+                        <li class="link_download">{$r}</li>
+                    {/loop}
+                    <div id="pages" class="text-c">{$pages}</div>
+                    <!-- Wumii Plug-in Begin -->
+                    <div class="wumii-hook">
+                        <input type="hidden" name="wurl" value="{$url}" />
+                        <input type="hidden" name="wtitle" value="{$title}" />
+                    </div>
+                    <p style="display: none;">
+                        {loop $keywords $keyword}<a rel="tag">{$keyword}</a>{/loop}
+                    </p>
+                    <script>
+                        var wumiiSitePrefix = "{siteurl($siteid)}/";
+                    </script>
+                    <!-- Wumii Plug-in End -->
+                    <!-- JiaThis Button BEGIN -->
+                    <div id="jiathis_style_32x32">
+                        <a class="jiathis_button_tsina"></a>
+                        <a class="jiathis_button_tqq"></a>
+                        <a class="jiathis_button_qzone"></a>
+                        <a class="jiathis_button_renren"></a>
+                        <a class="jiathis_button_kaixin001"></a>
+                        <a class="jiathis_button_douban"></a>
+                        <a class="jiathis_button_fav"></a>
+                        <a class="jiathis_button_copy"></a>
+                        <a class="jiathis_button_ujian"></a>
+                        <a href="http://www.jiathis.com/share?uid=1557601" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+                        <a class="jiathis_counter_style"></a>
+                    </div><br /><br />
+                 </ul>
+                <ul class="comment">
+                	<h3> 本文共有 <a href="#comment_iframe" id="comment">0</a> 条评论</h3>
+      <iframe src="{APP_PATH}index.php?m=comment&c=index&a=init&commentid={id_encode("content_$catid",$id,$siteid)}&iframe=1" width="100%" height="100%" id="comment_iframe" frameborder="0" scrolling="no"></iframe>
+                    <div class="clear"></div>
+            </article>
+{template "content","right"}
+<script type="text/javascript">
+    var wumiiParams = "&num=5&mode=3&pf=PHPCMS_{get_pc_version(1)}";
+</script>
+<script type="text/javascript" id="wumiiRelatedItems" src="http://widget.wumii.com/ext/relatedItemsWidget.htm"></script>
+<a href="http://www.wumii.com/widget/relatedItems.htm" style="border:0;">
+    <img src="http://static.wumii.com/images/pixel.png" alt="无觅相关文章插件，快速提升流量" style="border:0;padding:0;margin:0;" />
+</a>
+{template "content","footer"}

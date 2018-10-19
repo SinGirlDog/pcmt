@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>太奇教育</title>
+	<meta name="keywords" content="考研-作文" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" type="text/css" href="{APP_PATH}statics_ZWXG/css/css.css" />
+	<script src="{APP_PATH}statics_ZWXG/js/tankuang.js"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="main">
+			<div class="logo"><a target="_black" href="###"><img src="{APP_PATH}statics_ZWXG/images/logo.jpg"></a></div>
+			<p>只要太阳还是升起，我就必能创造奇迹！</p>
+		</div>
+	</div>
+	
+	<div class="content">
+		<div class="main">
+			<form  method="post" action="{APP_PATH}index.php?m=mba_zwxg&c=index&a=master_login&siteid={SITEID}" name="myform" id="myform">
+				<ul>
+					<li class="a_1"><span>手机：</span><input name="phone" type="text" id="mobile"  value=""></li>
+					<li class="a_11"><span>验证码：</span><input type="text" id="code_img" name="code" /><img id='code_img' onclick='this.src=this.src+"&"+Math.random()' src='{APP_PATH}api.php?op=checkcode&code_len=4&font_size=18&width=130&height=50&font_color=&background='></li>
+					<li class="a4">
+						<span class="jiak">手机验证码：</span><input type="text" id="code_mobile" name="code_mobile" />
+						<input id="button_code_master" onclick="get_sms_code(this)" type="button" class="button_bd" value="获取验证码"/>
+					</li>
+					<li class="center"><input type="submit" name="domasterlogin" value="登录" class="tijiao"></li>
+				</ul>
+			</form>
+		</div>
+	</div>
+	<script src="{APP_PATH}statics_ZWXG/js/jquery-1.9.1.js"></script>
+</body>
+</html>
+<script type="text/javascript">
+	var times = 120;
+	var isinerval;
+	var type_mark;
+	function get_sms_code(param)
+	{
+		// alert(param.id);
+		type_mark = 'master';
+	
+		var mobile = $("#mobile").val();
+		var code = $("#code_img").val();
+		
+		var preg_mobile = /^1[3|4|5|7|8][0-9]\d{8}$/;
+		var res_preg = preg_mobile.test(mobile);
+		if(!res_preg)
+		{
+			alert('手机号格式错误');
+			$("#mobile").focus();
+			return false;
+		}
+		var url = 'index.php?m=other&c=sms_http&a=zwxg_mobile_code';
+		$.get(url,{mobile:mobile,code:code,mark:type_mark},function(data){
+			if(data == 1)
+			{
+				alert('手机短信发送成功');
+				times = 120;
+				isinerval = setInterval("CountDown()", 1000);
+			}
+			else if(data == -1)
+			{
+				alert('手机格式错误');
+				return false;
+			}
+			else if(data == -2)
+			{
+				alert('图形验证码错误,请重新输入');
+				return false;
+			}
+			else if(data == -3)
+			{
+				alert('服务器繁忙，请联系管理员');
+				return false;
+			}
+			else
+			{
+				alert(data);
+				return false;
+			}
+		});
+
+	}
+	function CountDown() {
+		if (times < 1) {
+			$("#button_code_"+type_mark).val("获取短信验证码").attr("disabled", false);
+			clearInterval(isinerval);
+			return;
+		}
+		$("#button_code_"+type_mark).val(times+"秒后重获验证码");
+		$("#button_code_"+type_mark).attr('disabled',true)
+		times--;
+	}   
+</script>

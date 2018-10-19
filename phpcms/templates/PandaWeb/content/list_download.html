@@ -1,0 +1,29 @@
+{template "content","header"}
+<!--main-->
+<!--main-->
+    <section class="list">
+    	<div class="alllist">
+            <article class="downloadlist left">
+            	<div class="download_banner">
+                	<ul>
+                    	<li><img src="{IMG_PATH_PDW}download_banner_font.jpg" /></li>
+                        <li>分享是种精神，人人为我，我为人人</li>
+                        <li>学习是种进步，敏于事，慎于言</li>
+                        <li>资源是种财富，学无止境</li>
+                        <li>我分享，我快乐</li>
+                    </ul>
+                </div>
+               {pc:content action="lists" catid="$catid" num="5" order="id DESC" page="$page"}
+                {loop $data $r}
+                <ul class="download_content">
+                	<h3><a href="{$r[url]}" target="_blank">{$r[title]}</a></h3>
+                    <h4>更新时间：{date('Y年m月d日 H:i:s',$r[inputtime])}&nbsp;&nbsp;&nbsp;&nbsp;软件大小：{$r[filesize]} &nbsp;&nbsp;&nbsp;&nbsp; 软件星级：{$r[stars]}</h4>
+                    <p><a href="{$r[url]}"><img src="{thumb($r[thumb],110,85)}" width="110" height="85" align="left">{$r[description]}</a></p>
+                    <li></li>
+                </ul>
+                {/loop}
+                <div id="pages" class="text-c">{$pages}</div>
+                {/pc}
+            </article>
+{template "content","right"}
+{template "content","footer"}

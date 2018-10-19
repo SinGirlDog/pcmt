@@ -1,0 +1,39 @@
+{template "content","header"}
+<!-- /header -->
+<div class="container">
+  <div class="post">
+    <div class="entry">
+      <h2>{$catname} </h2>
+      <div class="content">
+        <p>内容列表</p>
+        <ul class="manuals-list" style="margin-left: -50px;">
+		{pc:content action="lists" catid="$catid" num="10" order="id DESC" page="$page"}
+        <ul class="list lh24 f14">
+{loop $data $r}
+	<li class="manuals-list"><a class="manuals-list" title="{$r[title]}" href="{$r[url]}" target="_self"><!--<img style="border: 0pt none; top: 8px; position: 
+relative;" src="{dede:global.cfg_cmsurl/}/source/how-to-button.png" alt="">--> – 
+            {$r[title]}</a> ({date('y-m-d',$r[inputtime])})</li>
+{/loop}
+        </ul>
+        <div class="pagelink">{$pages}</div>
+		{/pc}
+      </div>
+    </div>
+    <!--end entry-->
+  </div>
+  <!--end post-->
+  <div class="navigation">
+    <div class="nav-old"></div>
+    <div class="nav-newer"></div>
+  </div>
+  <br>
+  <br>
+</div>
+<!--end container-->
+<div class="ad2">
+  <p> </p>
+  <center>
+    728*90广告位
+  </center>
+</div>
+{template "content","footer"}

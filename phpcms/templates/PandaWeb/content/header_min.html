@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={CHARSET}" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>熊猫网页设计工作室</title>
+<link href="{CSS_PATH_PDW}reset.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH_PDW}default_blue.css" rel="stylesheet" type="text/css" />
+<link href="{CSS_PATH_PDW}dialog_simp.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="{JS_PATH_PDW}jquery.min.js"></script>
+<script language="javascript" type="text/javascript" src="{JS_PATH_PDW}dialog.js"></script>
+<style type="text/css">
+.header,.main,.footer{width:940px;margin:0 auto; overflow:auto}
+</style>
+</head>
+<body class="rss-channel">
+    <div class="body-top special-body-top">
+        <div class="content">
+        
+            <a href="" class="logo"><img src="{IMG_PATH_PDW}v9/logo.gif" height="30" /></a><div class="nav"><a href="http://www.90-designer.com">首页</a><span>|</span>
+            {pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
+            {loop $data $r}
+            <a href="{$r[url]}">{$r[catname]}</a><span>|</span>
+            {/loop}
+            {/pc}
+            </div>
+        </div>
+    </div>
+    <div class="header">
+</div>

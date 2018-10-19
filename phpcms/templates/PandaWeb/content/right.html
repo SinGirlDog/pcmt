@@ -1,0 +1,31 @@
+  
+    <script type="text/javascript" src="{JS_PATH_PDW}scrolltopcontrol.js"></script>
+            <aside class="vice_nav left">
+            <form action="{APP_PATH}index.php" method="get" target="_blank" >
+				<input type="hidden" name="m" value="search"/>
+				<input type="hidden" name="c" value="index"/>
+				<input type="hidden" name="a" value="init"/>
+				<input type="hidden" name="typeid" value="{$typeid}" id="typeid"/>
+				<input type="hidden" name="siteid" value="{$siteid}" id="siteid"/>
+                <input type="text" class="search" name="q" id="q" x-webkit-speech x-webkit-grammar="bUIltin:search"/><input name="submit" type="image" class="search_btn" src="{IMG_PATH_PDW}search_btn.jpg" align="top">
+            </form>
+            <aside class="aboutus">
+            	<h3>关于Panda-Web</h3>
+                <p>熊猫设计，关注最前沿的网站设计及前端资讯，奉行简约而不简单的设计风格，努力打造更多小清新、小美好的作品。 致力于创造最好的网站解决方案及最佳的用户体验。</p>
+            </aside>
+            <ul>
+            	<h3>栏目分类</h3>
+                    {loop subcat(7) $v} 
+                    {php if($v['type']!=0) continue;} 
+                        <li><a href="{$v[url]}"><span class="font">{$v[catname]}</span><span class="num">( {$v[items]} )</span></a>
+                    {/loop} 
+                    	<li><a href="{$CATEGORYS[6][url]}"><span class="font">{$CATEGORYS[6][catname]}</span><span class="num">( {$CATEGORYS[6][items]} )</span></a>
+                    	<li><a href="{$CATEGORYS[8][url]}"><span class="font">{$CATEGORYS[8][catname]}</span><span class="num">( {$CATEGORYS[8][items]} )</span></a>
+            </ul>
+            <aside class="tips">
+            	<h3>热门标签</h3>
+                   
+            </aside>
+            </aside>
+    	</div>
+    </section>

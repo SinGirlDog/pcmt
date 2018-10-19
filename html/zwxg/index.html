@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body>
+<div class="top">
+	<div class="main">
+		<div class="logo"><a target="_black" href="###"><img src="images/logo.jpg"></a></div>
+		<p>只要太阳还是升起，我就必能创造奇迹！</p>
+	</div>
+</div>
+<div class="banner">
+	<div class="ban ban1"></div>
+	<div class="ban ban2"></div>
+	<div class="ban ban3"></div>
+	<div class="ban ban4"></div>
+	<div class="ban ban5"></div>
+</div>
+<div class="content">
+	<div class="main">
+		<!-- http://local.pct.com/index.php?m=comment&c=index&a=zwxg -->
+		<form  method="post" action="http://local.pct.com/index.php?m=mba_zwxg&c=index&a=tijiao&siteid={SITEID}" name="myform" id="myform">
+			<ul>
+				<li class="a1"><span>姓名：</span><input name="name" type="text" id="name"  value=""></li>
+				<li class="a_1"><span>手机：</span><input name="phone" type="text" id="phone"  value=""></li>
+				<li class="a_11"><span>验证码：</span><input type="text" id="code_img" name="code" /><img id='code_img' onclick='this.src=this.src+"&"+Math.random()' src='http://www.halouxue.com/api.php?op=checkcode&code_len=4&font_size=18&width=130&height=50&font_color=&background='></li>
+				<li class="a_111"><span>QQ：</span><input name="QQ" type="text" value=""></li>
+				<li class="a11"><span>类型：</span>
+					<select name="zw_type">
+					  <option value="option1">-请选择-</option>
+					  <option value="option2">中文写作</option>
+					  <option value="option3">英文写作</option>
+					</select>
+				</li>
+				<li class="a2"><span>题目：</span><textarea name="title" class="duohang" id="textarea" row="6" col="4"></textarea></li>
+				<li class="a3"><span>正文：</span><textarea name="content" class="duohang" id="textarea_1" row="6" col="4"></textarea></li>
+				<!-- 弹出层开始 -->
+				<div class="jilu" onclick="show()">
+					<center>
+					<input type="button" value="查询您的批改记录" id="btn1">
+					</center>
+				</div>
+				<!-- 弹出层结束 -->
+				<li class="center"><input type="submit" value="提交作文" class="tijiao"></li>
+			</ul>
+		</form>
+	</div>
+</div>
+<script src="js/jquery-1.9.1.js"></script>
+<script> 
+ 	$.fn.autoTextarea = function (options){
+ 		var defaults = {
+ 			maxHeight:null,
+ 			minHeight:$(this).height()
+ 		};
+ 		var opts = $.extend({}, defaults, options);
+ 
+ 		return $(this).each(function (){
+ 			var _this = $(this);
+ 			_this.bind('paste cur keydown keyup focus blur', function (){
+ 				var height, style = this.style;
+ 				style.height = opts.minHeight + 'px';
+ 				if(this.scrollHeight > opts.minHeight){
+ 					if(opts.maxHeight && this.scrollHeight > opts.maxHeight){
+ 						height = opts.maxHeight;
+ 						style.overflowY = 'scroll';
+ 					}else{
+ 						height = this.scrollHeight;
+ 						style.overflowY = 'hidden';
+ 					}
+ 					style.height = height + 'px';
+ 				}
+ 			});
+ 		});
+ 	}
+    $(function (){
+    	$('#textarea').autoTextarea({
+    		maxHeight:600
+    	});
+    });
+    $(function (){
+    	$('#textarea_1').autoTextarea({
+    		maxHeight:600
+    	});
+    });
+</script>
+</body>
+</html>
+<!-- 支付弹框 -->
+<div class="lbOverlay"  onclick="closeDiv()"></div>
+<div class="hidden_pro_au">
+	<img src="images/zhifu.jpg">
+	<p>在线支付，修改作文</p>
+</div>
+<script>
+function show(){
+    $(".lbOverlay").css({"height":window.screen.availHeight});
+    $(".lbOverlay").show();
+ 
+    var st=$(document).scrollTop(); //页面滑动高度
+    var objH=$(".hidden_pro_au").height();//浮动对象的高度
+    var ch=$(window).height();//屏幕的高度  
+    var objT=Number(st)+(Number(ch)-Number(objH))/2;   //思路  浮动高度+（（屏幕高度-对象高度））/2
+    $(".hidden_pro_au").css("top",objT);
+     
+    var sl=$(document).scrollLeft(); //页面滑动左移宽度
+    var objW=$(".hidden_pro_au").width();//浮动对象的宽度
+    var cw=$(window).width();//屏幕的宽度  
+    var objL=Number(sl)+(Number(cw)-Number(objW))/2; //思路  左移浮动宽度+（（屏幕宽度-对象宽度））/2
+    $(".hidden_pro_au").css("left",objL);
+    $(".hidden_pro_au").slideDown("20000");//这里显示方式多种效果
+}
+function closeDiv(){
+    $(".lbOverlay").hide();
+    $(".hidden_pro_au").hide();
+}
+</script>

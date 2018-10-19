@@ -1,0 +1,177 @@
+CSS Document */
+body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, textarea,img, div{border:0;margin:0;padding:0;}
+em{font-style:normal;}
+ul, ol{list-style:none;}
+a,input{outline:none;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,p,span,a{border:0;padding:0px;margin:0px;}
+table,th,td,{padding:0px;margin:0px;}
+th,td,input{font-size:12px;}
+ul{margin:0;padding:0;}
+a{text-decoration:none;}
+a,input，select,textarea,option{outline:none;}
+option::-ms-expand{ display: none; }
+option{
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari 和 Chrome */
+    appearance:none;
+}
+
+.clear{clear:both;font-size:0px;height:0;visibility:hidden;line-height:0;}
+.clear_r{clear:right;font-size:0px;height:0;visibility:hidden;line-height:0;}
+.clear_l{clear:left;font-size:0px;height:0;visibility:hidden;line-height:0;}
+.hidden{display:none;}
+.clearfix:after {content: " ";display:block;clear:both;height:0;}
+.clearfix{zoom:1;}
+body{font-size:16px;color:#333333;font-family:"Microsoft YaHei";background:#ffffff;margin:0;padding:0;}
+.main{width:1100px;overflow: hidden;margin:0px auto;}
+
+.top{width:100%;height:70px;}
+.logo{width:181px;height:48px;margin-top: 11px;float: left;}
+.top p{display: inline-block;float: right;line-height: 70px;font-size: 18px;color:#333;}
+
+.banner{width:100%;overflow: height}
+.ban{width:100%;height:110px;}
+.ban1{background: url(../images/ban1.jpg) no-repeat center 0;}
+.ban2{background: url(../images/ban2.jpg) no-repeat center 0;}
+.ban3{background: url(../images/ban3.jpg) no-repeat center 0;}
+.ban4{background: url(../images/ban4.jpg) no-repeat center 0;}
+.ban5{background: url(../images/ban5.jpg) no-repeat center 0;}
+
+.content{width:100%;overflow: hidden;padding:30px 0;background: #9adde9;}
+.content ul{width:1100px;overflow: hidden;}
+.content ul li{display: inline-block;float: left;margin-bottom: 30px;}
+.content ul li span{font-size: 20px;color:#070505;display: inline-block;width:80px;margin-right: 10px;line-height: 34px;float:left;text-align: right;}
+.content ul li .jiak{width:124px;}
+.content ul .a1{margin-right: 20px;}
+.content ul .a1 input{width:114px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;}
+.content ul .a_1{margin-right: 20px;}
+.content ul .a_1 input{width:160px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;}
+.content ul .a_11{margin-right: 20px;}
+.content ul .a_11 input{width:90px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;float: left;}
+.content ul .a4{margin-right: 20px;}
+.content ul .a4 input{width:90px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;float: left;}
+.content ul .a_11 img{display: inline-block;margin-left: 6px;margin-top: 2px;}
+.content ul .a_111{margin-right: 20px;}
+.content ul .a_111 input{width:180px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;}
+.content ul .a11{margin-right: 20px;}
+.content ul .a11 input{width:200px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;}
+.content ul .a11 select{width:200px;height:40px;line-height: 40px;padding-left: 6px;font-size: 16px;}
+.content ul .a11 option{display: block;width:200px;height:40px;font-size: 16px;line-height: 40px;}
+.content ul .a2 input{width:380px;height:34px;line-height: 34px;padding-left: 6px;font-size: 16px;}
+.content ul .a3{width:1100px;overflow: hidden;float: left;}
+.content .duohang{width:994px;overflow: hidden;line-height: 34px;padding: 6px;font-size: 16px;}
+.content .center{width:240px;height:40px;text-align: center;line-height: 40px;background: #fcff00;float: right;margin-right:100px;border-radius: 40px;margin-top:20px;}
+.tijiao{outline: none;border:0;background: none;width:200px;height:40px;color:#b81c22;font-size: 18px;}
+.jilu{width:240px;height:40px;text-align: center;line-height: 40px;background: #1b1b1b;float: left;margin-left:100px;border-radius: 40px;margin-top: 20px;}
+
+#btn1 {
+  width:240px;height:40px;text-align: center;outline:none;border:0;color:#ffffff;margin:0;padding:0;cursor:pointer;background: none;font-size: 18px;color:#fff;line-height: 40px;
+}
+.biaodan form input.chaxun{width:110px;height:30px;border:0;background:#338a76;color:#ffffff;margin-left:130px;padding:0;margin-top: 6px;}
+
+
+
+/*结果页面*/
+.jg_tu{width:100%;height:158px;background: url(../images/jieguo.jpg) no-repeat center 0;}
+.xia1{margin-bottom: 30px;}
+.jg_tu h2{text-align: center;font-size: 30px;line-height: 158px;color:#fff;}
+.jg_tu h2 span{font-size: 40px;display: inline-block;margin-right:20px;color:#fafc01;}
+.jg_tu ul{width:1100px;outline: hidden;}
+.jg_top{width:1060px;height:40px;line-height: 40px;background: #43aabd;font-size: 18px;color:#fff;padding-left: 40px;}
+.jg_top span{margin-right: 40px;}
+.content_jg{width:1100px;overflow: hidden;padding:30px 0 40px;}
+.content_jg ul{width:1100px;overflow: hidden;}
+.content_jg ul li{width:1100px;overflow: hidden;float: left;margin-bottom: 20px;}
+.content_jg ul li .span_1{display: block;width:100px;float: left;margin-right: 20px;line-height: 34px;font-size: 20px;font-weight: 700;}
+.content_jg ul li p{display: block;width:980px;float: left;line-height: 34px;}
+.content_jg ul li form span{width:21px;}
+.content_jg ul li form .ke-content{font-size: 16px;line-height: 34px;}
+.content_jg ul li form .ke-statusbar span{display: block;margin:0 auto;width:21px;}
+.neirong{width:948px;overflow: hidden;font-size:16px;line-height: 34px;padding:10px;}
+
+.lbOverlay{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    zoom: 1;
+    background: #2f2e2e;
+    z-index: 999;
+    width:100%;
+    height:100%;
+    filter:alpha(opacity=70); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.7; /*Firefox私有，透明度50%*/
+    opacity:0.7;/*其他，透明度50%*/
+}
+.hidden_pro_au {
+    display:none;
+    padding: 6px;
+    text-align: left;
+    width: 400;
+    height: 300;
+    background: #fff;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    padding:40px 30px;
+}
+.sjh span{font-size: 18px;line-height: 30px;}
+.sjh input{width:190px;height:30px;line-height: 30px;font-size: 16px;color:#333;display: inline-block;}
+.hidden_pro_au img{width:266px;height:266px;margin:20px auto 0;}
+.hidden_pro_au p{text-align: center;line-height: 40px;font-size: 14px;}
+
+.cxjg{
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    zoom: 1;
+    background: #2f2e2e;
+    z-index: 999;
+    width:100%;
+    height:100%;
+    filter:alpha(opacity=70); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.7; /*Firefox私有，透明度50%*/
+    opacity:0.7;/*其他，透明度50%*/
+}
+.cxjg_1 {
+    display:none;
+    padding: 6px;
+    width: 400;
+    height: 300;
+    background: #fff;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    padding:40px 30px;
+    text-align: left;
+}
+.cxjg_1 .lsjg{margin-bottom:20px;overflow: hidden;line-height: 34px;}
+.cxjg_1 .lsjg span{display: inline-block;width:120px;float: left;text-align: right;}
+.cxjg_1 .lsjg input{width:180px;height:34px;line-height: 34px;font-size: 16px;color:#333;display: inline-block;float: left;}
+.cxjg_1 .lsjg img{display: inline-block;float: left;margin-top: 2px;margin-left: 6px;}
+.ttj{width:180px;height:34px;background: #333;margin:30px auto;}
+.chakan{width:180px;height:34px;line-height: 34px;text-align: center;color:#fff;border:0;background: none;font-size: 18px;}
+
+.jg_tu{width:100%;height:158px;background: url(../images/jieguo.jpg) no-repeat center 0;}
+.xia1{margin-bottom: 30px;}
+.jg_tu h2{text-align: center;font-size: 30px;line-height: 158px;color:#fff;}
+.jg_tu h2 span{font-size: 40px;display: inline-block;margin-right:20px;color:#fafc01;}
+.jg_tu ul{width:1100px;outline: hidden;}
+.jg_top{width:1060px;height:40px;line-height: 40px;background: #43aabd;font-size: 18px;color:#fff;padding-left: 40px;}
+.jg_top span{margin-right: 40px;}
+
+.shangchuan{width:80px;height:34px;display: inline-block;font-size: 16px;}
+.pigai_img img{width:980px;height:100%;}
+.jg_s{display: none;}
+.ssg h6{display: inline-block;width:180px;height:40px;text-align: center;line-height: 40px;font-size: 18px;background: #efefef;margin-right:40px;color:#333;font-weight:normal;margin-bottom:30px; cursor:pointer;}
+.ssg .hot{background: #257f90;color:#fff;}
+
+
+

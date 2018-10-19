@@ -1,0 +1,79 @@
+{template "content","header"}
+<!-- /header -->
+<div class="container">
+      <div class="tbox footer-backdrop">
+    <div class="row">
+      <div class="column columnPadding10 f12">
+        <div class="column450 columnPadding10 border-222-2px">
+          <div class="sidebarWidgetDigi">
+            <h2>WEP破解</h2>
+            <ul>
+			 {pc:content  action="lists" catid="$r[catid]" order="updatetime DESC" num="10" return="info"}
+             {loop $info $v}
+             	<li><a href="{$v['url']}" title="[field:title/]" target="_blank">{str_cut($v['title'],28)}</a></li>
+             {/loop}
+             {/pc}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="column columnPadding10 f12">
+        <div class="column450 columnPadding10 border-222-2px">
+          <div class="sidebarWidgetDigi">
+            <h2>WAP破解</h2>
+            <ul>
+			 {pc:content  action="lists" catid="$r[catid]" order="updatetime DESC" num="10" return="info"}
+             {loop $info $v}
+             	<li><a href="{$v['url']}" title="[field:title/]" target="_blank">{str_cut($v['title'],28)}</a></li>
+             {/loop}
+             {/pc}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<br>
+<div class="ad2"> <br>
+  <center>
+    728*90广告位2
+  </center>
+  <br>
+</div>
+
+<div class="tbox footer-backdrop">
+    <div class="row">
+      <div class="column columnPadding10 f12">
+        <div class="column450 columnPadding10 border-222-2px">
+          <div class="sidebarWidgetDigi">
+            <h2>破解工具</h2>
+            <ul>
+             {pc:content  action="lists" catid="$r[catid]" order="updatetime DESC" num="10" return="info"}
+             {loop $info $v}
+             	<li><a href="{$v['url']}" title="[field:title/]" target="_blank">{str_cut($v['title'],28)}</a></li>
+             {/loop}
+             {/pc}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="column columnPadding10 f12">
+        <div class="column450 columnPadding10 border-222-2px">
+          <div class="sidebarWidgetDigi">
+            <h2>教程资料</h2>
+            <ul>
+             {pc:content  action="lists" catid="$r[catid]" order="updatetime DESC" num="10" return="info"}
+             {loop $info $v}
+             	<li><a href="{$v['url']}" title="[field:title/]" target="_blank">{str_cut($v['title'],28)}</a></li>
+             {/loop}
+             {/pc}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--end container-->
+<br>
+{template "content","footer"}

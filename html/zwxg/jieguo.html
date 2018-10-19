@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body>
+<div class="top">
+	<div class="main">
+		<div class="logo"><a target="_black" href="###"><img src="images/logo.jpg"></a></div>
+		<p>只要太阳还是升起，我就必能创造奇迹！</p>
+	</div>
+</div>
+<div class="jg_tu">
+	<div class="main xia1">
+		<h2><span>某某</span>学员 您的修改记录</h2>
+	</div>
+	<div class="main">
+		<ul>
+			<div class="jg_top">
+				编号：<span>1</span>
+				科目：<span>中文写作</span>
+				得分：<span>35分</span>
+			</div>
+			<div class="content_jg">
+				<ul>
+					<li><span>题目：</span><p>法国雕塑家罗丹说："美是到处都有的。对于我们的眼睛，不是缺少美，而是缺少发现。"
+以"发现身边的美"为话题，写一篇不少于800字的作文。
+[注意]①立意自定；②文体自选；③题目自拟；④不得抄袭。</p></li>
+					<li><span>作文内容：</span><textarea name="" class="neirong" id="textarea"></textarea></li>
+					<li><span>批改结果：</span><textarea name="" class="neirong" id="textarea1"></textarea></li>
+				</ul>
+			</div>
+		</ul>
+		<ul>
+			<div class="jg_top">
+				编号：<span>2</span>
+				科目：<span>中文写作</span>
+				得分：<span>35分</span>
+			</div>
+			<div class="content_jg">
+				<ul>
+					<li><span>题目：</span><p>法国雕塑家罗丹说："美是到处都有的。对于我们的眼睛，不是缺少美，而是缺少发现。"
+以"发现身边的美"为话题，写一篇不少于800字的作文。
+[注意]①立意自定；②文体自选；③题目自拟；④不得抄袭。</p></li>
+					<li><span>作文内容：</span><textarea name="" class="neirong" id="textarea"></textarea></li>
+					<li><span>批改结果：</span><textarea name="" class="neirong" id="textarea1"></textarea></li>
+				</ul>
+			</div>
+		</ul>
+		<ul>
+			<div class="jg_top">
+				编号：<span>3</span>
+				科目：<span>中文写作</span>
+				得分：<span>35分</span>
+			</div>
+			<div class="content_jg">
+				<ul>
+					<li><span>题目：</span><p>法国雕塑家罗丹说："美是到处都有的。对于我们的眼睛，不是缺少美，而是缺少发现。"
+以"发现身边的美"为话题，写一篇不少于800字的作文。
+[注意]①立意自定；②文体自选；③题目自拟；④不得抄袭。</p></li>
+					<li><span>作文内容：</span><textarea name="" class="neirong" id="textarea"></textarea></li>
+					<li><span>批改结果：</span><textarea name="" class="neirong" id="textarea1"></textarea></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script> 
+ 	$.fn.autoTextarea = function (options){
+ 		var defaults = {
+ 			maxHeight:null,
+ 			minHeight:$(this).height()
+ 		};
+ 		var opts = $.extend({}, defaults, options);
+ 
+ 		return $(this).each(function (){
+ 			var _this = $(this);
+ 			_this.bind('paste cur keydown keyup focus blur', function (){
+ 				var height, style = this.style;
+ 				style.height = opts.minHeight + 'px';
+ 				if(this.scrollHeight > opts.minHeight){
+ 					if(opts.maxHeight && this.scrollHeight > opts.maxHeight){
+ 						height = opts.maxHeight;
+ 						style.overflowY = 'scroll';
+ 					}else{
+ 						height = this.scrollHeight;
+ 						style.overflowY = 'hidden';
+ 					}
+ 					style.height = height + 'px';
+ 				}
+ 			});
+ 		});
+ 	}
+    $(function (){
+    	$('#textarea').autoTextarea({
+    		maxHeight:600
+    	});
+    });
+    $(function (){
+    	$('#textarea1').autoTextarea({
+    		maxHeight:600
+    	});
+    });
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

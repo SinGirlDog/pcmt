@@ -1,0 +1,2290 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>566-tiku</Author>
+  <LastAuthor>Administrator</LastAuthor>
+  <Revision>2</Revision>
+  <TotalTime>158</TotalTime>
+  <LastPrinted>2017-05-23T07:59:00Z</LastPrinted>
+  <Created>2018-10-14T05:29:00Z</Created>
+  <LastSaved>2018-10-14T05:29:00Z</LastSaved>
+  <Company>Microsoft</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <CustomDocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <KSOProductBuildVer dt:dt="string">2052-10.1.0.6393</KSOProductBuildVer>
+ </CustomDocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <RelyOnVML/>
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8955</WindowHeight>
+  <WindowWidth>21555</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>105</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="10.5"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="16"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="10.5"
+    ss:Color="#000000" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s75">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="微软雅黑" x:CharSet="134" x:Family="Swiss" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="2017jzgl_95t">
+  <Names>
+   <NamedRange ss:Name="_GoBack" ss:RefersTo="='2017jzgl_95t'!R1C1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="19" ss:ExpandedRowCount="734" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0" ss:Height="22.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s70"><Data ss:Type="String">2017年二级建造师《建设工程施工管理》</Data><NamedCell
+      ss:Name="_GoBack"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">一、单项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">1.对施工方而言，建设工程项目管理的“费用目标”是指项目的（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．投资目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．成本目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．财务目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．经营目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">2.甲企业为某工程项目的施工总承包方，乙企业为甲企业依法选定的分包方，丙企业为业主依法选定的专业分包方。则关于甲、乙、丙企业在施工管理中关系的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．甲企业只负责完成自己承担的施工任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．丙企业至听从业主的指令</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．丙企业只听从乙企业的指令</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．甲企业负责组织和管理乙企业与丙企业的施工</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">3.某施工项目技术负责人从项目技术部提出的两个土方开挖方案中选定了拟实施的方案，并要求技术部对该方案进行深化。该项目技术负责人在施工管理中履行的管理职能是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．检查</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．执行</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．决策</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">4.某项目部根据项目的特点制定了投资控制、进度控制、合理管理、付款和设计变更等工作流程，这些工作流程组织属于（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．物质流程组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．管理工作流程组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．信息处理工作流程组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．施工工作流程组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P24(13年重)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">5.把施工所需的各种资源、生产、生活活动场地及各种临时设施合理地布置在施工现场，使整个现场能有组织地进行文明施工属于施工组织设计中（　）的内容。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．施工部署</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工方案</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．安全施工专项方案</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．施工平面图</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P26（14年重）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">6.项目部针对施工进度滞后问题，提出了落实管理人员责任、优化工作流程、改进施工方法、强化奖惩机制等措施，其中属于技术措施的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．落实管理人员责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．优化工作流程</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．改进施工方法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．强化奖惩机制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">7.根据《建设工程施工劳务分包合同（示范文本）》（GF－2003－0214），关于保险的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．施工前，劳务分包人应为施工场地内的自由人员及第三人人员生命财产办理保险，并承担相关费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．劳务分包人应为运至施工场地用于劳务施工的材料办理保险，并承担相关保险费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．劳务分包人必须为从事危险作业的职工办理意外伤害险，并支付相关保险费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．劳务分包人必须为租赁使用的施工机械设备办理保险，并支付相关保险费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P250（12年考过）</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">8.下列工程管理信息资源中，属于管理类工程信息的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．与建筑业有关的专家信息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．建设物资的市场信息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．与合同有关的信息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．与施工有关的技术信息</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】A属于组织类工程信息，B属于经济类工程信息，D属于技术类工程信息。P274</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">9.某出料容量0.5m3的混凝土搅拌机，每一次循环中，装料、搅拌、卸料、中断需要的时间分别为1、3、1、1、分钟，机械利用系数为0.8，则该搅拌机的台班产量定额是（　）m3/台班。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】0.55×（60/6）×0.8×8＝32 P79</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">10.企业质量管理体系的文件中，在实施和保持质量体系过程中要长期遵循的纲领性文件是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．作业指导书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．质量计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．质量记录</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．质量手册</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P160</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">11.施工平行发承包模式的特点是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．对每部分施工任务的发包，都以施工图设计为基础，有利于投资的早期控制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．由于要进行多次招标，业主用于招标的时间多，建设工期会加长</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．业主不直接控制所有工程的发包，但是决定所有工程的承包商</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．业主招标工作量大，对业主不利</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p222</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">12.某双代号网络计划中，工作M的最早开始时间和最迟开始时间分别为第12天和第15天，其持续时间为5天；工作M有3项紧后工作，它们的最早开始时间分别为第21天、第24天和第28天，则工作M的自由时差为（　）天。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．11</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】计算方式：21－(12＋5)＝4天P148</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">13.某工程的赢得值曲线如下图，关于t1时点成本和进度状态的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:Index="89" ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．费用节约、进度超前</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．费用超支、进度拖延</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．费用节约、进度拖延</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．费用超支、进度超前</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P118</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">14.根据《建设工程项目管理规范》（GB/T50326-2006），项目实施前，企业法定代表人与施工项目经理协商制定（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．项目成本管理规划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．项目管理承诺书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．项目管理目标责任书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．质量保证承诺书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">15.项目经理部通过在混凝土拌合物中加入添加剂以降低水泥消耗量，属于成本管理措施中（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．经济措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．组织措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．合同措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．技术措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P108</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">16.项目开工前，项目技术负责人应向（　）进行书面技术交底。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．项目经理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．承担施工的负责人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．施工班组长</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．操作工人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p167</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">17.根据《建设工程质量管理条例》，对因过错造成一般质量事故的相关注册执业人员，责令其停止执业的时间为（　）年。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P157</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">18.根据九部委《标准施工招标文件》。对于施工合用变更的估价，已标价工程量清单中无适用项目的单价，监理工程师确定承包商提出的变更工作单价时，应按照（　）原则。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．固定总价</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．成本加利润</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．固定单价</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．可调单价</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P264</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">19.关于单价合同的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．对于投标书中出现明显数字计算错误时，评委员会有权力先作修改再评标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．单价合同允许随工程量变化而调整工程单价，业主承担工程量方面的风险</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．单价合同又分为固定单价合同、变动单价合同、成本补偿合同</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．实际工程款支付按照估算工程量乘以合同单价进行计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p255</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">20.根据《建筑安装工程费用项目组成》（建标【2013】44号），施工企业对建筑以及材料、构建和建筑安装物进行一般鉴定、检查所发生的费用，应计入建筑安装工程费用项目中的（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．措施费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．规费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．材料费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．企业管理费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P51</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">21.关于政府质量监督性质与权限的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．政府质量监督机构有权颁发施工企业资质证书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．政府质量监督机构应对质量检测单位的工程质量行为进行监督</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．政府质量监督属于行政调解行为</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程质量监督的具体工作必须由当地人民政府建设主管部门实施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】B质量责任主体。C行政执法行为，D可以委托所属的工程质量监督机构实施。P182</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">22.职业健康安全管理体系与环境管理体系的管理评审，应由施工企业的（　）进行。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．最高管理者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．项目经理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．技术负责人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．专职安全员</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P194</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">23.工程质量监督机构接受建设单位提交的有关建设工程质量监督申请手续，审查合格后应签发（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．施工许可证</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．质量监督报告</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．质量监督文件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．第一次监督记录</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P183</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">24.运用动态控制原理控制施工成本时，相对于实际施工成本，宜作为分析对比的成本计划值是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．投标报价</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工程支付款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．施工成本规划值</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．施工决算成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p32</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">25.根据《建设工程施工专业分包合同（示范文本）》（GF－2003－0213），关于分包人与项目相关方关系的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．就分包工程可与发包人发生直接工作联系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．就分包工程可与监理人发生直接工作联系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．须服从承包人转发的监理人与分包工程有关的指令</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．就分包工程可直接致函给发包人或监理人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p248</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">26.某双代号如下图（时间单位：天），某关键线路有（　）条。</Data></Cell>
+   </Row>
+   <Row ss:Index="188" ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p148</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">1-2-3-5-7-8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">1-2-3-5-6-7-8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">1-2-4-5-7-8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">1-2-4-5-6-7-8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">27.建设工程项目总进度目标论证的主要工作包括：</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">①进行进度计划系统的结构分析；</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">②进行项目结构分析；</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">③确定项目的工作编码；</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">④协调各层进度计划的关系；</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">⑤编制各层进度计划 。其正确的工作步骤是（　　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A.②-①-③-⑤-④</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B.①-②-③-④-⑤</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C.③-②-④-①-⑤</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D.①-③-②-④-⑤</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p127</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">28.下列施工现场作业行为中，符合环境保护技术措施和要求的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．将未处理的泥浆水直接排入城市排水设施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．在大门口铺设一定距离的石子路</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．在施工现场露天熔融沥青或者焚烧油毡</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．将有害废弃物用作深层土回填</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p218</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">29.根据《建设工程施工专业分包合同（示范文本）》（GF-2003-2013），关于施工专业分包的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．专业分包人应按规定办理有关施工噪音排放的手续，并承担由此发生的费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．专业分包人只有在承包人发出指令后，允许发包人授权的人员在工作时间内进入分包工程施工场地</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．分包工程合同价款与总包合同相应部分价款没有连带关系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．分包工程合同不能采用固定价格合同</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p248</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">30.施工安全隐患处理的单项隐患综合处理原则指的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．人、机、料、法、环境任意环节的安全隐患，都要从五者匹配的角度考虑处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．在处理安全隐患时应考虑设置多道防线</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．既对人机环境系统进行安全治理，又需治理安全管理措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．既要减少肇发事故的可能性，又要对事故减灾做充分准备</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p206</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">31.承包商可以向业主提起索赔的情形的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．承包商为确保质量而增加的措施费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．监理工程师提出的工程变更造成费用的增加</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．分包商因返工造成费用增加，工期顺延</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．承包商自行采购材料的质量有问题造成费用增加、工期顺延</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p265</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">32.根据九部委《标准施工招标文件》，工程接收证书颁发后产生的竣工清偿费用应由（　）承担。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．承包人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．发包人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．监理人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．主管部门</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">33.根据《建设工程工程量清单计价规范》（GB50500-2013），施工企业在投标报价时，不得作为竞争性费用的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．总承包服务费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．夜间施工增加费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．工程排污费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．冬雨季施工增加费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">34.根据九部委《标准施工招标文件》，关于施工合同变更权和变更程序的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．承包人书面报告发包人后，可根据实际情况对工程进行变更</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．发包人可以直接向承包人发出变更意向书</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．监理人应在收到承包人书面建议后30天内作出变更指示</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．承包人根据合同约定，可以向监理人提出书面变更建议</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P262</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">35.关于建设工程项目总进度目标的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．建设工程项目总进度目标的控制是施工总承包方项目管理的任务</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．在进行项目总进度目标控制前，应分析和论证目标实现的可能性</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．项目实施阶段的总进度指的是施工进度</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．项目总进度目标论证就是要编制项目的总进度计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P126</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">36.根据九部委《标准施工招标文件》，监理人对隐蔽工程重新检查，经检验证明工程质量符合合同要求的，发包人应补偿承包人（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工期和费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工期、费用和利润</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．费用和利润</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工期和利润</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P242</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">37.工程监理人员实施监理过程中，发现工程设计不符合工程质量标准或合同约定的质量要求时，应当采取的措施是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．要求施工单位报告设计单位改正</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．报告建设单位要求设计单位改正</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．直接与设计单位确认修改工程计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．要求施工单位改正并报告设计单位</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">38.施工现场文明施工“五牌一图”中，“五牌”是指（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工程概况牌、管理人员名单及监督电话拍、消防保卫牌、安全生产牌、文明施工牌</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工程概况牌、管理人员名单及监督电话牌、现场平面布置牌、安全生产牌、文明施工牌</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．工程概况牌、现场危险警示牌、现场平面布置牌、安全生产牌、文明施工牌</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程概况牌、现场危险警示牌、消防保卫牌、安全生产牌、文明施工牌</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p215</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">39.建立工程项目施工质量保证体系的目标是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．保证体系文件的严格执行</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．控制产品生产的过程质量</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．保证管理体系运行的质量</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．控制和保证施工产品的质量</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P157</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">40.某单价合同履行中，承包人提交了已完工程量报告，发包人人卫需要到现场计量，并在计量前24小时通知了承包人，但承包人收到通知后没有派人参加。则关于发包人现场计量结果的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．以发包人的计量核实结果为准</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．以承包人的计量核实结果为准</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．由监理工程师根据具体情况确定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．双方的计量核实结果均无效</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p82</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">41.根据《生产安全事故应急预案管理办法》，施工单位应急预案未按照规定备案的，由县级以上安全生产监督管理部门给予（　）的处罚。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．警告并处三万元以下罚款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．三万元以上五万元以下罚款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．一万元以上三万元以下罚款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．责令停产停业整顿并处五万元以下罚款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P210</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">42.关于施工过程中材料费控制的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．没有消耗定额的材料必须包干使用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．有消耗定额的材料采用限额发料</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．零星材料应实行计划管理并按指标控制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．有消耗定额的材料均不能超过领料限额</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p117</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">43.为确保建设工程项目进度目标的实现，编制与施工季度计划相适应的资源需求计划，以反应工程实施各阶段所需要的资源。这属于进度控制的（　）措施。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．经济</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．技术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P151</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">44.固定总价合同中，承包商承担的价格风险是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工程计量错误</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工程范围不确定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．漏报项目</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程变更</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P256</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">45.某施工现场存放水泥、白灰、珍珠岩等易飞扬的细颗粒散体材料，应采取的合理措施是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．洒水腹膜封闭或表面临时固化或植草</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．周围采用密木式安全网和草帘搭设屏障</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．安装除尘器</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．入库密闭存放或覆盖存放</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P218</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">46.根据《生产安全事故报告和调查处理条例》，某工程因提前拆模导致垮塌，造成74人死亡，2人受伤的事故，该事故属于（　）事故。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．重大</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．较大</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．一般</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．特别重大</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P210</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">47.根据《建设工程安全生产管理条例》，施工单位应自施工起重机械架设验收合格之日起做多不超过（　）日内，向建设行政主管部门或者其他有关部门登记。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．30</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．50</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．60</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">48.某工程基坑开挖恰逢雨季，造成承包商雨季施工增加费用超支，产生此费用偏差的原因是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．业主原因</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．设计原因</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．施工原因</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．客观原因</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P120</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">49.施工企业对竣工工程现场成本和竣工工程完全成本进行核算分析的主体分别是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．项目经理部和企业财务部门</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．项目经理部和项目经理部</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．企业财务部门和企业财务部门</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．企业财务部门和项目经理部</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p106</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">50.根据九部委《标准施工招标文件》，关于承包人索赔期限的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．按照合同约定提交的最终结清申请单中，只限于提出工程接收证书颁发后发生的索赔</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．按照合同约定接收竣工付款证书后，仍有权提出在合同工程接收证书颁发前发生的索赔</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．按照合同约定接收竣工验证证书后，无权提出在合同工程接收证书颁发前发生的索赔</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．按照合同约定提交的最终结清申请单中，只限于提出工程接收证书颁发前发生的索赔</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p268</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">51.根据《建设工程项目管理规范》（GB/T50326-2006），施工项目经理在项目管理实施规划编制中的职责是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．参与编制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．主持编制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．协助编制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．批准实施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">52.项目安全管理的第二类危险源控制中，最重要的工作是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．加强员工的安全意识培训和教育</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．改善施工作业环境</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．建立安全生产监控体系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．制定应急救援体系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P205</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">53.某施工企业与建设单位采用固定总价方式签订了写字楼项目的施工总承包合同，若合同履行过程中材料价格上涨导致成本增加，这属于施工风险中（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．经济与管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．组织</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．技术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程环境</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P40</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">54.关于施工质量控制特点的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．需要控制的因素少，只有4M1E五大方面</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．生产受业主监督，因此过程控制要求低</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．施工生产的流动性导致控制的难度大</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程竣工验收书是对施工质量的全面检查</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P156</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">55.某室内装饰工程根据《建设工程工程量清单计价规范》（GB50500-2013）签订了单价合同，约定采用造价信息调整价格差额方法调整价格；原定6月施工的项目因发包人修改设计推迟至当年12月；该项目主材为发包人确认的可调价材料，价格由300元/ m2变为350元/m2。关于该工程工期延误责任和主材结算价格的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．发包人承担延误责任，材料价格按300元/m2计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．承包人承担延误责任，材料价格按350元/m2计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．承包人承担延误责任，材料价格按300元/m2计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．发包人承担延误责任，材料价格按350元/m2计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P85</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">56.编制人工定额时，应计入定额时间的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．擅自离开工作岗位的时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．辅助工作消耗的时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．工作时间内聊天的时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工作面未准备好导致的停工时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">57.当工程质量缺陷经加固、返工处理后仍无法保证达到规定的安全要求，但没有完全丧失使用功能时，适宜采用的处理方法是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．不做处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．报废处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．返修处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．限制使用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p181</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">58.关于施工投标的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．投标人在投标截止时间后送达的投标文件，招标人应移交评标委员会处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．投标人在招标范围以外提出新的要求，可视为对投标文件的补充，由评标委员会进行评定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．投标书中采用不平衡报价时，应视为对招标文件的否定</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．投标书需要盖有投标企业公章和企业法人的名章（签字）并并进行密封，密封不满足要求的按无效处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P234</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">59.根据下表逻辑关系绘制的双代号网络图如下，存在的绘图错误的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String"> </Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．节点编号不对</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．逻辑关系不对</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．有多个终点节点</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．有多个起点节点</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P135</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">60.关于用时间－成本累计曲线编制成本计划的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．可调整非关键工作的开工时间以控制实际成本支出</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．全部工作必须按照最早开始时间安排</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．全部工作必须按照最迟开始时间安排</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．可缩短关键工作的持续时间以降低成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P112</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">61.下列施工准备质量控制的工作中，属于技术准备的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．设置质量控制点</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．复核原始坐标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．规划施工场地</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．布置施工机械</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】A</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】bcd属于p164</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">62.对某综合楼项目实施阶段的总进度目标进行控制的主体是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．设计单位</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工单位</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．建设单位</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．监理单位</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】126</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">63.根据《建设工程监理规范》（GB/T50319－2013），工程建设监理规划应当在（　）前报送建设单位。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．签订委托监理合同</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．召开第一次工地会议</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．签发工程开工令</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．业主组织施工招标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】签订监理合同及收到设计文件后开始 。P45</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">64.下列工程材料采购时，供货商必须提供《生产许可证》的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．黏土烧结砖</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．建筑防水卷材</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．脚手架用钢管</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．混凝土外加剂</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】ACD建材备案证明。p165</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">65.某网络计划中，工作F有且仅有两项并进行的紧后工作G和H，G工作的最迟开始时间第12天，最早开始时间为第8天；H工作的最迟完成时间第14天，最早完成时间为第12天；工作F和G、H的时间间隔分别为4天和5天，则F工作的总时差为（　）天。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．7</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】B</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】（14－12）＋5＝7天p143</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">66.根据《生产安全事故应急预案管理办法》，施工单位应当制定本企业的应急预案演练计划，每年至少组织现场处置方案演练（　）次。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．3</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．4</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．2</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】每半年至少组织一次P209</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">67.下列施工方进度控制的措施中，属于组织措施的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．优化工程施工方法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．应用BIM信息模型</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．制定进度控制工作流程</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．采用网络计划技术</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】A技术  D B管理P151</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">68.某工程项目施工合同约定竣工时间为2016年12月30日，合同实施过程中因承包人施工质量不合格返工导致总工期延误了2个月；2017年1月项目所在政府出台了新政策，直接导致承包人计入总造价的税金增加20万元。关于增加的20万元税金责任承担的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．由承包人和发包人共同承担，理由是国家政策变化，非承包人的责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．由发包人承担，理由是国家政策变化，承包人没有义务承担</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．由承包人承担，理由是承包人责任导致延期、进而导致税金增加</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．有发包人承担，理由是承包人承担质量问题责任，发包人承担政策变化责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">69.关于质量管理体系认证与监督的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．企业质量管理体系由国家认证认可监督委员会认证</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．企业获准认证的有效期为六年</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．企业获准认证后第三年接受认证机构的监督管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．企业获准认证后应经常性的进行内部审核</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】D</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P161</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">70.关于建设工程施工招标评标的说法，正确的是（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．投标报价中出现单价与数量的乘积之和与总价不一致时，将作无效标处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．投标书中投标报价正本、副本不一致时，将作无效标处理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．评标委员会推荐的中标候选人应当限定在1～3人，并标明排列顺序</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．初步评审是对标书进行实质性审查，包括技术评审和商务评审</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】C</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p231</Data></Cell>
+   </Row>
+   <Row ss:Height="15.75">
+    <Cell ss:StyleID="s65"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">二、多项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">71.项目技术组队施工进度滞后的情况，提出了增加夜班作业、改变施工方法两种加快进度的方案，项目经理通过比较，确定采用增加夜班作业以加快速度，物资组落实了夜间施工照明等条件，安全组对夜间施工安全条件进行了复查，上述管理工作体现在管理职能中“筹划”环节的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．提出两种可能加快进度的方案</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．确定采用增加夜间施工加快进度的方案</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．复查夜间施工安全条件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．两种方案的比较分析</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．落实夜间施工照明条件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ad</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P21</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">72.下列施工方进度控制的措施中，属于管理措施的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．构建施工进度控制的组织体系</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．用工程网络计划技术进行进度管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．编制与施工进度相适应的资源需求计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．选择合理的合同结构</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．采取进度风险的管理措施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】BDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】A组织措施  C 经济措施 p151</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">73.关于《标准施工招标文件》中缺陷责任的说法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．发包人提前验收的单位工程，缺陷责任期按全部工程竣工日期起计算</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．缺陷责任期内，承包人对已验收使用的工程承担日常维护工作</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．承包人应在缺陷责任期内对已交付使用的工程承担缺陷责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．承包人不能在合理时间内修复缺陷，发包人自行修复，承包人承担一切费用</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．监理人和承包人应共同查清工程产生缺陷和（或）损坏的原因</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】CD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p246</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">74.根据《建设工程工程量清单计价规范》（BG 50500-2013），分部分项工程综合单价应包含（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．企业管理费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．税金</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．规费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．利润</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．措施费</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】AD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P63</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">75.根据《建设工程施工合同（示范文本）》（GF－2013－0201），采用变动总价合同时，一般可对合同价款进行调整的情形有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．施工方承担的损失超过其承受能力</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．一周内非承包商原因停电造成的停工累计达到7小时</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．法律、行政法规和国家有关政策变化影响合同价款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程价款管理部门公布的价格调整</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．外汇汇率变化影响合同价款</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】CD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】E为引起价格变化的问题，P257</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">76.施工质量成本中，运行质量成本包括（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．预防成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．鉴定成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．内部损失成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．外部损失成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．外部质量保证成本</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABCD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】施工质量成本分为运行质量成本和外部质量保证成本，运行成本包括预防成本、鉴定成本、内部损失成本、和外部损失成本。p158</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">77.下列施工组织设计的内容中，属于施工部署与施工方案内容的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．安排施工顺序</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．比选施工方案</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．计算主要技术经济指标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．编制施工准备计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．编制资源需求计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】AB</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">78.关于实施性施工进度计划作用的说法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．确定施工总进度目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．确定里程碑时间的进度目标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．确定施工作业的具体安排</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．确定一定周期内的人工需求</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．确定一定周期内的资金需求</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】CDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P132</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">79.政府质量监督机构实施监督检查时，有权采取的措施有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．进入被检查单位的施工现场进行检查</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．要求被检查单位提供相关工程财务台账</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．发现有影响工程质量问题时，责令改正</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．降低企业资质等级</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．吊销企业营业执照</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】AC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P182</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">80.下列工程任务或工作中，可作为施工合同跟踪对象的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工程施工质量</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工程施工进度</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．业主工程款项支付</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．政府质量监督部门的质量检查</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．施工成本的增加和减少</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABCE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p260</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">81.根据《建设工程项目管理规范》（GB/T50326-2006），施工企业项目经理的权限有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．向外筹集项目建设资金</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．自主选择分包人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．参与组建项目经理部</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．制定项目内部计酬办法</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．主持项目经理部工作</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】CDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p36</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">82.关于施工成本核算的方法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．成本核算时应做到预测、计划、实际成本三同步</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．成本核算制和项目经理责任制等共同构成项目管理的运行机制</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．竣工工程完全成本用于考核项目管理绩效</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．定期成本核算是竣工工程全面成本核算的基础</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．施工成本一般以单位工程为成本核算对象</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】BDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】竣工工程现场成本用于考核项目管理绩效，竣工工程完全成本用于企业经营效益。p106</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">83.关于建设工程项目进度计划系统的说法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．项目进度计划系统的建立和完善是逐步进行的</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．在项目进展过程中进度计划需要不断的调整</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．供货方根据需要和用途可编制不同深度的进度计划系统</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．业主方只需编制总进度规划和控制性进度规划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．业主方与施工方进度控制的目标和时间范畴相同</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p129</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">84.下列施工质量事故中，属于指导责任事故的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．混凝土振捣疏漏造成的质量事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．砌筑工人不按操作规程施工导致墙体倒塌</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．负责人放松质量标准造成的质量事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．负责人追求施工进度造成的质量事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．浇筑混凝土操作者随意加水使强度降低造成的质量事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】CD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P176</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">85.根据《建设工程安全生产管理条例》，对达到一定规模的危险性较大的分部分项工程，正确的安全管理做法有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．所有专项施工方案均应组织专家进行论证，审查</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工单位应当编制专项施工方案，并附具安全验算结果</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．专项施工方案由专职安全生产管理人员进行现场监督</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．专项施工方案经现场监理工程师签字后即可实施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．专项施工方案应由企业法定代表人审批</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】BC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p200</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.5">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">86.某工程主要工作是混凝土浇筑，中标的综合单价是400元/m3，计划工程量是80003。施工过程中因原材料价格提高使实际单价为500元/m3，实际完成并经监理工程师确认的工程量是9000m3。若采用赢得值法进行综合分析，正确的结论有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．已完工作预算费用为360万元</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．费用偏差为90万元，费用节省</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．进度偏差为40万元，进度拖延</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．已完实际费用为450万元</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．计划工作预算费用为320万元</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ADE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】已完工作预算费用为9000*400=360万元</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">费用偏差9000*(400-500)=-90万元，费用超支</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">进度偏差（9000-8000）*400=40万元，进度超前</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">已完实际费用为9000*5000=450万元</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">计划工作预算费用为400*800=320万元   p118</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">87.根据《生产安全事故报告和调查处理条例》，对事故单位处100万元以上500万元以下罚款的情形有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．谎报或者瞒报事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．迟报或者漏报事故</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．伪造事故现场</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．事故发生后逃匿</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．在事故调查处理期间擅离职守</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ACD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P213</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">88.下列影响施工质量的因素中，属于材料因素的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．建筑构配件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．新型模板</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．计量器具</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程设备</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．安全防护设施</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】AB</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P154</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">89.与施工总承包模式相比，施工总承包管理模式的优点有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．整个项目的合同总额确定较有依据</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工总承包管理单位只赚取总包与分包之间的差价</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．通过招标确定施工承包单位，有利于业主节约投资</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．一般在施工图设计全部结束后，才能进行施工总承包管理的招标</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．业主对分包单位的选择具有控制权</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ACE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P226</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">90.下列工人工作的时间中，属于损失时间的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．多于和偶然工作时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．材料供应不及时导致的停工时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．因施工工艺特点引起的工作中断时间</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．技术工人由于差错导致的工时损失</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．工人午休后迟到造成的工时损失</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P73</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">91.下列施工文件档案中，属于工程质量控制资料的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工程项目原材料检验报告</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工试验记录</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．工程质量事故记录文件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．隐蔽工程验收记录文件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．交接检查记录</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P281</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">92.下列信息和资料中，可以作为施工合同索赔证据的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．监理工程师的口头指示</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．施工合同文件</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．相关法律法规</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工程各项会议纪要</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．施工日记和现场记录</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】BDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P265</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">93.关于施工企业项目经理的说法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．是施工企业法定代表人委托对项目施工过程全面负责的项目管理者</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．是承包人为实施项目临时聘用的专业人员</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．项目经理经承包人授权后代表承包人负责履行合同</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．是施工企业全面履行施工承包合同的法定代表人</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．是施工承包合同中的权利、义务的责任主体</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】AC</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P33</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">94.根据《建设工程安全生产管理条例》和《职业健康安全管理体系》GB/T28000标准。建设工程对施工职业健康安全管理的基本要求包括（　）。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工程设计阶段，设计单位应制定职业健康安全生产技术措施计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工程施工阶段，施工企业应制定职业健康安全生产技术措施计划</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．施工企业在其经营生产的活动中必须对本企业的安全生产负全面责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．实行总承包的建设工程，由总承包单位对施工现场的安全生产负总责</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．实行总承包的建设工程，分包单位应当接受总承包单位的安全生产管理</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】BCDE</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】P191</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:MergeAcross="18" ss:StyleID="s73"><Data ss:Type="String">95.某项目分部工程双代号时标网络计划如下图，关于该网络计划的说法，正确的有（　）。</Data></Cell>
+   </Row>
+   <Row ss:Index="720" ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">A．工作的C、E、I、L组成关键线路</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">B．工作H的总时差为2天</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">C．工作A、C、H、L是关键工作</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">D．工作D的总时差为1天</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">E．工作G的总时差与自由时差相等</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【答案】ABD</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="17.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s75"><Data ss:Type="String">【解析】p148</Data></Cell>
+   </Row>
+   <Row ss:Height="17.25">
+    <Cell ss:StyleID="s66"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C19</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

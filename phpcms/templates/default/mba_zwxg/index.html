@@ -1,0 +1,281 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>网页标题</title>
+	<meta name="keywords" content="关键字列表" />
+	<meta name="description" content="网页描述" />
+	<link rel="stylesheet" type="text/css" href="{APP_PATH}statics_ZWXG/css/css.css" />
+	<script src="{APP_PATH}statics_ZWXG/js/tankuang.js"></script>
+	<!-- <script src="{APP_PATH}statics_ZWXG/js/jquery-1.9.1.js"></script> -->
+	<script src="{APP_PATH}statics_ZWXG/js/jquery-1.10.2.min.js"></script>
+	<script src="{APP_PATH}statics_ZWXG/js/ajax_file.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#ajaxsubmit').click(function(){
+				var tijiao = new Array();
+				tijiao['name'] = $('#name').val();
+				tijiao['mobile'] = $('#mobile').val();
+				code_img = $('#code_img').val();
+				code_mobile = $('#code_mobile').val();
+				tijiao['qq'] = $('#qq').val();
+				tijiao['textarea'] = $('#textarea').val();
+				tijiao['textarea_1'] = $('#textarea_1').val();
+				if(!tijiao['name']){
+					alert('姓名不可为空');
+					$("#name").focus();
+					return ;
+				}
+				if(!tijiao['mobile']){
+					alert('手机号码不可为空');
+					$("#mobile").focus();
+					return ;
+				}
+				if(!code_img){
+					alert('图片验证码不可为空');
+					$("#code_img").focus();
+					return ;
+				}
+				if(!code_mobile){
+					alert('手机验证码不可为空');
+					$("#code_mobile").focus();
+					return ;
+				}
+				if(!tijiao['qq']){
+					alert('QQ号码不可为空');
+					$("#qq").focus();
+					return ;
+				}
+				if(!tijiao['textarea']){
+					alert('作文题目不可为空');
+					$("#textarea").focus();
+					return ;
+				}
+				if(!tijiao['textarea_1']){
+					alert('作文正文不可为空');
+					$("#textarea_1").focus();
+					return ;
+				}
+
+				var url = 'index.php?m=mba_zwxg&c=index&a=tijiao';
+				var data = $('#myform_tijiao').serializeArray();
+				// console.log(data);
+				$.post(url,{data:data},function(data){
+					if(data == 'code_img_error'){
+						alert('图片验证码错误！');
+					}
+					else if(data == 'fill_in_blanks'){
+						alert('请填写完整！');
+					}
+					else if(data == 'insert_ok'){
+						alert('提交成功，请完成支付！');
+						show(tijiao['name'],tijiao['mobile']);
+					}
+					else{
+						alert('ERROR:'+data);
+					}
+					// console.log(data);
+				});
+
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="top">
+		<div class="main">
+			<div class="logo"><a target="_black" href="###"><img src="{APP_PATH}statics_ZWXG/images/logo.jpg"></a></div>
+			<p>只要太阳还是升起，我就必能创造奇迹！</p>
+		</div>
+	</div>
+	<div class="banner">
+		<div class="ban ban1"></div>
+		<div class="ban ban2"></div>
+		<div class="ban ban3"></div>
+		<div class="ban ban4"></div>
+		<div class="ban ban5"></div>
+	</div>
+	<div class="content">
+		<div class="main">
+			<!-- <form  method="post" action="{APP_PATH}index.php?m=mba_zwxg&c=index&a=tijiao&siteid={SITEID}" name="myform" id="myform_tijiao"> -->
+				<form  method="" action="" name="myform_tijiao" id="myform_tijiao">
+					<ul>
+						<li class="a1"><span>姓名：</span><input name="tijiao[name]" type="text" id="name"  value=""></li>
+						<li class="a_1"><span>手机：</span><input name="tijiao[phone]" type="text" id="mobile"  value=""></li>
+						<li class="a_11"><span>验证码：</span><input type="text" id="code_img" name="code" /><img id='code_img' onclick='this.src=this.src+"&"+Math.random()' src='{APP_PATH}api.php?op=checkcode&code_len=4&font_size=18&width=130&height=50&font_color=&background='></li>
+						<li class="a4">
+							<span class="jiak">手机验证码：</span><input type="text" id="code_mobile" name="code_mobile" />
+							<input id="button_code_tj" onclick="get_sms_code(this)" type="button" class="button_bd" value="获取验证码"/>
+						</li>
+						<li class="a_111"><span>QQ：</span><input name="tijiao[QQ]" id="qq" type="text" value=""></li>
+						<li class="a11"><span>类型：</span>
+							<select name="tijiao[zw_type]">
+								<option value="中文写作">中文写作</option>
+								<option value="英文写作">英文写作</option>
+							</select>
+						</li>
+						<li class="a2"><span>题目：</span><textarea name="tijiao[title]" class="duohang" id="textarea" row="6" col="4"></textarea></li>
+						<li class="a3"><span>正文：</span><textarea name="tijiao[content]" class="duohang" id="textarea_1" row="6" col="4">在此输入作文或下一行上传原图</textarea></li>
+						<li class="a2">
+							<input name='tijiao[yt_thumb]' id="feedback" type="text" value="" />
+							<span class="jiak">作文原图：</span><input type="file" multiple="multiple" id="inputfile" name="file" value="作文原图"/>
+						</li>
+					</ul>
+					<ul>
+						<li class="a2">
+							<div class="jilu" onclick="show1()">
+								<center>
+									<input type="button" value="历史批改记录" id="btn1">
+								</center>
+							</div>
+						</li>
+						<!-- 弹出层结束 -->
+						<li class="center"><input type="button" name="ajaxsubmit" id="ajaxsubmit" value="提交作文" onclick="" class="tijiao"></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+
+		<script> 
+			$.fn.autoTextarea = function (options){
+				var defaults = {
+					maxHeight:null,
+					minHeight:$(this).height()
+				};
+				var opts = $.extend({}, defaults, options);
+
+				return $(this).each(function (){
+					var _this = $(this);
+					_this.bind('paste cur keydown keyup focus blur', function (){
+						var height, style = this.style;
+						style.height = opts.minHeight + 'px';
+						if(this.scrollHeight > opts.minHeight){
+							if(opts.maxHeight && this.scrollHeight > opts.maxHeight){
+								height = opts.maxHeight;
+								style.overflowY = 'scroll';
+							}else{
+								height = this.scrollHeight;
+								style.overflowY = 'hidden';
+							}
+							style.height = height + 'px';
+						}
+					});
+				});
+			}
+			$(function (){
+				$('#textarea').autoTextarea({
+					maxHeight:600
+				});
+			});
+			$(function (){
+				$('#textarea_1').autoTextarea({
+					maxHeight:600
+				});
+			});
+		</script>
+	</body>
+	</html>
+	<!-- 支付弹框 -->
+	<div class="lbOverlay"  onclick="closeDiv()"></div>
+	<div class="hidden_pro_au">
+		<div class="sjh">
+			<span>姓 名：</span>
+			<input name="pay_name" type="text" id="pay_name"  value="">
+			<input name="pay_phone" type="hidden" id="pay_phone"  value="">
+		</div>
+		<div class="sjh"><span>手机号：</span><input name="pay_phone" type="text" id="pay_phone"  value=""></div>
+		<!-- <img src="{APP_PATH}statics_ZWXG/images/weixin.jpg"> -->
+		<script type="text/javascript"> 
+			quest_url = "http://www.halouxue.com/wxpay_new/example/native_test.php?name=";
+		</script>
+		<!-- <div id="quest_img"><div/> -->
+			<iframe id="quest_img" src="" frameborder="0" height="260" width="260" scrolling="no"></iframe>
+			<p>扫描二维码支付，进行作文修改</p>
+			<p style="color:red;font-size: 18px;">*支付时必须备注好姓名</p>
+		</div>
+		<div class="cxjg" onclick="closeDiv1()"></div>
+		<div class="cxjg_1">
+			<form  method="post" action="{APP_PATH}index.php?m=mba_zwxg&c=index&a=history&siteid={SITEID}" name="myform" id="myform">
+				<div class="lsjg"><span>手机号：</span><input name="history_mobile" type="text" id="history_mobile"  value=""></div>
+				<div class="lsjg">
+					<span>验证码：</span><input type="text" id="code_his" name="code" /><img id='code_img' onclick='this.src=this.src+"&"+Math.random()' src='{APP_PATH}api.php?op=checkcode&code_len=4&font_size=18&width=130&height=50&font_color=&background='>
+				</div>
+				<div class="lsjg">
+					<span>手机验证码：</span><input type="text" id="code_img" name="mobile_code" />
+					<input id="button_code_his" onclick="get_sms_code(this)" type="button" class="button_bd" value="获取验证码"/>
+				</div>
+				<div class="ttj"><input type="submit" name="historysubmit" value="查看历史修改记录" class="chakan"></div>
+			</form>
+		</div>
+
+		<script type="text/javascript">
+			var times = 120;
+			var isinerval;
+			var type_mark;
+			function get_sms_code(param)
+			{
+		// alert(param.id);
+		type_mark = param.id.split('_')[2];
+		if(type_mark == 'tj'){
+			var mobile = $("#mobile").val();
+			var code = $("#code_img").val();
+		}
+		else if($type_mark = 'his'){
+			var mobile = $("#history_mobile").val();
+			var code = $("#code_his").val();			
+		}
+		var preg_mobile = /^1[3|4|5|7|8][0-9]\d{8}$/;
+		var res_preg = preg_mobile.test(mobile);
+		if(!res_preg)
+		{
+			alert('手机号格式错误');
+			if(type_mark == 'tj'){
+				$("#mobile").focus();
+			}
+			else if($type_mark = 'his'){
+				$("#history_mobile").focus();
+			}
+			return false;
+		}
+		var url = 'index.php?m=other&c=sms_http&a=zwxg_mobile_code';
+		$.get(url,{mobile:mobile,code:code,mark:type_mark},function(data){
+			if(data == 1)
+			{
+				alert('手机短信发送成功');
+				times = 120;
+				isinerval = setInterval("CountDown()", 1000);
+			}
+			else if(data == -1)
+			{
+				alert('手机格式错误');
+				return false;
+			}
+			else if(data == -2)
+			{
+				alert('图形验证码错误,请重新输入');
+				return false;
+			}
+			else if(data == -3)
+			{
+				alert('服务器繁忙，请联系管理员');
+				return false;
+			}
+			else
+			{
+				alert(data);
+				return false;
+			}
+		});
+
+	}
+	function CountDown() {
+		if (times < 1) {
+			$("#button_code_"+type_mark).val("获取短信验证码").attr("disabled", false);
+			clearInterval(isinerval);
+			return;
+		}
+		$("#button_code_"+type_mark).val(times+"秒后重获验证码");
+		$("#button_code_"+type_mark).attr('disabled',true)
+		times--;
+	}   
+</script>

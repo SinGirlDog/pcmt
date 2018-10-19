@@ -1,0 +1,40 @@
+{template "content","header"}
+<!--main-->
+    <section class="list">
+    	<div class="alllist">
+            <article class="newslist left">
+            	<div class="article_banner">
+                	<ul>
+                    	<li>
+<?php
+$categroy=array('t1'=>array('6'),'t2'=>array('7','10','11','12','13'));
+foreach($categroy as $catek=>$catev){
+ if(in_array($catid,$catev)){
+echo "<img src='".IMG_PATH_PDW."article_banner_fon$catek.jpg' />";
+}else{
+unset($catev);
+}
+}?>							
+</li>
+                        <li>协作，网络中你是信息的接收者，也是信息的传播者</li>
+                        <li>开放，网络既没有时间界限也没有地域界限</li>
+                        <li>平等，在网络面前没有人知道你是谁</li>
+                        <li>分享，互联网发展的原动力</li>
+                    </ul>
+                    </div>
+                {pc:content action="lists" catid="$catid" num="5" order="id DESC" page="$page"}
+                {loop $data $r}
+                {php $db = pc_base::load_model('hits_model');   $_r = $db->get_one(array('hitsid'=>'c-'.$modelid.'-'.$r[id])); $views = $_r[views]; }
+                {php $comment_tag = pc_base::load_app_class("comment_tag", "comment"); $comment_total = $comment_tag->count(array('commentid'=>'content_'.$catid.'-'.$r[id].'-'.$modelid));} 
+                <ul class="article_content">
+                	<h3><a href="{$r[url]}" target="_blank">{$r[title]}</a></h3>
+                    <h4>发表于 {date('Y年m月d日 H:i:s',$r[inputtime])}</h4>
+                    <p>{$r[description]}<a href="{$r[url]}">【更多】</a></p>
+					<li>本文已被浏览 {$views} 次  <a href="#">阅读全文</a>  共有 {if $comment_total}{$comment_total}{else}0{/if} 条评论</li>
+                </ul>
+                {/loop}
+                <div id="pages" class="text-c">{$pages}</div>
+                {/pc}
+            </article>
+{template "content","right"}
+{template "content","footer"}

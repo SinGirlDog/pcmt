@@ -1,0 +1,54 @@
+{template 'phpcms','header'}
+<div style="position:absolute; left:0px; top:372px; width:768px; height:1383px; z-index:2; BACKGROUND-COLOR:#000000"></div>
+<div style="position:absolute; left:130px; top:387px; width:515px; height:240px; z-index:2; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/infoContentsBg.gif" width="100%" height="100%"></div>
+<div class="position" style="position:absolute; left:135px; top:405px; width:515px; height:20px; z-index:3; BACKGROUND-COLOR:"><!--位置导航-->当前位置：<a href="{$channelurl}">{$channelname}首页</a> >> {$position}
+</div>
+<div style="position:absolute; left:130px; top:430px; width:200px; height:200px; z-index:3; BACKGROUND-COLOR:"><!--热门图片幻灯片-->
+{$slidepicpicture(0,$channelid,0,1,0,5,36,0,30,5,200,175,5000,-1)}</div>
+<div style="position:absolute; left:335px; top:427px; width:200px; height:200px; z-index:3; BACKGROUND-COLOR:"><!--热门图片标题-->
+{$picpicture('0',3,0,1,0,0,6,6,0,0,0,1,1,0,90,65,3)}</div>
+<div style="position:absolute; left:145px; top:666px; width:271px; height:168px; z-index:3; BACKGROUND-COLOR:">&nbsp;&nbsp;&nbsp;&nbsp;<font color="#ffffff" size="2"><b>推荐图片</b></font></div>
+<div style="position:absolute; left:146px; top:685px; width:485px; height:98px; z-index:3; BACKGROUND-COLOR:">
+    <!--推荐图片-->
+{$picturelist('0',3,0,1,0,0,12,10,0,0,0,0,0,0,0,0,1,3)}
+</div>
+
+<div style="position:absolute; left:130px; top:627px; width:515px; height:147px; z-index:2; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/titleMenu01Bg.gif" width="100%" height="100%"></div>
+<!--自定义背景-->
+<div style="position:absolute; left:130px; top:774px; width:515px; z-index:3; BACKGROUND-IMAGE:URL({$skindir}/pic/yezhongbeijing.gif);">
+
+<!--自定义栏目开始-->
+ {$picpicture(0,$channelid,$catid,0,0,$page,$maxperpage,34,0,0,0,3,1,0,100,100,4)}
+ <!--搜索框-->
+<script language="Javascript" src="{PHPCMS_PATH}data/js/search.js"></script>
+<!--自定义栏目结束-->
+<br><br>
+
+
+
+<!--尾部开始-->
+<div style="position:absolute; left:0px; width:515px; height:24px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend01.gif" width="100%" height="100%"></div>
+<br>
+<div style="position:absolute; left:0px; width:10px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend02.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:10px; width:274px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend03.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:284px; width:72px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend04.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:355px; width:151px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend05.gif" width="100%" height="100%"></div>
+<div style="position:absolute; left:505px; width:10px; height:37px; z-index:9; BACKGROUND-COLOR:"><img border=0 src="{$skindir}/pic/mainend06.gif" width="100%" height="100%"></div>
+<!--尾部结束-->
+</div>
+
+<div style="position:absolute; left:0px; top:390px; width:129px; height:600px; z-index:10; BACKGROUND-COLOR:">
+<!--左边栏--><img border=0 src="{$skindir}/pic/200504301241507108457447.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:646px; top:390px; width:122px; height:600px; z-index:9; BACKGROUND-COLOR:">
+<!--右边栏--><img border=0 src="{$skindir}/pic/2005.jpg" width="100%" height="100%"></div>
+<div style="position:absolute; left:769px; top:0px; width:147px; z-index:8; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent06.gif)">
+<!--右侧通栏菜单开始--><br><br><br>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center>最新推荐</div>
+<div id="youce" style="PADDING-LEFT: 5px; border:0" "><!--推荐图片-->{$picturelist('0',3,0,1,0,0,2,10,0,0,0,1,0,0,0,0,1,1)}</div>
+<div id="youce" style="PADDING-TOP: 6px; width:147px; height:25px; BACKGROUND-IMAGE:URL({$skindir}/pic/y_newcontent09.gif)"><center>最新推荐</div>
+<div id="youce" style="PADDING-LEFT: 5px;"><!--推荐图片-->{$picturelist('0',3,0,1,0,0,10,10,0,0,0,0,0,0,0,0,1,1)}</div>
+<div><img src="{$skindir}/pic/y_newcontent11.gif"></dir>
+</div>
+</div>
+
+</body></html>

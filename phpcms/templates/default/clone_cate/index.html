@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clone_cate</title>
+</head>
+<body>
+	<?php
+	
+	foreach($test_data_0 as $key=>$val)
+	{
+		echo $val[catid]."=>".$val[catname]."<br>";
+		if($val[child] == 1)
+		{
+			foreach($test_data_1[$val[catid]] as $key_1 => $val_1)
+			{
+				echo "-------".$val_1[catid]."=>".$val_1[catname]."<br>";
+				if($val_1[child] == 1)
+				{
+					foreach($test_data_2[$val_1[catid]] as $key_2 => $val_2)
+					{
+						echo "-------"."-------".$val_2[catid]."=>".$val_2[catname]."<br>";
+						if($val_2[child] == 1)
+						{
+							foreach($test_data_3[$val_2[catid]] as $key_3 => $val_3)
+							{
+								echo "-------"."-------"."-------".$val_2[catid]."=>".$val_2[catname]."<br>";
+
+							}
+						}
+
+					}
+				}
+			}
+		}
+		#foreach($val as $k=>$v)
+		#{
+		#	echo $k."=>".$v."<br>";
+		#}
+	}
+
+	echo "<pre/>";
+	var_export($cidold_cidnew_arr);
+
+	?>
+</body>
+</html>

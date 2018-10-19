@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+	<meta property="wb:webmaster" content="614ad88064090d93" />
+	<meta name="keywords" content="{$SEO['keyword']}">
+	<meta name="description" content="{$SEO['description']}">
+	
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/style.css">
+	<link rel="stylesheet" type="text/css" href="{CSS_PATH_XHC}18xhc/index.css">
+	<!-- 焦点图 -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery 1.7.1.js"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/jquery.litenav.js"></script>
+	<!-- 焦点图 end -->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/mpacc.js"></script>
+	<!--切换-->
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/index.js"></script>
+	<script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="{JS_PATH_XHC}18xhc/common.js"></script>
+</head>
+<body>
+
+	{template "content","header_NEW"}
+	<!-- main_content -->
+	<!-- m2 -->
+	<div class="main m2">
+		<div class="m2_left">
+			<div class="hd">
+				<div class="m2_left_l">
+					<h2><span >开课信息</span></h2>
+				</div>
+				<div class="m2_left_r m2_left_hide">
+					<h2><span >考试资讯</span></h2>
+				</div>
+			</div>
+			<div class="hd">
+				<div class="list_m2">
+					<ul>
+						{pc:content  action="lists" catid="723" order="listorder DESC , id DESC" num="4"}
+						{php $arc_numth = 0;}
+						{loop $data $key $val}
+						{php $arc_numth++;}
+						<li>
+							<div class="right">
+								<span>{$arc_numth}</span>
+								<a href="{$val['url']}" target="_blank" title="{$val['title']}">{str_cut($val['title'],55)}</a></b></p></a>
+								<div class="kbxx-desc">
+									{str_cut($val['description'],130)}
+								</div>
+								<div class="right_third">电话:010-82662415/010-82678078<img class="delay" src="{IMG_PATH_XHC}18xhc/li_bg.gif" /></div>
+							</div>
+						</li>
+						{/loop}
+						{php unset($arc_numth);}
+						{/pc}
+					</ul>
+				</div>
+				<div class="list_m2 list_m2_hide">
+					<ul>
+						{pc:content  action="lists" catid="61" where=" catid IN(61,62,63,64,65)" order="listorder DESC , id DESC" num="4"}
+						{php $arc_numth = 0;}
+						{loop $data $key $val}
+						{php $arc_numth++;}
+						<li>
+							<div class="right">
+								<span>{$arc_numth}</span>
+								<a href="{$val['url']}" target="_blank" title="{$val['title']}">{str_cut($val['title'],55)}</a></b></p></a>
+								<div class="kbxx-desc">
+									{str_cut($val['description'],130)}
+								</div>
+								<div class="right_third">电话:010-82662415/010-82678078<img class="delay" src="{IMG_PATH_XHC}18xhc/li_bg.gif" /></div>
+							</div>
+						</li>
+						{/loop}
+						{php unset($arc_numth);}
+						{/pc}
+					</ul>
+				</ul>
+			</div>
+			
+		</div>
+		
+	</div>
+	<div class="m2_right">
+		<!-- 焦点图代码 开始 -->
+		<div id="hotpic">
+			<div id="NewsPic">
+				<a target="_blank" href="http://www.tqmpacc.com/zt/2019zsjz/" style="display: block;">
+					<img src="{IMG_PATH_XHC}18xhc/banner1.gif" class="Picture" alt="测试用图片" title="第1张图片的说明文字" />
+				</a>
+				<a target="_blank" href="http://www.tqmba.com.cn/zt/yc-cc/">
+					<img class="Picture" src="{IMG_PATH_XHC}18xhc/banner2.gif" alt="测试用图片" title="第2张图片的说明文字" />
+				</a>
+				<a target="_blank" href="http://www.tqmpacc.com/zt/2017fszyk/">
+					<img class="Picture" src="{IMG_PATH_XHC}18xhc/banner3.gif" alt="测试用图片" title="第3张图片的说明文字" />
+				</a>
+				<a target="_blank" href="#">
+					<img class="Picture" src="{IMG_PATH_XHC}18xhc/banner4.gif" alt="测试用图片" title="第4张图片的说明文字" />
+				</a>
+				<a target="_blank" href="http://beijing.tqmpacc.com/html/2016/mryl_1230/1759.html">
+					<img src="{IMG_PATH_XHC}18xhc/banner5.gif" class="Picture" alt="测试用图片" title="第5张图片的说明文字" />
+				</a>
+				<div class="Nav">
+					<span class="Normal">5</span>
+					<span class="Normal">4</span>
+					<span class="Normal">3</span>
+					<span class="Normal">2</span>
+					<span class="Cur">1</span>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$('#hotpic').liteNav(2500);
+		</script>
+		<!-- 焦点图代码 结束 -->
+		<div class="m2_right_bottom">
+			<div class="red_hd">
+				<span>课程中心</span>
+			</div>
+			<div class="pic_text">
+				<ul>
+					<li><img src="{IMG_PATH_XHC}18xhc/kczx_01.png"><a href="/2014topic/zsjz/index.html">一级建造师</a></li>
+					<li><img src="{IMG_PATH_XHC}18xhc/kczx_02.png"><a href="/2014topic/zsjz/index2.html">二级建造师</a></li>
+					<li><img src="{IMG_PATH_XHC}18xhc/kczx_03.png"><a href="/2014topic/zsjz/xfgcs/index.html">消防工程师</a></li>
+					<li><img src="{IMG_PATH_XHC}18xhc/kczx_04.png"><a href="/2014topic/zsjz/jzExt/index5.html">造价工程师</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- m3 -->
+<div class="main m3">
+	<div class="m3_left">
+		<div class="m3_left_hd">
+			<div class="red_hd">
+				<span>网课试听推荐</span>
+			</div></div>
+			<div class="m3_left_bd">
+				{pc:content  action="position" posid="19" order="listorder DESC , id DESC" num="3"}
+				{loop $data $key $val}
+				<!-- {php echo '<pre/>';var_dump($val);} -->
+				<div class="pic_1">
+					<a target="_blank" href="{$val['url']}" title="{$val['title']}">
+						<img src="{IMG_PATH_XHC}18xhc/sttj_01.gif">
+					</a>
+				</div>
+				{/loop}
+				{/pc}
+			</div>
+		</div>
+		<div class="m3_right">
+			<div class="pic_3">
+				<img src="{IMG_PATH_XHC}18xhc/2wm_01.png">
+				<span>兴宏程官方微信</span>
+			</div>
+			<div class="vr_line"></div>
+			<div class="pic_4">
+				<img src="{IMG_PATH_XHC}18xhc/2wm_02.png">
+				<span>兴宏程官方微博</span>
+			</div>
+		</div>
+	</div>
+	<!-- m3.5 -->
+	<div class="m3_5">
+		<img src="{IMG_PATH_XHC}18xhc/m3_5.png">
+	</div>
+	<!-- m5 -->
+	<div class="main m5">
+		<div class="m5_left">
+			<div class="zb_biao">
+				<div class="lm_title">
+					<div class="red_hd">
+						<span>考试资讯</span>
+					</div>
+				</div>
+				<div class="zb_menu">
+					<ul id="zx_m_ul" class="zb_menu_ul">
+						<li class="menu_li"><a href="{$CATEGORYS[57][url]}">一级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[116][url]}">二级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[5009][url]}">消防工程师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[148][url]}">造价工程师</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hr_line"></div>
+			<div id="zx_mv_mk" class="move_mark">
+				<img src="{IMG_PATH_XHC}18xhc/move_mark.png">
+			</div>
+
+			<div class="panes">
+				<div class="pane">
+					<div class="zb_left zx_box_01">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="57" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}
+							</ul>
+						</div>
+					</div> 
+					<div class="zb_left zx_box_02 zx_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="116" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}				
+							</ul>
+						</div>
+					</div>
+					<div class="zb_left zx_box_03 zx_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="5009" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}				
+							</ul>
+						</div>
+					</div>
+					<div class="zb_left zx_box_04 zx_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="148" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}				
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="zb_biao">
+				<div class="lm_title">
+					<div class="red_hd">
+						<span>考试资料</span>
+					</div>
+				</div>
+				<div class="zb_menu">
+					<ul id="zl_m_ul" class="zb_menu_ul">
+						<li class="menu_li"><a href="{$CATEGORYS[60][url]}">一级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[140][url]}">二级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[5006][url]}">消防工程师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[44][url]}">造价工程师</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hr_line"></div>
+			<div id="zl_mv_mk" class="move_mark">
+				<img src="{IMG_PATH_XHC}18xhc/move_mark.png">
+			</div>
+			<div class="panes">
+				<div class="pane">
+					<div class="zb_left zl_box_01">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="60" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}								
+							</ul>
+						</div>
+					</div>
+					<div class="zb_left zl_box_02 zl_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="140" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}							
+							</ul>
+						</div>
+					</div>
+					<div class="zb_left zl_box_03 zl_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="5006" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}								
+							</ul>
+						</div>
+					</div>
+					<div class="zb_left zl_box_04 zl_box_hide">
+						<div class="zb_fl">
+							<ul>
+								{pc:content  action="lists" catid="44" order="listorder DESC , id DESC" num="10"}
+								{php $numth = 0;}
+								{loop $data $key $val}
+								{php $numth++;}
+								<li><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+								{if $numth==5}
+							</ul>
+						</div>
+						<div class="zb_fr">
+							<ul>
+								{/if}
+								{/loop}
+								{php unset($numth);}
+								{/pc}								
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="m5_right">
+			<div class="xxyy">
+				<div class="xxyy_hd">
+					<div class="fire_hd">
+						<span>兴宏程学习应用</span>
+					</div>
+					<div class="more_plus">
+						<span>MORE+</span>
+					</div>
+				</div>
+				<ul>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/xxyy_02.png"></span>
+						<span>在线课程</span>
+						<span><button>查看</button></span>
+					</li>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/xxyy_03.png"></span>
+						<span>在线课程</span>
+						<span><button>查看</button></span>
+					</li>
+					<li>
+						<span><img src="{IMG_PATH_XHC}18xhc/xxyy_04.png"></span>
+						<span>在线课程</span>
+						<span><button>查看</button></span>
+					</li>
+				</ul>
+			</div>	
+			<div class="zbgg">
+				<div class="zbgg_hd">
+					<div class="fire_hd">
+						<a href="{cat_url($CATEGORYS[14][url],'xhc')}"><span>兴宏程直播公告</span></a>
+					</div>
+					<div class="more_plus">
+						<a href="{cat_url($CATEGORYS[15][url],'xhc')}"><span>MORE+</span></a>
+					</div>
+				</div>
+				<ul>
+					{pc:content  action="lists" catid="14" order="listorder DESC , id DESC" num="5"}
+					{php $numth = 0;}
+					{loop $data $key $val}
+					{php $numth++;}
+					<li><div>{$numth}</div><a target="_blank" href="{cat_url($val['url'],'xhc')}" title="{$val['title']}">{str_cut($val['title'],55)}</a></li>
+					{/loop}
+					{php unset($numth);}
+					{/pc}
+				</ul>
+			</div>	
+		</div>
+	</div>
+	<!-- m6 -->
+	<div class="clear"></div>
+	<div class="main m6">
+		<div class="zb_biao">
+			<div class="lm_title">
+				<div class="red_hd">
+					<span>课程试听</span>
+				</div>
+			</div>
+			<div class="zb_menu">
+				<ul id="st_m_ul" class="zb_menu_ul">
+					<li class="menu_li"><a href="{$CATEGORYS[6738][url]}">一级建造师</a></li>
+					<li class="menu_li"><a href="{$CATEGORYS[6739][url]}">二级建造师</a></li>
+					<li class="menu_li"><a href="{$CATEGORYS[6741][url]}">消防工程师</a></li>
+					<li class="menu_li"><a href="{$CATEGORYS[6740][url]}">造价工程师</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="hr_line"></div>
+		<div id="st_mv_mk" class="move_mark">
+			<img src="{IMG_PATH_XHC}18xhc/move_mark.png">
+		</div>
+		<div class="st_all">
+			<div class="stboxes st_box_01">
+				{pc:content  action="lists" catid="6738" order="listorder DESC , id DESC" num="5"}
+				{loop $data $key $val}
+				<div class="stbox">
+					<a target="_blank" href="{$val['url']}" title="{$val['title']}"><img src="{IMG_PATH_XHC}18xhc/sttj_02.gif"></a>
+					<span><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],80)}</a></span>
+				</div>	
+				{/loop}
+				{/pc}
+			</div>
+			<div class="stboxes st_box_02 st_box_hide">
+				{pc:content  action="lists" catid="6739" order="listorder DESC , id DESC" num="5"}
+				{loop $data $key $val}
+				<div class="stbox">
+					<a target="_blank" href="{$val['url']}" title="{$val['title']}"><img src="{IMG_PATH_XHC}18xhc/sttj_02.gif"></a>
+					<span><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],80)}</a></span>
+				</div>	
+				{/loop}
+				{/pc}	
+			</div>
+			<div class="stboxes st_box_03 st_box_hide">
+				{pc:content  action="lists" catid="6741" order="listorder DESC , id DESC" num="5"}
+				{loop $data $key $val}
+				<div class="stbox">
+					<a target="_blank" href="{$val['url']}" title="{$val['title']}"><img src="{IMG_PATH_XHC}18xhc/sttj_02.gif"></a>
+					<span><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],80)}</a></span>
+				</div>	
+				{/loop}
+				{/pc}
+			</div>
+			<div class="stboxes st_box_04 st_box_hide">
+				{pc:content  action="lists" catid="6740" order="listorder DESC , id DESC" num="5"}
+				{loop $data $key $val}
+				<div class="stbox">
+					<a target="_blank" href="{$val['url']}" title="{$val['title']}"><img src="{IMG_PATH_XHC}18xhc/sttj_02.gif"></a>
+					<span><a target="_blank" href="{$val['url']}" title="{$val['title']}">{str_cut($val['title'],80)}</a></span>
+				</div>	
+				{/loop}
+				{/pc}
+			</div>
+		</div>
+	</div>
+
+	<div class="clear"></div>
+	<div class="main m5">
+		<div class="m5_left">
+			<div class="zb_biao">
+				<div class="lm_title">
+					<div class="red_hd">
+						<span>模拟试题</span>
+						<!-- <span>在线模考</span> -->
+					</div>
+				</div>
+				<div class="zb_menu">
+					<ul id="mk_m_ul" class="zb_menu_ul">
+						<li class="menu_li"><a href="{$CATEGORYS[58][url]}">一级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[132][url]}">二级建造师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[5007][url]}">消防工程师</a></li>
+						<li class="menu_li"><a href="{$CATEGORYS[149][url]}">造价工程师</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="hr_line"></div>
+			<div id="mk_mv_mk" class="move_mark">
+				<img src="{IMG_PATH_XHC}18xhc/move_mark.png">
+			</div>
+			<div class="pane">
+				<div class="mkboxes mk_box_01">
+					{pc:content  action="lists" catid="58" order="listorder DESC , id DESC" num="3"}
+					{loop $data $key $val}
+					<div class="mkbox">
+						<div class="mkbox_l"><img src="{IMG_PATH_XHC}18xhc/mk_01.png"></div>
+						<div class="mkbox_m">
+							<ul>
+								<li>{str_cut($val['title'],80)}</li>
+								<li>{str_cut($val['description'],80)}</li>
+							</ul>
+						</div>
+						<div class="mkbox_r"><a href="{$val['url']}"><button>试题详情</button></a></div>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+				<div class="mkboxes mk_box_02 mk_box_hide">
+					{pc:content  action="lists" catid="132" order="listorder DESC , id DESC" num="3"}
+					{loop $data $key $val}
+					<div class="mkbox">
+						<div class="mkbox_l"><img src="{IMG_PATH_XHC}18xhc/mk_01.png"></div>
+						<div class="mkbox_m">
+							<ul>
+								<li>{str_cut($val['title'],80)}</li>
+								<li>{str_cut($val['description'],80)}</li>
+							</ul>
+						</div>
+						<div class="mkbox_r"><a href="{$val['url']}"><button>试题详情</button></a></div>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+				<div class="mkboxes mk_box_03 mk_box_hide">
+					{pc:content  action="lists" catid="5007" order="listorder DESC , id DESC" num="3"}
+					{loop $data $key $val}
+					<div class="mkbox">
+						<div class="mkbox_l"><img src="{IMG_PATH_XHC}18xhc/mk_01.png"></div>
+						<div class="mkbox_m">
+							<ul>
+								<li>{str_cut($val['title'],80)}</li>
+								<li>{str_cut($val['description'],80)}</li>
+							</ul>
+						</div>
+						<div class="mkbox_r"><a href="{$val['url']}"><button>试题详情</button></a></div>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+				<div class="mkboxes mk_box_04 mk_box_hide">
+					{pc:content  action="lists" catid="149" order="listorder DESC , id DESC" num="3"}
+					{loop $data $key $val}
+					<div class="mkbox">
+						<div class="mkbox_l"><img src="{IMG_PATH_XHC}18xhc/mk_01.png"></div>
+						<div class="mkbox_m">
+							<ul>
+								<li>{str_cut($val['title'],80)}</li>
+								<li>{str_cut($val['description'],80)}</li>
+							</ul>
+						</div>
+						<div class="mkbox_r"><a href="{$val['url']}"><button>试题详情</button></a></div>
+					</div>
+					{/loop}
+					{/pc}
+				</div>
+			</div>
+		</div>
+		<div class="m5_right">
+			<div class="tszx">
+				<div class="tszx_hd">
+					<div class="fire_hd">
+						<a href="{$CATEGORYS[863][url]}"><span>兴宏程图书中心</span></a>
+					</div>
+					<div class="more_plus">
+						<span><a href="{$CATEGORYS[863][url]}">MORE+</a></span>
+					</div>
+				</div>
+				<div class="tsboxes">
+					{pc:content action="lists" catid="862" where=" catid IN (862,863) " num="6" order="id DESC" }
+					{loop $data $key $val}
+					<div class="tsbox">
+						<a href="{$val['url']}" title="{$val['title']}">
+							<img src="{$val['thumb']}">
+							<span>{str_cut($val[title],'24')}</span>
+						</a>
+					</div>
+					{/loop}
+					{/pc}
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+<!-- m6 5.6 -->
+<div class="clear"></div>
+<div class="main m6">
+	<div class="sz_biao">
+		<div class="sz_title">
+			<div class="red_hd">
+				<span>兴宏程师资力量</span>
+			</div>
+		</div>
+		<div class="sz_menu">
+			<ul id="sz_m_ul" class="zb_menu_ul">
+				<li class="menu_li">法规</li>
+				<li class="menu_li">经济</li>
+				<li class="menu_li">管理</li>
+				<li class="menu_li">机电</li>
+				<li class="menu_li">建筑</li>
+				<li class="menu_li">水利</li>
+				<li class="menu_li">市政</li>
+				<li class="menu_li">公路</li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr_line"></div>
+	<div id="sz_mv_mk" class="move_mark">
+		<img src="{IMG_PATH_XHC}18xhc/move_mark.png">
+	</div>
+	<div class="sz_all">
+		<div class="szboxes sz_box_01">
+			{pc:content action="lists" catid="862" where=" catid IN (862,863) " num="3" order="id DESC" }
+			{loop $data $key $val}
+			<div class="szbox">
+				<div class="szbox_l">
+					<a href="{$val['url']}" title="{$val['title']}">
+						<img src="{$val['thumb']}">
+					</a>
+				</div>
+				<div class="szbox_r">
+					<a href="{$val['url']}" title="{$val['title']}">
+						<span>{str_cut($val[title],'24')}</span>
+					</a>
+					<p>{str_cut($val[description],'130')}</p>
+				</div>
+			</div>
+			{/loop}
+			{/pc}
+		</div>
+		<div class="szboxes sz_box_02 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+				</div>
+				<div class="szbox_r">
+				</div>					
+			</div>	
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher 2.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_03 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher1.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_04 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher2.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_05 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher3.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_06 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher4.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_07 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher5.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+		<div class="szboxes sz_box_08 sz_box_hide">
+			<div class="szbox">
+				<div class="szbox_l">
+					<img src="{IMG_PATH_XHC}18xhc/teacher6.gif">
+				</div>
+				<div class="szbox_r">
+					<span>《市政食物》试听额</span>
+					<p>市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食物试听额市政食</p>
+				</div>					
+			</div>	
+		</div>
+	</div>
+</div>
+
+{template "content","footer_NEW"}
+</body>
+</html>

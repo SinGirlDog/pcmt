@@ -1,0 +1,60 @@
+#welcome{
+	width: 70%;
+	margin:0 auto;
+	border:0px solid #22F;
+	margin-top: 20px;
+}
+#welcome ul li {
+	width: 23%;
+	height: 80px;
+	line-height: 80px;
+	display: inline-block;
+	text-align: center;
+	background-color: #16a;
+}
+#welcome ul li a{
+	color:#fff;
+	font-size: 20px;
+	font-weight: 800;
+}
+
+/*#third_file_list{
+	width: 70%;
+	margin:0 auto;
+	margin-top: 20px;
+}*/
+
+#third_commen_list{
+	width: 70%;
+	margin:0 auto;
+	border:0px solid #22F;
+	margin-top: 20px;
+}
+
+#third_left{
+	float:left;
+	margin-left: 0px;
+	width: 20%;
+	display: inline-block;
+	/*background-color: #66d;*/
+}
+#third_left ul li{
+	text-align: center;
+	height:30px;
+	line-height: 30px;
+}
+#third_left ul li a {
+	font-size: 18px;
+}
+#third_file_list{
+	float:left;
+	margin-right: 0;
+	margin-left: 20px;
+	margin-top: 5px;
+	width: 70%;
+	display: inline-block;
+}
+#third_file_list ul li{
+	height:30px;
+	line-height: 30px;
+}

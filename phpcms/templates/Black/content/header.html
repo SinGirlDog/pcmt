@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8"/>
+<title>{if isset($SEO['title']) && !empty($SEO['title'])}{$SEO['title']}{/if}{$SEO['site_title']}</title>
+<meta name="keywords" content="{$SEO['keyword']}">
+<meta name="description" content="{$SEO['description']}">
+<!-- Force IE8 Compatibility mode OFF -->
+<link rel="stylesheet" href="{CSS_PATH_BLACK}style_002.css" type="text/css">
+<link rel="stylesheet" id="seo-style-css" href="{CSS_PATH_BLACK}styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="NextGEN-css" href="{CSS_PATH_BLACK}nggallery.css" type="text/css" media="screen">
+<link rel="stylesheet" id="shutter-css" href="{CSS_PATH_BLACK}shutter-reloaded.css" type="text/css" media="screen">
+<link rel="stylesheet" id="countdown-jedi-css-css" href="{CSS_PATH_BLACK}style.css" type="text/css" media="all">
+<link rel="stylesheet" id="countdown-darth-css-css" href="{CSS_PATH_BLACK}style_003.css" type="text/css" media="all">
+<!-- <link href="{CSS_PATH_BLACK}style_002.css" rel="stylesheet" media="screen" type="text/css" /> -->
+<script type="text/javascript" src="{JS_PATH_BLACK}l10n.js"></script>
+<script type="text/javascript" src="{JS_PATH_BLACK}jquery.js"></script>
+<script type="text/javascript" src="{JS_PATH_BLACK}jquery_002.js"></script>
+<script type="text/javascript" src="{JS_PATH_BLACK}shutter-reloaded.js"></script>
+<script type="text/javascript" src="{JS_PATH_BLACK}jquery_003.js"></script>
+<script type="text/javascript" src="{JS_PATH_BLACK}ngg.js"></script>
+<!-- <script type="text/javascript" src="{JS_PATH_BLACK}ps_editor.js"></script> -->
+<script type="text/javascript">
+//Set Search Box to Nothing on Click
+function SelectAll(id)
+{
+    document.getElementById(id).focus();
+    document.getElementById(id).select();
+	document.getElementById(id).value="";
+}
+</script>
+<!--[if IE 7]>
+
+<style type="text/css">
+
+.menu-digi-nav-container ul li ul {
+
+position:absolute;
+
+top:40px;
+}
+
+.menu-digi-nav-container ul li ul li {
+
+position:relative;
+
+left:-40px;
+
+margin-left:-30px;
+
+}
+
+</style>
+
+<![endif]-->
+<!-- Begin - HITS-IE6 PNGFix -->
+<!-- IE6 has not been detected as the users browser version by the server -->
+<!--  End  - HITS-IE6 PNGFix -->
+</head>
+<body bgproperties="fixed">
+<!--ie6 bgproperties-->
+<div class="header"> <br>
+  <div id="logo"> <a href="{siteurl($siteid)}/"><img src="{IMG_PATH_BLACK}logo.png" alt="logo"></a> </div>
+  <br>
+  <br>
+  <h1 style="width: 980px; color: rgb(204, 204, 204); font-size: 16px; margin: -8px auto 2px;"> 无线安全网-WWW.IT124.COM</h1>
+</div>
+<!-- end header mast -->
+<div id="nav-border">
+  <div class="nav">
+    <div class="menu-digi-nav-container">
+      <ul id="menu-digi-nav" class="menu">
+        {pc:content action="category" catid="0" num="25" siteid="$siteid" order="listorder ASC"}
+        <li id="menu-item-2794" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item 
+current_page_item menu-item-home menu-item-2794"><a href="{siteurl($siteid)}/">首页</a></li>
+        {loop $data $r}
+        <li id="menu-item-2803" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2803"><a 
+href="{$r[url]}">{$r[catname]}</a></li>
+        {/loop}
+        {/pc}
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="ad"> <br>
+  <center>
+    728*90广告位1
+  </center>
+  <br>
+</div>
