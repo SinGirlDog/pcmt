@@ -11,4 +11,6 @@
 #show_form { margin-top: 20px; margin-left: 15%; text-align: justify; width: 70%; }
 #show_form ol { padding: 5px; }
 #show_form ol dl { line-height: 30px; word-wrap: normal; padding: 5px; }
+#show_form ol dl label { display: block; cursor: pointer; }
+#show_form ol dl label:hover { background-color: #1ac; color: #fff; font-weight: 800; }
 #show_form #put_answer_ajax_button { width: 10%; margin-left: 40%; }

@@ -282,11 +282,29 @@ class exam_answer extends admin {
         if(is_array($answer_arr[0])){
             foreach($answer_arr as $key => $answer){
                 $answer_length = sizeof($answer);
+                if($answer_length > 4 or $answer_length < 2){
+                    //选项太少或者太多直接零分;
+                    continue;
+                }
                 $cankao_length = sizeof($cankao_arr[$key]);
                 $intersect_length = sizeof(array_intersect($answer, $cankao_arr[$key]));
                 if( ($answer_length == $cankao_length) && ($intersect_length == $cankao_length) ){
+                    //选项完全匹配则满分;
                     $fenshu += 2;
+                    continue;
                 }
+                $temp_fen = 0;
+                foreach($answer as $ans){
+                    //选对一个半分;选错一个零蛋;
+                    if(in_array($ans,$cankao_arr[$key])){
+                        $temp_fen += 0.5;
+                    }
+                    else{
+                        $temp_fen = 0;
+                        break;
+                    }
+                }
+                $fenshu += $temp_fen;
             }
         }
         return $fenshu;
