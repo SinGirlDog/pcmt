@@ -3,6 +3,7 @@ DROP TABLE IF EXISTS `v9_exam_paper`;
 CREATE TABLE IF NOT EXISTS `v9_exam_paper` (
   `id` smallint(5) NOT NULL AUTO_INCREMENT,
   `siteid` smallint(5) NOT NULL,
+  `fileid` smallint(5) NOT NULL,
   `arrparentid` varchar(255) NOT NULL,
   `name` varchar(20) NOT NULL,
   `mobile` char(11) NOT NULL,
@@ -24,6 +25,7 @@ CREATE TABLE IF NOT EXISTS `v9_exam_answer` (
   `id` smallint(5) NOT NULL AUTO_INCREMENT,
   `paper_id` smallint(5) NOT NULL,
   `siteid` smallint(5) NOT NULL,
+  `fileid` smallint(5) NOT NULL,
   `title` char(80) NOT NULL,
   `name` varchar(20) NOT NULL,
   `mobile` char(11) NOT NULL,
@@ -35,6 +37,7 @@ CREATE TABLE IF NOT EXISTS `v9_exam_answer` (
   `fenshu_choice_more` smallint(3) NOT NULL,
   `fenshu_fillinblank` smallint(3) NOT NULL,
   `fenshu_objective` smallint(3) NOT NULL,
+  `fenshu_total` smallint(3) NOT NULL,
   `userid` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `username` char(20) NOT NULL,
   `isdelete` char(1) NOT NULL DEFAULT '0',

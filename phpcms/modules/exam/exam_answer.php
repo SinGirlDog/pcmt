@@ -6,7 +6,7 @@ pc_base::load_sys_class('form', '', 0);
 
 
 class exam_answer extends admin {
-    private $Alpha_Arr = array('A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z');
+   
     public function __construct() {
         parent::__construct();//继承父类构造函数
         $setting = new_html_special_chars(getcache('exam', 'commons'));//读取考试配置缓存文件
@@ -39,24 +39,24 @@ class exam_answer extends admin {
 
     public function deal_answer() {
         $mark = $_GET['mark'] ? $_GET['mark'] : 'preview';
-        $answer_data = $this->get_answer_by_id($_GET['id']);
-        $answer_choice_only = $this->parse_choice_only_answer($answer_data['answer_choice_only']);
-        $answer_choice_more = $this->parse_choice_more_answer($answer_data['answer_choice_more']);
+        $answer_data = $this->Pre_Index->get_answer_by_id($_GET['id']);
+        $answer_choice_only = $this->Pre_Index->parse_choice_only_answer($answer_data['answer_choice_only']);
+        $answer_choice_more = $this->Pre_Index->parse_choice_more_answer($answer_data['answer_choice_more']);
         
         $paper_data = $this->Pre_Index->get_paper_by_pid($answer_data['paper_id']);
         $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
         $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
 
         if($mark == 'piyue' || $mark == 'jiexi'){
-            $cankao_choice_only = $this->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
-            $cankao_choice_more = $this->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
+            $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
+            $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
 
-            $fenshu_only = $this->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
-            $fenshu_more = $this->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
+            $fenshu_only = $this->Pre_Index->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
+            $fenshu_more = $this->Pre_Index->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
 
             if($mark == 'jiexi'){
-                $analysis_key_choice_only = $this->get_analysis_key_by_ids($paper_data['quest_choice_only']);
-                $analysis_key_choice_more = $this->get_analysis_key_by_ids($paper_data['quest_choice_more']);
+                $analysis_key_choice_only = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_only']);
+                $analysis_key_choice_more = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_more']);
             }
         }
 
@@ -192,122 +192,25 @@ class exam_answer extends admin {
         include $this->admin_tpl('exam_answer_list');
     }
 
-    private function get_answer_by_id($answer_id){
-        $where = array('id'=>$answer_id);
-        $answer_data = $this->exam_answer_db->get_one($where);
-        return $answer_data;
-    }
-
-    private function parse_choice_only_answer($answer_choice_only){
-        $number_arr = explode(',', $answer_choice_only);
-        $alpha_arr = $this->map_number_to_alphabet($number_arr);
-        return $alpha_arr;
-    }
-
-    private function parse_choice_more_answer($answer_choice_more){
-        $number_arr = json_decode($answer_choice_more);
-        $answer_arr = array();
-        foreach($number_arr as $key => $val){
-            $answer_arr[] = $this->map_number_to_alphabet($val);
-        }
-        return $answer_arr;
-    }
-
-    private function map_number_to_alphabet($number_arr){
-        $alpha_arr = array();
-        foreach($number_arr as $key=>$val){
-            $alpha_arr[] = $this->Alpha_Arr[$val-1];
-        }
-        return $alpha_arr;
-    }
-    
-    private function get_cankao_answer_by_ids($quest_ids_arr){
-        $id_arr = explode(',', $quest_ids_arr);
-        $true_answer = array();
-        foreach($id_arr as $key=>$id){
-            $where = array('id'=>$id);
-            $fields ='true_answer, quest_type';
-            $answer = $this->exam_data_db->get_one($where,$fields);
-            if($answer['quest_type'] == 'choice_only'){
-                $true_answer[] = $answer['true_answer'];
-            }
-            else if($answer['quest_type'] == 'choice_more'){
-                $true_answer[] = explode('.',$answer['true_answer']);
-            }
-        }
-        return $true_answer;
-    }
-
-    private function get_analysis_key_by_ids($quest_ids_arr){
-        $id_arr = explode(',', $quest_ids_arr);
-        $analysis_key = array();
-        foreach($id_arr as $key=>$id){
-            $where = array('id'=>$id);
-            $fields ='question_analysis, question_key';
-            $analysis_key[] = $this->exam_data_db->get_one($where,$fields);
-        }
-        return $analysis_key;
-
-    }
-
     public function get_fenshu_by_answerid($id){
         $fenshu = array();
-        $answer_data = $this->get_answer_by_id($id);
-        $answer_choice_only = $this->parse_choice_only_answer($answer_data['answer_choice_only']);
-        $answer_choice_more = $this->parse_choice_more_answer($answer_data['answer_choice_more']);
+        $answer_data = $this->Pre_Index->get_answer_by_id($id);
+        $answer_choice_only = $this->Pre_Index->parse_choice_only_answer($answer_data['answer_choice_only']);
+        $answer_choice_more = $this->Pre_Index->parse_choice_more_answer($answer_data['answer_choice_more']);
         
         $paper_data = $this->Pre_Index->get_paper_by_pid($answer_data['paper_id']);
 
-        $cankao_choice_only = $this->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
-        $cankao_choice_more = $this->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
+        $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
+        $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
 
-        $fenshu['fenshu_choice_only'] = $this->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
-        $fenshu['fenshu_choice_more'] = $this->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
+        $fenshu['fenshu_choice_only'] = $this->Pre_Index->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
+        $fenshu['fenshu_choice_more'] = $this->Pre_Index->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
 
         return $fenshu;
     }
 
-    public function correct_fenshu_only($answer_arr,$cankao_arr){
-        $fenshu = 0;
-        foreach($answer_arr as $key => $answer){
-            if($answer == $cankao_arr[$key]){
-                $fenshu++;
-            }
-        }
-        return $fenshu;
-    }
+    
 
-    public function correct_fenshu_more($answer_arr,$cankao_arr){
-        $fenshu = 0;
-        if(is_array($answer_arr[0])){
-            foreach($answer_arr as $key => $answer){
-                $answer_length = sizeof($answer);
-                if($answer_length > 4 or $answer_length < 2){
-                    //选项太少或者太多直接零分;
-                    continue;
-                }
-                $cankao_length = sizeof($cankao_arr[$key]);
-                $intersect_length = sizeof(array_intersect($answer, $cankao_arr[$key]));
-                if( ($answer_length == $cankao_length) && ($intersect_length == $cankao_length) ){
-                    //选项完全匹配则满分;
-                    $fenshu += 2;
-                    continue;
-                }
-                $temp_fen = 0;
-                foreach($answer as $ans){
-                    //选对一个半分;选错一个零蛋;
-                    if(in_array($ans,$cankao_arr[$key])){
-                        $temp_fen += 0.5;
-                    }
-                    else{
-                        $temp_fen = 0;
-                        break;
-                    }
-                }
-                $fenshu += $temp_fen;
-            }
-        }
-        return $fenshu;
-    }
+    
 }
 ?>

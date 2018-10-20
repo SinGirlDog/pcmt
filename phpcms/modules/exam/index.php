@@ -120,19 +120,45 @@ class index {
 
     public function put_answer(){
         $paper_id = $_POST['paper_id'];
-        $paper_data = $this->Pre_Index->exam_paper_db->get_one(array('id'=>$paper_id));
-        $answer = array();
-        $answer['paper_id'] = $paper_id;
-        $answer['title'] = $paper_data['title'];
-        $answer['name'] = $paper_data['name'];
-        $answer['mobile'] = $paper_data['mobile'];
-        $answer['answer_choice_only'] = implode(',',$_POST['only']);
-        $answer['answer_choice_more'] = json_encode($_POST['more']);
-        $answer['addtime'] = SYS_TIME;
-        $answer['siteid'] = SITEID;
-        $insert_id = $this->Pre_Index->exam_answer_db->insert($answer,true);
-        $result['msg'] = 'answer_saved';
-        showmessage('答案已经提交！','/index.php?m=exam&c=index&a=choose_sec_cat');
+        $paper_data = $this->Pre_Index->get_paper_data_byid($paper_id);
+        $result = $this->Pre_Index->save_answer_data($paper_data);
+        // header('Location:/index.php?m=exam&c=index&a=show_message&msg='.$result['msg']);
+        header('Location:/index.php?m=exam&c=index&a=show_jiexi_result&answer_id='.$result['answer_id']);
+
+        //服务器用不上这个函数
+        // showmessage('答案已经提交！','/index.php?m=exam&c=index&a=choose_sec_cat');
+    }
+
+    public function show_jiexi_result(){
+        $this->Pre_Index->visitor_paper_check();
+        $answer_id = $_GET['answer_id'];
+
+        $answer_data = $this->Pre_Index->get_answer_by_id($answer_id);
+        $answer_choice_only = $this->Pre_Index->parse_choice_only_answer($answer_data['answer_choice_only']);
+        $answer_choice_more = $this->Pre_Index->parse_choice_more_answer($answer_data['answer_choice_more']);
+        
+        $paper_data = $this->Pre_Index->get_paper_by_pid($answer_data['paper_id']);
+        $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
+        $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
+
+        $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
+        $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
+
+        // $fenshu_only = $this->Pre_Index->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
+        // $fenshu_more = $this->Pre_Index->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
+
+        $analysis_key_choice_only = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_only']);
+        $analysis_key_choice_more = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_more']);
+
+
+        $paiming = $this->Pre_Index->get_paiming($answer_data);
+
+        include template('exam_paper', 'show_jiexi_result');
+    }
+
+    public function show_message(){
+        $msg = $_GET['msg'];
+        $this->Pre_Index->show_my_message($msg);
     }
 
     public function ajax_select_admin(){

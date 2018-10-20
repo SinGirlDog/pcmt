@@ -9498,3 +9498,235 @@
 <?php exit;?>10-19 14:31:43 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
 <?php exit;?>10-19 14:31:56 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
 <?php exit;?>10-19 14:31:59 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
+<?php exit;?>10-19 17:59:45 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
+<?php exit;?>10-19 18:05:59 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
+<?php exit;?>10-19 18:06:08 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
+<?php exit;?>10-19 18:06:13 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 56
+<?php exit;?>10-20 11:43:52 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:54 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:43:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:44:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:44:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:44:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:44:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:53 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:54 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:56 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:57 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:59 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:45:59 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 11:46:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-20 14:04:22 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 361
+<?php exit;?>10-20 14:04:22 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:04:22 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:22 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:22 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:04:22 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:22 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:22 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 40
+<?php exit;?>10-20 14:04:22 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 90
+<?php exit;?>10-20 14:04:22 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 119
+<?php exit;?>10-20 14:04:22 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 128
+<?php exit;?>10-20 14:04:22 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-20 14:04:43 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 361
+<?php exit;?>10-20 14:04:43 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:04:43 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:43 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:43 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:04:43 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:43 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:04:43 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 40
+<?php exit;?>10-20 14:04:43 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 90
+<?php exit;?>10-20 14:04:43 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 119
+<?php exit;?>10-20 14:04:43 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 128
+<?php exit;?>10-20 14:04:43 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-20 14:05:38 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 361
+<?php exit;?>10-20 14:05:38 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:05:38 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:05:38 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:05:38 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:05:38 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:05:38 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:05:38 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 40
+<?php exit;?>10-20 14:05:38 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 90
+<?php exit;?>10-20 14:05:38 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 119
+<?php exit;?>10-20 14:05:38 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 128
+<?php exit;?>10-20 14:05:38 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-20 14:07:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 361
+<?php exit;?>10-20 14:07:37 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:07:37 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:07:37 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:07:37 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 14:07:37 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:07:37 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 14:07:37 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 40
+<?php exit;?>10-20 14:07:37 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show_jiexi_result.php | 90
+<?php exit;?>10-20 14:07:37 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 119
+<?php exit;?>10-20 14:07:37 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 128
+<?php exit;?>10-20 14:07:37 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-20 14:58:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:33 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:33 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:40 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:40 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:45 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:45 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:45 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:45 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:45 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:45 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:45 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:45 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 15:01:45 | 2 | array_intersect(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 424
+<?php exit;?>10-20 15:01:45 | 2 | in_array() expects parameter 2 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 433
+<?php exit;?>10-20 17:08:56 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 462
+<?php exit;?>10-20 17:09:47 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-20 17:11:51 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 35 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-20 17:16:24 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 462
+<?php exit;?>10-20 17:18:45 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 464
+<?php exit;?>10-20 17:18:46 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 464
+<?php exit;?>10-20 17:18:47 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 464
+<?php exit;?>10-20 17:18:48 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 464
+<?php exit;?>10-20 17:18:48 | 2 | Division by zero               | phpcms\modules\exam\classes\exam_index.class.php | 464
+<?php exit;?>10-20 17:24:53 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 17:24:53 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 17:24:53 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 17:24:53 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 110
+<?php exit;?>10-20 17:24:53 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 17:24:53 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
+<?php exit;?>10-20 17:24:53 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show.php | 30
+<?php exit;?>10-20 17:24:53 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show.php | 66

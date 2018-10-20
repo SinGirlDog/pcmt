@@ -8,5 +8,21 @@ class exam_answer_model extends model {
 		$this->table_name = 'exam_answer';
 		parent::__construct();
 	}
+
+	public function select_paiming($where_id,$data='rownum',$limit='',$order=''){
+		$dbname = $this->db_config[$this->db_setting]['database'];
+        $pre = $this->db_config[$this->db_setting]['tablepre'];
+        // $select = "SELECT ".$this->table_name.".".$data." from `".$dbname."`.`".$this->table_name."`";
+        $where = $this->sqls($where);
+		
+		$sql = "SELECT b.rownum FROM(SELECT t.*, @rownum := @rownum + 1 AS rownum FROM (SELECT @rownum := 0) r,
+(SELECT * FROM `".$this->table_name."` ORDER BY fenshu_total DESC) AS t
+) AS b WHERE b.id =".$where_id;
+		
+		// return $sql;
+		$res = $this->db->query($sql);
+		$paiming = $this->fetch_array($res);
+        return $paiming[0]['rownum'];
+	}
 }
 ?>
