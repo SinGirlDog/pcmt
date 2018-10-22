@@ -12,7 +12,7 @@ class exam_answer_model extends model {
 	public function select_paiming($where_id,$data='rownum',$limit='',$order=''){
 		$dbname = $this->db_config[$this->db_setting]['database'];
         $pre = $this->db_config[$this->db_setting]['tablepre'];
-        // $select = "SELECT ".$this->table_name.".".$data." from `".$dbname."`.`".$this->table_name."`";
+        
         $where = $this->sqls($where);
 		
 		$sql = "SELECT b.rownum FROM(SELECT t.*, @rownum := @rownum + 1 AS rownum FROM (SELECT @rownum := 0) r,
@@ -24,5 +24,6 @@ class exam_answer_model extends model {
 		$paiming = $this->fetch_array($res);
         return $paiming[0]['rownum'];
 	}
+	
 }
 ?>

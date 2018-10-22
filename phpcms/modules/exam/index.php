@@ -4,9 +4,7 @@ pc_base::load_app_class('exam_index', 'exam', 0);
 pc_base::load_app_func('global','exam');
 
 class index {
-
     private $top_catid;
-
     function __construct() {
 
         $this->Pre_Index = new exam_index();
@@ -95,7 +93,6 @@ class index {
         $paper = $this->Pre_Index->prepare_paper_data_byfileid($fileid);
         $result = array();
         $result = $this->Pre_Index->save_paper_data($paper);
-
         header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
     }
 
@@ -122,7 +119,7 @@ class index {
         $paper_id = $_POST['paper_id'];
         $paper_data = $this->Pre_Index->get_paper_data_byid($paper_id);
         $result = $this->Pre_Index->save_answer_data($paper_data);
-        // header('Location:/index.php?m=exam&c=index&a=show_message&msg='.$result['msg']);
+        
         header('Location:/index.php?m=exam&c=index&a=show_jiexi_result&answer_id='.$result['answer_id']);
 
         //服务器用不上这个函数
@@ -144,12 +141,8 @@ class index {
         $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
         $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
 
-        // $fenshu_only = $this->Pre_Index->correct_fenshu_only($answer_choice_only,$cankao_choice_only);
-        // $fenshu_more = $this->Pre_Index->correct_fenshu_more($answer_choice_more,$cankao_choice_more);
-
         $analysis_key_choice_only = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_only']);
         $analysis_key_choice_more = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_more']);
-
 
         $paiming = $this->Pre_Index->get_paiming($answer_data);
 

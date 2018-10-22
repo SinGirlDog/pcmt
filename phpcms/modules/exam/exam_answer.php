@@ -11,15 +11,10 @@ class exam_answer extends admin {
         parent::__construct();//继承父类构造函数
         $setting = new_html_special_chars(getcache('exam', 'commons'));//读取考试配置缓存文件
         $this->set = $setting[$this->get_siteid()];
-        $this->exam_data_db = pc_base::load_model('exam_data_model');
-        $this->exam_paper_db = pc_base::load_model('exam_paper_model');//加载考试数据模型
         $this->exam_answer_db = pc_base::load_model('exam_answer_model');//加载留言本数据模型
 
         //预览调用前台控制器
-        // require_once PC_PATH.'modules\exam\index.php';
-        // $this->Pre_Index = new index();
         $this->Pre_Index = new exam_index();
-
     }
     
     public function init() {
@@ -209,8 +204,5 @@ class exam_answer extends admin {
         return $fenshu;
     }
 
-    
-
-    
 }
 ?>

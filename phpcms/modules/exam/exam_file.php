@@ -16,10 +16,7 @@ class exam_file extends admin {
         $this->exam_file_db = pc_base::load_model('exam_file_model');//加载考试数据模型
 
         //预览调用前台控制器
-        // require_once PC_PATH.'modules\exam\index.php';
-        // $this->Pre_Index = new index();
         $this->Pre_Index = new exam_index();
-        
     }
     
     public function init() {
@@ -87,13 +84,14 @@ class exam_file extends admin {
         if(is_array($_POST['id'])){
             foreach($_POST['id'] as $id_arr) {
                 $id_arr = intval($id_arr);
-                $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id_arr)); 
+                $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id_arr));
             }
             showmessage(L('删除成功'),HTTP_REFERER);
         }else{
             $id = intval($_GET['id']);
             if($id < 1) return false;
             $result = $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id));
+                $this->Pre_Index->exam_question_del_byfile($id); 
             if($result){
                 showmessage(L('删除成功'),HTTP_REFERER);
             }else {
@@ -128,8 +126,10 @@ class exam_file extends admin {
             $reform_one['id'] = $exam_id;
             $one_id = $this->exam_data_db->insert($reform_one);
         }
+        $item_num = sizeof($file_quest_ids);
         $quest_ids = implode(',', $file_quest_ids);
         $result = $this->exam_file_db->update(array('quest_ids'=>$quest_ids),array('id'=>$file_id));
+        $cat_item_res = $this->Pre_Index->examquestion_category_item_plus($item_num,$file_data['catid']);
         if($result){
             showmessage(L('入库成功'),HTTP_REFERER);
         }

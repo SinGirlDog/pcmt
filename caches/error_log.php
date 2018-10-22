@@ -9730,3 +9730,122 @@
 <?php exit;?>10-20 17:24:53 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 113
 <?php exit;?>10-20 17:24:53 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show.php | 30
 <?php exit;?>10-20 17:24:53 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\show.php | 66
+<?php exit;?>10-22 10:14:10 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 10:50:29 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:50:58 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:51:02 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:51:05 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:52:43 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 10:55:17 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:55:42 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:55:46 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:59:12 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:59:35 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 10:59:44 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:01:13 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:01:42 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:01:56 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:02:08 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:04:05 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:04:19 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:04:22 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:06:55 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:07:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:07:24 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:08:44 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:08:57 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:09:03 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:09:36 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:09:51 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:10:30 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:10:49 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:10:57 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:11:00 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:11:44 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:11:58 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:12:04 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:12:18 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:30:49 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:30:56 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:31:22 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:31:26 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:33:47 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:33:49 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:34:05 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:34:10 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:34:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:34:21 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:34:26 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:34:31 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:34:35 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:35:51 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:36:06 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:36:09 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:36:12 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:36:14 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:36:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:36:18 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:37:11 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:12 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:14 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:14 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:25 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:28 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:30 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:46 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:52 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:37:55 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:38:48 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:39:03 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:40:54 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:41:02 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:41:17 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:41:28 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:41:30 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:41:54 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:41:59 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:42:02 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:42:15 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:42:19 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:43:19 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-22 11:43:37 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:43:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:43:52 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:44:05 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:46:04 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:46:10 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 11:46:12 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:03:18 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:07:28 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:07:28 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:07:30 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:07:31 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:07:32 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:08:10 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:09:24 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:09:31 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 13:09:34 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-22 17:03:28 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:03:28 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:03:31 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:03:31 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:02 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:02 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:02 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:02 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:15 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:15 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:15 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:15 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:20 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:20 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:20 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:20 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>10-22 17:04:26 | 2 | Invalid argument supplied for foreach() | phpcms\modules\video\player.php | 54

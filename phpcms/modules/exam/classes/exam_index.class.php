@@ -309,7 +309,7 @@ class exam_index {
             return $paper_data;  
         }
         else{
-            showmessage('无效的paper_id',HTTP_REFERER);
+            show_my_message('无效的paper_id',HTTP_REFERER);
         }
 
     }
@@ -412,7 +412,6 @@ class exam_index {
             $analysis_key[] = $this->exam_data_db->get_one($where,$fields);
         }
         return $analysis_key;
-
     }
 
     public function correct_fenshu_only($answer_arr,$cankao_arr){
@@ -471,6 +470,43 @@ class exam_index {
         return $paiming;
     }
 
+    public function examquestion_category_item_plus($item_num,$catid){
+        $result = 'no catid';
+        if($catid){
+            $data = '`items` = `items`+'.$item_num;
+            $where = array('catid'=>$catid);
+            $result = $this->category_db->update($data,$where);
+        }
+        return $result;
+    }
+    public function examquestion_category_item_nimus($item_num,$catid){
+        $result = 'no catid';
+        if($catid){
+            $data = '`items` = `items`-'.$item_num;
+            $where = array('catid'=>$catid);
+            $result = $this->category_db->update($data,$where);
+        }
+        return $result;
+    }
+    public function exam_question_del_byfile($fileid){
+        if($fileid){
+            $file_data = $this->exam_file_db->get_one(array('id'=>$fileid));
+            if(!empty($file_data)){
+                $quest_id_arr = explode(',',$file_data['quest_ids']);
+                $item_num = sizeof($quest_id_arr);
+                $item_th = 0;
+                foreach($quest_id_arr as $q_id){
+                    $this->exam_db->delete(array('id'=>$q_id,'catid'=>$file_data['catid']));
+                    $this->exam_data_db->delete(array('id'=>$q_id));
+                    $item_th += 1;
+                }
+                if($item_th != $item_num){
+                    $item_num = $item_th;
+                }
+                $this->examquestion_category_item_nimus($item_num,$file_data['catid']);
+            }
+        }
+    }
 
 }
 ?>

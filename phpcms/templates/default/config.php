@@ -33,10 +33,13 @@
     'templates|default|' => 
     array (
       'announce' => '公告',
+      'clone_cate' => '',
       'comment' => '评论',
       'content' => '内容模型',
+      'exam_paper' => '模拟考试试试',
       'formguide' => '表单向导',
       'link' => '友情链接',
+      'mba_zwxg' => 'mba作文修改',
       'member' => '会员中心',
       'message' => '短消息',
       'mood' => '新闻心情',
@@ -46,8 +49,6 @@
       'special' => '专题',
       'vote' => '投票',
       'wap' => '手机门户',
-      'yp' => '黄页模板',
-      'mba_zwxg' => 'mba作文修改',
     ),
     'templates|default|vote' => 
     array (
