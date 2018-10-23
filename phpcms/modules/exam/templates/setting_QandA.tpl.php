@@ -4,7 +4,7 @@ $show_dialog = 1;
 include $this->admin_tpl('header_exam');
 ?>
 <script type="text/javascript" src="/statics_EXAM/js/jquery1.7.1.js"></script>
-<script type="text/javascript" src="/statics_EXAM/js/ajax.js"></script>
+<script type="text/javascript" src="/statics_EXAM/js/ajax_admin_qanda.js"></script>
 <b>库存设置：</b>
  <table border="2" width="100%">
        <thead>
@@ -43,22 +43,23 @@ include $this->admin_tpl('header_exam');
 <b>更新设置：</b>
 <form action="?m=exam&c=exam_paper&a=setting_QandA" method="post" name="myform" id="myform">
 	<table cellpadding="2" cellspacing="1" class="table_form" width="100%">
-
-
 		<tr>
 			<td align="right">科目：</td>
 			<td align="left">
-				<select name="cat_level_1" id="select_1" class="select_ajax">
-					<option value ="">-请选择-</option>
-					<?php foreach($category_one as $key=>$val){
-					echo "<option value =".$val['catid'].">".$val['catname']."</option>";
-					}?>
-				</select>
+                    <select name="cat_level_1" id="select_1" class="select_ajax">
+                        <option value ="">-请选择-</option>
+                        <?php foreach($category_one as $key=>$val){
+                            echo "<option value =".$val['catid'].">".$val['catname']."</option>";
+                        }?>
+                    </select>
 
-				<select name="cat_level_2" id="select_2" class="select_ajax">
-					<option value ="">-请选择-</option>
-				</select>
-			</td>
+                    <select name="cat_level_2" id="select_2" class="select_ajax">
+                        <option value ="">-请选择-</option>
+                    </select>
+                    <!--  <select name="cat_level_3" id="select_3" class="select_ajax">
+                        <option value ="">-请选择-</option>
+                    </select> -->
+                </td>
 		</tr>
 
 		<tr>

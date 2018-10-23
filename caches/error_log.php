@@ -9849,3 +9849,55 @@
 <?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
 <?php exit;?>10-22 17:04:26 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
 <?php exit;?>10-22 17:04:26 | 2 | Invalid argument supplied for foreach() | phpcms\modules\video\player.php | 54
+<?php exit;?>10-23 09:56:38 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 09:56:39 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:06:48 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:06:48 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:07:22 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:07:22 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:24:30 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:24:30 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:25:04 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:25:04 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 10:25:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:27:19 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:27:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:30:15 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:31:54 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:32:05 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:32:07 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:36:38 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:38:31 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:38:33 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:41:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:41:57 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:42:17 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 10:42:19 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 12:52:16 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 12:52:16 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 12:52:37 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 12:52:37 | 2 | copy(http://local.pct.com/file:/C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ | phpcms\libs\classes\attachment.class.php | 172
+<?php exit;?>10-23 17:00:56 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 17:15:22 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 17:15:24 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:25:21 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:27:48 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:28:03 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:28:39 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:33:20 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:49:42 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:49:43 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 18:49:56 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63
+<?php exit;?>10-23 19:01:06 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 63

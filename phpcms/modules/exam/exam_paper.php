@@ -166,22 +166,21 @@ class exam_paper extends admin {
         $this->exam_qanda_db = pc_base::load_model('exam_qanda_model');//加载考试数据模型
         if(isset($_POST['dosubmit'])) {
             // var_export($_POST);die;
-            if(!isset($_POST['cat_level_2'])){
+            if(!isset($_POST['cat_level_3'])){
                 showmessage('问答设置更新失败', HTTP_REFERER);
                 exit;
             }
 
-
-            $already = $this->exam_qanda_db->get_one(array('catid'=>$_POST['cat_level_2']));
+            $already = $this->exam_qanda_db->get_one(array('catid'=>$_POST['cat_level_3']));
             if($already['catid']){
                 $_POST['setting']['updatetime'] = SYS_TIME;
-                $result = $this->exam_qanda_db->update($_POST['setting'],array('catid'=>$_POST['cat_level_2']));
+                $result = $this->exam_qanda_db->update($_POST['setting'],array('catid'=>$_POST['cat_level_3']));
             }
             else{
-                $_POST['setting']['catid'] = $_POST['cat_level_2'];
+                $_POST['setting']['catid'] = $_POST['cat_level_3'];
                 $_POST['setting']['siteid'] = SITEID;
                 $_POST['setting']['addtime'] = SYS_TIME;
-                $_POST['setting']['title'] = $this->make_title_by_catid($_POST['cat_level_2']);
+                $_POST['setting']['title'] = $this->make_title_by_catid($_POST['cat_level_3']);
                 $result = $this->exam_qanda_db->insert($_POST['setting'],true);
             }
             if($result){
@@ -200,8 +199,7 @@ class exam_paper extends admin {
     }
 
     private function make_title_by_catid($catid){
-        $this->category_db = pc_base::load_model('category_model');//加载考试数据模型
-        $item = $this->category_db->get_one(array('catid'=>$catid),'arrparentid');
+        $item = $this->Pre_Index->category_db->get_one(array('catid'=>$catid),'arrparentid');
         $item['arrparentid'] .= ','.$catid;
         $catid_arr = explode(',',$item['arrparentid']);
         array_shift($catid_arr);

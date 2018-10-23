@@ -508,5 +508,22 @@ class exam_index {
         }
     }
 
+    public function get_sister_ids_by_catname($grand_id,$catname){
+        $catids_str = '';
+        $cat_ids_arr = array();
+        if($grand_id){
+            $cate_sec = $this->category_db->select(array('parentid'=>$grand_id),'catid');
+            foreach($cate_sec as $sec_one){
+                $result_one = $this->category_db->get_one(array('parentid'=>$sec_one['catid'],'catname'=>$catname),'catid');
+                $cat_ids_arr[] = $result_one['catid'];
+            }
+        }
+        if(!empty($cat_ids_arr)){
+            $catids_str = implode(',',$cat_ids_arr);
+            // $catids_str = $cat_ids_arr;
+        }
+        return $catids_str;
+    }
+
 }
 ?>

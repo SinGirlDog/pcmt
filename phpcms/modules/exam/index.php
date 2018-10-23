@@ -165,6 +165,28 @@ class index {
         echo $ResultHtml;
     }
 
+    public function ajax_select_qanda(){
+        $category_any = array();
+        if($_GET['param_id'])
+        {
+            $par_id = $_GET['param_id'];
+            $category_sec = $this->get_catid_name_arr($par_id);
+            $cate_sec_one = array_shift($category_sec);
+            $cate_sec_one = array_shift($category_sec);//本地的数据不全，人为地再来一次
+            $category_any = $this->get_catid_name_arr($cate_sec_one['catid']);
+            foreach($category_any as &$cat_any){
+                $cate_ids_str = '';
+                $cate_ids_str = $this->Pre_Index->get_sister_ids_by_catname($par_id,$cat_any['catname']);
+                if($cate_ids_str){
+                    $cat_any['catid'] = $cate_ids_str;
+                }
+            }
+
+        }
+        $ResultHtml = $this->make_select_options_html($category_any);
+        echo $ResultHtml;
+    }
+
     public function get_catid_name_arr($parentid){
         $parentid = $parentid ? $parentid : $this->top_catid;
         $where = array('parentid'=>$parentid);
