@@ -17,69 +17,55 @@
 	<div id="welcome">
 		<form method="post" name="put_cat_form" id="put_cat_form" action="index.php?m=exam&c=index&a=choose_sec_cat">
 			<?php include template("../xhc/content","position_exam"); ?>
+			<?php include template("../xhc/content","sec_cat_block"); ?>
+			<input type="hidden" name="thi_cat" id="thi_cat" value="<?php echo $thi_cat; ?>">
+		</form>
+	</div>
+	<div id="third_commen_list">
+		<div id="third_left">
 			<ul>
-				<ul>
-					<?php
-					foreach($list_sec as $item)
+				<?php
+				foreach($list_thi as $rditem)
+				{
+					if($rditem['catid'] == $thi_cat)
 					{
-						?>
-						<li id="<?php echo $item['catid'] ?>"><a><?php echo $item['catname'] ?></a></li>
-						<?php
+						$class_li = 'style = "background-color: #17B;"';
+						$class_a = 'style = "color:#fff;"';
+					}
+					else
+					{
+						$class_li = '';
+						$class_a = '';
 					}
 					?>
-					<!-- <li>
-						<a>自动组卷</a>
-					</li> -->
-				</ul>
-				<input type="hidden" name="sec_cat" id="sec_cat" value="<?php echo $sec_cat; ?>">
-				<input type="hidden" name="thi_cat" id="thi_cat" value="<?php echo $thi_cat; ?>">
+					<li <?php echo $class_li; ?> id="<?php echo $rditem['catid'] ?>">
+						<a <?php echo $class_a; ?>>
+							<?php echo $rditem['catname'] ?>
+							
+						</a>
+					</li>
+					<?php
+				}
+				?>
+			</ul>
+		</div>
+		<div id="third_file_list">
+			<form method="post" name="put_fileid_form" id="put_fileid_form" action="index.php?m=exam&c=index&a=make_one_paper_by_fileid">
+				<input type="hidden" name="fileid" id="fileid" value="">
 			</form>
+			<ul>
+				<?php
+				foreach($file_list as $file)
+				{
+					echo '<li id="'.$file['id'].'"><a>'.$file['cattitle'].$file['title'].'</a></li>';
+				}
+				?>
+			</ul>
 		</div>
-		<div id="third_commen_list">
-			<div id="third_left">
-				<ul>
-					<?php
-					foreach($list_thi as $rditem)
-					{
-						if($rditem['catid'] == $thi_cat)
-						{
-							$class_li = 'style = "background-color: #17B;"';
-							$class_a = 'style = "color:#fff;"';
-						}
-						else
-						{
-							$class_li = '';
-							$class_a = '';
-						}
-						?>
-						<li <?php echo $class_li; ?> id="<?php echo $rditem['catid'] ?>">
-							<a <?php echo $class_a; ?>>
-								<?php echo $rditem['catname'] ?>
-								
-							</a>
-						</li>
-						<?php
-					}
-					?>
-				</ul>
-			</div>
-			<div id="third_file_list">
-				<form method="post" name="put_fileid_form" id="put_fileid_form" action="index.php?m=exam&c=index&a=make_one_paper_by_fileid">
-					<input type="hidden" name="fileid" id="fileid" value="">
-				</form>
-				<ul>
-					<?php
-					foreach($file_list as $file)
-					{
-						echo '<li id="'.$file['id'].'"><a>'.$file['cattitle'].$file['title'].'</a></li>';
-					}
-					?>
-				</ul>
-			</div>
-		</div>
-		<div style="clear:both;"></div>
+	</div>
+	<div style="clear:both;"></div>
 
-		<?php include template("../xhc/content","footer_NEW"); ?>
+	<?php include template("../xhc/content","footer_NEW"); ?>
 
-	</body>
-	</html>
+</body>
+</html>

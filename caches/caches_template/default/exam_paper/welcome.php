@@ -16,20 +16,8 @@
 	<div id="welcome">
 		<form method="post" name="put_cat_form" id="put_cat_form" action="index.php?m=exam&c=index&a=choose_sec_cat">
 			<?php include template("../xhc/content","position_exam"); ?>
-			<ul>
-				<?php
-				foreach($list_sec as $item)
-				{
-					?>
-					<li id="<?php echo $item['catid'] ?>"><a><?php echo $item['catname'] ?></a></li>
-					<?php
-				}
-				?>
-				<!-- <li>
-					<a>自动组卷</a>
-				</li> -->
-			</ul>
-			<input type="hidden" name="sec_cat" id="sec_cat" value="">
+			<?php include template("../xhc/content","sec_cat_block"); ?>
+			
 		</form>
 	</div>
 

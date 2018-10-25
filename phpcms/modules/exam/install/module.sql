@@ -4,7 +4,7 @@ VALUES ('exam', '模拟考试', 'exam/', 0, '1.0', '模拟考试', 'array (
   array (
     "exam_status" => "1",
     "allow_guest" => "1",
-    "check_pass" => "1",
+    "allow_rand" => "1",
     "pagesize" => "3",
     "enablecheckcode" => "0",
   ),
@@ -12,7 +12,7 @@ VALUES ('exam', '模拟考试', 'exam/', 0, '1.0', '模拟考试', 'array (
   array (
     "exam_status" => "1",
     "allow_guest" => "1",
-    "check_pass" => "1",
+    "allow_rand" => "1",
     "pagesize" => "5",
     "enablecheckcode" => "0",
   ),

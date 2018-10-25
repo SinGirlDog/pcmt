@@ -1,7 +1,6 @@
 $(document).ready(function(){
 	$('#put_answer_ajax_button').click(function(){
 
-		// console.log($('input:radio:checked'));
 		var only_num = 0;
 		$('.choice_only').each(function(){
 			var input_object = $(this).children('dl').children('label').children('input');
@@ -52,31 +51,53 @@ $(document).ready(function(){
 			return false;
 		}
 		$('#put_answer_form').submit();
-		
-		// var url = 'index.php?m=exam&c=index&a=put_answer';
-		// var data = $('#put_answer_form').serializeArray();
-		// $.ajax({
-		// 	type:'POST',
-		// 	url:url,
-		// 	data:data,
-		// 	datatype:'json',
-		// 	success:function(Result){
-		// 		$.each($.parseJSON(Result), function(idx, obj) {
-		// 			if(idx == 'msg'){
-		// 				if(obj == 'answer_saved'){
-		// 					alert('答案已提交！');
-		// 					$(window).attr('location','/index.php?m=exam&c=index');
-		// 				}
-		// 				else{
-		// 					alert(obj);
-		// 				}
-		// 			}
-		// 			else{
-		// 				alert("非预期状态！");
-		// 			}
-		// 		});
-		// 	}
-		// });
 
 	});
+});
+
+$(document).ready(function(){
+
+	function checkMobile() {
+		var pda_user_agent_list = new Array("2.0 MMP", "240320", "AvantGo", "BlackBerry", "Blazer",
+			"Cellphone", "Danger", "DoCoMo", "Elaine/3.0", "EudoraWeb", "hiptop", "IEMobile", "KYOCERA/WX310K", "LG/U990",
+			"MIDP-2.0", "MMEF20", "MOT-V", "NetFront", "Newt", "Nintendo Wii", "Nitro", "Nokia",
+			"Opera Mini", "Opera Mobi",
+			"Palm", "Playstation Portable", "portalmmm", "Proxinet", "ProxiNet",
+			"SHARP-TQ-GX10", "Small", "SonyEricsson", "Symbian OS", "SymbianOS", "TS21i-10", "UP.Browser", "UP.Link",
+			"Windows CE", "WinWAP", "Androi", "iPhone", "iPod", "iPad", "Windows Phone", "HTC");
+		var pda_app_name_list = new Array("Microsoft Pocket Internet Explorer");
+
+		var user_agent = navigator.userAgent.toString();
+		for (var i = 0; i < pda_user_agent_list.length; i++) {
+			if (user_agent.indexOf(pda_user_agent_list[i]) >= 0) {
+				return true;
+			}
+		}
+		var appName = navigator.appName.toString();
+		for (var i = 0; i < pda_app_name_list.length; i++) {
+			if (user_agent.indexOf(pda_app_name_list[i]) >= 0) {
+				return true;
+			}
+		}
+
+	    //针对iPhone微信扫地址栏生成的二维码访问之处理
+	    var ua = navigator.userAgent.toLowerCase();
+	    if(ua.match(/MicroMessenger/i) == "micromessenger") {
+	    	return true;
+	    }
+	    if(ua.match(/android/i) == "android"){  
+	    	return true;
+	    }  
+
+	    return false;
+	}
+	if (checkMobile()){
+		gomobile();
+	}
+	else {
+	}
+	function gomobile(){
+		$("label").css('font-size','24px');
+	}
+
 });

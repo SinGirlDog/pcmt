@@ -22,7 +22,8 @@ class exam_data_model extends model {
         $left =" left join `".$dbname."`.`".$pre.$this->left_table_name."` on ".$this->table_name.".id = ".$pre.$this->left_table_name.".id ";
         
         $where = $this->sqls($where);
-        $where = "where ".$where." and catid = ".$catid;
+        // $where = "where ".$where." and catid = ".$catid;
+        $where = "where ".$where." and catid in (".$catid.")";
 
         $order = " order by ".$order;
         $limit = " limit ".$limit;

@@ -140,7 +140,7 @@ class exam_paper extends admin {
      * 考试模块配置
      */
     public function setting() {
-        //更新模型数据库,重设setting 数据. 
+        //更新模型数据库,重设setting 数据.
         $m_db = pc_base::load_model('module_model');
         $set = $m_db->get_one(array('module'=>'exam'));
         $setting = string2array($set['setting']);
@@ -166,21 +166,22 @@ class exam_paper extends admin {
         $this->exam_qanda_db = pc_base::load_model('exam_qanda_model');//加载考试数据模型
         if(isset($_POST['dosubmit'])) {
             // var_export($_POST);die;
-            if(!isset($_POST['cat_level_3'])){
+            if(!isset($_POST['cat_level_2'])){
                 showmessage('问答设置更新失败', HTTP_REFERER);
                 exit;
             }
 
-            $already = $this->exam_qanda_db->get_one(array('catid'=>$_POST['cat_level_3']));
+            $already = $this->exam_qanda_db->get_one(array('catid'=>$_POST['cat_level_2']));
             if($already['catid']){
                 $_POST['setting']['updatetime'] = SYS_TIME;
-                $result = $this->exam_qanda_db->update($_POST['setting'],array('catid'=>$_POST['cat_level_3']));
+                $result = $this->exam_qanda_db->update($_POST['setting'],array('catid'=>$_POST['cat_level_2']));
             }
             else{
-                $_POST['setting']['catid'] = $_POST['cat_level_3'];
+                $_POST['setting']['catid'] = $_POST['cat_level_2'];
+                $_POST['setting']['parentid'] = $_POST['cat_level_1'];
                 $_POST['setting']['siteid'] = SITEID;
                 $_POST['setting']['addtime'] = SYS_TIME;
-                $_POST['setting']['title'] = $this->make_title_by_catid($_POST['cat_level_3']);
+                $_POST['setting']['title'] = $this->make_qanda_title_by_catid($_POST['cat_level_2']);
                 $result = $this->exam_qanda_db->insert($_POST['setting'],true);
             }
             if($result){
@@ -198,16 +199,35 @@ class exam_paper extends admin {
         }
     }
 
+    private function make_qanda_title_by_catid($catid_str){
+        $cat_id_arr = explode(',', $catid_str);
+        $catid = '';
+        foreach($cat_id_arr as $catid_one){
+            if(!empty($catid_one)){
+                $catid = $catid_one;
+                break;
+            }
+        }
+        $title_str = $this->make_title_by_catid($catid);
+        $title_arr = explode('-',$title_str);
+        array_splice($title_arr, 1, 1, '随机组卷');
+        $real_title = implode('-', $title_arr);
+        return $real_title;
+    }
+
     private function make_title_by_catid($catid){
-        $item = $this->Pre_Index->category_db->get_one(array('catid'=>$catid),'arrparentid');
-        $item['arrparentid'] .= ','.$catid;
-        $catid_arr = explode(',',$item['arrparentid']);
-        array_shift($catid_arr);
-        array_shift($catid_arr);
-        $arrparentid = implode(',', $catid_arr);
-        $paper_title = $this->Pre_Index->make_paper_title($arrparentid);
-        $title_arr = explode('-',$paper_title);
-        array_pop($title_arr);
+        $real_title = '';
+        if($catid){
+            $item = $this->Pre_Index->category_db->get_one(array('catid'=>$catid),'arrparentid');
+            $item['arrparentid'] .= ','.$catid;
+            $catid_arr = explode(',',$item['arrparentid']);
+            array_shift($catid_arr);
+            array_shift($catid_arr);
+            $arrparentid = implode(',', $catid_arr);
+            $paper_title = $this->Pre_Index->make_paper_title($arrparentid);
+            $title_arr = explode('-',$paper_title);
+            array_pop($title_arr);
+        }
         $real_title = implode('-', $title_arr);
         return $real_title;
     }

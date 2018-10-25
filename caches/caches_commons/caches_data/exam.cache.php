@@ -4,7 +4,7 @@ return array (
   array (
     'exam_status' => '1',
     'allow_guest' => '1',
-    'check_pass' => '1',
+    'allow_rand' => '1',
     'pagesize' => '5',
     'enablecheckcode' => '0',
   ),
@@ -12,7 +12,7 @@ return array (
   array (
     'exam_status' => '1',
     'allow_guest' => '1',
-    'check_pass' => '1',
+    'allow_rand' => '1',
     'pagesize' => '5',
     'enablecheckcode' => '0',
   ),

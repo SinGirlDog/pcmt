@@ -49,7 +49,8 @@ DROP TABLE IF EXISTS `v9_exam_qanda`;
 
 CREATE TABLE IF NOT EXISTS `v9_exam_qanda` (
   `id` smallint(5) NOT NULL AUTO_INCREMENT,
-  `catid` smallint(5) NOT NULL,
+  `catid` varchar(50) NOT NULL,
+  `parentid` smallint(5) NOT NULL,
   `siteid` smallint(5) NOT NULL,
   `title` char(80) NOT NULL,
   `num_choice_only` smallint(3) NOT NULL,

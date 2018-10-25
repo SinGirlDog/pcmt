@@ -23,10 +23,10 @@ include $this->admin_tpl('header_exam');
 </tr>
 
 <tr>
-<td align="right">是否需要审核：</td>
+<td align="right">是否开启随机组卷：</td>
 <td align="left">
-<input name="setting[check_pass]" type="radio" value="1" <?php if($check_pass==1){echo "checked";}?> />&nbsp;<?php echo L('yes')?>&nbsp;&nbsp;
-<input name="setting[check_pass]" type="radio" value="0" <?php if($check_pass==0){echo "checked";}?> />&nbsp;<?php echo L('no')?>
+<input name="setting[allow_rand]" type="radio" value="1" <?php if($allow_rand==1){echo "checked";}?> />&nbsp;<?php echo L('yes')?>&nbsp;&nbsp;
+<input name="setting[allow_rand]" type="radio" value="0" <?php if($allow_rand==0){echo "checked";}?> />&nbsp;<?php echo L('no')?>
 </td>
 </tr>
 

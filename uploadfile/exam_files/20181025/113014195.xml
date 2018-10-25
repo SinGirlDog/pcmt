@@ -1,0 +1,795 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>User</Author>
+  <LastAuthor>User</LastAuthor>
+  <Revision>2</Revision>
+  <TotalTime>2</TotalTime>
+  <Created>2018-10-25T03:28:00Z</Created>
+  <LastSaved>2018-10-25T03:28:00Z</LastSaved>
+  <Company>china</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9345</WindowHeight>
+  <WindowWidth>21315</WindowWidth>
+  <WindowTopX>240</WindowTopX>
+  <WindowTopY>375</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="10+5">
+  <Table ss:ExpandedColumnCount="19" ss:ExpandedRowCount="119" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2015</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年二建法规真题及解析</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><Data ss:Type="String">一、单项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">1</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工企业项目经理部经营活动的法律后果由（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．项目经理承担</Font><Font
+       html:Color="#000000">         </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．企业法人承担</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．企业法定代表人承担</Font><Font
+       html:Color="#000000">   </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．项目经理部与企业法人共同承担</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是企业法人与项目经理部的法律关系。项目经理未按时完成施工任务，责任应由施工企业承担，而不是项目经理本人承担，也不是由项目经理部承担；项目经理签字的材料款，如果不按时支付，料供应商应当以施工企业作为被告，而不能直接告项目经理个人，也不能告项目经理部。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P9</Font><Font
+       html:Color="#000000">。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．关于委托代理终止情形的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．被代理人恢复了民事行为的能力</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．被代理人取得了民事行为的能力</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．指定单位取消指定</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．代理期间届满或者代理事务完成</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建设工程代理行为的终止。</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">   123</Font><Font
+       html:Color="#000000">建造师网提醒建设工程代理行为的终止：</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">）代理期间届满或者代理事务完成；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">2</Font><Font html:Color="#000000">）被代理人取消委托或者代理人辞去委托；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">）代理人死亡；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">4</Font><Font html:Color="#000000">）代理人丧失民事行为能力；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">5</Font><Font
+       html:Color="#000000">）作为代理人或者代理人的法人终止。参加教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P11</Font><Font
+       html:Color="#000000">。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">3</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲房地公司在</Font><Font
+       html:Color="#000000">A</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">地块开发住宅小区，为满足该小区住户观景的需求，便与相邻的乙工厂协商约定，甲公司支付乙工厂</Font><Font
+       html:Color="#000000">800</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元，乙工厂在</Font><Font html:Color="#000000">20</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年内不在本厂区建设</Font><Font
+       html:Color="#000000">15</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">米以上的建筑物，以免遮挡住户观景，合同签订生效后甲公司即支付了全部款项，后来，甲公司将</Font><Font
+       html:Color="#000000">A</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">地块的建设用地使用权转让给丙置业公司，关于</Font><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">地块权利的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲公司对乙工厂的土地拥有地役权</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲公司对乙工厂的土地拥有担保物权</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲公司给定的权利自合同公正后获得</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲公司转让</Font><Font
+       html:Color="#000000">A</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">地块后，丙公司不享有该项权利</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是与土地相关的物权。地役权：为使用自己不动产的便利或提高其效益而按照合同约定利用他人不动产的权利。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">，担保物权：权利人在债务人不履行到期债务或者发生当事人约定的实现担保物权的情形，依法享有就担保财产优先受偿的权利。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">，地役权合同生效时地役权设立（可登记，也可不登记）。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">，需役地及需役地的用益物权转让时，受让人同时享有地役权。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P17</Font><Font
+       html:Color="#000000">～</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">18.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">4.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于不动产物权设立的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">不动产物权的设立应依法登记</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">不动产物权的设立属自愿登记</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">不动产物权的设立自合同成立之日时生效</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">不动产登记由合同签订地的登记机构办理</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是物权的设立、变更、转让、消灭和保护。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">，未经登记，不发生效力；选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">C</Font><Font html:Color="#000000">，不动产权的设立，</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">)</Font><Font
+       html:Color="#000000">应当依照法律规定登记，自记载于不动产登记薄时发生效力；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">，不动产登记，由不动产所在地的登记机构办理。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P18</Font><Font
+       html:Color="#000000">。</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">5.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列事项中，属于专利权保护对象的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工企业的名称标志</Font><Font
+       html:Color="#000000">      </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工企业编制的投票文件</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工企业编制的施工方案</Font><Font
+       html:Color="#000000">  </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工企业发明的新技术</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><Data ss:Type="String">【解析】本题考查的是建设工程知识产权的常见种类。专利权：</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">6</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．关于担保的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．担保是用益物权的一种</Font><Font
+       html:Color="#000000">   </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．担保的目的是保障特定债权实现</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．担保合同是主合同</Font><Font
+       html:Color="#000000">       </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．反但保不适用《担保法》的规定</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是担保与担保合同的规定。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">，用益物权包括土地承包经营权、建设用地使用权、宅基地使用权和地役权。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">，担保合同是主合同的从合同。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P29</Font><Font
+       html:Color="#000000">～</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">30.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">7.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某开发商一起</Font><Font
+       html:Color="#000000">A</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">地块的建设用地使用权作为向银行贷款的担保，确保按期还贷，此担保方式属于（）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．保证</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．质押</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．抵押</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．留置</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="54">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">：错误。保证，是指保证证人和债权人约定，当债务人不履行债务时，保证人按照约定履行债务或者承担责任的行为。</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">  </Font><Font
+       html:Color="#000000">选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">B</Font><Font html:Color="#000000">：错误，质押是指债务人或者第三人将其动产或权利交移债权人占有，将该动产或权利作为债权的担保。</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">  </Font><Font
+       html:Color="#000000">选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">C</Font><Font html:Color="#000000">：正确。抵押是指债务人或者第三人不转移财产的占有，将该财产作为债权的担保。债务人或者第三人有权处分的下列财产可以抵押：（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">）建筑物和其他土地附着物；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">2</Font><Font html:Color="#000000">）建设用地使用权；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">）以招标、拍卖、公开协商等方式取得的荒地等土地承包经营权；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">4</Font><Font
+       html:Color="#000000">）生产设备、原材料、半成品、产品；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">5</Font><Font
+       html:Color="#000000">）正在建造的建筑物、船舶、航空器；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">6</Font><Font
+       html:Color="#000000">）交通运输工具</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">;(7)</Font><Font html:Color="#000000">法律、行政法规未禁止抵押的其他财产。</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">    </Font><Font
+       html:Color="#000000">选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">D:</Font><Font html:Color="#000000">错误。留置是指债权人按照合同约定占有债务人的动产，债务人不按照合同约定的期限履行债务的，债权人有权依照法律规定留置该财产，以该财产折价或者拍卖。变卖该财产的价款先受偿。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">8. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于建筑市场诚信行为的公布内容和范围，下列说法申，正确的是</Font><Font
+       html:Color="#000000">(  ).</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标投标违法行为记录公告涉及商业秘密的一律不得公开</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标投标违法行为记录公告涉及个人隐私的一律不得公开</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标投标违法行为记录公告涉及公共利益的一律不得公开</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标技标违法行为记录公告涉及国家秘密的一律不得公开</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> D</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建筑市场诚信行为的公布</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">.</Font><Font
+       html:Color="#000000">国家秘密不得公开</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">.</Font><Font html:Color="#000000">，参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">Pl04.</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">9. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《建设工程安全生产管理条例》，施工单位的相关人员未经安全考核不合格即从事相关工作的，应责令限期改正，逾期未改正的，下列人员中，属于“相关人员”范围的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．安全员</Font><Font
+       html:Color="#000000">  </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．资料员</Font><Font
+       html:Color="#000000">  </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．材料员</Font><Font
+       html:Color="#000000">  </Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．标准员</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><Data ss:Type="String">【解析】</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">10. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于工程项目配套建设的环境保护设施竣工验收，下列说法中，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．分期建设分期投入生产的建设项目，其相应的环境保护设施应同时验收</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．需进行试生产的建设项目，环境保护设施应当自建设项目正式竣工验收之日起</Font><Font
+       html:Color="#000000">1</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">个月内申请验收</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建设行政主管部门收到验收申请之日起</Font><Font
+       html:Color="#000000">15</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">日内，完成环境验收</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．环境保护设施验收不合格，主体工程正式投入生产的，由建设行政主管部门责令停止生产</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题查考的是建设工程竣工环保验收。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">，需要进行试生产的，建设单位应当自投入试生产之日起</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">个月内申请验收。选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">C</Font><Font html:Color="#000000">，环境保护部门自收到申请之日起</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">30</Font><Font
+       html:Color="#000000">日内完成验收。选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">D</Font><Font html:Color="#000000">，应由环境保护行政主管部门责令停止生产或者使用。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P280-281</Font><Font
+       html:Color="#000000">。</Font></ss:Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><Data ss:Type="String">一、多项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">61</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．下列行为中，属于招标人违法行为的有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人与投标人就投标方案进行谈判的</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人发出中标通知书后无正当理由改变中标结果的</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人按规定的时间和程序对已发出的招标文件进行修改</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人在合同建立时向中标人提出附加条件</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人按规定的时间和程序对已发出的资格预审文件进行修改</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABD</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是招标人违法行为应承担的法律责任。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABD</Font><Font
+       html:Color="#000000">都属于招标人的违法行为。参见教材</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">P88</Font><Font html:Color="#000000">～</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">89.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">62.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《合同法》应当采用书面形式的合同有（）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建设工程勘察合同</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">委托合同</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建筑工程施工合同</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">承揽合同</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建设工程设计合同</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ACE</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建设工程施工合同的法定形式。《合同法》规定，建设工程合同应当采用书面形式。参考教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P106.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">63.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《合同法》，违约方承担赔偿损失的构成要件包括（）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">具有违约行为</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">具有惩罚目的</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">造成损失后果</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">违约方有过错，或虽无过错，但法律规定应当赔偿</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">违约行为与损失后果之间具有因果关系</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ACDE</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是承担赔偿损失责任的构成要件。（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">）具有违约行为；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">2</Font><Font html:Color="#000000">）造成损失后果；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">）违约行为与财产等损失之间有因果关系；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">4</Font><Font
+       html:Color="#000000">）违约人有过错，或者虽无过错，但法律规定应当赔偿。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P113.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">64</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．根据《合同法》，合同权利义务终止的情形有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．债务人依法将标的物抵押</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．合同解除</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．债务相互抵消</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．债权人依法将标的物提存</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．债权人免除债务</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">BCE</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是合同的终止。《合同法》规定，有下列情形之一的，合同的权利义务终止：（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">）债务已经按照约定履行；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">2</Font><Font html:Color="#000000">）合同解除；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">）债务互相抵消；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">4</Font><Font html:Color="#000000">）债务人依法将标的物提存；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">5</Font><Font
+       html:Color="#000000">）债权人免除责任；（</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">6</Font><Font html:Color="#000000">）债权债务同归于一人；（</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">7</Font><Font
+       html:Color="#000000">）法律规定或者当事人约定终止的其他情形。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P121.</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">65.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《建筑工程质量管理条例》，建设工程竣工验收应当具备的条件有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">完成建设工程设计的各项内容</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有完整的技术档案和施工管理资料</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有工程使用的主要建筑材料，建筑构配件和设备的进场试验报告</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有监理单位和施工单位共同签署的质量合格文件</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s68"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有建设单位签署的工程保修书</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">BC</Font></ss:Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="18" ss:StyleID="s71"><ss:Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是竣工验收应当具备的法定条件。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">不太全面：完成建设工程设计和合同约定的各项内容；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">：有勘察、设计、施工、工程监理等单位分别签署的质量合格文件；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">E</Font><Font
+       html:Color="#000000">：有施工单位签署的工程保修书。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P278</Font><Font
+       html:Color="#000000">。</Font></ss:Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C19</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,1643 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>User</Author>
+  <LastAuthor>User</LastAuthor>
+  <Revision>2</Revision>
+  <TotalTime>3</TotalTime>
+  <Created>2018-10-25T02:33:00Z</Created>
+  <LastSaved>2018-10-25T02:33:00Z</LastSaved>
+  <Company>china</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7770</WindowHeight>
+  <WindowWidth>19155</WindowWidth>
+  <WindowTopX>600</WindowTopX>
+  <WindowTopY>360</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="30+10">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="294" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2015</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年二建法规真题及解析</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">一、单项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">31.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于施工企业违法行为应承担法律责任的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未取得资质证书承揽工程的，予以取缔，并处罚款，有违法所得的，予以没收</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">超越本单位资质等级承揽工程的，责令停止违法行为并降低资质等级</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">将承包的工程转包时，责令改正并没收违法所得</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">允许他人以本企业名义承揽工程时，没收违法所得并处罚款和吊销资质证书</Font><Font
+       html:Color="#000000">  </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">【答案】</Font><Font html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工企业资质违法行为应承担的主要法律责任，《建筑法》规定，未取得资质证书承揽工程的，予以取缔，并处于罚款，有违法所得的，予以没收。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P62.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">32. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某开发商在一大型商场项目的开发建设中，违反国家规定，擅自降低工程质量标准，因而造成重大安全事故。该事故责任主体应该承担的刑事责任是（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">重大责任事故罪</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">重大劳动安全事故罪</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">串通投标罪</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">工程重大安全事故罪</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> </Font><Font
+       html:Color="#000000">工程重大安全事故罪的责任主体是企业，如建设单位擅自降低工程质量标准，因而造成重大安全事故。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">33. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《安全生产法》，生产经营单位发生生产安全事故造成人员伤亡等损失，应当依法承担赔偿责任，拒不承担的，由（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）依法强制执行。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">人民法院</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">人民政府</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建设行政主管部门</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">安全生产监督管理部门</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工安全事故应急救援与调查处理违法行为应承担的法律责任，《安全生产法》规定，生产经营单位发生生产安全事故造成人员伤亡、他人财产损失的，应当依法承担赔偿责任，拒不承担或者其负责人逃匿的，由人民法院依法强制执行，参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P241.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">34</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．关于合同示范文本的说法，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．示范文本能够使合同的签订规范和条款完备</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．示范文本为强制使用的合同文本</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．采用示范文本是合同成立的前提</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．采用示范文本是合同生效的前提</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建设工程合同示范文本的性质与作用。如果缺乏合同示范文本，一些当事人签订的合同不规范，条款不完备，漏洞较多，将给合同履行带来很大困难，不仅影响合同履约率，还导致合同纠纷增多，解决纠纷的难度增大。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P124.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">35.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">甲装饰公司拖欠某劳务公司</Font><Font
+       html:Color="#000000">10</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元工程款，劳务公司多次索要无果，当决定诉时发现，甲装饰公司已经分立为乙装饰公司和丙运输公司，而乙、丙两个公司对</Font><Font
+       html:Color="#000000">10</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元工程欠款的偿还未做明确约定，劳务公司便以乙装饰公司为被告诉至法院，法院受理后通知丙公司应诉。此时，丙公司作为当事人属于（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">共同诉讼人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">原告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有独立请求权的第三人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">无独立请求权的第三人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是民事诉讼的当事人和代理人。共同诉讼人，是指当事人一方或双方二人以上（含二人），其诉讼标的是共同的，或者诉讼标的是同一种类、人民法院认为可以合并审理并经当事人同意，共同在人民法院进行诉讼的人，参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P300.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">36. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《劳动合同法》，劳务派遣单位应当与被派遣劳动者订立（）以上的固定期限劳动合同。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.5</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.3</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.2</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.1</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是“包工头”用工模式和劳务派遣。劳务派遣单位应与被派遣劳动者订立</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">2</Font><Font
+       html:Color="#000000">年以上的无固定期限劳动合同，按月支付劳动报酬。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P134.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">37.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某工程竣工验收时发现隐蔽工程检测质量不合格，经查，是有于设计缺陷造成的。下列说法中，正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．设计人应负责返修，费用由设计方先行承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．承包人应负责返修，费用由承包人先行承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．承包人应负责返修，费用由发包人先行承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．由设计缺陷造成质量不合格，承包人不负责返修</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工质量检验和返修的规定。对于飞施工单位原因造成的质量问题，施工单位也应当负责返修，但是因此造成的损失及返修费用有责任方负责。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P265.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">38.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《建筑施工场界环境噪声排放标准》（</Font><Font
+       html:Color="#000000">GB12523-2011</Font><Font html:Face="宋体"
+       x:CharSet="134" html:Color="#000000">）。建筑施工场界环境夜间噪声的夜间是批（）期间。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A .21</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">点至次日</Font><Font
+       html:Color="#000000">6</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">点</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B .22</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">点至次日</Font><Font
+       html:Color="#000000">8</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">点</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C .21</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">点至次日</Font><Font
+       html:Color="#000000">8</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">点</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D. 22</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">点至次日</Font><Font
+       html:Color="#000000">6</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">点</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工现场噪声污染防治的规定，“夜间”是指</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">22:00</Font><Font
+       html:Color="#000000">至次日</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">6:00</Font><Font html:Color="#000000">之间的事件段。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P168.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">39.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列合同各项内容中，不属于合同条款的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．价款或者报酬</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．保险条款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．履行期限、地点和方式</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．当事人的名称</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建设工程施工合同的法定形式和内容，保险条款不属于合同的主要条款。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P106.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">40</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．某建设工程项目中，甲公司中标后将其转包给不具有相应资质的乙公司，乙公司施工工程不符合规定质量标准，给建设单位造成损失，下列说法中，正确的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建设单位与甲公司有直接合同关系，应由甲公司承担赔偿责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲、乙承担连带赔偿责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．实际施工并造成损失的是乙公司，应由乙公司承担赔偿责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．因建设单位管理不到位，应由建设单位承担部分损失</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">【解析】本题考查的是承包单位违法行为应承担的法律责任。因对转包工程或者违法分包的工程不符合规定的质量标准造成的损失，与接受转包或者分包的单位承担连带赔偿责任</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">41.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列情形中，投标人中标有效的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">投标人给予招标人金钱获取中标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">投标人在投标书中表明给予招标人折扣获取中标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">投标人在账外给予招标人回扣获取中标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">投标人在账外给予评标委员会财物获取中标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是禁止投标人以行贿手段谋取中标，投标人以行贿手段谋取中标是一种严重的违法行为，其法律后果是中标无效。在帐外暗中给予对方单位或者个人回扣的，以行贿论处；对方单位或者个人在帐外收受回扣的，以受贿论处。禁止投标人以向招标人或者评标委员行贿的手段谋取中标。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P84.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">42.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某施工合同纠纷案经仲裁裁决，将已经竣工工程的部分楼层折价给施工单位抵偿工程欠款，但建设单位拒绝履行裁决。因此，施工单位决定申请执行仲裁裁决。关于申请执行总裁裁决的说法中，正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工单位申请执行的期间为</Font><Font
+       html:Color="#000000">1</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">年</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．申请执行本案的仲裁裁决，由施工单位所在地的中级人民法院管辖</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．申请执行本案的仲裁裁决，有本案工程合同签订滴地的中级人民法院管辖</Font><Font
+       html:Color="#000000">   D</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">．施工单位有权向人民法院申请执行</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是仲裁裁决的执行。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">申请仲裁裁决强制执行的期间为</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">2</Font><Font html:Color="#000000">年；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">由仲裁协议签订地或者被申请人住所地的中级人员法院管辖。参与教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P323</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">326</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">43.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某施工企业一材料供应商订立的合同中约定了违约金</Font><Font
+       html:Color="#000000">5</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元，同时约定由施工企业支付供应商定金</Font><Font html:Color="#000000">4</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">万元。后来供应商未能交货，施工企业为最大限度维护自身利益，可以要求供应商支付（）万元。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">13</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">9</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">8</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">5</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是定金的规定。施工单位只能在双倍定金与违约金加返还定金中选其一，双倍定金是</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">8</Font><Font
+       html:Color="#000000">万元，违约金加返还定金是</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">9</Font><Font html:Color="#000000">万元，故最大限度维护到自身利益可以要求供应商支付</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">9</Font><Font
+       html:Color="#000000">万元。参见教材</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">P33.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">44.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《建筑法》及相关法规，建设单位应当办理施工许可证是工程是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．国务院批准开工报告的工程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．城镇市政基础设施工程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建筑面积</Font><Font
+       html:Color="#000000">200m2</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">以上的工程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．工程投资额在</Font><Font
+       html:Color="#000000">20</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元以上的工程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工许可证的适用范围，工程投资额在</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">30</Font><Font
+       html:Color="#000000">万元以下或者建筑面积在</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">300</Font><Font html:Color="#000000">平方米以下的建筑工程；开工报告一施工许可证不要重复办理。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P45.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">45.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《最高人民法院关于审理建设工程施工合同纠纷案件适用法律问题的解释》，下列情形中，造成建设工程质量缺陷，发包人应当承担过错责任的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．未申领施工许可证</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．迟延提供设计文件</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．拖欠工程款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．直接指定分包人分包专业工程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">【解析】本题考查的是建设单位相关的质量责任和以为，建设单位制定分包的工程应征得总包的同意。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">46.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《建设工程质量管理条例》，在工程建设过程中，对违反国家规定，降低工程质量标准，造成重大安全事故，构成犯罪的，应对（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）依法追究刑事责任。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．法定代表人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．经营负责人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．直接责任人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．项目负责人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">【解析】本题考查的是违法行为应承担的法律责任。《建设工程质量管理条例》规定，建设单位、设计单位、施工单位、工程监理单位违反国家规定，降低工程质量标准，造成重大安全事故，构成犯罪的，应对直接责任人员依法追究刑事责任。</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">47.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《民事诉讼法》，下列证据中，属于书证的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．录音录像材料</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建筑材料样品</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．工程质量鉴定报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．施工合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是民事诉讼证据。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">属于电子数据；选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">B</Font><Font html:Color="#000000">属于物证，选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">属于鉴定意见。参见教材</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">P303.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">48.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于工程监理单位的相关质量责任和义务，下列说法正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．监理单位仅对施工质量承担责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．监理单位在接受监理委托后，因利害关系需回避的，可以转让监理业务</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．工程监理实行总监理工程师负责制</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．监理单位将不合格的建筑材料按照合格签字，造成损失的，承担全部责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是工程监理单位相关的质量责任和义务，总监理工程师依法和在授权范围内可以发布有关指令，全面负责收委托的监理工程。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">B</Font><Font html:Color="#000000">工程监理单位不得转让工程监理业务；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">承担连带责任。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">49.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">以守法为基础，根据违法违规行为的行政处罚记录，对市场主体进行诚信评价的是（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">行业协会的综合信用评价</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">行业协会协助政府部门的综合信用评价</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">政府对市场主体的守法诚信评价</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">社会中介信用机构的综合信用评价</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建筑市场诚信评价的基本规定。以守法为基础，根据违法违规行为的行政处罚记录，对市场主体进行诚信评价的是政府对市场主体的守法诚信评价。参考教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P105</Font><Font
+       html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">50.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列安全生产责任中，属于施工单位安全生产管理机构专职安全生产管理人员责任的（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">落实制定安全生产规章制度和操作规程</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">确保安全生产费用的有效使用</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">检查危险性较大工程安全专项施工方案的落实情况</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">组织制定安全施工措施</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="51.75">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工单位的安全生产责任制度。建筑施工企业安全生产管理机构专职安全生产管理人员在施工现场检查过程中具有以下职责：检阅在建项目安全生产有关资料、核实有关情况；检查危险性较大工程安全专项施工方案落实情况；监督项目专职安全生产管理人员履责情况；监督作业人员安全防护用品的配备及使用情况；对发现的安全生产违章违规行为或者安全隐患，有权当场予以纠正或作出处理决定；对不符合安全生产条件的设施、设备、器材，有权当场作出查封的处理决定；对施工现场存在的重大安全隐患有权越级报告或直接向建设主管部门报告；企业明确的其他安全生产管理职责。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P201</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">51</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．货运合同的托运人未按照约定包装货物，承运人可以（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．留置货物</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．要求赔偿</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．解除合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．拒绝运输</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是运输合同的法律规定。托运人应当按照约定的方式包装货物。对包装方式没有约定或者约定不明确的，适用《合同法》第</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">156</Font><Font
+       html:Color="#000000">条的规定。托运人违反包装的规定的，承运人可以拒绝运输。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P161.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">52.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列行为中，属于工程安全不良行为的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">在施工中偷工减料的，使用不合格建筑材料、建筑构配件和设备的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未对因工程施工可能造成损害的毗邻建筑物、构建物和地下管线等采取防护措施的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">不按照工程设计图纸或者施工技术标准施工的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未对建筑材料、建筑构配件、设备、商品混凝土进行检测的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工单位不良行为记录的认定标准。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ACD</Font><Font
+       html:Color="#000000">属于工程质量不良行为。参考教材</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">P102</Font><Font html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">53.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某施工企业的下列安排，违反《劳动法》中关于女职工特殊保护规定（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">安排正在哺乳未满</Font><Font
+       html:Color="#000000">1</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">周岁婴儿的女工李某从事资料整理工作</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">安排怀孕</Font><Font
+       html:Color="#000000">6</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">个月的女工钱某从事夜班工作</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">安排怀孕期间女工赵某从事</Font><Font
+       html:Color="#000000">3</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">级体力劳动强度的劳动</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">批准女工王某只能休产假</Font><Font
+       html:Color="#000000">120</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">天</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是女职工和未成年工的特殊保护。不得安排女职工在怀孕期间从事国家规定的第</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">3</Font><Font
+       html:Color="#000000">级劳动强度的劳动和孕期禁忌从事的活动。参考教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P139.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">54.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于招标程序和要求的说法，正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">依法必须进行招标的项目，招标人必须委托有资质的招标代理机构办理招标事宜</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标项目按照国家有关规定需要履行项目审批手续的，应当先履行审批手续，获得批准</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标文件可以不包括拟签订合同的主要条款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标人对已发出的招标文件进行必要的澄清或者修改的应当重新招标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是招标基本程序。《招标投标》规定，招标项目按照国家有关规定需要履行项目审批手续的，应当先履行审批手续，获得批准。参考教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P75</Font><Font
+       html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">55.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关于民事诉讼审判程序的说法，正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．一审程序包括普通程序和特殊程序</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．必须以书面形式起诉</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．原告必须与案件有直接利害关系</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．提交起诉状的同时提交全部证据</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是民事诉讼的审判和执行程序。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">，正确的表述应为“”一审程序包括普通程序和简易程序；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">，正确的表述应为“起诉方式，应当以书面起诉为原则，口头起诉为例外”；选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">，正确的表述应为“提交起诉状时，有具体的诉讼请求和所根据的事实和理由即可，不需要提交全部证据”。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P310-311</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">56.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某买卖合同约定甲向乙供货，并约定甲向承运人再交付货物即视为甲完成交付，在货物交付运输期间，已将该货物转卖给丁并通知丙向丁交费，但乙和丁对于货物毁损、灭失的风险没有约定。关于本案例中货物毁损、灭失风险承担的说法，正确的是（）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．乙与丁的买卖合同成立，货物毁损、灭失的风险由丁承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲向丙交付货物后，货物毁损，灭失的风险由丙承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．甲与乙的买卖合同成立，货物毁损、灭失的风险即由乙承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．丙向丁交付货物后，货物毁损、灭失的风险由乙承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是标的物毁损灭风险的承担，出卖人出卖交由承运人运输的在途标的物，除当事人另有约定的以外，毁损、灭失的风险自合成立时起有买卖人承担。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P152</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">57</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建设工程未经竣工验收，发包人擅自使用的，该工程竣工日期应为（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．提交验收报告之日</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．建设工程完工之日</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．转移占有建设工程之日</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．竣工验收合格之日</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是竣工日期。建设工程未经竣工验收，发包人擅自使用的，以转移占有建设工程之日为竣工日期。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P110.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">58. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《消防法》和《食品安全法》，关于施工现场违法行为应承担法律责任的说法，正确的是（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">埋压、圈占、遮挡消火栓或占用防水间距的，处以罚款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">进货时未检验许可证和相关证明文件的，给予警告并和以罚款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未按规定要求贮存、销售食品或者清理库存食品的，罚款并责令停产停业</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">故意破坏或者伪造火灾现场尚不构成犯罪的，拘留并处以罚款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工现场消防安全违法行为应承担的法律责任，“对于埋压、圈占、遮挡消火栓或者占用防火间距的”责令改正，处以</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">5000</Font><Font
+       html:Color="#000000">元以上</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">5</Font><Font html:Color="#000000">万元以下罚款。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P231.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">59. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《工商保险条例》，职工因工作遭受事故或者患职业病，需要暂停工作接受工伤治疗的，停工留薪期一般不超过（）个月</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String">A.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String">B.10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String">C.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String">D.6</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是工伤医疗的停工留薪期，停工留薪期一般不超过</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">12</Font><Font
+       html:Color="#000000">个月。参见教材</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">P226.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">60</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．下列仲裁协议中，有效的仲裁协议是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．本合同履行过程中，凡因本合同引起的任何争议，均提请仲裁委员会仲裁</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．本合同履行过程中，凡因本合同引起的任何争议，可申请仲裁或提起诉讼</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．本合同履行过程中，凡因本合同引起的任何争议，均提请北京仲裁委员会仲裁</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．本合同履行过程中，凡因本合同引起的任何争议，应先申请仲裁后提起诉讼</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是仲裁制度。仲裁和诉讼是两种不同的争议解决方式，当事人只能选用其中的一种。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P321.</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">一、多项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">71. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">在建设工程招投标活动中，关于联合体投标的说法，正确的有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">联合体各方在同一招标项目中，既可以联合体名义招标，又可以自己名义招标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">两个以上的个人可以组成联合体</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标人可以强制投标人组成联合体</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">在资格预审前，联合体可以增加成员</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">联合体各方就中标项目承担连带责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">DE</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是联合体投标。两个以上法人或者其他组织可以组成一个联合体，以一个投标人的身份共同投标。招标人不得强制投标人组成联合体共同投标。联合体中标的，联合体各方应当共同与招标人签订合同，就中标项目向招标人承担连带责任。联合体应当在提交资格预审申请文件前组成，资格预审后联合体增减、更换成员的，其投标无效。联合体各方在同一招标项目中以自己名义单独投标或者参加其他联合体投标的，相关投标均无效。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P81.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">72.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列建设工程安全生产责任中，属于工程建立单位安全职责的有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">审查安全技术措施或专项施工方案</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">编制安全技术措施或专项施工方案</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">对施工现场的安全生产负总则</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">对施工安全事故隐患提出整改要求</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">出现安全事故，负责成立事故调查组</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">AD</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是工程监理单位的安全责任。工程监理单位的安全责任包括：对安全技术措施或专项施工方案进行审查；依法对施工安全施工隐患进行处理；承担建设工程安全生产的监理责任。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P246-247.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">73. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《合同法》，免除施工单位违约责任的情形有（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">施工在安全事故隐患，被监理工程师责令暂停施工，致使工期延误</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">因拖欠农民工工资，部分农民工停工抗议，致使工期延误</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">地震导致已完工程被爆破拆除重建，造成建设单位费用增加</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">由于战争，施工单位暂停施工，致使工期延误</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">因迟延履行而遭遇洪水，导致工期延误</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> CD</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是违约责任的免除。《合同法》规定，因不可抗力不能履行合同的，根据不可抗力的影响，部分或者全部免除责任，但法律另有规定的除外。当事人迟延履行后发生不可抗力的，不能免除责任。本法所称不可抗力，是指不能预见、不能避免并不能克服的客观情况。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P123.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">74.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《劳动合同法》，劳务派遣用工岗位具有（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">替代性</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">辅助性</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">临时性</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">长期性</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">关键性</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABC</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是劳务派遣。劳务派遣只能在临时性、辅助性或者替代性的工作岗位上实施。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P133.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">75.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某工程项目未经竣工验收，发包人擅自后楼板出现裂缝，经鉴定是由于承包人偷工减料造成的，关于此项目质量责任的说法，正确的有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未经竣工验收使用此工程，由发包人承担责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">承包人在建设工程设计文件规定的合理使用年限内对主体结构承担民事责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">承包人应当负责返修，费用由发包人承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">造成发包人损失的，承包人不承担责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">承包人应当负责返修，费用由承包人承担</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">BE</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是竣工工程质量争议的处理。建设工程未经竣工验收，发包人擅自使用后，又以使用部分质量不符合约定为由主张权利的，不予支持；但是承包人应当在建设工程的合理使用寿命内对地基基础工程和主体结构质量承担民事责任。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P285.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">76.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列各项权力中，属于施工作业人员安全生产权利的是（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">检举权</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">控告权</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">批评权</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">接受安全教育培训的权利</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">危险报告权</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABC</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是施工作业人员安全生产的权利和义务。施工作业人员安全生产的权利包括：施工安全生产的知情权和建议权；施工安全防护用品的获得权；批评、检举、控告权及拒绝违章指挥权；紧急避险权；获得工伤保险和意外伤害保险赔偿的权利；请求民事赔偿权。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P206-207.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">77. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《生产安全事故报告调查处理条例》，事故的等级划分为（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">一般事故</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">较大事故</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">严重事故</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">重大事故</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">特别重大事故</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABDE</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是生产安全事故的等级划分标准。根据生产安全事故造成的人员伤亡或者直接经济损失，事故一般分为以下等级：特别重大事故、重大事故、较大事故、一般事故。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P232.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">78</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．招标人在发出中标通知书前，由评标委员会对中标候选人进行再次审查确认的情况有（</Font><Font
+       html:Color="#000000"> </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．中标候选人财务状况发生较大变化，可能影响其履约能力</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．中标候选人未缴纳履约保证金</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．中标候选人放弃中标</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．中标候选人存在违法行为，可能影响其履约能力</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．中标候选人经营发生较大变化，可能影响其履约能力</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ADE</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【名师解析】本题考查的是中标的法定要求。中标候选人的经营、财务状况发生较大变化或者存在违法行为，招标人认为可能影响其履约能力的，应当在发出中标通知书前由原评标委员会按照招标文件规定的标准和方法审查确认。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P87.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">79. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">根据《劳动合同法》，下列合同中，属于无效劳动合同的有（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">违反法律、行政法规强制性规定的劳动合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">由用人单位提供的格式劳动合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">用人单位免除自己法定责任、排除劳动者权利的劳动合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">与用人单位代理人签订的劳动合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">未明确规定合同期限的劳动合同</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">AC</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是订立劳动合同应当注意的事项。下列劳动合同无效或者部分无效：以欺诈、胁迫的手段或者乘人之危，使对方在违背真实意思的情况下订立或者变更劳动合同的；用人单位免除自己的法定责任、排除劳动者权利的；违反法律、行政法规强制性规定的。对于部分无效的劳动合同，只要不影响其他部分效力的，其他部分仍然有效。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P128.</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">80. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列关于分包的说法中，正确的有（）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">招标人可以直接指定分包人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">经招标人同意，中标人将中标项目的非关键性工作分包给他人完成</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">中标人和招标人可以在合同中约定将中标项目的部分非主体工作分包给他人完成</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">中标人为节约成本可以自行决定将中标项目的部分非关键性工作分包给他人完成</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s68"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">经招标人同意，接受分包的人可将项目再次分包给他人</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> BC</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】本题考查的是建设工程分包规定。《招标投标法》也规定，中标人按照合同约定或者经招标人同意，可以将中标项目的部分非主体、非关键性工作分包给他人完成。接受分包的人应当具备相应的资格条件，并不得再次分包。参见教材</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">P97</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C17</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

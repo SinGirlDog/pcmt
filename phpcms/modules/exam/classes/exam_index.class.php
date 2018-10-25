@@ -17,6 +17,7 @@ class exam_index {
       $this->exam_answer_db = pc_base::load_model('exam_answer_model');
       $this->exam_file_db = pc_base::load_model('exam_file_model');
       $this->exam_visitor_db = pc_base::load_model('exam_visitor_model');
+      $this->exam_qanda_db = pc_base::load_model('exam_qanda_model');
 
       $this->top_catid = $this->get_top_catid();
       $this->paper_setting = $this->get_paper_setting();
@@ -132,32 +133,33 @@ class exam_index {
     }
 
     private function get_paper_setting(){
-    	$this->exam_qanda_db = pc_base::load_model('exam_qanda_model');
     	$result = $this->exam_qanda_db->select();
     	$setting = array();
     	foreach($result as $item){
-    		$setting[$item['catid']]['choice_only'] = array(
-    			'type' => 'choice_only',
-    			'num' => $item['num_choice_only'],
-    			'fenshu' => $item['fenshu_choice_only'],
-    		);
-    		$setting[$item['catid']]['choice_more'] = array(
-    			'type' => 'choice_more',
-    			'num' => $item['num_choice_more'],
-    			'fenshu' => $item['fenshu_choice_more'],
-    		);
-    		$setting[$item['catid']]['fillinblank'] = array(
-    			'type' => 'fillinblank',
-    			'num' => $item['num_fillinblank'],
-    			'fenshu' => $item['fenshu_fillinblank'],
-    		);
-    		$setting[$item['catid']]['objective'] = array(
-    			'type' => 'objective',
-    			'num' => $item['num_objective'],
-    			'fenshu' => $item['fenshu_objective'],
-    		);
-    	}
-    	return $setting;
+            $setting[$item['id']]['catid'] = $item['catid'];
+            $setting[$item['id']]['parentid'] = $item['parentid'];
+            $setting[$item['id']]['choice_only'] = array(
+               'type' => 'choice_only',
+               'num' => $item['num_choice_only'],
+               'fenshu' => $item['fenshu_choice_only'],
+           );
+            $setting[$item['id']]['choice_more'] = array(
+               'type' => 'choice_more',
+               'num' => $item['num_choice_more'],
+               'fenshu' => $item['fenshu_choice_more'],
+           );
+            $setting[$item['id']]['fillinblank'] = array(
+               'type' => 'fillinblank',
+               'num' => $item['num_fillinblank'],
+               'fenshu' => $item['fenshu_fillinblank'],
+           );
+            $setting[$item['id']]['objective'] = array(
+               'type' => 'objective',
+               'num' => $item['num_objective'],
+               'fenshu' => $item['fenshu_objective'],
+           );
+        }
+        return $setting;
     }
 
 	//通过arrcatid获取各级栏目名称，串联成为cattitle名
@@ -189,18 +191,23 @@ class exam_index {
 
     }
 
-    private function prepare_paper_data(){
+    public function prepare_paper_data(){
     	$paper = array();
-    	$catid = $_POST['cat_level_2'];
-    	$paper['arrparentid'] = $this->top_catid.','.$_POST['cat_level_1'].','.$_POST['cat_level_2'];
-    	$paper['title'] = $this->make_paper_title($paper['arrparentid']);
-    	$paper['name'] = $_POST['name'];
-    	$paper['mobile'] = $_POST['mobile'];
-    	$paper['siteid'] = SITEID;
-    	$paper['addtime'] = SYS_TIME;
-    	$paper['quest_choice_only'] = $this->get_quest_by_type($this->paper_setting[$catid]['choice_only'],$catid);
-    	$paper['quest_choice_more'] = $this->get_quest_by_type($this->paper_setting[$catid]['choice_more'],$catid);
-    	return $paper;
+        $randid = $_POST['randid'];
+        if($randid){
+            $super_info = $_SESSION['super_info'];
+            $rand_set = $this->paper_setting[$randid];
+            $catid_arr = explode(',',$rand_set['catid']);
+            $paper['arrparentid'] = $this->top_catid.','.$super_info['cat_level_1'].','.$catid_arr[0];
+            $paper['title'] = $this->make_paper_title($paper['arrparentid']);
+            $paper['name'] = $super_info['name'];
+            $paper['mobile'] = $super_info['mobile'];
+            $paper['siteid'] = SITEID;
+            $paper['addtime'] = SYS_TIME;
+            $paper['quest_choice_only'] = $this->get_quest_by_randtype($rand_set['choice_only'],$rand_set['catid']);
+            $paper['quest_choice_more'] = $this->get_quest_by_randtype($rand_set['choice_more'],$rand_set['catid']);
+        }
+        return $paper;
     }
 
     private function get_quest_by_quest_ids($qtype,$quest_ids){
@@ -217,7 +224,7 @@ class exam_index {
 
     }
 
-    private function get_quest_by_type($quest_setting_arr,$catid){
+    private function get_quest_by_randtype($quest_setting_arr,$catid_str){
     	$quest_str = '';
     	if(empty($quest_setting_arr)){
     		return $quest_str;
@@ -232,7 +239,7 @@ class exam_index {
         // $limit = 20;
         // $catid = 39;
 
-    	$quest_arr = $this->exam_data_db->left_select($where,$data,$limit,$order,$catid);
+    	$quest_arr = $this->exam_data_db->left_select($where,$data,$limit,$order,$catid_str);
     	foreach($quest_arr as $num_key => $id_val)
     	{
     		$quest_str .= $id_val['id'];
@@ -460,9 +467,10 @@ class exam_index {
     public function get_paiming($answer_data){
         $paiming = array();
         $paiming['rownum'] = $this->exam_answer_db->select_paiming($answer_data['id']);
-        $allnum = $this->exam_answer_db->count(array('fileid'=>$answer_data['fileid']));
-        if($paiming['rownum'] == 1){
-            $paiming['percent'] = 98.76;
+        // $allnum = $this->exam_answer_db->count(array('fileid'=>$answer_data['fileid']));
+        $allnum = $this->exam_answer_db->count();
+        if($paiming['rownum'] < 10 && $paiming['rownum'] > 0){
+            $paiming['percent'] = 99 - 0.24*$paiming['rownum'];
         }
         else{
             $paiming['percent'] = 100*($allnum - $paiming['rownum'])/($allnum - 1);
@@ -523,6 +531,18 @@ class exam_index {
             // $catids_str = $cat_ids_arr;
         }
         return $catids_str;
+    }
+
+    public function get_rand_paper_set_by_parentid($parentid){
+        $result = array();
+        if($parentid){
+            $result = $this->exam_qanda_db->select(array('parentid'=>$parentid),'id,title');
+        }
+        foreach($result as &$res_one){
+            $res_title = explode('-', $res_one['title']); 
+            $res_one['title'] = array_pop($res_title);
+        }
+        return $result;
     }
 
 }

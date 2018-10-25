@@ -50,6 +50,7 @@ class index {
         $this->Pre_Index->visitor_info_check();
         $super_info = $_SESSION['super_info'];
         $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+        $allow_rand = $this->set['allow_rand'];
         include template('exam_paper', 'welcome');
     }
 
@@ -84,8 +85,21 @@ class index {
         );
         $file_list = $this->Pre_Index->exam_file_db->listinfo($where_third, 'id DESC', $page, '15');
         $file_list = $this->Pre_Index->make_cattitle($file_list);
+        $allow_rand = $this->set['allow_rand'];
         include template('exam_paper', 'sec_cat_paper_list');
 
+    }
+
+    public function rand_paper_init(){
+        $this->Pre_Index->visitor_paper_check();
+        $super_info = $_SESSION['super_info'];
+        $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+
+        $rand_paper_cat = $this->Pre_Index->get_rand_paper_set_by_parentid($super_info['cat_level_1']);
+        // var_dump($rand_paper_cat);die();
+
+        $allow_rand = $this->set['allow_rand'];
+        include template('exam_paper', 'sec_cat_paper_rand');
     }
 
     public function make_one_paper_by_fileid(){
@@ -96,14 +110,16 @@ class index {
         header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
     }
 
-    public function make_one_exam_paper(){
-        $this->make_exam_paper_check();
+    public function rand_one_exam_paper(){
+        $this->Pre_Index->visitor_paper_check();
         $paper = array();
         $paper = $this->Pre_Index->prepare_paper_data();
+        // var_dump($paper);die();
         $result = array();
         $result = $this->Pre_Index->save_paper_data($paper);
-        $_GET['paper_id'] = $result['id'];
-        $this->show_one_paper();
+        // $_GET['paper_id'] = $result['id'];
+        // $this->show_one_paper();
+        header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
     }
 
     public function show_one_paper(){
@@ -211,18 +227,6 @@ class index {
         foreach($_POST['data'] as $key=>$val)
         {
             $_POST[$val['name']] = $val['value'];
-        }
-    }
-
-    private function make_exam_paper_check(){
-        if (!( isset($_POST['name']) && trim($_POST['name']) 
-            && isset($_POST['mobile']) && trim($_POST['mobile']) 
-            && isset($_POST['cat_level_1']) && trim($_POST['cat_level_1']) 
-            && isset($_POST['cat_level_2']) && trim($_POST['cat_level_2']) ) )
-        {
-            $result['msg'] = 'data_error';
-            echo json_encode($result);
-            exit;
         }
     }
 
