@@ -10028,3 +10028,7 @@
 <?php exit;?>10-25 13:02:13 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 64
 <?php exit;?>10-25 13:02:16 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 64
 <?php exit;?>10-25 13:02:55 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\xhc\content\sec_cat_block.php | 3
+<?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 28
+<?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58

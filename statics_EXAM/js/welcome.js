@@ -4,7 +4,10 @@ $(document).ready(function(){
 		if(cat_mark == 'rand_paper'){
 			$('#sec_cat').val(cat_mark);
 			$('#put_cat_form').attr('action','/index.php?m=exam&c=index&a=rand_paper_init');
-			console.log($('#put_cat_form').attr('action'));
+		}
+		else if(cat_mark == 'answer_history'){
+			$('#sec_cat').val(cat_mark);
+			$('#put_cat_form').attr('action','/index.php?m=exam&c=index&a=answer_history_init');
 		}
 		else{
 			$('#sec_cat').val(cat_mark);

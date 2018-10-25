@@ -12,6 +12,9 @@
 		<li id="rand_paper">
 			<a>自动组卷</a>
 		</li>
+		<li id="answer_history">
+			<a>答题记录</a>
+		</li>
 		<?php
 	}
 	?>

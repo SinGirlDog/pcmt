@@ -96,10 +96,29 @@ class index {
         $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
 
         $rand_paper_cat = $this->Pre_Index->get_rand_paper_set_by_parentid($super_info['cat_level_1']);
-        // var_dump($rand_paper_cat);die();
 
         $allow_rand = $this->set['allow_rand'];
         include template('exam_paper', 'sec_cat_paper_rand');
+    }
+
+    public function answer_history_init(){
+        $this->Pre_Index->visitor_paper_check();
+        $super_info = $_SESSION['super_info'];
+        $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+        // var_dump($_POST);die();
+        if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
+            $sec_cat = $_POST['sec_cat'];
+        }
+        else{
+            $item_temp = $list_sec;
+            $list_sec_one = array_shift($item_temp);
+            $sec_cat = $list_sec_one['catid'];
+        }
+
+        $list_thi = $this->get_catid_name_arr($sec_cat);
+
+        include template('exam_paper', 'sec_cat_answer_history');
+
     }
 
     public function make_one_paper_by_fileid(){
