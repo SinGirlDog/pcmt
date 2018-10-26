@@ -26,7 +26,7 @@
 	<div id="jiexi_form">
 		<input id="msg" type="hidden" value="<?php echo $msg; ?>">
 		<input id="url" type="hidden" value="<?php echo $url; ?>">
-		<form method="post" name="" id="jiexi_answer_form" action="{APP_PATH}index.php?m=exam&c=index&a=choose_sec_cat">
+		<form method="post" name="" id="jiexi_answer_form" action="{APP_PATH}index.php?m=exam&c=index&a=answer_history_init">
 			<p>单项选择：<?php echo $answer_data['fenshu_choice_only']; ?> 分</p>
 			<br/>
 			<p>多项选择：<?php echo $answer_data['fenshu_choice_more']; ?> 分</p>
@@ -75,7 +75,7 @@
 
 						}
 					}
-					if($answer_choice_only[$num_th-1] != $cankao_choice_only[$num_th-1])
+					if($answer_choice_only[$num_th-1] != $cankao_choice_only['answer'][$num_th-1])
 					{
 						$current_color = 'style="color:red;"';
 					}
@@ -84,7 +84,7 @@
 						$current_color = 'style="color:green;"';
 					}
 					echo "<dl ".$current_color.">回答：".$answer_choice_only[$num_th-1]."</dl>";
-					echo "<dl>参考答案：".$cankao_choice_only[$num_th-1]."</dl>";
+					echo "<dl>参考答案：".$cankao_choice_only['answer'][$num_th-1]."</dl>";
 
 					echo "<dl>解析：".$analysis_key_choice_only[$num_th-1]['question_analysis']."</dl>";
 
@@ -125,8 +125,8 @@
 						}
 					}
 					$answer_length = sizeof($answer_choice_more[$num_more_th]);
-					$cankao_length = sizeof($cankao_choice_more[$num_more_th]);
-					$intersect_length = sizeof(array_intersect($cankao_choice_more[$num_more_th], $answer_choice_more[$num_more_th]));
+					$cankao_length = sizeof($cankao_choice_more['answer'][$num_more_th]);
+					$intersect_length = sizeof(array_intersect($cankao_choice_more['answer'][$num_more_th], $answer_choice_more[$num_more_th]));
 					if( ($answer_length != $cankao_length) || ($intersect_length != $cankao_length) )
 					{
 						$current_color = 'style="color:red;"';
@@ -136,7 +136,7 @@
 						$current_color = 'style="color:green;"';
 					}
 					echo "<dl ".$current_color.">回答：".implode('.',$answer_choice_more[$num_more_th])."</dl>";
-					echo "<dl>参考答案：".implode('.',$cankao_choice_more[$num_more_th])."</dl>";
+					echo "<dl>参考答案：".implode('.',$cankao_choice_more['answer'][$num_more_th])."</dl>";
 
 					echo "<dl>解析：".$analysis_key_choice_more[$num_more_th]['question_analysis']."</dl>";
 

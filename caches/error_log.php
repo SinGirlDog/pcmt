@@ -10032,3 +10032,64 @@
 <?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\xhc\content\sec_cat_block.php | 3
 <?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 28
 <?php exit;?>10-25 16:51:20 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 09:26:44 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 09:41:10 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:20:10 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:20:17 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:27:43 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:30:48 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:33:39 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:33:43 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:34:00 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:34:15 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:34:19 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:37:12 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:33 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:35 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:40 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:42 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:57 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:58 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:40:59 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 11:41:00 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 13:06:11 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 13:06:14 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 13:07:21 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 17:17:21 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 17:17:22 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 17:17:23 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 17:46:04 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-26 17:47:18 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-26 18:06:50 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 382
+<?php exit;?>10-26 18:06:50 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 111
+<?php exit;?>10-26 18:06:50 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:06:50 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:06:50 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 111
+<?php exit;?>10-26 18:06:50 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:06:50 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:06:50 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-26 18:07:09 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\classes\exam_index.class.php | 382
+<?php exit;?>10-26 18:07:09 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 111
+<?php exit;?>10-26 18:07:09 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:07:09 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:07:09 | 2 | array_shift() expects parameter 1 to be array, null given | phpcms\modules\exam\classes\exam_index.class.php | 111
+<?php exit;?>10-26 18:07:09 | 2 | array_merge(): Argument #1 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:07:09 | 2 | array_merge(): Argument #2 is not an array | phpcms\modules\exam\classes\exam_index.class.php | 114
+<?php exit;?>10-26 18:07:09 | 2 | mysqli_error() expects exactly 1 parameter, 0 given | phpcms\libs\classes\db_mysqli.class.php | 80
+<?php exit;?>10-26 18:09:04 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-26 18:09:09 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 28
+<?php exit;?>10-26 18:09:09 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 18:09:18 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 28
+<?php exit;?>10-26 18:09:18 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 18:09:33 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 28
+<?php exit;?>10-26 18:09:33 | 2 | Invalid argument supplied for foreach() | caches\caches_template\default\exam_paper\sec_cat_answer_history.php | 58
+<?php exit;?>10-26 18:27:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-26 18:27:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 139
+<?php exit;?>10-26 18:27:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-26 18:27:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 139
+<?php exit;?>10-26 18:27:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-26 18:27:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 139
+<?php exit;?>10-26 18:27:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-26 18:27:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 139
+<?php exit;?>10-26 18:27:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\exam_paper\show_jiexi_result.php | 129
+<?php exit;?>10-26 18:27:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\exam_paper\show_jiexi_result.php | 139

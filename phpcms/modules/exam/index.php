@@ -52,6 +52,7 @@ class index {
         $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
         $allow_rand = $this->set['allow_rand'];
         include template('exam_paper', 'welcome');
+        // include template('exam_paper', 'sec_cat_answer_history');
     }
 
     public function choose_sec_cat(){
@@ -105,7 +106,7 @@ class index {
         $this->Pre_Index->visitor_paper_check();
         $super_info = $_SESSION['super_info'];
         $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
-        // var_dump($_POST);die();
+
         if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
             $sec_cat = $_POST['sec_cat'];
         }
@@ -117,6 +118,18 @@ class index {
 
         $list_thi = $this->get_catid_name_arr($sec_cat);
 
+        if($_POST['thi_cat']){
+            $thi_cat = $_POST['thi_cat'];
+        }
+        else{
+            $temp_item = $list_thi;
+            $list_third_one = array_shift($temp_item);
+            $thi_cat = $list_third_one['catid'];
+        }
+
+        $answer_history_list = $this->Pre_Index->get_answer_history_by_siscatid($thi_cat);
+
+        $allow_rand = $this->set['allow_rand'];
         include template('exam_paper', 'sec_cat_answer_history');
 
     }

@@ -401,11 +401,12 @@ class exam_index {
             $fields ='true_answer, quest_type';
             $answer = $this->exam_data_db->get_one($where,$fields);
             if($answer['quest_type'] == 'choice_only'){
-                $true_answer[] = $answer['true_answer'];
+                $true_answer['answer'][] = $answer['true_answer'];
             }
             else if($answer['quest_type'] == 'choice_more'){
-                $true_answer[] = explode('.',$answer['true_answer']);
+                $true_answer['answer'][] = explode('.',$answer['true_answer']);
             }
+            $true_answer['id'][] = $id;
         }
         return $true_answer;
     }
@@ -423,9 +424,14 @@ class exam_index {
 
     public function correct_fenshu_only($answer_arr,$cankao_arr){
         $fenshu = 0;
+        $cankao_answer_arr = $cankao_arr['answer'];
+        $cankao_id_arr = $cankao_arr['id'];
         foreach($answer_arr as $key => $answer){
-            if($answer == $cankao_arr[$key]){
+            if($answer == $cankao_answer_arr[$key]){
                 $fenshu++;
+            }
+            else{
+                //count err times
             }
         }
         return $fenshu;
@@ -433,24 +439,30 @@ class exam_index {
 
     public function correct_fenshu_more($answer_arr,$cankao_arr){
         $fenshu = 0;
+        $cankao_answer_arr = $cankao_arr['answer'];
+        $cankao_id_arr = $cankao_arr['id'];
         if(is_array($answer_arr[0])){
             foreach($answer_arr as $key => $answer){
                 $answer_length = sizeof($answer);
                 if($answer_length > 4 or $answer_length < 2){
                     //选项太少或者太多直接零分;
                     continue;
+                    //count err times
                 }
-                $cankao_length = sizeof($cankao_arr[$key]);
-                $intersect_length = sizeof(array_intersect($answer, $cankao_arr[$key]));
+                $cankao_length = sizeof($cankao_answer_arr[$key]);
+                $intersect_length = sizeof(array_intersect($answer, $cankao_answer_arr[$key]));
                 if( ($answer_length == $cankao_length) && ($intersect_length == $cankao_length) ){
                     //选项完全匹配则满分;
                     $fenshu += 2;
                     continue;
                 }
+                else{
+                    //count err times
+                }
                 $temp_fen = 0;
                 foreach($answer as $ans){
                     //选对一个半分;选错一个零蛋;
-                    if(in_array($ans,$cankao_arr[$key])){
+                    if(in_array($ans,$cankao_answer_arr[$key])){
                         $temp_fen += 0.5;
                     }
                     else{
@@ -543,6 +555,19 @@ class exam_index {
             $res_one['title'] = array_pop($res_title);
         }
         return $result;
+    }
+
+    public function get_answer_history_by_siscatid($catid,$page=''){
+        $infos = array();
+        if($catid){
+            $cat_one = $this->category_db->get_one(array('catid'=>$catid));
+            // $where = array('catname'=>$cat_one['catname']);
+            $where = " title like '%".$cat_one['catname']."%'";
+
+            $page = isset($page) && intval($page) ? intval($page) : 1;
+            $infos = $this->exam_answer_db->listinfo($where, 'id DESC', $page, '15');
+        }
+        return $infos;
     }
 
 }
