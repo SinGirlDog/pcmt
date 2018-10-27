@@ -27,33 +27,29 @@
 			foreach($quest_choice_only as $key=>$val)
 			{
 				echo '<ol class="choice_only">';
-					foreach($val as $k=>$v)
+					
+					if($val['question_body'])
 					{
-						if($k=='question_body')
-						{
-							echo "<dl>".$num_th.".".$v."</dl>";
-						}
-						else if($k=='thumb')
-						{
-							if($v)
-							{
-								echo "<dl><img src='".$v."'/></dl>";
-							}
-						}
-						else
-						{
-							$answer_arr = explode(';',$v);
-							foreach($answer_arr as $ans_k=>$ans_v)
-							{
-								echo "<dl>";
-									echo "<label for='only_".$num_th."_".$ans_k."'>
-										<input id='only_".$num_th."_".$ans_k."' type='radio' value='".($ans_k+1)."' name='only[".$num_th."]'>
-									".$ans_v."</label>";
-								echo "</dl>";
-							}
-
-						}
+						echo "<dl>".$num_th.".".$val['question_body']."</dl>";
 					}
+					if($val['thumb'])
+					{
+						echo "<dl><img src='".$val['thumb']."'/></dl>";
+					}
+					if($val['question_answer'])
+					{
+						$answer_arr = explode(';',$val['question_answer']);
+						foreach($answer_arr as $ans_k=>$ans_v)
+						{
+							echo "<dl>";
+								echo "<label for='only_".$num_th."_".$ans_k."'>
+									<input id='only_".$num_th."_".$ans_k."' type='radio' value='".($ans_k+1)."' name='only[".$num_th."]'>
+								".$ans_v."</label>";
+							echo "</dl>";
+						}
+
+					}
+					
 					$num_th++;
 				echo '</ol> ';
 			}?>
@@ -63,33 +59,30 @@
 			foreach($quest_choice_more as $key=>$val)
 			{
 				echo '<ol class="choice_more">';
-					foreach($val as $k=>$v)
+					
+					if($val['question_body'])
 					{
-						if($k=='question_body')
-						{
-							echo "<dl>".$num_th.".".$v."</dl>";
-						}
-						else if($k=='thumb')
-						{
-							if($v)
-							{
-								echo "<dl><img src='".$v."'/></dl>";
-							}
-						}
-						else
-						{
-							$answer_arr = explode(';',$v);
-							foreach($answer_arr as $ans_k=>$ans_v)
-							{
-								echo "<dl>";
-									echo "<label for='more_".$num_th."_".$ans_k."'>
-										<input id='more_".$num_th."_".$ans_k."' type='checkbox' value='".($ans_k+1)."' name='more[".$num_th."][".$ans_k."]'>
-									".$ans_v."</label>";
-								echo "</dl>";
-							}
-
-						}
+						echo "<dl>".$num_th.".".$val['question_body']."</dl>";
 					}
+					if($val['thumb'])
+					{
+
+						echo "<dl><img src='".$val['thumb']."'/></dl>";
+					}
+					if($val['question_answer'])
+					{
+						$answer_arr = explode(';',$val['question_answer']);
+						foreach($answer_arr as $ans_k=>$ans_v)
+						{
+							echo "<dl>";
+								echo "<label for='more_".$num_th."_".$ans_k."'>
+									<input id='more_".$num_th."_".$ans_k."' type='checkbox' value='".($ans_k+1)."' name='more[".$num_th."][".$ans_k."]'>
+								".$ans_v."</label>";
+							echo "</dl>";
+						}
+
+					}
+					
 					$num_th++;
 				echo "</ol>";
 			}?>

@@ -103,15 +103,16 @@ class exam_index {
 
     public function get_quest_by_ids($ids){
     	$id_arr = explode(',', $ids);
-    	$field = 'question_body,question_answer';
+    	$field = 'question_body,question_answer,right_times,wrong_times';
     	$question_arr = array();
     	foreach($id_arr as $key=>$id){
     		$where = array('id'=>$id);
     		$exam_data_arr = $this->exam_data_db->get_one($where,$field);
-    		$q_body['question_body'] = array_shift($exam_data_arr);
+    		// $q_body['question_body'] = array_shift($exam_data_arr);
     		$q_thumb = $this->exam_db->get_one($where,'thumb');
-    		$q_answer = $exam_data_arr;
-    		$question_arr[] = array_merge($q_body,array_merge($q_thumb,$q_answer));
+    		// $q_answer = $exam_data_arr;
+            // $question_arr[] = array_merge($q_body,array_merge($q_thumb,$q_answer));
+    		$question_arr[] = array_merge($q_thumb,$exam_data_arr);
     	}
     	return $question_arr;
     }
@@ -139,25 +140,25 @@ class exam_index {
             $setting[$item['id']]['catid'] = $item['catid'];
             $setting[$item['id']]['parentid'] = $item['parentid'];
             $setting[$item['id']]['choice_only'] = array(
-               'type' => 'choice_only',
-               'num' => $item['num_choice_only'],
-               'fenshu' => $item['fenshu_choice_only'],
-           );
+             'type' => 'choice_only',
+             'num' => $item['num_choice_only'],
+             'fenshu' => $item['fenshu_choice_only'],
+         );
             $setting[$item['id']]['choice_more'] = array(
-               'type' => 'choice_more',
-               'num' => $item['num_choice_more'],
-               'fenshu' => $item['fenshu_choice_more'],
-           );
+             'type' => 'choice_more',
+             'num' => $item['num_choice_more'],
+             'fenshu' => $item['fenshu_choice_more'],
+         );
             $setting[$item['id']]['fillinblank'] = array(
-               'type' => 'fillinblank',
-               'num' => $item['num_fillinblank'],
-               'fenshu' => $item['fenshu_fillinblank'],
-           );
+             'type' => 'fillinblank',
+             'num' => $item['num_fillinblank'],
+             'fenshu' => $item['fenshu_fillinblank'],
+         );
             $setting[$item['id']]['objective'] = array(
-               'type' => 'objective',
-               'num' => $item['num_objective'],
-               'fenshu' => $item['fenshu_objective'],
-           );
+             'type' => 'objective',
+             'num' => $item['num_objective'],
+             'fenshu' => $item['fenshu_objective'],
+         );
         }
         return $setting;
     }
@@ -424,21 +425,38 @@ class exam_index {
 
     public function correct_fenshu_only($answer_arr,$cankao_arr){
         $fenshu = 0;
+        $times_arr = array();
         $cankao_answer_arr = $cankao_arr['answer'];
         $cankao_id_arr = $cankao_arr['id'];
         foreach($answer_arr as $key => $answer){
             if($answer == $cankao_answer_arr[$key]){
                 $fenshu++;
+                $times_arr[$cankao_id_arr[$key]] = 'right_times';
             }
             else{
                 //count err times
+                $times_arr[$cankao_id_arr[$key]] = 'wrong_times';
             }
         }
+        //cont answer times
+        $this->count_right_or_wrong_times($times_arr);
+        
         return $fenshu;
+    }
+
+    private function count_right_or_wrong_times($times_arr){
+        if($times_arr){
+            foreach($times_arr as $key_id => $filed){
+                $data = '`'.$filed.'` = `'.$filed.'` + 1';
+                $where = array('id'=>$key_id);
+                $res = $this->exam_data_db->update($data,$where);
+            }
+        }
     }
 
     public function correct_fenshu_more($answer_arr,$cankao_arr){
         $fenshu = 0;
+        $times_arr = array();
         $cankao_answer_arr = $cankao_arr['answer'];
         $cankao_id_arr = $cankao_arr['id'];
         if(is_array($answer_arr[0])){
@@ -446,6 +464,7 @@ class exam_index {
                 $answer_length = sizeof($answer);
                 if($answer_length > 4 or $answer_length < 2){
                     //选项太少或者太多直接零分;
+                    $times_arr[$cankao_id_arr[$key]] = 'wrong_times';
                     continue;
                     //count err times
                 }
@@ -454,10 +473,12 @@ class exam_index {
                 if( ($answer_length == $cankao_length) && ($intersect_length == $cankao_length) ){
                     //选项完全匹配则满分;
                     $fenshu += 2;
+                    $times_arr[$cankao_id_arr[$key]] = 'right_times';
                     continue;
                 }
                 else{
                     //count err times
+                    $times_arr[$cankao_id_arr[$key]] = 'wrong_times';
                 }
                 $temp_fen = 0;
                 foreach($answer as $ans){
@@ -473,6 +494,8 @@ class exam_index {
                 $fenshu += $temp_fen;
             }
         }
+        $this->count_right_or_wrong_times($times_arr);
+        
         return $fenshu;
     }
 

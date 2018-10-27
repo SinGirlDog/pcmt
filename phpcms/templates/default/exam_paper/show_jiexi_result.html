@@ -35,35 +35,31 @@
 			<br/>
 			<p>排   名：第 <?php echo $paiming['rownum']; ?> 名；
 				成功战胜了 <?php echo substr($paiming['percent'],0,5); ?>% 的对手；再接再厉； </p>
-			<br/>
-			<b><?php echo $paper_data['title'] ?></b>
-			<br/>
-			<br/>
-			<p>姓名：<?php echo $paper_data['name'] ?></p>
-			<input type="hidden" name="paper_id" value="{$paper_data['id']}">
-			<br/>
-			<b>一、单选题</b>
+				<br/>
+				<b><?php echo $paper_data['title'] ?></b>
+				<br/>
+				<br/>
+				<p>姓名：<?php echo $paper_data['name'] ?></p>
+				<input type="hidden" name="paper_id" value="{$paper_data['id']}">
+				<br/>
+				<b>一、单选题</b>
 
-			<?php $num_th = 1;
-			foreach($quest_choice_only as $key=>$val)
-			{
-				echo '<ol class="choice_only">';
-					foreach($val as $k=>$v)
-					{
-						if($k=='question_body')
+				<?php $num_th = 1;
+				foreach($quest_choice_only as $key=>$val)
+				{
+					echo '<ol class="choice_only">';
+
+						if($val['question_body'])
 						{
-							echo "<dl>".$num_th.".".$v."</dl>";
+							echo "<dl>".$num_th.".".$val['question_body']."</dl>";
 						}
-						else if($k=='thumb')
+						if($val['thumb'])
 						{
-							if($v)
-							{
-								echo "<dl><img src='".$v."'/></dl>";
-							}
+							echo "<dl><img src='".$val['thumb']."'/></dl>";
 						}
-						else
+						if($val['question_answer'])
 						{
-							$answer_arr = explode(';',$v);
+							$answer_arr = explode(';',$val['question_answer']);
 							foreach($answer_arr as $ans_k=>$ans_v)
 							{
 								echo "<dl>";
@@ -72,47 +68,49 @@
 									".$ans_v."</label>";
 								echo "</dl>";
 							}
-
 						}
-					}
-					if($answer_choice_only[$num_th-1] != $cankao_choice_only['answer'][$num_th-1])
-					{
-						$current_color = 'style="color:red;"';
-					}
-					else
-					{
-						$current_color = 'style="color:green;"';
-					}
-					echo "<dl ".$current_color.">回答：".$answer_choice_only[$num_th-1]."</dl>";
-					echo "<dl>参考答案：".$cankao_choice_only['answer'][$num_th-1]."</dl>";
 
-					echo "<dl>解析：".$analysis_key_choice_only[$num_th-1]['question_analysis']."</dl>";
-
-					$num_th++;
-				echo '</ol> ';
-			}?>
-
-			<b>二、多选题</b>
-			<?php $num_more_th = 0;
-			foreach($quest_choice_more as $key=>$val)
-			{
-				echo '<ol class="choice_more">';
-					foreach($val as $k=>$v)
-					{
-						if($k=='question_body')
+						if($answer_choice_only[$num_th-1] != $cankao_choice_only['answer'][$num_th-1])
 						{
-							echo "<dl>".$num_th.".".$v."</dl>";
-						}
-						else if($k=='thumb')
-						{
-							if($v)
-							{
-								echo "<dl><img src='".$v."'/></dl>";
-							}
+							$current_color = 'style="color:red;"';
+							$percent_wrong = 100*$val['wrong_times']/($val['wrong_times']+$val['right_times']);
 						}
 						else
 						{
-							$answer_arr = explode(';',$v);
+							$current_color = 'style="color:green;"';
+							$percent_wrong = '';
+						}
+						if($percent_wrong)
+						{
+							echo "<dl ".$current_color.">错误概率：".$percent_wrong."%</dl>";
+						}
+						echo "<dl ".$current_color.">回答：".$answer_choice_only[$num_th-1]."</dl>";
+						echo "<dl>参考答案：".$cankao_choice_only['answer'][$num_th-1]."</dl>";
+
+						echo "<dl>解析：".$analysis_key_choice_only[$num_th-1]['question_analysis']."</dl>";
+						
+						$num_th++;
+					echo '</ol> ';
+				}?>
+
+				<b>二、多选题</b>
+				<?php $num_more_th = 0;
+				foreach($quest_choice_more as $key=>$val)
+				{
+					echo '<ol class="choice_more">';
+						
+						if($val['question_body'])
+						{
+							echo "<dl>".$num_th.".".$val['question_body']."</dl>";
+						}
+						if($val['thumb'])
+						{
+
+							echo "<dl><img src='".$val['thumb']."'/></dl>";
+						}
+						if($val['question_answer'])
+						{
+							$answer_arr = explode(';',$val['question_answer']);
 							foreach($answer_arr as $ans_k=>$ans_v)
 							{
 								echo "<dl>";
@@ -121,43 +119,48 @@
 									".$ans_v."</label>";
 								echo "</dl>";
 							}
-
 						}
-					}
-					$answer_length = sizeof($answer_choice_more[$num_more_th]);
-					$cankao_length = sizeof($cankao_choice_more['answer'][$num_more_th]);
-					$intersect_length = sizeof(array_intersect($cankao_choice_more['answer'][$num_more_th], $answer_choice_more[$num_more_th]));
-					if( ($answer_length != $cankao_length) || ($intersect_length != $cankao_length) )
-					{
-						$current_color = 'style="color:red;"';
-					}
-					else
-					{
-						$current_color = 'style="color:green;"';
-					}
-					echo "<dl ".$current_color.">回答：".implode('.',$answer_choice_more[$num_more_th])."</dl>";
-					echo "<dl>参考答案：".implode('.',$cankao_choice_more['answer'][$num_more_th])."</dl>";
+						
+						$answer_length = sizeof($answer_choice_more[$num_more_th]);
+						$cankao_length = sizeof($cankao_choice_more['answer'][$num_more_th]);
+						$intersect_length = sizeof(array_intersect($cankao_choice_more['answer'][$num_more_th], $answer_choice_more[$num_more_th]));
+						if( ($answer_length != $cankao_length) || ($intersect_length != $cankao_length) )
+						{
+							$current_color = 'style="color:red;"';
+							$percent_wrong = 100*$val['wrong_times']/($val['wrong_times']+$val['right_times']);
+						}
+						else
+						{
+							$current_color = 'style="color:green;"';
+							$percent_wrong = '';
+						}
+						if($percent_wrong)
+						{
+							echo "<dl ".$current_color.">错误概率：".$percent_wrong."%</dl>";
+						}
+						echo "<dl ".$current_color.">回答：".implode('.',$answer_choice_more[$num_more_th])."</dl>";
+						echo "<dl>参考答案：".implode('.',$cankao_choice_more['answer'][$num_more_th])."</dl>";
 
-					echo "<dl>解析：".$analysis_key_choice_more[$num_more_th]['question_analysis']."</dl>";
+						echo "<dl>解析：".$analysis_key_choice_more[$num_more_th]['question_analysis']."</dl>";
 
-					$num_th++;
-					$num_more_th++;
-				echo "</ol>";
-			}?>
+						$num_th++;
+						$num_more_th++;
+					echo "</ol>";
+				}?>
 
-			<input type="button" id="jiexi_answer_button" value="收起">
+				<input type="button" id="jiexi_answer_button" value="收起">
 
-		</form>
-	</div>
-	{template "../xhc/content","footer_NEW"}
-</body>
-<script type="text/javascript">
-	$(document).ready(function(){
-		var msg = $('#msg').val();
-		var url = $('#url').val();
-		$('#jiexi_answer_button').click(function(){
-			$('#jiexi_answer_form').submit();
-		});
+			</form>
+		</div>
+		{template "../xhc/content","footer_NEW"}
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var msg = $('#msg').val();
+			var url = $('#url').val();
+			$('#jiexi_answer_button').click(function(){
+				$('#jiexi_answer_form').submit();
+			});
 		// var r = confirm(msg);
 		// if (r==true){
 		// 	window.location.replace(url);
