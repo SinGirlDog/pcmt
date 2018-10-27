@@ -10181,3 +10181,9 @@
 <?php exit;?>10-27 16:18:11 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
 <?php exit;?>10-27 16:18:11 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
 <?php exit;?>10-27 16:23:50 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 64
+<?php exit;?>10-27 17:41:02 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>10-27 17:41:14 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 76
+<?php exit;?>10-27 17:41:14 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
+<?php exit;?>10-27 17:41:14 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
+<?php exit;?>10-27 17:41:14 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
+<?php exit;?>10-27 17:41:14 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
