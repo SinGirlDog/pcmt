@@ -91,7 +91,8 @@ $(document).ready(function(){
 
 	    return false;
 	}
-	if (checkMobile()){
+	//判断手机端。暂且不用而屏蔽。
+	if (1==2){
 		gomobile();
 	}
 	else {

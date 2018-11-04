@@ -2,8 +2,20 @@
 	<?php
 	foreach($list_sec as $item)
 	{
+		if($sec_cat == $item['catid'])
+		{
+			$choosed = "style='box-shadow: -2px -4px 4px #2d4c5a;'";
+		}
+		else
+		{
+			$choosed = "style='box-shadow: 2px 4px 4px #2d4c5a;'";
+		}
 		?>
-		<li id="<?php echo $item['catid'] ?>"><a><?php echo $item['catname'] ?></a></li>
+		<li id="<?php echo $item['catid'] ?>">
+			<div <?php echo $choosed;?>>
+				<a><?php echo $item['catname'] ?></a>
+			</div>
+		</li>
 		<?php
 	}
 	if($allow_rand)

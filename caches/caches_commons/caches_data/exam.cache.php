@@ -4,7 +4,7 @@ return array (
   array (
     'exam_status' => '1',
     'allow_guest' => '1',
-    'allow_rand' => '0',
+    'allow_rand' => '1',
     'pagesize' => '3',
     'enablecheckcode' => '0',
   ),

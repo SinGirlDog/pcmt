@@ -19,8 +19,8 @@ $(document).ready(function(){
 
 
 $(document).ready(function(){
-	$('#third_left ul li').click(function(){
-		var thi_cat = $(this).attr('id');
+	$('#third_left ul li select').change(function(){
+		var thi_cat = $(this).val();
 		$('#thi_cat').val(thi_cat);
 		$('#put_cat_form').submit();
 	});

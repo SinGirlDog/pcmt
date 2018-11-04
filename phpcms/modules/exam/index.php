@@ -42,7 +42,12 @@ class index {
         pc_base::load_sys_class('form', '', 0);
         
         // 加载前台模板
-        include template('exam_paper', 'index');
+        if(check_wap()){
+            include template('mobile', 'index_exam');
+        }
+        else{
+            include template('exam_paper', 'index');
+        }
     }
 
     //填写手机号姓名之后第一轮跳转
@@ -51,175 +56,195 @@ class index {
         $super_info = $_SESSION['super_info'];
         $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
         $allow_rand = $this->set['allow_rand'];
+        if(check_wap()){
+          include template('mobile', 'index_exam_welcome');
+      }
+      else{
         include template('exam_paper', 'welcome');
+    }
         // include template('exam_paper', 'sec_cat_answer_history');
+}
+
+public function choose_sec_cat(){
+    $this->Pre_Index->visitor_paper_check();
+    $super_info = $_SESSION['super_info'];
+    $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+
+    if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
+        $sec_cat = $_POST['sec_cat'];
+    }
+    else{
+        $item_temp = $list_sec;
+        $list_sec_one = array_shift($item_temp);
+        $sec_cat = $list_sec_one['catid'];
     }
 
-    public function choose_sec_cat(){
-        $this->Pre_Index->visitor_paper_check();
-        $super_info = $_SESSION['super_info'];
-        $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+    $list_thi = $this->get_catid_name_arr($sec_cat);
 
-        if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
-            $sec_cat = $_POST['sec_cat'];
-        }
-        else{
-            $item_temp = $list_sec;
-            $list_sec_one = array_shift($item_temp);
-            $sec_cat = $list_sec_one['catid'];
-        }
+    if($_POST['thi_cat']){
+        $thi_cat = $_POST['thi_cat'];
+    }
+    else{
+        $temp_item = $list_thi;
+        $list_third_one = array_shift($temp_item);
+        $thi_cat = $list_third_one['catid'];
+    }
 
-        $list_thi = $this->get_catid_name_arr($sec_cat);
-        
-        if($_POST['thi_cat']){
-            $thi_cat = $_POST['thi_cat'];
-        }
-        else{
-            $temp_item = $list_thi;
-            $list_third_one = array_shift($temp_item);
-            $thi_cat = $list_third_one['catid'];
-        }
-
-        $where_third = array(
-            'catid' => $thi_cat,
-            'isdelete' => 0,
-        );
-        $file_list = $this->Pre_Index->exam_file_db->listinfo($where_third, 'id DESC', $page, '15');
-        $file_list = $this->Pre_Index->make_cattitle($file_list);
-        $allow_rand = $this->set['allow_rand'];
+    $where_third = array(
+        'catid' => $thi_cat,
+        'isdelete' => 0,
+    );
+    $file_list = $this->Pre_Index->exam_file_db->listinfo($where_third, 'id DESC', $page, '15');
+    $file_list = $this->Pre_Index->make_cattitle($file_list);
+    $allow_rand = $this->set['allow_rand'];
+    if(check_wap()){
+        include template('mobile', 'index_exam_sec_cat');
+    }
+    else{
         include template('exam_paper', 'sec_cat_paper_list');
-
     }
 
-    public function rand_paper_init(){
-        $this->Pre_Index->visitor_paper_check();
-        $super_info = $_SESSION['super_info'];
-        $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+}
 
-        $rand_paper_cat = $this->Pre_Index->get_rand_paper_set_by_parentid($super_info['cat_level_1']);
+public function rand_paper_init(){
+    $this->Pre_Index->visitor_paper_check();
+    $super_info = $_SESSION['super_info'];
+    $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
 
-        $allow_rand = $this->set['allow_rand'];
-        include template('exam_paper', 'sec_cat_paper_rand');
+    $rand_paper_cat = $this->Pre_Index->get_rand_paper_set_by_parentid($super_info['cat_level_1']);
+
+    $allow_rand = $this->set['allow_rand'];
+    include template('exam_paper', 'sec_cat_paper_rand');
+}
+
+public function answer_history_init(){
+    $this->Pre_Index->visitor_paper_check();
+    $super_info = $_SESSION['super_info'];
+    $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+
+    if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
+        $sec_cat = $_POST['sec_cat'];
+    }
+    else{
+        $item_temp = $list_sec;
+        $list_sec_one = array_shift($item_temp);
+        $sec_cat = $list_sec_one['catid'];
     }
 
-    public function answer_history_init(){
-        $this->Pre_Index->visitor_paper_check();
-        $super_info = $_SESSION['super_info'];
-        $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);
+    $list_thi = $this->get_catid_name_arr($sec_cat);
 
-        if($_POST['sec_cat'] && !empty($_POST['sec_cat'])){
-            $sec_cat = $_POST['sec_cat'];
-        }
-        else{
-            $item_temp = $list_sec;
-            $list_sec_one = array_shift($item_temp);
-            $sec_cat = $list_sec_one['catid'];
-        }
-
-        $list_thi = $this->get_catid_name_arr($sec_cat);
-
-        if($_POST['thi_cat']){
-            $thi_cat = $_POST['thi_cat'];
-        }
-        else{
-            $temp_item = $list_thi;
-            $list_third_one = array_shift($temp_item);
-            $thi_cat = $list_third_one['catid'];
-        }
-
-        $answer_history_list = $this->Pre_Index->get_answer_history_by_siscatid($thi_cat);
-
-        $allow_rand = $this->set['allow_rand'];
-        include template('exam_paper', 'sec_cat_answer_history');
-
+    if($_POST['thi_cat']){
+        $thi_cat = $_POST['thi_cat'];
+    }
+    else{
+        $temp_item = $list_thi;
+        $list_third_one = array_shift($temp_item);
+        $thi_cat = $list_third_one['catid'];
     }
 
-    public function make_one_paper_by_fileid(){
-        $fileid = $_POST['fileid'];
-        $paper = $this->Pre_Index->prepare_paper_data_byfileid($fileid);
-        $result = array();
-        $result = $this->Pre_Index->save_paper_data($paper);
-        header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
-    }
+    $answer_history_list = $this->Pre_Index->get_answer_history_by_siscatid($thi_cat);
 
-    public function rand_one_exam_paper(){
-        $this->Pre_Index->visitor_paper_check();
-        $paper = array();
-        $paper = $this->Pre_Index->prepare_paper_data();
+    $allow_rand = $this->set['allow_rand'];
+    include template('exam_paper', 'sec_cat_answer_history');
+
+}
+
+public function make_one_paper_by_fileid(){
+    $fileid = $_POST['fileid'];
+    $paper = $this->Pre_Index->prepare_paper_data_byfileid($fileid);
+    $result = array();
+    $result = $this->Pre_Index->save_paper_data($paper);
+    header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
+}
+
+public function rand_one_exam_paper(){
+    $this->Pre_Index->visitor_paper_check();
+    $paper = array();
+    $paper = $this->Pre_Index->prepare_paper_data();
         // var_dump($paper);die();
-        $result = array();
-        $result = $this->Pre_Index->save_paper_data($paper);
+    $result = array();
+    $result = $this->Pre_Index->save_paper_data($paper);
         // $_GET['paper_id'] = $result['id'];
         // $this->show_one_paper();
-        header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
-    }
+    header('Location:/index.php?m=exam&c=index&a=show_one_paper&paper_id='.$result['id']);
+}
 
-    public function show_one_paper(){
-        $this->Pre_Index->visitor_paper_check();
-        $paper_id = $_GET['paper_id'];
-        $paper_data = $this->Pre_Index->get_paper_by_pid($paper_id);
-        $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
-        $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
+public function show_one_paper(){
+    $this->Pre_Index->visitor_paper_check();
+    $paper_id = $_GET['paper_id'];
+    $paper_data = $this->Pre_Index->get_paper_by_pid($paper_id);
+    $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
+    $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
+    if(check_wap()){
+        include template('mobile', 'show_exam');
+    }
+    else{
         include template('exam_paper', 'show');
     }
+}
 
-    public function put_answer(){
-        $paper_id = $_POST['paper_id'];
-        $paper_data = $this->Pre_Index->get_paper_data_byid($paper_id);
-        $result = $this->Pre_Index->save_answer_data($paper_data);
-        
-        header('Location:/index.php?m=exam&c=index&a=show_jiexi_result&answer_id='.$result['answer_id']);
+public function put_answer(){
+    $paper_id = $_POST['paper_id'];
+    $paper_data = $this->Pre_Index->get_paper_data_byid($paper_id);
+    $result = $this->Pre_Index->save_answer_data($paper_data);
+
+    header('Location:/index.php?m=exam&c=index&a=show_jiexi_result&answer_id='.$result['answer_id']);
 
         //服务器用不上这个函数
         // showmessage('答案已经提交！','/index.php?m=exam&c=index&a=choose_sec_cat');
+}
+
+public function show_jiexi_result(){
+    $this->Pre_Index->visitor_paper_check();
+    $answer_id = $_GET['answer_id'];
+
+    $answer_data = $this->Pre_Index->get_answer_by_id($answer_id);
+    $answer_choice_only = $this->Pre_Index->parse_choice_only_answer($answer_data['answer_choice_only']);
+    $answer_choice_more = $this->Pre_Index->parse_choice_more_answer($answer_data['answer_choice_more']);
+
+    $paper_data = $this->Pre_Index->get_paper_by_pid($answer_data['paper_id']);
+    $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
+    $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
+
+    $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
+    $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
+
+    $analysis_key_choice_only = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_only']);
+    $analysis_key_choice_more = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_more']);
+
+    $paiming = $this->Pre_Index->get_paiming($answer_data);
+
+    if(check_wap()){
+        include template('mobile', 'show_jiexi_result');
     }
-
-    public function show_jiexi_result(){
-        $this->Pre_Index->visitor_paper_check();
-        $answer_id = $_GET['answer_id'];
-
-        $answer_data = $this->Pre_Index->get_answer_by_id($answer_id);
-        $answer_choice_only = $this->Pre_Index->parse_choice_only_answer($answer_data['answer_choice_only']);
-        $answer_choice_more = $this->Pre_Index->parse_choice_more_answer($answer_data['answer_choice_more']);
-        
-        $paper_data = $this->Pre_Index->get_paper_by_pid($answer_data['paper_id']);
-        $quest_choice_only = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_only']);
-        $quest_choice_more = $this->Pre_Index->get_quest_by_ids($paper_data['quest_choice_more']);
-
-        $cankao_choice_only = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_only']);
-        $cankao_choice_more = $this->Pre_Index->get_cankao_answer_by_ids($paper_data['quest_choice_more']);
-
-        $analysis_key_choice_only = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_only']);
-        $analysis_key_choice_more = $this->Pre_Index->get_analysis_key_by_ids($paper_data['quest_choice_more']);
-
-        $paiming = $this->Pre_Index->get_paiming($answer_data);
-
+    else{
         include template('exam_paper', 'show_jiexi_result');
     }
+}
 
-    public function show_message(){
-        $msg = $_GET['msg'];
-        $this->Pre_Index->show_my_message($msg);
+public function show_message(){
+    $msg = $_GET['msg'];
+    $this->Pre_Index->show_my_message($msg);
+}
+
+public function ajax_select_admin(){
+    $category_any = array();
+    if($_GET['param_id'])
+    {
+        $par_id = $_GET['param_id'];
+        $category_any = $this->get_catid_name_arr($par_id);
     }
+    $ResultHtml = $this->make_select_options_html($category_any);
+    echo $ResultHtml;
+}
 
-    public function ajax_select_admin(){
-        $category_any = array();
-        if($_GET['param_id'])
-        {
-            $par_id = $_GET['param_id'];
-            $category_any = $this->get_catid_name_arr($par_id);
-        }
-        $ResultHtml = $this->make_select_options_html($category_any);
-        echo $ResultHtml;
-    }
-
-    public function ajax_select_qanda(){
-        $category_any = array();
-        if($_GET['param_id'])
-        {
-            $par_id = $_GET['param_id'];
-            $category_sec = $this->get_catid_name_arr($par_id);
-            $cate_sec_one = array_shift($category_sec);
+public function ajax_select_qanda(){
+    $category_any = array();
+    if($_GET['param_id'])
+    {
+        $par_id = $_GET['param_id'];
+        $category_sec = $this->get_catid_name_arr($par_id);
+        $cate_sec_one = array_shift($category_sec);
             $cate_sec_one = array_shift($category_sec);//本地的数据不全，人为地再来一次
             $category_any = $this->get_catid_name_arr($cate_sec_one['catid']);
             foreach($category_any as &$cat_any){

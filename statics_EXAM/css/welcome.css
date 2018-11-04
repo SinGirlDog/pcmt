@@ -10,7 +10,11 @@
 	line-height: 50px;
 	display: inline-block;
 	text-align: center;
+}
+#welcome ul li div{
 	background-color: #16a;
+	border-radius:6px;
+	cursor: pointer;
 }
 #welcome ul li a{
 	color:#fff;

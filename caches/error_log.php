@@ -10195,3 +10195,77 @@
 <?php exit;?>10-31 15:00:21 | 2 | Invalid argument supplied for foreach() | phpcms\modules\content\fields\downfile\field_edit_form.inc.php | 4
 <?php exit;?>10-31 15:02:54 | 2 | Invalid argument supplied for foreach() | phpcms\modules\content\fields\downfile\field_edit_form.inc.php | 4
 <?php exit;?>10-31 15:03:24 | 2 | Invalid argument supplied for foreach() | phpcms\modules\content\fields\downfile\field_edit_form.inc.php | 4
+<?php exit;?>11-02 16:44:50 | 2 | Invalid argument supplied for foreach() | phpcms\modules\exam\functions\global.func.php | 7
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:48:34 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:49:00 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:51:37 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:49 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:55:58 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 19:56:30 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 28
+<?php exit;?>11-02 20:00:01 | 2 | Invalid argument supplied for foreach() | phpcms\modules\wap\functions\global.func.php | 63
+<?php exit;?>11-04 18:30:29 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_paper.php on line 165 and defined | phpcms\modules\exam\classes\exam_index.class.php | 64
+<?php exit;?>11-04 18:31:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:31:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:31:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:31:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:31:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:31:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:31:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:31:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:31:20 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:31:20 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:12 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:12 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:12 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:12 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:12 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:12 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:12 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:12 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:12 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:12 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
