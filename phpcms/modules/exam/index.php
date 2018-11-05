@@ -118,6 +118,11 @@ public function rand_paper_init(){
 }
 
 public function answer_history_init(){
+    $allow_rand = $this->set['allow_rand'];
+    if(!$allow_rand){
+        header('Location:/index.php?m=exam&c=index&a=choose_sec_cat');
+        exit();
+    }
     $this->Pre_Index->visitor_paper_check();
     $super_info = $_SESSION['super_info'];
     $list_sec = $this->get_catid_name_arr($super_info['cat_level_1']);

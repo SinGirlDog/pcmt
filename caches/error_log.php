@@ -10269,3 +10269,16 @@
 <?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
 <?php exit;?>11-04 18:32:14 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
 <?php exit;?>11-04 18:32:14 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:36:09 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-05 09:36:09 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:36:09 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-05 09:36:09 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:36:09 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-05 09:36:09 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:36:09 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-05 09:36:09 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:36:09 | 2 | array_intersect(): Argument #1 is not an array | caches\caches_template\default\mobile\show_jiexi_result.php | 135
+<?php exit;?>11-05 09:36:09 | 2 | implode(): Invalid arguments passed | caches\caches_template\default\mobile\show_jiexi_result.php | 145
+<?php exit;?>11-05 09:38:57 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 76
+<?php exit;?>11-05 09:38:57 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
+<?php exit;?>11-05 09:38:57 | 2 | Division by zero               | caches\caches_template\default\exam_paper\show_jiexi_result.php | 130
