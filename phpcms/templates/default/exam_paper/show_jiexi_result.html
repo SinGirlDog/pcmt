@@ -89,6 +89,12 @@
 
 						echo "<dl>解析：".$analysis_key_choice_only[$num_th-1]['question_analysis']."</dl>";
 						
+						$analysis_img = $analysis_key_choice_only[$num_th-1]['analysis_thumb'];
+						if($analysis_img)
+						{
+							echo "<dl><img src='".$analysis_img."'/></dl>";
+						}
+
 						$num_th++;
 					echo '</ol> ';
 				}?>
@@ -142,6 +148,12 @@
 						echo "<dl>参考答案：".implode('.',$cankao_choice_more['answer'][$num_more_th])."</dl>";
 
 						echo "<dl>解析：".$analysis_key_choice_more[$num_more_th]['question_analysis']."</dl>";
+
+						$analysis_img = $analysis_key_choice_more[$num_more_th]['analysis_thumb'];
+						if($analysis_img)
+						{
+							echo "<dl><img src='".$analysis_img."'/></dl>";
+						}
 
 						$num_th++;
 						$num_more_th++;

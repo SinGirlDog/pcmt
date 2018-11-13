@@ -486,7 +486,7 @@ return array (
     'iscore' => '0',
     'version' => '1.0',
     'description' => '模拟考试',
-    'setting' => 'array (  "1" =>   array (    "exam_status" => "1",    "allow_guest" => "1",    "allow_rand" => "1",    "pagesize" => "3",    "enablecheckcode" => "0",  ),  "2" =>   array (    "exam_status" => "1",    "allow_guest" => "1",    "allow_rand" => "1",    "pagesize" => "5",    "enablecheckcode" => "0",  ),)',
+    'setting' => '{"1":{"exam_status":"1","allow_guest":"1","allow_rand":"0","pagesize":"3","enablecheckcode":"0"},"2":{"exam_status":"1","allow_guest":"1","allow_rand":"1","pagesize":"5","enablecheckcode":"0"}}',
     'listorder' => '0',
     'disabled' => '0',
     'installdate' => '2018-09-26',

@@ -417,7 +417,7 @@ class exam_index {
         $analysis_key = array();
         foreach($id_arr as $key=>$id){
             $where = array('id'=>$id);
-            $fields ='question_analysis, question_key';
+            $fields ='question_analysis, analysis_thumb, question_key';
             $analysis_key[] = $this->exam_data_db->get_one($where,$fields);
         }
         return $analysis_key;
