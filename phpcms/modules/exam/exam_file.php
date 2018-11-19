@@ -54,7 +54,13 @@ class exam_file extends admin {
             $data['siteid'] = SITEID;
             $data['addtime'] = SYS_TIME;
 
-            $new_file_id = $this->exam_file_db->insert($data,true);
+            $where = array('title'=>$data['title'],'catid'=>$data['catid'],'thumb'=>$data['thumb']);
+            $already = $this->exam_file_db->get_one($where);
+            if(empty($already)){
+                if(empty($new_file_id)){
+                    $new_file_id = $this->exam_file_db->insert($data,true);
+                }
+            }
             if($new_file_id){
                 showmessage(L("上船成功"),HTTP_REFERER);
             }
@@ -81,23 +87,17 @@ class exam_file extends admin {
         if((!isset($_GET['id']) || empty($_GET['id'])) && (!isset($_POST['id']) || empty($_POST['id']))) {
             showmessage(L('未选中'), HTTP_REFERER);
         }
-        if(is_array($_POST['id'])){
-            foreach($_POST['id'] as $id_arr) {
-                $id_arr = intval($id_arr);
-                $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id_arr));
-            }
+        
+        $id = intval($_GET['id']);
+        if($id < 1) return false;
+        $result = $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id));
+        $res_del = $this->Pre_Index->exam_question_del_byfile($id); 
+        if($result){
             showmessage(L('删除成功'),HTTP_REFERER);
-        }else{
-            $id = intval($_GET['id']);
-            if($id < 1) return false;
-            $result = $this->exam_file_db->update(array('isdelete'=>1),array('id'=>$id));
-                $this->Pre_Index->exam_question_del_byfile($id); 
-            if($result){
-                showmessage(L('删除成功'),HTTP_REFERER);
-            }else {
-                showmessage(L("删除失败"),HTTP_REFERER);
-            }
+        }else {
+            showmessage(L("删除失败"),HTTP_REFERER);
         }
+        
     }
 
     /**

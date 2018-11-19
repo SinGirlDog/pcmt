@@ -140,25 +140,25 @@ class exam_index {
             $setting[$item['id']]['catid'] = $item['catid'];
             $setting[$item['id']]['parentid'] = $item['parentid'];
             $setting[$item['id']]['choice_only'] = array(
-             'type' => 'choice_only',
-             'num' => $item['num_choice_only'],
-             'fenshu' => $item['fenshu_choice_only'],
-         );
+               'type' => 'choice_only',
+               'num' => $item['num_choice_only'],
+               'fenshu' => $item['fenshu_choice_only'],
+           );
             $setting[$item['id']]['choice_more'] = array(
-             'type' => 'choice_more',
-             'num' => $item['num_choice_more'],
-             'fenshu' => $item['fenshu_choice_more'],
-         );
+               'type' => 'choice_more',
+               'num' => $item['num_choice_more'],
+               'fenshu' => $item['fenshu_choice_more'],
+           );
             $setting[$item['id']]['fillinblank'] = array(
-             'type' => 'fillinblank',
-             'num' => $item['num_fillinblank'],
-             'fenshu' => $item['fenshu_fillinblank'],
-         );
+               'type' => 'fillinblank',
+               'num' => $item['num_fillinblank'],
+               'fenshu' => $item['fenshu_fillinblank'],
+           );
             $setting[$item['id']]['objective'] = array(
-             'type' => 'objective',
-             'num' => $item['num_objective'],
-             'fenshu' => $item['fenshu_objective'],
-         );
+               'type' => 'objective',
+               'num' => $item['num_objective'],
+               'fenshu' => $item['fenshu_objective'],
+           );
         }
         return $setting;
     }
@@ -535,18 +535,25 @@ class exam_index {
         if($fileid){
             $file_data = $this->exam_file_db->get_one(array('id'=>$fileid));
             if(!empty($file_data)){
-                $quest_id_arr = explode(',',$file_data['quest_ids']);
-                $item_num = sizeof($quest_id_arr);
-                $item_th = 0;
-                foreach($quest_id_arr as $q_id){
-                    $this->exam_db->delete(array('id'=>$q_id,'catid'=>$file_data['catid']));
-                    $this->exam_data_db->delete(array('id'=>$q_id));
-                    $item_th += 1;
+                if(!empty($file_data['quest_ids'])){                    
+                    $quest_id_arr = explode(',',$file_data['quest_ids']);
+                    $item_num = sizeof($quest_id_arr);
+                    $item_th = 0;
+                    foreach($quest_id_arr as $q_id){
+                        $res_exam = $this->exam_db->delete(array('id'=>$q_id,'catid'=>$file_data['catid']));
+                        $res_exam_data = $this->exam_data_db->delete(array('id'=>$q_id));
+                        $item_th += 1;
+                    }
+                    if($item_th != $item_num){
+                        $item_num = $item_th;
+                    }
                 }
-                if($item_th != $item_num){
-                    $item_num = $item_th;
+                else{
+                    $item_num = 0;
                 }
-                $this->examquestion_category_item_nimus($item_num,$file_data['catid']);
+                if($item_num != 0){
+                    $this->examquestion_category_item_nimus($item_num,$file_data['catid']);
+                }
             }
         }
     }

@@ -1,6 +1,7 @@
 <?php
 class xml {
 	var $dir;
+	var $img_regular ='\exam_img_regular.png';
 	private $dir_xsl;
 	private $file_title;
 	private $quest_type = array();
@@ -27,20 +28,29 @@ class xml {
 	// private $body_b = 0;
 	private $true_num = 0;
 	
+	public function myTest4SSDATA(){
+		if (file_exists($this->dir)){
+			$str_xml = file_get_contents($this->dir);
+			$str_xml = str_replace("ss:Data","Data",$str_xml);
+			$xml=simplexml_load_string($str_xml);
+			$data = $xml->Worksheet->Table->Row;
+			foreach($data as $item){
+				$item = json_encode($item);
+				echo '<br/>';
+				var_dump($item);
+			}
+		}
+	}
+	
 	public function init(){
+		// $this->myTest4SSDATA();
+		// die();
 		echo 'if there is no words;maybe the program or the file was wrong <br/>';
-		echo '如果下面什么东西都不显示，那可能是程序有问题，或者是文件格式不匹配<br/><br/>';
-		// header("Content-type: text/html; charset=utf-8");
-		// $this->dir = "2018yjjj_fy.xml";
-
-		// $this->xml_file_parse();
-		// $this->reform_parse_result();
+		echo '如果下面什么东西都不显示，那可能是程序有问题，或者是文件格式不匹配 <br/><br/>';
+		echo '反之，如果正常显示各题内容，请使用"CTRL"+"F"功能，于网页内查找“题干”，“解析”，“答案”等项目的数量；并认真观察每一道题目的内容；确认无误后再进行入库操作！<br/><br/>';
+		echo "<a href='".$this->img_regular."' target='_blank'><button style='cursor:pointer;'>点击获取仅供参考的格式范例图片</button></a><br/><br/>";
 		$this->get_reform_data();
 		echo '<pre/>';
-		// var_export($this->body_arr);
-		// var_export($this->answers_arr);
-		// var_export($this->true_answers_arr);
-		// var_export($this->analysis_arr);
 		$this->show_parse_result();
 		
 	}
@@ -51,17 +61,17 @@ class xml {
 		return $this->reform_data;
 	}
 
-
-
 	private function xml_file_parse(){
 		if (file_exists($this->dir)){
-			$xml=simplexml_load_file($this->dir);
+			$str_xml = file_get_contents($this->dir);
+			$str_xml = str_replace("ss:Data","Data",$str_xml);
+			$xml=simplexml_load_string($str_xml);
+			// $xml=simplexml_load_file($this->dir);
 			$num = 0;
 			$ti_num = 0;
 			$data = $xml->Worksheet->Table->Row;
 			foreach($data as $item){
-				// echo $num,'<br/>';
-				if($num == -678){//调试用的开关
+				if($num == -43){//调试用的开关
 					echo 'TreeNewBee Error!';
 					var_dump($item);
 					die;
@@ -75,6 +85,7 @@ class xml {
 				$str = $this->noemptyarr_implode($arr);
 
 				$quest_type = $this->check_quest_type($str);
+				
 				if($quest_type){
 					$this->quest_type[] = $quest_type;
 				}
@@ -97,7 +108,8 @@ class xml {
 			}
 		}
 		else{
-			echo 'no file xml:'.$this->dir;
+			echo 'no file xml:',$this->dir,'<br/>';
+			echo '此路径内未能识别有效XML文件！','<br/>';
 		}
 	}
 
@@ -127,18 +139,22 @@ class xml {
 
 					}
 					else{
+						// var_dump($this->body_arr);die;
 						echo 'There is empty body arr on '.$val.'!','<br/>';
+						echo '本次预览未能正确识别“单/多项选择题”的题干，请核查相关内容!','<br/>';
 					}
 					
 				}
 				else{
 					echo 'There is An Undefined quest_type!','<br/>';
+					echo '本次预览出现了 未定义 的题目类型，请核查相关内容!','<br/>';
 				}
 			}
 			
 		}
 		else{
 			echo 'There is no any quest_type','<br/>';
+			echo '本次预览 未识别出任何 题目类型，请核查相关内容!','<br/>';
 		}
 	}
 
@@ -154,7 +170,7 @@ class xml {
 			echo "<br/>";
 		}
 		
-		echo 'hello word!';
+		echo 'hello word!','<br/>';
 	}
 
 	private function show_file_title(){
@@ -163,6 +179,7 @@ class xml {
 		}
 		else{
 			echo 'There is no file_title!','<br/>';
+			echo '本次预览未发现文件标题!','<br/>';
 		}
 	}
 
@@ -305,7 +322,13 @@ class xml {
 			$field = 'question_answer';
 		}
 		else{
-			echo 'judge_maybe_quest_answer--else';var_dump($this->current_field);echo $str,'+',$this->true_num;die;
+			echo 'judge_maybe_quest_answer--else','<br/>';
+			echo "本次预览，在识别备选答案过程中出现错误，步骤为：",'<br/>';
+			var_dump($this->current_field);
+			echo '<br/>',"附近内容为：",'<br/>';
+			echo $str,'<br/>题目序号极其可能为：',
+			$this->true_num;
+			die;
 		}
 		return $field;
 	}
@@ -340,8 +363,9 @@ class xml {
 	private function collect_content($str,$num){
 		$current_q_type = $this->get_current_quest_type();
 		switch($this->current_field){
-			case 'question_body':
+			case 'question_body':			
 			$q_body = $this->make_quest_body($str);
+			
 			if($current_q_type){
 				if(sizeof($this->body_arr[$current_q_type]) > 0 ){
 					$this->analysis_arr[$current_q_type][] = $this->q_analysis;
@@ -354,8 +378,8 @@ class xml {
 				$this->body_arr[$current_q_type][] = $q_body;
 			}
 			else{
-				echo $num,$str,'--';
-				echo 'Not any quest_type by body!';
+				echo 'Not any quest_type by body!','<br/>';
+				echo "在采集题干过程中发觉，未识别任何题目类型；行数大约在：",$num,'内容大约为：',$str,'<br/>';
 				die;
 			}
 			$this->temp_answer_arr = array();
@@ -373,6 +397,7 @@ class xml {
 			}
 			else{
 				echo 'Not any quest_type by true_answer!';
+				echo "在采集参考答案过程中发觉，未识别任何题目类型；行数大约在：",$num,'内容大约为：',$str,'<br/>';
 				die;
 			}
 			$this->q_analysis = '';

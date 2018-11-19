@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>User</Author>
+  <LastAuthor>User</LastAuthor>
+  <Revision>2</Revision>
+  <TotalTime>3</TotalTime>
+  <Created>2018-11-13T06:04:00Z</Created>
+  <LastSaved>2018-11-13T06:04:00Z</LastSaved>
+  <Company>china</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7095</WindowHeight>
+  <WindowWidth>19155</WindowWidth>
+  <WindowTopX>600</WindowTopX>
+  <WindowTopY>405</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Times New Roman" x:Family="Roman" ss:Size="10.5"
+    ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Justify" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="10.5" ss:Color="#000000"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="10+5模板">
+  <Table ss:ExpandedColumnCount="17" ss:ExpandedRowCount="90" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="13.5">
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2015</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年二建法规真题及解析</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">一、单项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">1. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列关于生产安全事故报告的说法中，不符合规定的是（</Font><Font
+       html:Color="#000000">  </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．事故发生后，事故现场有关人员应当立即向本单位负责人报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．单位负责人接到报告后，应当于</Font><Font
+       html:Color="#000000">2</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">小时内向事故发生地县级以上人民政府安全生产监督管理部门和负有安全生产监督管理职责的有关部门报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．情况紧急时，事故现场有关人员可以直接向事故发生地县级以上人民政府安全生产监督管理部门和负有安全生产监督管理职责的有关部门报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．安全生产监督管理部门和负有安全生产监督管理职责的有关部门逐级上报事故情况，每级上报的时间不得超过</Font><Font
+       html:Color="#000000">2</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">小时</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> B </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="39.75">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《生产安全事故报告和调查处理条例》第九条规定，事故发生后，事故现场有关人员应当立即向本单位负责人报告；单位负责人接到报告后，应当于</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">小时内向事故发生地县级以上人民政府安全生产监督管理部门和负有安全生产监督管理职责的有关部门报告。情况紧急时，事故现场有关人员可以直接向事故发生地县级以上人民政府安全生产监督管理部门和负有安全生产监督管理职责的有关部门报告。第十一条规定，安全生产监督管理部门和负有安全生产监督管理职责的有关部门逐级上报事故情况，每级上报的时间不得超过</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">2</Font><Font
+       html:Color="#000000">小时。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">下列关于工程建设强制性标准和推荐性标准的说法中，错误的是（</Font><Font
+       html:Color="#000000">  </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">工程建设国家标准和行业标准分为强制性标准和推荐性标准</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">保障人体健康，人身、财产安全的标准和法律、行政法规规定强制执行的标准为强制性标准</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">省、自治区、直辖市标准化行政主管部门制定的工业产品的安全、卫生要求的地方标准，不能独立实施</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">强制性标准必须执行，推荐性标准国家鼓励企业自愿采用</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000"> C  </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】工程建设地方标准中，对直接涉及人民生命财产安全、人体健康、环境保护和公共利益的条文，经国务院建设行政主管部门确定后，可以作为强制性条文。在不违反国家标准和行业标准的前提下，工程建设地方标准可以独立实施。故选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">错误。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">3. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建设工程在超过合理使用年限后需要继续使用的，产权所有人应当首先进行的工作是（</Font><Font
+       html:Color="#000000">  </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">委托具有相应资质等级的勘察、设计单位制定技术加固措施</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">委托具有相应资质等级的施工单位进行加固、维修和补强</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">委托具有相应资质等级的勘察、设计单位进行鉴定</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">委托具有相应资质等级的勘察、设计单位重新界定使用期</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C  </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">【解析】《建设工程质量管理条例》第四十二条规定，建设工程在超过合理使用年限后需要继续使用的，产权所有人应当委托具有相应资质等级的勘察、设计单位鉴定，并根据鉴定结果采取加固、维修等措施，重新界定使用期。</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">4. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某施工单位对所承担工程的隐蔽部位进行自检后，认为具备覆盖条件，在专用合同条款对此没有特别规定的情况下，该施工单位应在共同检查前</Font><Font
+       html:Color="#000000">(  )</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">小时书面通知监理人检查。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">12</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">24</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">48</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">．</Font><Font
+       html:Color="#000000">72</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《建设工程施工合同（示范文本）》</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">(GF-2013-0201)</Font><Font
+       html:Color="#000000">第</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">5.3.2</Font><Font html:Color="#000000">条规定，除专用合同条款另有约定外，工程隐蔽部位经承包人自检确认具备覆盖条件的。承包人应在共同检查前</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">48</Font><Font
+       html:Color="#000000">小时书面通知监理人检查，通知中应载明隐蔽检查的内容、时间和地点，并应附有自检记录和必要的检查资料。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">5. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某建设单位在工程竣工验收合格后，未按规定移交地下管线工程档案，受到建设主管部门的处罚。关于该事件的处罚不合理的是（</Font><Font
+       html:Color="#000000">  </Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">）</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">责令改正，处</Font><Font
+       html:Color="#000000">1</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">万元以上</Font><Font html:Color="#000000">10</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">万元以下的罚款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">对单位直接负责的主管人员和其他直接责任人员，处单位罚款数额</Font><Font
+       html:Color="#000000">8%</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">的罚款</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">造成施工单位在施工中损坏了地下管线的，建设单位依法承担相应的赔偿责任</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D. </Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">降低资质等级，造成严重后果的，吊销资质证书</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D  </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《城市地下管线工程档案管理办法》第十七条规定，建设单位违反本办法规定，未移交地下管线工程档案的，由建设主管部门责令改正，处</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">1</Font><Font
+       html:Color="#000000">万元以上</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">10</Font><Font html:Color="#000000">万元以下的罚款；对单位直接负责的主管人员和其他直接责任人员，处单位罚款数额</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">5%</Font><Font
+       html:Color="#000000">以上</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">10%</Font><Font html:Color="#000000">以下的罚款；因建设单位未移交地下管线主程档案，造成施工单位在施工中损坏地下管线的，建设单位依法承担相应的责任。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String">一、多项选择题</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">1.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">用人单位可以单方解除劳动合同的情形包括</Font><Font
+       html:Color="#000000">(</Font></Data></Cell>
+    <Cell ss:MergeAcross="15" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">严重失职，营私舞弊，给用人单位造成重大损害的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">严重违反用人单位规章制度的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">劳动者在本单位连续工作满</Font><Font
+       html:Color="#000000">15</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">年，距法定退休年龄不足</Font><Font html:Color="#000000">5</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">年的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">劳动者患病或者非因工负伤，且在规定的医疗期内</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">在试用期间被证明不符合录用条件的</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABE </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《劳动合同法》在赋予劳动者单方解除权的同时，也赋予用人单位对劳动合同的羊方解除权，以保障用人单位的用工自主权。《劳动合同法》第</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">39</Font><Font
+       html:Color="#000000">条规定，劳动者有下列情形之一的，用人单位可以解除劳动合同</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">:(1)</Font><Font
+       html:Color="#000000">在试用期间被证明不符合录用条件的</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">; (2)</Font><Font html:Color="#000000">严重违反用人单位的规章制度的</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">; (3)</Font><Font
+       html:Color="#000000">严重失职，营私舞弊，给用人单位造成重大损害的</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">;</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">(4)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">劳动者同时与其他用人单位建立劳动关系，对完成本羊位的工作任务造成严重影响，或者经用人单位提出，拒不改正的</Font><Font
+       html:Color="#000000">; (5)</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">因《劳动合同法》第</Font><Font html:Color="#000000">26</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">条第</Font><Font
+       html:Color="#000000">1</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">款第</Font><Font html:Color="#000000">1</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">项规定的情形致使劳动合同无效的</Font><Font
+       html:Color="#000000">; (6)</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">被依法追究刑事责任的。选项</Font><Font html:Color="#000000">C</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">、</Font><Font
+       html:Color="#000000">D</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">按规定用人单位不得解除劳动关系。故选项</Font><Font html:Color="#000000">A</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">、</Font><Font
+       html:Color="#000000">B</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">、</Font><Font html:Color="#000000">E</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">正确。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">2.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某建筑施工企业与某钢模板租赁公司签订了一份模板租赁合同。建筑施工企业的义务包括</Font><Font
+       html:Color="#000000">(</Font></Data></Cell>
+    <Cell ss:MergeAcross="15" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">妥善保管钢模板</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">支付租用钢模板租金</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">交付出租钢模板</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">有关事项通知、</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">按约定方法使用钢模板</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABDE </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】租赁合同中，承租人的主要义务是支付租金、按照约定使用租赁物、妥善保管租赁物、有关事项通知、返还租赁物和损失赔偿。选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">属于出租人的义务，因此，选项</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">A</Font><Font html:Color="#000000">、</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">D</Font><Font html:Color="#000000">、</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">E</Font><Font
+       html:Color="#000000">正确。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">3.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">在饮用水水源保护区禁止建设</Font><Font
+       html:Color="#000000">(</Font></Data></Cell>
+    <Cell ss:MergeAcross="15" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">封闭式垃圾站</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">生活垃圾填埋场</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">工业固体废物集中贮存、处置的设施</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">工业固体废物集中贮存、处置的场所</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">建筑垃圾临时堆放的场所</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">BCD </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《水污染防治法》规定，在国务院和国务院有关主管部门及省、自治区、直辖市人民政府划定的自然保护区、风景名胜区、饮用水水源保护区、基本农田保护区和其他需要特别保护的区域内，禁止建设工业固体废物集中贮存、处置的设施、场所和生活垃圾填埋场。故选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">B</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">C</Font><Font html:Color="#000000">、</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">正确。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">4.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">施工作业人员应当履行的安全生产义务包括</Font><Font
+       html:Color="#000000">(</Font></Data></Cell>
+    <Cell ss:MergeAcross="15" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">正确使用安全防护用具</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">接受安全生产教育培训</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">发现事故隐患时立即向现场安全生产管理人员报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">发现事故隐患时立即向本单位负责人报告</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">发现事故隐患时及时采取措施予以处理</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABCD </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="40.5">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《安全生产法》规定，施工作业人员应当履行的安全生产义务包括</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">:</Font><Font
+       html:Color="#000000">守法遵章和正确使用安全防护用具等的义务、接受安全生产教育培训的义务和施，工安全事故隐患报告的义务。从业人员发现事故隐患或者其他不安全因素，应当立即向现场安全生产管理人员或者本单位负责人报告</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">;</Font><Font
+       html:Color="#000000">接到报告的人员应当及时予以处理。即对事故隐患的处置，应由现场安全生产管理人员或者本羊位负责人根据具体情况提出处理措施。故选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">B</Font><Font html:Color="#000000">、</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">C</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">D</Font><Font html:Color="#000000">正确。</Font></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">5.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">某职工因工作遭受事故伤害，在工伤医疗的停工留薪期，下述表述正确的是</Font><Font
+       html:Color="#000000">(</Font></Data></Cell>
+    <Cell ss:MergeAcross="15" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">)</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">。</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">A.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">原工资福利待遇不变</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">B.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">薪酬</Font><Font
+       html:Color="#000000">|</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">由所在单位支付</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">C.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">停工留薪期一般不超过</Font><Font
+       html:Color="#000000">6</Font><Font html:Face="宋体" x:CharSet="134"
+       html:Color="#000000">个月</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">D.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">工伤职工评定伤残等级后，享受伤残待遇</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s67"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">E.</Font><Font
+       html:Face="宋体" x:CharSet="134" html:Color="#000000">停工留薪期满后，不再享受工伤医疗待遇</Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【答案】</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">ABD </Font></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="27">
+    <Cell ss:MergeAcross="16" ss:StyleID="s71"><Data ss:Type="String"
+      xmlns="http://www.w3.org/TR/REC-html40"><Font html:Color="#000000">【解析】《工伤保险条例》规定，职工因工作遭受事故伤害或者患职业病需要暂停工作接受工伤医疗的，在停工留薪期内，原工资福利待遇不变，由所在单位按月支付。停工留薪期一般不超过</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">12</Font><Font
+       html:Color="#000000">个月。工伤职工评定伤残等级后，停发原待遇，按照本章的有关规定享受伤残待遇。工伤职工在停工留薪期满后仍需治疗的，继续享受工伤医疗待遇。故选项</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">A</Font><Font
+       html:Color="#000000">、</Font><Font html:Face="Times New Roman"
+       x:Family="Roman" html:Color="#000000">B</Font><Font html:Color="#000000">、</Font><Font
+       html:Face="Times New Roman" x:Family="Roman" html:Color="#000000">D</Font><Font
+       html:Color="#000000">正确。</Font></Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <RangeSelection>R1C1:R1C17</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

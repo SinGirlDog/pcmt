@@ -53,7 +53,7 @@ include $this->admin_tpl('header_exam');
 <div id="pages"><?php echo $pages?></div>
 </form>
 
-<form style="margin-left:30px;" action="?m=exam&c=exam_file&a=upload_xml" method="post" enctype="multipart/form-data" name="myform" id="myform">
+<form style="margin-left:30px;" action="?m=exam&c=exam_file&a=upload_xml" method="post" enctype="multipart/form-data" name="myform_up" id="myform_up">
     <table border="0" width="100%">
         <tbody>
             <tr>
@@ -82,7 +82,7 @@ include $this->admin_tpl('header_exam');
                     <span>习题文件：</span>
                     <input type="file" id="file" name="file"/>
                     (目前仅支持XML电子表格)
-                    <input type="submit" id="submit" name='editsubmit' value="上船" class="shangchuan"/>
+                    <input type="button" value="上船" onclick="javascript:{this.disabled=true;document.myform_up.submit();}">
                     (文件大小最好小于1MB)
                 </td>
             </tr>
