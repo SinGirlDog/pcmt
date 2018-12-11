@@ -10908,3 +10908,7 @@
 <?php exit;?>11-18 18:18:19 | 2 | Missing argument 1 for exam_index::get_catid_name_arr(), called in D:\phpStudy\WWW\pcmt\phpcms\modules\exam\exam_file.php on line 32 and defined | phpcms\modules\exam\classes\exam_index.class.php | 64
 <?php exit;?>11-19 09:17:06 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
 <?php exit;?>11-19 09:17:06 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-20 09:03:49 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-20 09:03:49 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-22 09:21:04 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84
+<?php exit;?>11-22 09:21:04 | 2 | fsockopen():                   | phpcms\libs\classes\http.class.php | 84

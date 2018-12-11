@@ -5,7 +5,7 @@ return array (
     'siteid' => '1',
     'name' => '神奇的站点',
     'dirname' => '',
-    'domain' => 'http://192.168.140.110/',
+    'domain' => 'https://falsysun.eicp.vip/',
     'site_title' => 'PHPCMS演示站',
     'keywords' => 'PHPCMS演示站',
     'description' => 'PHPCMS演示站',
@@ -14,7 +14,7 @@ return array (
     'template' => 'default',
     'setting' => '{"upload_maxsize":"20480","upload_allowext":"jpg|jpeg|gif|bmp|png|doc|docx|xls|xlsx|ppt|pptx|pdf|txt|rar|zip|swf","watermark_enable":"1","watermark_minwidth":"300","watermark_minheight":"300","watermark_img":"statics\\/images\\/water\\/\\/mark.png","watermark_pct":"85","watermark_quality":"80","watermark_pos":"10"}',
     'uuid' => 'b2c26642-a1e7-11e8-824c-08606ef32827',
-    'url' => 'http://192.168.140.110/',
+    'url' => 'https://falsysun.eicp.vip/',
   ),
   3 => 
   array (

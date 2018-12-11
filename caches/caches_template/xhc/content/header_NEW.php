@@ -1,0 +1,81 @@
+<?php defined('IN_PHPCMS') or exit('No permission resources.'); ?>	<div class="top">
+		<div class="main">
+			<p>全国具有影响力的建造师辅导品牌 | 兴宏程建造师网</p>
+			<div class="nav_top_right">
+				<div class="weibo">
+					<!-- 关于兴宏程 官方微信 官方微博 网站地图 -->
+					<a>关于兴宏程</a>  <a class="wx_gf">官方微信</a> 
+					<a class="sina_wb">官方微博</a>  <a class='wzdt'>网站地图</a>
+	            </div>
+	            <div class="wx_box" id="wx_box" style="display: none;">
+		            <div class="wx_img">
+						<!-- <p>太奇兴宏程</p> -->
+						<img src="<?php echo IMG_PATH_XHC;?>18xhc/wx_logo.gif">
+					</div>
+				</div>
+	            <div class="sina_box" id="sina_box" style="display: none;">
+		            <div class="sina_img">
+						<img src="<?php echo IMG_PATH_XHC;?>18xhc/sina_logo.gif">
+					</div>
+					<div class="sina_info">
+						<b>太奇兴宏程</b>
+						<p><wb:follow-button uid="5075870008" type="red_1" width="67" height="24" ></wb:follow-button></p>
+					</div>
+				</div>
+				<div id="dropmenu1" class="dropMenu" style="display: none;">
+						<div>
+			            	<b><a>考试动态</a></b><br />
+			                <a href="/html/yijijianzaoshi/kszx/" target="_blank">一级建造师</a>|<a href="/html/erjijianzaoshi/kszx/" target="_blank">二级建造师</a>
+			            </div>
+			            <div>
+			            	<b><a>备考指导</a></b><br />
+			                <a href="http://www.xhcedu.com/2014topic/zsjz/index.html" target="_blank">一级建造师</a>|<a href="http://www.xhcedu.com/2014topic/zsjz/index2.html" target="_blank">二级建造师</a>
+			            </div>
+			            <div>
+			            	<b><a>建筑类考试</a></b><br />
+			                <a href="/html/zaojiagongchengshi/" target="_blank">造价工程师</a>|<a href="/html/zcggs/" target="_blank" >注册建筑师</a>|<a href="/html/zxgcs/" target="_blank">咨询工程师</a><br />
+			                <a href="/html/aqgcs/" target="_blank">安全工程师</a>|<a href="/html/zlgcs/" target="_blank">质量工程师</a>|<a href="/html/fcgjs/" target="_blank">房产估价师</a><br />
+			                <a href="/html/gljl/" target="_blank">公路监理</a>|<a href="/html/jianligongchengshi/" target="_blank">监理工程师</a>|<a href="/html/csghs/" target="_blank">城市规划师</a><br />
+			                <a href="/html/zbs/" target="_blank">招标师</a>|<a href="/html/zcjg/" target="_blank">结构工程师</a>|<a href="/html/hbgcs/" target="_blank">环保工程师</a><br />
+			                <a href="/html/hggcs/" target="_blank">化工</a>|<a href="/html/tzgls/" target="_blank">投资项目管理</a>|<a href="/html/wytls/" target="_blank">物业管理师</a><br />
+			                <a href="/html/zjyzg/" target="_blank">造价员</a>|<a href="/html/aqpjs/" target="_blank">安全评价师</a>|<a href="/html/glzjs/" target="_blank">公路造价师</a><br />
+			                <a href="/html/dqgcs/" target="_blank">电气工程师</a>|<a href="/html/yantu/" target="_blank">岩土</a>|<a href="/html/huanjing/" target="_blank">环境影响评价师</a><br />
+			                <a href="/html/shebeijianli/" target="_blank">设备监理</a>|<a href="/html/tudidengji/" target="_blank">土地登记代理人</a>|<a href="/html/tdgjs/" target="_blank">土地估价师</a>
+			            </div>
+			            <div>
+			            	<b><a>网站产品</a></b><br />
+			                <a href="http://www.jzs001.com/" target="_blank">网络课堂</a>|<a href="http://bbs.jianzaoshi.com.cn/forum.php" target="_blank">同学会</a><br />
+			                <a href="/html/yjts/" target="_blank">考试用书</a>|<a href="http://w=6cm7D0" target="_blank">微博</a>|<a href="###">微信</a>
+			            </div>
+			            <div>
+			            	<b><a>内部新闻</a></b><br />
+			                <a href="/html/mtgz/" target="_blank">媒体关注</a>|<a href="/html/gztq/" target="_blank">关注太奇</a>|<a href="/html/tqry/" target="_blank">太奇荣誉</a><br />
+			                <a href="/html/tqxy/" target="_blank">优秀学员</a>
+			            </div>
+			            <div style="border-bottom:none;">
+			            	<b><a>培训大全</a></b><br />
+			                <a href="http://www.xhcedu.com/2014topic/zsjz/index.html" target="_blank">一级建造师</a>|<a href="http://www.xhcedu.com/2014topic/zsjz/index2.html" target="_blank">二级建造师</a><br /><a href="http://www.xhcedu.com/2014topic/zsjz/jzExt/index5.html" target="_blank">造价工程师</a>
+			            </div>
+			        </div>
+				</div>
+			</div>
+		 </div>
+	</div>
+</div>
+<!-- logo -->
+<div class="clear"></div>
+<div class="main m1">
+	<div class="logo"><a><img src="<?php echo IMG_PATH_XHC;?>18xhc/logo.png"></a></div>
+	<div class="mx"><img src="http://www.tqmpacc.com/statics/new_index/images/maoxian.jpg"></div>
+	<div class="phone"><img src="http://www.tqmpacc.com/statics/new_index/images/iph.jpg"><span>400-098-0768</span></div>
+</div>
+<!-- nav -->
+<div class="clear"></div>
+<div class="nav">
+	<div class="main">
+		<script type="text/javascript">
+			document.writeln("<ul><li class=\"bg_li\"><a href=\"/\" target=\"_blank\">首页</a></li><li><a href=\"/2014topic/zsjz/index.html\" target=\"_blank\">一级建造师</a></li><li><a href=\"/2014topic/zsjz/index2.html\" target=\"_blank\">二级建造师</a></li><li><a href=\"/2014topic/zsjz/xfgcs/index.html\" target=\"_blank\">消防工程师</a></li><li><a href=\"/2014topic/zsjz/jzExt/index5.html\" target=\"_blank\">造价工程师</a></li><li><a href=\"http://www.qikao.net/\" target=\"_blank\">网络课堂</a></li><li><a href=\"/16topic/qkapp/\" target=\"_blank\">奇考APP</a></li><li><a href=\"/16topic/yjbkzn\" target=\"_blank\">一建报考通道</a></li><li><a href=\"\" target=\"_blank\">加盟</a></li></ul>");
+		</script>
+	</div>
+</div>
+<div class="clear"></div>
