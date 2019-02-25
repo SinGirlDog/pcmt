@@ -21,13 +21,19 @@ return array(
 
 //附件相关配置
 'upload_path' => PHPCMS_PATH.'uploadfile/',
-'upload_url' => 'http://'.$_SERVER['HTTP_HOST'].'/uploadfile/', //附件路径
+// 'upload_url' => 'http://'.$_SERVER['HTTP_HOST'].'/uploadfile/', //附件路径
+'upload_url' => 'http://local.pct.com/uploadfile/', //附件路径
 'attachment_stat' => '1',//是否记录附件使用状态 0 统计 1 统计， 注意: 本功能会加重服务器负担
 
-'js_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/js/', //CDN JS
-'css_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/css/', //CDN CSS
-'img_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/images/', //CDN img
-'app_path' => 'http://'.$_SERVER['HTTP_HOST'].'/',//动态域名配置地址
+'js_path' => 'http://local.pct.com/statics/js/', //CDN JS
+'css_path' => 'http://local.pct.com/statics/css/', //CDN CSS
+'img_path' => 'http://local.pct.com/statics/images/', //CDN img
+'app_path' => 'http://local.pct.com/',//动态域名配置地址
+
+// 'js_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/js/', //CDN JS
+// 'css_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/css/', //CDN CSS
+// 'img_path' => 'http://'.$_SERVER['HTTP_HOST'].'/statics/images/', //CDN img
+// 'app_path' => 'http://'.$_SERVER['HTTP_HOST'].'/',//动态域名配置地址
 
 'charset' => 'utf-8', //网站字符集
 'timezone' => 'Etc/GMT-8', //网站时区（只对php 5.1以上版本有效），Etc/GMT-8 实际表示的是 GMT+8
@@ -45,8 +51,9 @@ return array(
 
 'phpsso' => '1',	//是否使用phpsso
 'phpsso_appid' => '1',	//应用id	
-'phpsso_api_url' => 'http://'.$_SERVER['HTTP_HOST'].'/phpsso_server',	//接口地址
-'phpsso_auth_key' => 'X5gaW8pbgbAqBXrVCYtWlovvsbTlifbZ', //加密密钥
+'phpsso_api_url' => 'http://local.phpsso.com',	//接口地址
+// 'phpsso_api_url' => 'http://'.$_SERVER['HTTP_HOST'].'/phpsso_server',	//接口地址
+'phpsso_auth_key' => '9slga2qomudjiicimvpnd9u5271ta3if', //加密密钥
 'phpsso_version' => '1', //phpsso版本
 
 'html_root' => '/html',//生成静态文件路径

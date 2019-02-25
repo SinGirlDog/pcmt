@@ -18,7 +18,7 @@ return array(
 'css_path' => 'http://local.pct.com/phpsso_server/statics/css/', //CDN CSS
 'img_path' => 'http://local.pct.com/phpsso_server/statics/images/', //CDN img
 'upload_path' => PHPCMS_PATH.'uploadfile/', //上传文件路径
-'app_path' => 'http://local.pct.com/phpsso_server/',//动态域名配置地址
+'app_path' => 'http://local.phpsso.com/',//动态域名配置地址
 
 'charset' => 'utf-8', //网站字符集
 'timezone' => 'Etc/GMT-8', //网站时区（只对php 5.1以上版本有效），Etc/GMT-8 实际表示的是 GMT+8

@@ -93,3 +93,39 @@ CREATE TABLE IF NOT EXISTS `v9_exam_visitor` (
   `visittime` int(10) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
 )DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `v9_wxxcx_visitor`;
+
+CREATE TABLE IF NOT EXISTS `v9_wxxcx_visitor` (
+  `id` smallint(5) NOT NULL AUTO_INCREMENT,
+  `nickname` varchar(50) NOT NULL,
+  `avatar` text NOT NULL,
+  `openid` varchar(40) NOT NULL,
+  `gender` char(1) NOT NULL,
+  `city` varchar(30) NOT NULL,
+  `time` int(10) unsigned NOT NULL DEFAULT '0',  
+  PRIMARY KEY (`id`),
+  INDEX `index` (`id`, `openid`)
+)DEFAULT CHARSET=utf8;
+
+DROP TABLE IF EXISTS `v9_exam_wxrecord`;
+
+CREATE TABLE IF NOT EXISTS `v9_exam_wxrecord` (
+  `id` smallint(5) NOT NULL AUTO_INCREMENT,
+  `wxid` mediumint(8) unsigned NOT NULL DEFAULT '0',
+  `siteid` smallint(5) NOT NULL,
+  `fileid` smallint(5) NOT NULL,
+  `arrparentid` varchar(255) NOT NULL,
+  `title` char(80) NOT NULL,
+  `quest_choice_only` text NOT NULL,
+  `quest_choice_more` text NOT NULL,
+  `quest_fillinblank` text NOT NULL,
+  `quest_objective` text NOT NULL,
+  `answer_choice_only` text NOT NULL,
+  `answer_choice_more` text NOT NULL,
+  `answer_fillinblank` text NOT NULL,
+  `answer_objective` text NOT NULL,
+  `isdelete` char(1) NOT NULL DEFAULT '0',
+  `addtime` int(10) unsigned NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+)DEFAULT CHARSET=utf8;

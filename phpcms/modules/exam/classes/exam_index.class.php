@@ -222,7 +222,6 @@ class exam_index {
     	}
     	$real_quest = implode(',',$quest_arr);
     	return $real_quest;
-
     }
 
     private function get_quest_by_randtype($quest_setting_arr,$catid_str){

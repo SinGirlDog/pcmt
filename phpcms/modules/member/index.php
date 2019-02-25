@@ -50,6 +50,7 @@ class index extends foreground {
 		
 		header("Cache-control: private");
 		if(isset($_POST['dosubmit'])) {
+
 			if($member_setting['enablcodecheck']=='1'){//开启验证码
 				if ((empty($_SESSION['connectid']) && $_SESSION['code'] != strtolower($_POST['code']) && $_POST['code']!==NULL) || empty($_SESSION['code'])) {
 					showmessage(L('code_error'));
@@ -126,6 +127,7 @@ class index extends foreground {
 				}
 				$userinfo['groupid'] = $this->_get_usergroup_bypoint($userinfo['point']);
 			}
+
 			//附表信息验证 通过模型获取会员信息
 			if($member_setting['choosemodel']) {
 				require_once CACHE_MODEL_PATH.'member_input.class.php';
@@ -134,10 +136,14 @@ class index extends foreground {
 				$_POST['info'] = array_map('new_html_special_chars',$_POST['info']);
 				$user_model_info = $member_input->get($_POST['info']);				        				
 			}
+
 			if(pc_base::load_config('system', 'phpsso')) {
-				$this->_init_phpsso();
+
+				$this->_init_phpsso();				
 				$status = $this->client->ps_member_register($userinfo['username'], $userinfo['password'], $userinfo['email'], $userinfo['regip'], $userinfo['encrypt']);
 				if($status > 0) {
+		var_dump($_POST);var_dump($this);die;
+
 					$userinfo['phpssouid'] = $status;
 					//传入phpsso为明文密码，加密后存入phpcms_v9
 					$password = $userinfo['password'];
@@ -192,7 +198,7 @@ class index extends foreground {
 				}
 			} else {
 				showmessage(L('enable_register').L('enable_phpsso'), 'index.php?m=member&c=index&a=login');
-			}
+			}			
 			showmessage(L('operation_failure'), HTTP_REFERER);
 		} else {
 			if(!pc_base::load_config('system', 'phpsso')) {
