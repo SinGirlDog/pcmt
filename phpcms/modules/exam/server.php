@@ -55,7 +55,6 @@ class server {
 
 	function getCourseList(){
 
-		// echo json_encode($_GET);die();
 		$catid = remove_xss($_GET['catid']);
 		$wxvisitorid = remove_xss($_GET['wxvisitorid']);
 		//戊戌年新增此参数意图用在针对每个微信访客创建各自的考卷数据库;习题+答案;无评分;暂定没人每卷一条数据;
@@ -70,7 +69,6 @@ class server {
 
 		$creator = array();
 		$creator['catLogo'] = "http://imgsrc.baidu.com/forum/w=580/sign=9a6e2794d0b44aed594ebeec831d876a/5c9f7701a18b87d63b098fc10d0828381e30fd2d.jpg";
-		// $creator['avatarUrl'] = $wxVdata['avatar'];
 		$creator['cur_catname'] = $curcatname;
 		
 		$tracks = array();
@@ -95,7 +93,6 @@ class server {
 
 			$tracks[] = $one;
 		}
-		// echo "<pre/>";var_dump($filelist);die();
 
 		$lsit_prepare['tracks']=$tracks;
 
@@ -104,7 +101,6 @@ class server {
 		$course = array();
 		$course['list']= $lsit_prepare;
 		
-		// $arr['data'] = $course;
 		$arr = $course;
 		echo json_encode($arr);
 	}
@@ -135,7 +131,6 @@ class server {
 		}
 		$arr['data']=$courses;
 		echo json_encode($arr);
-		// echo "<pre/>";var_dump($courses);
 	}
 
 	function getQuestionID(){
@@ -162,18 +157,24 @@ class server {
 
 	function getQuestion(){
 		$get_arr = $_GET;
+		// echo json_encode($get_arr);die();
 		$quest_arr = array();
-		$questionID_str = remove_xss($get_arr['questionID']);
-		// $temp_arr = explode('[',$questionID_str);
-		// $temp_arr = explode(']',$temp_arr[1]);
-		$qid_str = $this->removeMiddleBracket($questionID_str);
+		$questionID_str = remove_xss($get_arr['questionID']);		
+		$qid_str = $this->XCX->removeMiddleBracket($questionID_str);
 		$quest_arr = explode(',',$qid_str);
+		
+		$recid = remove_xss($get_arr['recid']);		
+		$recdata = $this->XCX->get_recdata_by_id($recid);
+		$answered_only_arr = json_decode($recdata['answer_choice_only'],true);
+		$answered_more_arr = json_decode($recdata['answer_choice_more'],true);
+		$answered_only_arr = $this->XCX->arr_jiangwei($answered_only_arr);
+		$answered_more_arr = $this->XCX->arr_jiangwei($answered_more_arr);
+		$answered_arr[1] = $answered_only_arr;
+		$answered_arr[2] = $answered_more_arr;
+		// echo '<pre/>';var_dump($answered_only_arr);die();
 
 		$arr = array();
 		$data_arr = array();
-
-		// $fdata = $this->XCX->get_data_by_fileid(6);
-		// $quest_arr = explode(',',$fdata['quest_ids']);
 
 		for($i=0;$i<sizeof($quest_arr);$i++){
 			$answer_arr = array();
@@ -194,6 +195,13 @@ class server {
 			}
 			$data_arr[$i]['option_type'] = $qtype;
 
+			$answer_ = 0;
+			$true_ans_arr = explode('.',$qdata['true_answer']);
+			foreach($true_ans_arr as $tkey=>$tans){
+				$answer_ += $this->Alpha_Digital[$tans];
+			}
+			$data_arr[$i]['answer_'] = $answer_;
+
 			$answer_arr = explode(';',$qdata['question_answer']);
 			$tem_key = 'a';
 			foreach($answer_arr as $key=>$answer){
@@ -204,17 +212,20 @@ class server {
 				else if(strpos($answer,'．')){
 					$ans_content = explode('．',$answer);
 				}
-				
-				$data_arr[$i]['option_'.$tem_key] = $ans_content[1];
-				$tem_key++;
-			}
 
-			$answer_ = 0;
-			$true_ans_arr = explode('.',$qdata['true_answer']);
-			foreach($true_ans_arr as $tkey=>$tans){
-				$answer_ += $this->Alpha_Digital[$tans];
-			}
-			$data_arr[$i]['answer_'] = $answer_;
+				if(empty($answered_arr[$qtype][$qid])){
+					$data_arr[$i]['isShowTip'] = false;
+				}
+				else{
+					$data_arr[$i]['isShowTip'] = true;
+				}
+				$option_class = 'asdf';
+				$option_class = $this->XCX->correct_answers($answered_arr[$qtype][$qid],$key+1,$qtype,$answer_);
+				// echo $option_class,'<br/>';
+				$data_arr[$i]['option_'.$tem_key] = $ans_content[1];
+				$data_arr[$i]['option_class_'.$tem_key] = $option_class;
+				$tem_key++;
+			}			
 
 			$data_arr[$i]['media_type']=0;
 			$data_arr[$i]['media_content']=0;
@@ -223,16 +234,16 @@ class server {
 		}
 		
 		$arr['data'] = $data_arr;
-		// var_dump($data_arr);
+		// echo '<pre/>';var_dump($data_arr);
 		echo json_encode($arr);
 	}
-
+	
 	function putAnswer(){
 		$get_arr = $_GET;
 		$recid = remove_xss($get_arr['recid']);
 		$qid = remove_xss($get_arr['curqid']);
 		$answer_arr = remove_xss($get_arr['answer_arr']);
-		$answerStr = $this->removeMiddleBracket($answer_arr);
+		$answerStr = $this->XCX->removeMiddleBracket($answer_arr);
 
 		$return = $this->XCX->update_wxrec_answer_by_id($recid,$qid,$answerStr);
 		echo json_encode($return);
@@ -296,11 +307,6 @@ class server {
 		return $output;
 	}
 
-	function removeMiddleBracket($MDstr){
-		$temp_arr = array();
-		$temp_arr = explode('[',$MDstr);
-		$temp_arr = explode(']',$temp_arr[1]);
-		return $temp_arr[0];
-	}
+	
 }
 ?>

@@ -209,5 +209,50 @@ class xcx{
 		$real_quest = implode(',',$quest_arr);
 		return $real_quest;
 	}
+
+	function arr_jiangwei($arr){
+		$ret_arr = array();
+		if(!empty($arr)){
+			array_map(function($val) use(&$ret_arr){
+				foreach($val as $k=>$v){
+					$ret_arr[$k] = $v;
+				}
+			},$arr);
+		}
+		return $ret_arr;
+	}
+
+	function removeMiddleBracket($MDstr){
+		$temp_arr = array();
+		$temp_arr = explode('[',$MDstr);
+		$temp_arr = explode(']',$temp_arr[1]);
+		return $temp_arr[0];
+	}
+
+	function correct_answers($answered_arr,$numth,$qtype,$true_x16_answer){
+		$ret = '';
+		if(!empty($answered_arr)){
+			if($qtype==1){
+				foreach($answered_arr as $ank=>$anv){
+					$cur_answer = 16*pow(2,$numth-1);
+					// return $anv.'-'.$numth.'-'.$true_x16_answer.'-'.$cur_answer;
+					// return ($anv != $numth && $true_x16_answer==$cur_answer);
+					if($anv == $numth && $true_x16_answer==$cur_answer){
+						$ret = 'success';
+					}
+					else if($anv == $numth && $true_x16_answer!=$cur_answer){
+						$ret = 'error';
+					}
+					else if($anv != $numth && $true_x16_answer==$cur_answer){
+						$ret = 'active-success';
+					}
+				}
+			}
+			else if($qtype==2){
+
+			}
+		}
+		return $ret;		
+	}
 }
 ?>
