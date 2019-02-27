@@ -109,14 +109,7 @@ class xcx{
 			}
 			$recdata = $this->get_recdata_by_id($recid);
 			$answer_orig_arr = json_decode($recdata[$choice_key],true);
-			$answer_orig_arr[] = $temp_arr;
-			// if(empty($answer_orig_arr)){
-			// 	$answer_new_arr = $temp_arr;
-			// }
-			// else{
-			// 	$answer_new_arr = array_merge($answer_orig_arr, $temp_arr);
-			// }
-			// $answer_json = json_encode($answer_orig_arr).json_encode($temp_arr);
+			$answer_orig_arr[] = $temp_arr;			
 			$answer_json = json_encode($answer_orig_arr);
 
 			$data = array();
@@ -229,28 +222,28 @@ class xcx{
 		return $temp_arr[0];
 	}
 
-	function correct_answers($answered_arr,$numth,$qtype,$true_x16_answer){
+	function correct_answers($answered_arr,$numth,$true_x16_answer){
 		$ret = '';
 		if(!empty($answered_arr)){
-			if($qtype==1){
-				foreach($answered_arr as $ank=>$anv){
-					$cur_answer = 16*pow(2,$numth-1);
-					// return $anv.'-'.$numth.'-'.$true_x16_answer.'-'.$cur_answer;
-					// return ($anv != $numth && $true_x16_answer==$cur_answer);
-					if($anv == $numth && $true_x16_answer==$cur_answer){
-						$ret = 'success';
-					}
-					else if($anv == $numth && $true_x16_answer!=$cur_answer){
-						$ret = 'error';
-					}
-					else if($anv != $numth && $true_x16_answer==$cur_answer){
-						$ret = 'active-success';
-					}
+			$total_answer = $true_x16_answer;
+			$true_answer_arr = array();
+			for($j=5;$j>0;$j--){
+				$cur_answer = 16*pow(2,$j-1);
+				if($total_answer>=$cur_answer){
+					$total_answer -= $cur_answer;
+					$true_answer_arr[] = $j;
 				}
 			}
-			else if($qtype==2){
-
+			
+			if(in_array($numth,$answered_arr) && in_array($numth,$true_answer_arr)){
+				$ret = 'success';
 			}
+			else if(in_array($numth,$answered_arr) && !in_array($numth,$true_answer_arr)){
+				$ret = 'error';
+			}
+			else if(!in_array($numth,$answered_arr) &&  in_array($numth,$true_answer_arr)){
+				$ret = 'active-success';
+			}			
 		}
 		return $ret;		
 	}

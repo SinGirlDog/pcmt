@@ -220,7 +220,7 @@ class server {
 					$data_arr[$i]['isShowTip'] = true;
 				}
 				$option_class = 'asdf';
-				$option_class = $this->XCX->correct_answers($answered_arr[$qtype][$qid],$key+1,$qtype,$answer_);
+				$option_class = $this->XCX->correct_answers($answered_arr[$qtype][$qid],$key+1,$answer_);
 				// echo $option_class,'<br/>';
 				$data_arr[$i]['option_'.$tem_key] = $ans_content[1];
 				$data_arr[$i]['option_class_'.$tem_key] = $option_class;
