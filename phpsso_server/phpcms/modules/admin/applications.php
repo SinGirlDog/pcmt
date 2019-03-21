@@ -136,6 +136,7 @@ class applications extends admin {
 	public function check_status() {
 		$appid = isset($_GET['appid']) && intval($_GET['appid']) ? intval($_GET['appid']) : exit('0');
 		$applist = getcache('applist');
+
 		if(empty($applist)) {
 			/*写入应用列表缓存*/
 			$applist = $this->db->listinfo('', '', 1, 100, 'appid');
@@ -152,8 +153,8 @@ class applications extends admin {
 			} else {
 				$url .= "?";
 			}
-
-			if ($data = @file_get_contents($url.'code='.urlencode($param))) {
+			// exit($url.'code='.urlencode($param));
+			if ($data = @file_get_contents($url.'code='.urlencode($param))){
 				exit($data);
 			} else {
 				exit('0');
@@ -161,5 +162,15 @@ class applications extends admin {
 		} else {
 			exit('0');
 		}
+	}
+
+	private function getCurl($durl){
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $durl);
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		$r = curl_exec($ch);
+		curl_close($ch);
+		return $r;
 	}
 }

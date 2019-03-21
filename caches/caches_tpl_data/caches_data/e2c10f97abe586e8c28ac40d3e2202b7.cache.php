@@ -43,7 +43,7 @@ return array (
     'thumb' => 'http://local.pct.com/uploadfile/2018/0817/20180817044715107.jpg',
     'inputtime' => '1534490166',
     'style' => '',
-    'url' => 'http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9',
+    'url' => 'http://local.pct.com:3824/html/2018/guonei_0817/9.html',
     'id' => '9',
     'catid' => '6',
     'listorder' => '9',

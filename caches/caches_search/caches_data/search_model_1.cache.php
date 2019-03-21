@@ -18,6 +18,12 @@ return array (
     'name' => '模拟考试',
     'sort' => '0',
   ),
+  21 => 
+  array (
+    'typeid' => '61',
+    'name' => '院校信息库模型',
+    'sort' => '0',
+  ),
   1 => 
   array (
     'typeid' => '1',

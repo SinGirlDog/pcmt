@@ -1,27 +1,114 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset={CHARSET}" />
-<meta http-equiv="X-UA-Compatible" content="IE=7" />
-<title>phpcmsV9 - {L('member','','member').L('manage_center')}</title>
-<script type="text/javascript" src="{JS_PATH}jquery.min.js"></script>
-<script type="text/javascript" src="{JS_PATH}member_common.js"></script>
-<script type="text/javascript" src="{JS_PATH}formvalidator.js" charset="UTF-8"></script>
-<script type="text/javascript" src="{JS_PATH}formvalidatorregex.js" charset="UTF-8"></script>
-<script type="text/javascript" src="{JS_PATH}dialog.js"></script>
-<link href="{CSS_PATH}reset.css" rel="stylesheet" type="text/css" />
-<link href="{CSS_PATH}dialog_simp.css" rel="stylesheet" type="text/css" />
-<script language="JavaScript">
-<!--
-$(function(){
-	$.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
-});
+	<meta http-equiv="Content-Type" content="text/html; charset={CHARSET}" />
+	<meta http-equiv="X-UA-Compatible" content="IE=7" />
+	<title>phpcmsV9 - {L('member','','member').L('manage_center')}</title>
+	<script type="text/javascript" src="{JS_PATH}jquery.min.js"></script>
+	<script type="text/javascript" src="{JS_PATH}member_common.js"></script>
+	<script type="text/javascript" src="{JS_PATH}formvalidator.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="{JS_PATH}formvalidatorregex.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="{JS_PATH}dialog.js"></script>
+	<link href="{CSS_PATH}reset.css" rel="stylesheet" type="text/css" />
+	<link href="{CSS_PATH}dialog_simp.css" rel="stylesheet" type="text/css" />
+	<script language="JavaScript">
+		<!--
+			$(function(){
+				$.formValidator.initConfig({autotip:true,formid:"myform",onerror:function(msg){}});
 
-function show_protocol() {
-	art.dialog({lock:false,title:'{L('register_protocol')}',id:'protocoliframe', iframe:'?m=member&c=index&a=register&protocol=1',width:'500',height:'310',yesText:'{L('agree')}'}, function(){
-		$("#protocol").attr("checked",true);
-	});
-}
+				$("#username").formValidator({onshow:"{L('input').L('username')}",onfocus:"{L('username').L('between_2_to_20')}"}).inputValidator({min:2,max:20,onerror:"{L('username').L('between_2_to_20')}"}).regexValidator({regexp:"ps_username",datatype:"enum",onerror:"{L('username').L('format_incorrect')}"}).ajaxValidator({
+					type : "get",
+					url : "",
+					data :"m=member&c=index&a=public_checkname_ajax",
+					datatype : "html",
+					async:'false',
+					success : function(data){
+						console.log(data);
+						if( data == "1" ) {
+							return true;
+						} else {
+							return false;
+						}
+					},
+					buttons: $("#dosubmit"),
+					onerror : "{L('deny_register').L('or').L('user_already_exist')}",
+					onwait : "{L('connecting_please_wait')}"
+				});
+				$("#password").formValidator({onshow:"{L('input').L('password')}",onfocus:"{L('password').L('between_6_to_20')}"}).inputValidator({min:6,max:20,onerror:"{L('password').L('between_6_to_20')}"}).regexValidator({regexp:"password",datatype:"enum",onerror:"密码只能是数字,字母 和 -_()等字符"});
+				$("#pwdconfirm").formValidator({onshow:"{L('input').L('cofirmpwd')}",onfocus:"{L('passwords_not_match')}",oncorrect:"{L('passwords_match')}"}).compareValidator({desid:"password",operateor:"=",onerror:"{L('passwords_not_match')}"});
+				$("#email").formValidator({onshow:"{L('input').L('email')}",onfocus:"{L('email').L('format_incorrect')}",oncorrect:"{L('email').L('format_right')}"}).inputValidator({min:7,max:32,onerror:"{L('email').L('between_7_to_32')}"}).regexValidator({regexp:"email",datatype:"enum",onerror:"{L('email').L('format_incorrect')}"}).ajaxValidator({
+					type : "get",
+					url : "",
+					data :"m=member&c=index&a=public_checkemail_ajax",
+					datatype : "html",
+					async:'false',
+					success : function(data){	
+						if( data == "1" ) {
+							return true;
+						} else {
+							return false;
+						}
+					},
+					buttons: $("#dosubmit"),
+					onerror : "{L('deny_register').L('or').L('email_already_exist')}",
+					onwait : "{L('connecting_please_wait')}"
+				});
+				$("#nickname").formValidator({onshow:"{L('input').L('nickname')}",onfocus:"{L('nickname').L('between_2_to_20')}"}).inputValidator({min:2,max:20,onerror:"{L('nickname').L('between_2_to_20')}"}).regexValidator({regexp:"ps_username",datatype:"enum",onerror:"{L('nickname').L('format_incorrect')}"}).ajaxValidator({
+					type : "get",
+					url : "",
+					data :"m=member&c=index&a=public_checknickname_ajax",
+					datatype : "html",
+					async:'false',
+					success : function(data){
+						if( data == "1" ) {
+							return true;
+						} else {
+							return false;
+						}
+					},
+					buttons: $("#dosubmit"),
+					onerror : "{L('already_exist').L('already_exist')}",
+					onwait : "{L('connecting_please_wait')}"
+				});
+
+				$(":checkbox[name='protocol']").formValidator({tipid:"protocoltip",onshow:"{L('read_protocol')}",onfocus:"{L('read_protocol')}"}).inputValidator({min:1,onerror:"{L('read_protocol')}"});
+
+				{if $member_setting['mobile_checktype']=='2' && $sms_setting['sms_enable']=='1'}
+				$("#mobile").formValidator({onshow:"请输入手机号码",onfocus:"请输入手机号码"}).inputValidator({min:1,max:11,onerror:"请输入正确的手机号码"});
+				{/if}
+				$("#mobile_verify").formValidator({onshow:"请输入手机收到的验证码",onfocus:"请输入手机收到的验证码"}).inputValidator({min:1,onerror:"请输入手机收到的验证码"}).ajaxValidator({
+					type : "get",
+					url : "api.php",
+					data :"op=sms_idcheck&action=id_code",
+					datatype : "html",
+					{if $member_setting['mobile_checktype']=='2'}
+					getdata:{mobile:"mobile"},
+					{/if}
+					async:"false",
+					success : function(data){
+						if( data == "1" ) {
+							return true;
+						} else {
+							return false;
+						}
+					},
+					buttons: $("#dosubmit"),
+					onerror : "验证码错误",
+					onwait : "请稍候..."
+				});
+
+				{$formValidator}
+
+				{if !isset($_GET['modelid']) && !isset($_GET['t']) && !empty($member_setting['showregprotocol'])}
+				show_protocol();
+				{/if}
+			});
+
+			function show_protocol() {
+				art.dialog({lock:false,title:'{L('register_protocol')}',id:'protocoliframe', iframe:'?m=member&c=index&a=register&protocol=1',width:'500',height:'310',yesText:'{L('agree')}'}, function(){
+					$("#protocol").attr("checked",true);
+				});
+			}
 
 //-->
 </script>
@@ -68,13 +155,13 @@ function show_protocol() {
 .reg-auto p{ margin-bottom:10px; color:#666;}
 .col-1{position:relative; float:right; border:1px solid #c4d5df; zoom:1;background: url({IMG_PATH}member/member_title.png) repeat-x; width:310px; margin: auto; height:304px}
 .col-1 span.o1,
-	.col-1 span.o2,
-	.col-1 span.o3,
-	.col-1 span.o4{position:absolute;width:3px;height:3px;background: url({IMG_PATH}fillet.png) no-repeat}
-	.col-1 span.o1{background-position: left -6px; top:-1px; left:-1px}
-	.col-1 span.o2{background-position: right -6px; top:-1px; right:-1px}
-	.col-1 span.o3{background-position: left bottom; bottom:-1px; left:-1px}
-	.col-1 span.o4{background-position: right bottom; bottom:-1px; right:-1px;}
+.col-1 span.o2,
+.col-1 span.o3,
+.col-1 span.o4{position:absolute;width:3px;height:3px;background: url({IMG_PATH}fillet.png) no-repeat}
+.col-1 span.o1{background-position: left -6px; top:-1px; left:-1px}
+.col-1 span.o2{background-position: right -6px; top:-1px; right:-1px}
+.col-1 span.o3{background-position: left bottom; bottom:-1px; left:-1px}
+.col-1 span.o4{background-position: right bottom; bottom:-1px; right:-1px;}
 .col-1 .title{color:#386ea8; padding:5px 10px 3px}
 .col-1 div.content{padding:0px 10px 10px}
 .col-1 div.content h5{background: url({IMG_PATH}member/ext-title.png) no-repeat 2px 10px; height:34px}
@@ -96,24 +183,24 @@ function show_protocol() {
 .point .content .title{color:#ff8400}
 .point .content p{color:#777; text-indent:20px}
 .point span.o1,
-	.point span.o2,
-	.point span.o3,
-	.point span.o4{position:absolute;width:3px;height:3px;background: url({IMG_PATH}fillet.png) no-repeat; overflow:hidden}
-	.point span.o1{background-position: left top; top:-1px; left:-1px}
-	.point span.o2{background-position: right top; top:-1px; right:-1px}
-	.point span.o3{background-position: left -3px; bottom:-1px; left:-1px}
-	.point span.o4{background-position: right -3px; bottom:-1px; right:-1px;}
+.point span.o2,
+.point span.o3,
+.point span.o4{position:absolute;width:3px;height:3px;background: url({IMG_PATH}fillet.png) no-repeat; overflow:hidden}
+.point span.o1{background-position: left top; top:-1px; left:-1px}
+.point span.o2{background-position: right top; top:-1px; right:-1px}
+.point span.o3{background-position: left -3px; bottom:-1px; left:-1px}
+.point span.o4{background-position: right -3px; bottom:-1px; right:-1px;}
 .submit button.hqyz{margin:0px; padding:0px; border:none; cursor:pointer; }
 .submit button.hqyz{
-    background-position: 100% 0%;
-    border: medium none;
-    font-size: 12px;
-    padding: 0 10px 0 7px;
+	background-position: 100% 0%;
+	border: medium none;
+	font-size: 12px;
+	padding: 0 10px 0 7px;
 }
 .submit button.hqyz{
-    background: url("{IMG_PATH}member/but.png") no-repeat 100% 0px;
-    height: 29px;
-    width: auto;
+	background: url("{IMG_PATH}member/but.png") no-repeat 100% 0px;
+	height: 29px;
+	width: auto;
 	
 }
 
@@ -121,69 +208,69 @@ function show_protocol() {
 </style>
 </head>
 <body>
-<div id="header">
-	<div class="content">
-	<div class="logo"><img src="{IMG_PATH}v9/member_logo.jpg"/></div>
-    <span class="log"></span>
-    </div>
-</div>
-
-<div id="content">
-	<h2>{L('member').L('register')}&nbsp;&nbsp;&nbsp;&nbsp;<span {if !isset($_GET['t'])}class="on"{/if}><em>1</em>{L('fill_in').L('info')}</span>
-	{if $member_setting['enablemailcheck']}
-	<span {if isset($_GET['t']) && $_GET['t']==2}class="on"{/if}><em>2</em>{L('email').L('validate')}</span>
-	<span><em>3</em>{L('register').L('success')}</span>
-	{elseif $member_setting['registerverify']}
-	<span class="on"><em>2</em>{L('administrator').L('verify')}</span><span> <em>3</em>{L('register').L('success')}</span>
-	{/if}
-	</h2>
-
-{if !isset($_GET['t'])}
-<form method="post" action="" id="myform">
-	<input type="hidden" name="siteid" value="{$siteid}" />
-
-	<div class="col-left form-login form-reg">
-
-		{if $member_setting['choosemodel'] && count($modellist)>1}
-		<!--是否开启选择会员模型选项-->
-    	<div class="point">
-            <div class="content">
-				<strong class="title">{L('notice')}</strong>
-				<p>{L('register_notice')}</p>
-				<p>{$description}</p>
-            </div>
-            <span class="o1"></span><span class="o2"></span><span class="o3"></span><span class="o4"></span>
-        </div>
-
-		<div class="input"><label>{L('member_model')}：</label>
-			{loop $modellist $k $v}
-			<label class="type"><input name="modelid" type="radio" value="{$k}" {if $k==$modelid}checked{/if} onclick="changemodel($(this).val())" />{$v['name']}</label>
-			{/loop}
+	<div id="header">
+		<div class="content">
+			<div class="logo"><img src="{IMG_PATH}v9/member_logo.jpg"/></div>
+			<span class="log"></span>
 		</div>
-		{else}
-			{loop $modellist $k $v}
-			<input name="modelid" type="hidden" value="{$k}"/>
-			{/loop}
-		{/if}
+	</div>
 
-    	<div class="input"><label>{L('username')}：</label><input type="text" id="username" name="username" size="36" class="input-text"></div>
-        <div class="input"><label>{L('password')}：</label><input type="password" id="password" name="password" size="36" class="input-text"></div>
-        <div class="input"><label>{L('cofirmpwd')}：</label><input type="password" name="pwdconfirm" id="pwdconfirm" size="36" class="input-text"></div>
-        <div class="input"><label>{L('email')}：</label><input type="text" id="email" name="email" size="36" class="input-text"></div>
-		<div class="input"><label>{L('nickname')}：</label><input type="text" id="nickname" name="nickname" size="36" class="input-text"></div>
-		{if $member_setting['choosemodel']}
-			<!--是否开启选择会员模型选项-->
-			<script language="JavaScript">
-			<!--
-				function changemodel(modelid) {
-					redirect('{APP_PATH}index.php?m=member&c=index&a=register&modelid='+modelid+'&siteid={$siteid}');
-				}
+	<div id="content">
+		<h2>{L('member').L('register')}&nbsp;&nbsp;&nbsp;&nbsp;<span {if !isset($_GET['t'])}class="on"{/if}><em>1</em>{L('fill_in').L('info')}</span>
+			{if $member_setting['enablemailcheck']}
+			<span {if isset($_GET['t']) && $_GET['t']==2}class="on"{/if}><em>2</em>{L('email').L('validate')}</span>
+			<span><em>3</em>{L('register').L('success')}</span>
+			{elseif $member_setting['registerverify']}
+			<span class="on"><em>2</em>{L('administrator').L('verify')}</span><span> <em>3</em>{L('register').L('success')}</span>
+			{/if}
+		</h2>
+
+		{if !isset($_GET['t'])}
+		<form method="post" action="" id="myform">
+			<input type="hidden" name="siteid" value="{$siteid}" />
+
+			<div class="col-left form-login form-reg">
+
+				{if $member_setting['choosemodel'] && count($modellist)>1}
+				<!--是否开启选择会员模型选项-->
+				<div class="point">
+					<div class="content">
+						<strong class="title">{L('notice')}</strong>
+						<p>{L('register_notice')}</p>
+						<p>{$description}</p>
+					</div>
+					<span class="o1"></span><span class="o2"></span><span class="o3"></span><span class="o4"></span>
+				</div>
+
+				<div class="input"><label>{L('member_model')}：</label>
+					{loop $modellist $k $v}
+					<label class="type"><input name="modelid" type="radio" value="{$k}" {if $k==$modelid}checked{/if} onclick="changemodel($(this).val())" />{$v['name']}</label>
+					{/loop}
+				</div>
+				{else}
+				{loop $modellist $k $v}
+				<input name="modelid" type="hidden" value="{$k}"/>
+				{/loop}
+				{/if}
+
+				<div class="input"><label>{L('username')}：</label><input type="text" id="username" name="username" size="36" class="input-text"></div>
+				<div class="input"><label>{L('password')}：</label><input type="password" id="password" name="password" size="36" class="input-text"></div>
+				<div class="input"><label>{L('cofirmpwd')}：</label><input type="password" name="pwdconfirm" id="pwdconfirm" size="36" class="input-text"></div>
+				<div class="input"><label>{L('email')}：</label><input type="text" id="email" name="email" size="36" class="input-text"></div>
+				<div class="input"><label>{L('nickname')}：</label><input type="text" id="nickname" name="nickname" size="36" class="input-text"></div>
+				{if $member_setting['choosemodel']}
+				<!--是否开启选择会员模型选项-->
+				<script language="JavaScript">
+					<!--
+						function changemodel(modelid) {
+							redirect('{APP_PATH}index.php?m=member&c=index&a=register&modelid='+modelid+'&siteid={$siteid}');
+						}
 			//-->
-			</script>
+		</script>
 
-			{loop $forminfos $k $v}
-				<div class="input"><label>{if $v['isbase']}<font color=red>*</font>{/if} {$v['name']}：{if $v['tips']}<br />({$v['tips']}){/if}</label><div class="form">{$v['form']}</div></div>
-			{/loop}
+		{loop $forminfos $k $v}
+		<div class="input"><label>{if $v['isbase']}<font color=red>*</font>{/if} {$v['name']}：{if $v['tips']}<br />({$v['tips']}){/if}</label><div class="form">{$v['form']}</div></div>
+		{/loop}
 		{/if}
 		
 		
@@ -193,100 +280,100 @@ function show_protocol() {
 		<div class="input"><label> 手机号码：</label><div class="form"><div id="mobile_div"><input type="text" name="mobile" id="mobile" value="" size="15" class="input-text" title="此服务免费,验证码将以短信免费发送到您的手机"> 
 			<div class="submit"><button onclick="get_verify()" type="button" class="hqyz">获取短信验证码</button></div> <span id="mobileTip"></span>
 			<br>
-			</div>
-			<div id="mobile_send_div" style="display:none">此服务免费,验证码已发送到<span id="mobile_send"></span>，<span id="edit_mobile" style="display:none"><a href="javascript:void();" onclick="edit_mobile()">修改号码</a>，</span> 如果超过120秒未收到验证码，您可以免费重新获取。<br><br>
+		</div>
+		<div id="mobile_send_div" style="display:none">此服务免费,验证码已发送到<span id="mobile_send"></span>，<span id="edit_mobile" style="display:none"><a href="javascript:void();" onclick="edit_mobile()">修改号码</a>，</span> 如果超过120秒未收到验证码，您可以免费重新获取。<br><br>
 			<div class="submit"><button type="button" id="GetVerify" onclick="get_verify()" class="hqyz">重获短信验证码</button></div> <br><br></div> 
 			<script language="JavaScript">
-			<!--
-				var times = 120;
-				var isinerval;
-				function get_verify() {
-					var session_code = $('#code').val();
-					if(session_code=='') {
-						alert('请输入验证码');
-						$('#code').focus();
-						return false;
-					}
-					var mobile = $("#mobile").val();
-					var partten = /^1[3-9]\d{9}$/;
-					if(!partten.test(mobile)){
-						alert("请输入正确的手机号码");
-						$('#mobile').focus();
-						return false;
-					}
-					
-					$.get("api.php?op=sms",{ mobile: mobile,session_code:session_code,random:Math.random()}, function(data){
-						if(data=="0") {
-							$("#mobile_send").html(mobile);
-							$("#mobile_div").css("display","none");
-							$("#mobile_send_div").css("display","");
-							times = 120;
-							$("#GetVerify").attr("disabled", true);
-							isinerval = setInterval("CountDown()", 1000);
-						} else if(data=="-1") {
-							alert("你今天获取验证码次数已达到上限");
-						} else if(data=="-100") {
-							$('#code').val('');
-							alert("验证码已失效，请点击图片验证码获取新的验证码！");
+				<!--
+					var times = 120;
+					var isinerval;
+					function get_verify() {
+						var session_code = $('#code').val();
+						if(session_code=='') {
+							alert('请输入验证码');
 							$('#code').focus();
-						} else if(data=="-101") {
-							alert("验证码错误！");
-							$('#code').focus();
-						} else {
-							alert("短信发送失败");
+							return false;
 						}
-					});
-					
-				}
-				function CountDown() {
-					if (times < 1) {
-						$("#GetVerify").html("获取短信验证码").attr("disabled", false);
-						$("#edit_mobile").css("display","");
-						clearInterval(isinerval);
-						return;
+						var mobile = $("#mobile").val();
+						var partten = /^1[3-9]\d{9}$/;
+						if(!partten.test(mobile)){
+							alert("请输入正确的手机号码");
+							$('#mobile').focus();
+							return false;
+						}
+
+						$.get("api.php?op=sms",{ mobile: mobile,session_code:session_code,random:Math.random()}, function(data){
+							if(data=="0") {
+								$("#mobile_send").html(mobile);
+								$("#mobile_div").css("display","none");
+								$("#mobile_send_div").css("display","");
+								times = 120;
+								$("#GetVerify").attr("disabled", true);
+								isinerval = setInterval("CountDown()", 1000);
+							} else if(data=="-1") {
+								alert("你今天获取验证码次数已达到上限");
+							} else if(data=="-100") {
+								$('#code').val('');
+								alert("验证码已失效，请点击图片验证码获取新的验证码！");
+								$('#code').focus();
+							} else if(data=="-101") {
+								alert("验证码错误！");
+								$('#code').focus();
+							} else {
+								alert("短信发送失败");
+							}
+						});
+
 					}
-					$("#GetVerify").html(times+"秒后重获验证码");
-					times--;
-				}
-				function edit_mobile() {
-					$("#mobile_div").css("display","");
-					$("#mobile_send_div").css("display","none");
-				}
+					function CountDown() {
+						if (times < 1) {
+							$("#GetVerify").html("获取短信验证码").attr("disabled", false);
+							$("#edit_mobile").css("display","");
+							clearInterval(isinerval);
+							return;
+						}
+						$("#GetVerify").html(times+"秒后重获验证码");
+						times--;
+					}
+					function edit_mobile() {
+						$("#mobile_div").css("display","");
+						$("#mobile_send_div").css("display","none");
+					}
 			//-->
-			</script>
-		    </div></div>
-			<div class="input"><label>短信校验码：</label><input type="text" name="mobile_verify" id="mobile_verify" value="" size="14" class="input-text"></div>	
-		
-		{/if}
-		
-		{if $member_setting['enablcodecheck']=='1' && $sms_setting['sms_enable']!='1'}
-		<div class="input"><label>{L('checkcode')}：</label><input type="text" id="code" name="code" size="10" class="input-text">{form::checkcode('code_img', '5', '14', 120, 26)}</div>
-		{/if}
-		
-		
+		</script>
+	</div></div>
+	<div class="input"><label>短信校验码：</label><input type="text" name="mobile_verify" id="mobile_verify" value="" size="14" class="input-text"></div>	
+
+	{/if}
+
+	{if $member_setting['enablcodecheck']=='1' && $sms_setting['sms_enable']!='1'}
+	<div class="input"><label>{L('checkcode')}：</label><input type="text" id="code" name="code" size="10" class="input-text">{form::checkcode('code_img', '5', '14', 120, 26)}</div>
+	{/if}
+
+
 		<!-- 注释验证码
         
 		-->
-        	<div class="reg">
-                <div class="submit"><input type="submit" name="dosubmit" value="{L('agree_protocol_post')}"></div><br />
-                <input type="checkbox" name="protocol" id="protocol" value=""><a href="javascript:void(0);" onclick="show_protocol();return false;" class="blue">{L('click_read_protocol')}</a>
-            </div>
-        </div>
+		<div class="reg">
+			<div class="submit"><input type="submit" name="dosubmit" value="{L('agree_protocol_post')}"></div><br />
+			<input type="checkbox" name="protocol" id="protocol" value=""><a href="javascript:void(0);" onclick="show_protocol();return false;" class="blue">{L('click_read_protocol')}</a>
+		</div>
+	</div>
 </form>
 {elseif isset($_GET['t']) && $_GET['t']==2}
 <div class="col-left form-login form-reg">
-{php $emailurl = param::get_cookie('email') ? str_replace('@', '',strstr(param::get_cookie('email'), '@')) : '';}
-{param::get_cookie('_username')} {L('hellow')}，{L('login_email_authentication')} {if $emailurl} {L('please_click')}<a href="http://mail.{$emailurl}">{L('login_email')}</a><br><br>
-如果没有收到邮件，请点击<a onclick="$('#send_newemail').show()"><font color="red">这里</font></a>更换邮箱试试<br><br>
-<div style="display:none" id="send_newemail">
-<input type="text" id="newemail" name="newemail" size="36" class="input-text"> 
-<div class="submit"><input type="submit" name="dosubmit" value="重新发送新邮箱验证" onclick="javascript:send_newmail();"></div></div>
-<script language="JavaScript">
-function send_newmail() {
+	{php $emailurl = param::get_cookie('email') ? str_replace('@', '',strstr(param::get_cookie('email'), '@')) : '';}
+	{param::get_cookie('_username')} {L('hellow')}，{L('login_email_authentication')} {if $emailurl} {L('please_click')}<a href="http://mail.{$emailurl}">{L('login_email')}</a><br><br>
+	如果没有收到邮件，请点击<a onclick="$('#send_newemail').show()"><font color="red">这里</font></a>更换邮箱试试<br><br>
+	<div style="display:none" id="send_newemail">
+		<input type="text" id="newemail" name="newemail" size="36" class="input-text"> 
+		<div class="submit"><input type="submit" name="dosubmit" value="重新发送新邮箱验证" onclick="javascript:send_newmail();"></div></div>
+		<script language="JavaScript">
+			function send_newmail() {
 	//var mail_type = $('input[checkbox=mail_type][checked]').val();
 	var newemail = $('#newemail').val();
- $.post('?m=member&c=index&a=send_newmail&newemail='+newemail,{},function(data){
- 	if(data=='1'){alert('发送成功，请查看验证！');}else if(data=='-1'){alert('邮箱已被占用！');}else{alert('发送错误，请联系管理员！');}
+	$.post('?m=member&c=index&a=send_newmail&newemail='+newemail,{},function(data){
+		if(data=='1'){alert('发送成功，请查看验证！');}else if(data=='-1'){alert('邮箱已被占用！');}else{alert('发送错误，请联系管理员！');}
 	});
 } 
 </script>
@@ -294,22 +381,22 @@ function send_newmail() {
 </div>
 {elseif isset($_GET['t']) && $_GET['t']==3}
 <div class="col-left form-login form-reg">
-{param::get_cookie('_username')} {L('hellow')}，{L('please_wait_administrator_verify')}
+	{param::get_cookie('_username')} {L('hellow')}，{L('please_wait_administrator_verify')}
 </div>
 {else}
 <script language="JavaScript">
-<!--
-	redirect("{APP_PATH}index.php?m=member&c=index&a=login");
+	<!--
+		redirect("{APP_PATH}index.php?m=member&c=index&a=login");
 //-->
 </script>
 {/if}
 
-    <div class="col-auto reg-auto">
-    	<p class="f14">
-        {L('already_have_account')}
-        </p>
-        <div class="submit"><input type="submit" name="dosubmit" value="{L('login')}" onclick="redirect('{APP_PATH}index.php?m=member&c=index&a=login')"></div>
-    </div>
+<div class="col-auto reg-auto">
+	<p class="f14">
+		{L('already_have_account')}
+	</p>
+	<div class="submit"><input type="submit" name="dosubmit" value="{L('login')}" onclick="redirect('{APP_PATH}index.php?m=member&c=index&a=login')"></div>
+</div>
 </div>
 
 {template 'member', 'footer'}

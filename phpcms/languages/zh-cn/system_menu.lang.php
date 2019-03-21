@@ -461,4 +461,7 @@ $LANG['exam_paper'] = '模拟考试';
 $LANG['exam_answer'] = '答题卡';
 $LANG['setting_QandA'] = '问答设置';
 $LANG['exam_file'] = '习题卷宗';
+$LANG['activity_tiaoji'] = '调剂报名';
+$LANG['other'] = 'other';
+$LANG['tiaoji_record'] = '记录列表';
 ?>

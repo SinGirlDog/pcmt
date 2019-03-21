@@ -1,0 +1,93 @@
+<div class="main clearfix" style="padding-top: 30px;">
+    <style>
+    /*  滑动验证样式 */
+    .slidemask {
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(0, 0, 0, .6);
+        display: none;
+        z-index: 100
+    }
+    .slideimg {
+        position: absolute !important;
+        left: 50%;
+        top: 55%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+</style>
+<div id="shoadow" style="display: block;"></div>
+<div id="activeJoinBox" class="animated bounceInRight" style="display: block;">
+    <div class="closeBtn">
+        <img src="/resource/images/close-icon.png" data-bd-imgshare-binded="1">
+    </div>
+    <p class="t">活动报名</p>
+    <form action="" method="post">
+        <div class="inputGroup">
+            <label>手机：</label>
+            <input type="text" name="" id="tel" value="" placeholder="请输入您的手机号" required="">
+            <p class="error">请输入您的手机号</p>
+        </div>
+        <div class="inputGroup">
+            <label>姓名：</label>
+            <input type="text" name="" id="name" value="" placeholder="请输入姓名" required="">
+            <p class="error">请输入您的姓名</p>
+        </div>
+        <div class="inputGroup">
+            <label>邮箱：</label>
+            <input type="text" name="" id="email" value="" placeholder="请输入邮箱" required="">
+            <p class="error">请输入您的邮箱</p>
+        </div>
+        <div class="inputGroup">
+            <label>分数：</label>
+            <input type="text" id="english" name="english" onblur="counttotal()" onafterpaste="this.value=this.value.replace(/\D/g, '')" onkeyup="this.value=this.value.replace(/\D/g,'');" value="" placeholder="英语" title="英语" maxlength="3" style="width:80px;">
+            <input type="text" id="zonghe" name="zonghe" onblur="counttotal()" onafterpaste="this.value=this.value.replace(/\D/g, '')" onkeyup="this.value=this.value.replace(/\D/g,'');" value="" placeholder="综合" title="综合" maxlength="3" style="width:80px;">
+            <input type="text" id="total" name="total" value="" placeholder="总分" title="总分" readonly="" maxlength="3" style="width:80px;">
+            <p class="error" id="codeError">请输入校验码</p>
+        </div>
+        <div class="inputGroup">
+            <label>校验码：</label>
+            <input required="" type="text" name="verify" id="verify" value="" placeholder="请输入校验码" style="width: 180px;">
+            <button class="validate" style="background:#3a85f8;font-size:32px;width:90px;height:40px;position:absolute;border:none;border-radius:2px;right:10px;color:#fff;">2119</button>
+            <p class="error" id="codeError">请输入校验码</p>
+        </div>
+        <div class="inputGroup">
+            <label>验证码：</label>
+            <input required="" type="text" name="code" id="code" value="" placeholder="" style="width: 180px;">
+            <span id="getCode" class="canclick" style="margin-left:10px;">获取验证码</span>
+            <p class="error" id="codeError">请输入手机号</p>
+        </div>
+        <!-- 滑动验证 -->
+        <div class="slidemask">
+            <div class="slideimg"></div>
+        </div>
+    </form>
+    <input id="signUp" type="button" value="提交" class="btn">
+</div>
+<div id="activeJoinReturnBox">
+    <div class="closeBtn">
+        <img src="/resource/images/close-icon.png" data-bd-imgshare-binded="1">
+    </div>
+    <p class="success"><img src="/resource/images/icon-success.png" data-bd-imgshare-binded="1">活动报名已成功</p>
+    <p class="defaut"><img src="/resource/images/icon-defaut.png" data-bd-imgshare-binded="1">活动报名失败，请重新报名</p>
+</div>
+<script type="text/javascript">
+    function counttotal() {
+        var e = $('#english').val();
+        var z = $('#zonghe').val();
+        var v = e != '' && z != '' ? parseInt(e) + parseInt(z) : '';
+        $('#total').attr('value', v);
+        var t = '';
+        if ($('#total').val() == '总分' || $('#total').val() == 'NaN' || $('#total').val() == '') {
+            t = '总分';
+        }
+        $('#total').attr('value', t == '' ? v : t);
+    }
+</script>       
+
+
+

@@ -264,32 +264,32 @@ function array2string($data, $isformdata = 1) {
 *
 */
 function mult_iconv($in_charset,$out_charset,$data){
-    if(substr($out_charset,-8)=='//IGNORE'){
-        $out_charset=substr($out_charset,0,-8);
-    }
-    if(is_array($data)){
-        foreach($data as $key => $value){
-            if(is_array($value)){
-                $key=iconv($in_charset,$out_charset.'//IGNORE',$key);
-                $rtn[$key]=mult_iconv($in_charset,$out_charset,$value);
-            }elseif(is_string($key) || is_string($value)){
-                if(is_string($key)){
-                    $key=iconv($in_charset,$out_charset.'//IGNORE',$key);
-                }
-                if(is_string($value)){
-                    $value=iconv($in_charset,$out_charset.'//IGNORE',$value);
-                }
-                $rtn[$key]=$value;
-            }else{
-                $rtn[$key]=$value;
-            }
-        }
-    }elseif(is_string($data)){
-        $rtn=iconv($in_charset,$out_charset.'//IGNORE',$data);
-    }else{
-        $rtn=$data;
-    }
-    return $rtn;
+	if(substr($out_charset,-8)=='//IGNORE'){
+		$out_charset=substr($out_charset,0,-8);
+	}
+	if(is_array($data)){
+		foreach($data as $key => $value){
+			if(is_array($value)){
+				$key=iconv($in_charset,$out_charset.'//IGNORE',$key);
+				$rtn[$key]=mult_iconv($in_charset,$out_charset,$value);
+			}elseif(is_string($key) || is_string($value)){
+				if(is_string($key)){
+					$key=iconv($in_charset,$out_charset.'//IGNORE',$key);
+				}
+				if(is_string($value)){
+					$value=iconv($in_charset,$out_charset.'//IGNORE',$value);
+				}
+				$rtn[$key]=$value;
+			}else{
+				$rtn[$key]=$value;
+			}
+		}
+	}elseif(is_string($data)){
+		$rtn=iconv($in_charset,$out_charset.'//IGNORE',$data);
+	}else{
+		$rtn=$data;
+	}
+	return $rtn;
 }
 
 /**
@@ -689,9 +689,9 @@ function pages($num, $curr_page, $perpage = 20, $urlrule = '', $array = array())
 		} else {
 			$multipage .= ' <a href="'.pageurl($urlrule, $pages, $array).'">'.$pages.'</a> <a href="'.pageurl($urlrule, $curr_page+1, $array).'" class="a1">'.L('next').'</a>';		}
 
+		}
+		return $multipage;
 	}
-	return $multipage;
-}
 
 /**
  * 返回分页路径
@@ -865,15 +865,15 @@ function menu_linkage($linkageid = 0, $id = 'linkid', $defaultvalue = 0) {
  */
 function is_utf8($string) {
 	return preg_match('%^(?:
-					[\x09\x0A\x0D\x20-\x7E] # ASCII
-					| [\xC2-\xDF][\x80-\xBF] # non-overlong 2-byte
-					| \xE0[\xA0-\xBF][\x80-\xBF] # excluding overlongs
-					| [\xE1-\xEC\xEE\xEF][\x80-\xBF]{2} # straight 3-byte
-					| \xED[\x80-\x9F][\x80-\xBF] # excluding surrogates
-					| \xF0[\x90-\xBF][\x80-\xBF]{2} # planes 1-3
-					| [\xF1-\xF3][\x80-\xBF]{3} # planes 4-15
-					| \xF4[\x80-\x8F][\x80-\xBF]{2} # plane 16
-					)*$%xs', $string);
+		[\x09\x0A\x0D\x20-\x7E] # ASCII
+		| [\xC2-\xDF][\x80-\xBF] # non-overlong 2-byte
+		| \xE0[\xA0-\xBF][\x80-\xBF] # excluding overlongs
+		| [\xE1-\xEC\xEE\xEF][\x80-\xBF]{2} # straight 3-byte
+		| \xED[\x80-\x9F][\x80-\xBF] # excluding surrogates
+		| \xF0[\x90-\xBF][\x80-\xBF]{2} # planes 1-3
+		| [\xF1-\xF3][\x80-\xBF]{3} # planes 4-15
+		| \xF4[\x80-\x8F][\x80-\xBF]{2} # plane 16
+	)*$%xs', $string);
 }
 
 /**
@@ -893,6 +893,6 @@ function get_uc_database() {
 		'debug' => true,
 		'pconnect' => 0,
 		'autoconnect' => 0
-		);
+	);
 }
 ?>

@@ -1,0 +1,517 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <title>PHPCMS演示站</title>
+  <meta name="keywords" content="PHPCMS演示站">
+  <meta name="description" content="PHPCMS演示站">
+  <link href="http://local.pct.com/statics/css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="http://local.pct.com/statics/css/default_blue.css" rel="stylesheet" type="text/css" />
+  <script type="text/javascript" src="http://local.pct.com/statics/js/jquery.min.js"></script>
+  <script type="text/javascript" src="http://local.pct.com/statics/js/jquery.sgallery.js"></script>
+  <script type="text/javascript" src="http://local.pct.com/statics/js/search_common.js"></script>
+</head>
+<body>
+  <div class="body-top">
+    <div class="content">
+      <div id="announ">
+       <ul>
+         <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=1">广深企业奔向东莞，“厂妹”希望沾边互联网</a></li>
+         <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5">黄晓明深夜声明：未参与股票操控 是理财不慎 回</a></li>
+         <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6">腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然</a></li>
+         <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9">金正恩视察温泉设施 出现使用手机和淋雨照(图)</a></li>
+         <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19">北京房租近两月涨500到1500 过半房源被代理垄断</a></li>
+       </ul>
+     </div>
+     <script type="text/javascript">
+      $(function(){
+       startmarquee('announ',22,1,500,3000);
+     })
+   </script>
+   <div class="login lh24 blue"><a href="http://local.pct.com/index.php?m=content&c=rss&siteid=1" class="rss ib">rss</a><span class="rt"><script type="text/javascript">document.write('<iframe src="http://local.pct.com/index.php?m=member&c=index&a=mini&forward='+encodeURIComponent(location.href)+'&siteid=1" allowTransparency="true"  width="500" height="24" frameborder="0" scrolling="no"></iframe>')</script></span></div>
+ </div>
+</div>
+<div class="header">
+	<div class="logo"><a href="http://local.pct.com/"><img src="http://local.pct.com/statics/images/v9/logo.jpg" /></a></div>
+
+  <div class="search">
+   <div class="tab" id="search">
+    <a href="javascript:;" onclick="setmodel(57, $(this));" style="outline:medium none;" hidefocus="true"  class="on" >熊猫测试</a><span> | </span>										<a href="javascript:;" onclick="setmodel(59, $(this));" style="outline:medium none;" hidefocus="true" >作文修改</a><span> | </span>										<a href="javascript:;" onclick="setmodel(60, $(this));" style="outline:medium none;" hidefocus="true" >模拟考试</a><span> | </span>										<a href="javascript:;" onclick="setmodel(1, $(this));" style="outline:medium none;" hidefocus="true" >新闻</a><span> | </span>										<a href="javascript:;" onclick="setmodel(3, $(this));" style="outline:medium none;" hidefocus="true" >图片</a><span> | </span>										<a href="javascript:;" onclick="setmodel(2, $(this));" style="outline:medium none;" hidefocus="true" >下载</a><span> | </span>										<a href="javascript:;" onclick="setmodel(52, $(this));" style="outline:medium none;" hidefocus="true" >专题</a>								</div>
+
+    <div class="bd">
+      <form action="http://local.pct.com/index.php" method="get" target="_blank">
+        <input type="hidden" name="m" value="search"/>
+        <input type="hidden" name="c" value="index"/>
+        <input type="hidden" name="a" value="init"/>
+        <input type="hidden" name="typeid" value="57" id="typeid"/>
+        <input type="hidden" name="siteid" value="1" id="siteid"/>
+        <input type="text" class="text" name="q" id="q"/><input type="submit" value="搜 索" class="button" />
+      </form>
+    </div>
+  </div>
+
+  <div class="banner"><script language="javascript" src="http://local.pct.com/index.php?m=poster&c=index&a=show_poster&id=1"></script></div>
+  <div class="bk3"></div>
+  <div class="nav-bar">
+   <map>
+    <ul class="nav-site">
+     <li><a href="http://local.pct.com"><span>首页</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=6"><span>国之内</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=7"><span>下载</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=8"><span>图片</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=9"><span>国了个外</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/html/xiongmao/"><span>熊猫</span></a></li>
+     <li class="line">|</li>
+     <li><a href="http://local.pct.com/html/yuanxiaojiedu/"><span>院校解读</span></a></li>
+   </ul>
+ </map>
+</div> 
+
+</div>
+</div><!--main-->
+<div class="main">
+	<div class="col-left">
+   <div class="news-hot">
+     <div class="content">
+       <h4 class="blue"><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" title="北京房租近两月涨500到1500 过半房源被代理垄断">北京房租近两月涨500到150</a></h4>
+       <p><img src="http://local.pct.com/uploadfile/2018/0817/thumb_90_60_20180817045107391.jpg" width="90" height="60"/>谁推高了房租？　侯润芳 顾志娟 赵昕 位威 樊悦池 游佳颖 陈诗怡 杨...</p>
+       <div class="bk20 hr"><hr /></div>
+       <h4 class="blue"><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" title="金正恩视察温泉设施 出现使用手机和淋雨照(图)">金正恩视察温泉设施 出现</a></h4>
+       <p>[环球网综合报道]据朝中社17日报道，朝鲜国务委员会委员长金正恩视察平安南...</p>
+       <div class="bk20 hr"><hr /></div>
+       <h4 class="blue"><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6" title="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然">腾讯高管解读财报：15款游</a></h4>
+       <p>腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然</p>
+       <div class="bk20 hr"><hr /></div>
+       <h4 class="blue"><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回">黄晓明深夜声明：未参与股</a></h4>
+       <p>黄晓明深夜声明：未参与股票操控 是理财不慎 回</p>
+       <div class="bk20 hr"><hr /></div>
+
+
+     </div>
+   </div>
+   <div class="slide">
+    <div class="FocusPic">
+     <div class="content" id="main-slide">
+      <div class="changeDiv">  
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" title="北京房租近两月涨5..."><img src="http://local.pct.com/uploadfile/2018/0817/thumb_310_260_20180817045107391.jpg" alt="北京房租近两月涨500到1500 过半房源被代理垄断" width="310" height="260" /></a>
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" title="金正恩视察温泉设..."><img src="http://local.pct.com/uploadfile/2018/0817/thumb_310_260_20180817044715107.jpg" alt="金正恩视察温泉设施 出现使用手机和淋雨照(图)" width="310" height="260" /></a>
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6" title="腾讯高管解读财报..."><img src="http://local.pct.com/uploadfile/2018/0817/thumb_310_260_20180817044349179.jpg" alt="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然" width="310" height="260" /></a>
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" title="黄晓明深夜声明：..."><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817044349179.jpg" alt="黄晓明深夜声明：未参与股票操控 是理财不慎 回" width="310" height="260" /></a>
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=1" title="广深企业奔向东莞..."><img src="http://local.pct.com/uploadfile/2018/0817/thumb_310_260_20180817045035752.jpg" alt="广深企业奔向东莞，“厂妹”希望沾边互联网" width="310" height="260" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="bk10"></div>
+  <div class="box extend">
+   <div class="col-left">争议</div>
+   <div class="col-auto">
+    <ul>
+      <li style="clear:both">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=4">台媒：85度C被大陆多家外卖平台下架</a><br />
+        <div style="color:#ccc;">台媒：85度C被大陆多家外卖平台下架</div>
+      </li>
+    </ul>				</div>
+    <script language="javascript" src="http://local.pct.com/caches/poster_js/10.js"></script>
+  </div>
+</div>
+<div class="bk10"></div>
+<div class="box">
+  <h5>图片新闻</h5>
+  <ul class="content news-photo picbig">
+    <li>
+      <div class="img-wrap">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" title="北京房租近两月涨500到1500 过半房源被代理垄断"><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817045107391.jpg" title="北京房租近两月涨500到1500 过半房源被代理垄断"/></a>
+      </div>
+      <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" title="北京房租近两月涨500到1500 过半房源被代理垄断">北京房租近...</a>
+    </li>
+    <li>
+      <div class="img-wrap">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" title="金正恩视察温泉设施 出现使用手机和淋雨照(图)"><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817044715107.jpg" title="金正恩视察温泉设施 出现使用手机和淋雨照(图)"/></a>
+      </div>
+      <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" title="金正恩视察温泉设施 出现使用手机和淋雨照(图)">金正恩视察...</a>
+    </li>
+    <li>
+      <div class="img-wrap">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6" title="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然"><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817044349179.jpg" title="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然"/></a>
+      </div>
+      <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6" title="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然">腾讯高管解...</a>
+    </li>
+    <li>
+      <div class="img-wrap">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回"><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817044349179.jpg" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回"/></a>
+      </div>
+      <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回">黄晓明深夜...</a>
+    </li>
+    <li>
+      <div class="img-wrap">
+        <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=1" title="广深企业奔向东莞，“厂妹”希望沾边互联网"><img src="http://local.pct.com/uploadfile/2018/0817/thumb_110_0_20180817045035752.jpg" title="广深企业奔向东莞，“厂妹”希望沾边互联网"/></a>
+      </div>
+      <a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=1" title="广深企业奔向东莞，“厂妹”希望沾边互联网">广深企业奔...</a>
+    </li>
+  </ul>
+</div>
+<div class="bk10"></div>
+<div class="box cat-area" style=" margin-right:10px">
+  <h5 class="title-1">国之内<a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=6" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1547894396329&amp;di" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=22" target="_blank" title="小军">小军</a></strong><br />编者按：2015年12月15日，清华大学经济管理学院MBA教育中心主办的20...                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=28" target="_blank" title="new_test">new_test</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=27" target="_blank" title="sdf">sdf</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=25" target="_blank" title="interesting">interesting</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=24" target="_blank" title="123">123</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=23" target="_blank" title="喜才">喜才</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="box cat-area" >
+  <h5 class="title-1">下载<a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=7" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/uploadfile/2018/0817/thumb_90_0_thumb_110_0_20180817044349179.jpg" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" target="_blank" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回">黄晓明深夜声明...</a></strong><br />黄晓明深夜声明：未参与股票操控 是理财不慎 回                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=7" target="_blank" title="贾静雯修杰楷为咘咘庆生，大女儿梧桐妹终于露全脸">贾静雯修杰楷为咘咘庆生...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=6" target="_blank" title="还记得《我叫金三顺》里的金三顺吗？她现在长这样">还记得《我叫金三顺》里...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=5" target="_blank" title="黄晓明深夜声明：未参与股票操控 是理财不慎 回">黄晓明深夜声明：未参与...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=4" target="_blank" title="理财不慎才赚9亿？扒一扒黄晓明等明星理财的那些">理财不慎才赚9亿？扒一扒...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=7&id=3" target="_blank" title="陈坤新剧《天盛长歌》开播 网剧《疯人院》好评如">陈坤新剧《天盛长歌》开...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+  <h5 class="title-1">图片<a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=8" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/uploadfile/2018/0817/thumb_90_0_20180817045035752.jpg" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=1" target="_blank" title="广深企业奔向东莞，“厂妹”希望沾边互联网">广深企业奔向东...</a></strong><br />广深企业奔向东莞，“厂妹”希望沾边互联网                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=6" target="_blank" title="腾讯高管解读财报：15款游戏将上线 《怪猎》下架是偶然">腾讯高管解读财报：15款...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=5" target="_blank" title="各位商家看过来,支付宝、微信收钱二维码合并攻略请收下各">各位商家看过来,支付宝、...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=4" target="_blank" title="台媒：85度C被大陆多家外卖平台下架">台媒：85度C被大陆多家外...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=3" target="_blank" title="【链得得独家】韩国酝酿“9·4监管”，遭殃的可能只有交易">【链得得独家】韩国酝酿...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=8&id=2" target="_blank" title="互金平台的那些事：蚂蚁花呗不良率是京东白条近两倍，为">互金平台的那些事：蚂蚁...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="box cat-area" >
+  <h5 class="title-1">国了个外<a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=9" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/uploadfile/2018/0817/thumb_90_0_20180817045107391.jpg" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" target="_blank" title="北京房租近两月涨500到1500 过半房源被代理垄断">北京房租近两月...</a></strong><br />谁推高了房租？　侯润芳 顾志娟 赵昕 位威 樊悦池 游佳颖 陈...                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" target="_blank" title="北京房租近两月涨500到1500 过半房源被代理垄断">北京房租近两月涨500到15...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=18" target="_blank" title="国务院出硬招清理奇葩证明 “你妈是你妈”证明再见">国务院出硬招清理奇葩证...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=17" target="_blank" title="全美350多家媒体向特朗普宣战 特朗普沉默1天发声">全美350多家媒体向特朗普...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=16" target="_blank" title="男孩被高坠花盆砸中头部致死 事发5楼暂无人居住">男孩被高坠花盆砸中头部...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=15" target="_blank" title="民政局给新人发家庭手册:女性露胳膊是作贱自己">民政局给新人发家庭手册:...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+  <h5 class="title-1">熊猫<a href="http://local.pct.com/html/xiongmao/" class="more">更多>></a></h5>
+  <div class="content">
+
+    <div class="bk15 hr"></div>
+
+    <ul class="list lh24 f14">
+    </ul>
+  </div>
+</div>
+<div class="box cat-area" >
+  <h5 class="title-1">模拟考试<a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=37" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/uploadfile/zwxg/thumb_90_0_2018092120180921_zwid_3.png" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=31" target="_blank" title="施工企业项目经理部经营活动的法律后果由（）。">施工企业项目经...</a></strong><br />                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=338" target="_blank" title=" 下列关于分包的说法中，正确的有（）"> 下列关于分包的说法中...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=337" target="_blank" title=" 根据《劳动合同法》，下列合同中，属于无效劳动合同的有"> 根据《劳动合同法》，...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=336" target="_blank" title="招标人在发出中标通知书前，由评标委员会对中标候选人进">招标人在发出中标通知书...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=335" target="_blank" title=" 根据《生产安全事故报告调查处理条例》，事故的等级划分"> 根据《生产安全事故报...</a></li>
+       <li>·<a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=65&id=334" target="_blank" title="下列各项权力中，属于施工作业人员安全生产权利的是（ ）">下列各项权力中，属于施...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+  <h5 class="title-1">焦点图<a href="http://local.pct.com/html/jdt/" class="more">更多>></a></h5>
+  <div class="content">
+
+    <div class="bk15 hr"></div>
+
+    <ul class="list lh24 f14">
+    </ul>
+  </div>
+</div>
+<div class="box cat-area" >
+  <h5 class="title-1">院校解读<a href="http://local.pct.com/html/yuanxiaojiedu/" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/uploadfile/2018/1229/thumb_90_0_20181229105355916.jpg" width="90" height="60"/>
+     <strong><a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/34.html" target="_blank" title="天津大学MEM学员赴北京新机场项目、雄安新区两地参观学习">天津大学MEM学员...</a></strong><br />正值建党97周年纪念日，天津大学2016、2017级MEM学员和蒋水宾、肖艳...                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/34.html" target="_blank" title="天津大学MEM学员赴北京新机场项目、雄安新区两地参观学习">天津大学MEM学员赴北京新...</a></li>
+       <li>·<a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/33.html" target="_blank" title="“青春嘉年华 奋进新征途”北京交通大学2018级工程管理硕士（MEM）素质拓展活动圆满结束">&ldquo;青春嘉年华 奋进新征...</a></li>
+       <li>·<a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/32.html" target="_blank" title="首届全国工程管理硕士（MEM）教育论坛暨项目咨询会成功召开">首届全国工程管理硕士（M...</a></li>
+       <li>·<a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/31.html" target="_blank" title="青春无界——清华大学工程管理硕士（MEM）2018年毕业典礼">青春无界&mdash;&mdash;清华大学工...</a></li>
+       <li>·<a href="http://local.pct.com/html/2018/yuanxiaohuodong_1228/30.html" target="_blank" title="不忘初心 砥砺前行-清华工程管理硕士（MEM）2017级临时党支部正式成立">不忘初心 砥砺前行-清华...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="bk10"></div>		                <div class="box cat-area" style=" margin-right:10px">
+  <h5 class="title-1">地区<a href="http://local.pct.com/html/diqu/" class="more">更多>></a></h5>
+  <div class="content">
+    <p>
+     <img src="http://local.pct.com/statics/images/nopic.gif" width="90" height="60"/>
+     <strong><a href="" target="_blank" title="北京航空航天大学">北京航空航天大学</a></strong><br />                </p>
+
+     <div class="bk15 hr"></div>
+
+     <ul class="list lh24 f14">
+       <li>·<a href="" target="_blank" title="沈阳建筑大学管理学院">沈阳建筑大学管理学院</a></li>
+       <li>·<a href="" target="_blank" title="沈阳化工大学经济与管理学院">沈阳化工大学经济与管理学院</a></li>
+       <li>·<a href="" target="_blank" title="沈阳工业大学">沈阳工业大学</a></li>
+       <li>·<a href="" target="_blank" title="辽宁工业大学管理学院">辽宁工业大学管理学院</a></li>
+       <li>·<a href="" target="_blank" title="东北财经大学管理科学与工程学院">东北财经大学管理科学与...</a></li>
+     </ul>
+   </div>
+ </div>
+ <div class="box cat-area" >
+  <h5 class="title-1">联考资源<a href="http://local.pct.com/html/liankaoziyuan/" class="more">更多>></a></h5>
+  <div class="content">
+
+    <div class="bk15 hr"></div>
+
+    <ul class="list lh24 f14">
+    </ul>
+  </div>
+</div>
+<div class="bk10"></div>		    </div>
+<div class="col-auto">
+ <div class="box">
+  <h5 class="title-2">公告<a href="" class="more">&nbsp;</a></h5>
+  <div class="content">
+    <ul class="list lh24 f14">
+    </ul>
+  </div>
+</div>
+<div class="bk10"></div>
+<div class="box">
+ <h5 class="title-2">专题<a href="http://local.pct.com/index.php?m=special&c=index&a=special&siteid=1" class="more">更多>></a></h5>
+ <div class="content special">
+   <p style="margin:0">
+     <a href="http://local.pct.com/html/special/kanshijie/"><img src="http://local.pct.com/uploadfile/2018/0817/20180817050636947.jpg" width="90" height="70" /></a>
+     <strong><a href="http://local.pct.com/html/special/kanshijie/">看世界</a></strong><br />网红清迈
+     泰北小城故事多
+   近年来...                </p>
+ </div>
+</div>
+<div class="bk10"></div>
+<div class="box">
+  <h5 class="title-2"><span class="rt fn f12 tab SwapTab"><span class="fb">热点</span> | <span >评论</span> | <span>关注</span></span>排行</h5>
+  <div class="tab-content">
+    <ul class="content digg">
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=25" target="_blank" title="interesting">interesting</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=12" target="_blank" title="辽宁海事局连发两道航行警告：渤黄海将有军事任务">辽宁海事局连发两道航行警告：渤黄海将有军事任务</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=20" target="_blank" title="在现代激烈的商业竞争中，高寿的企业可谓越来越罕见。">在现代激烈的商业竞争中，高寿的企业可谓越来越罕见。</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=23" target="_blank" title="喜才">喜才</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=22" target="_blank" title="小军">小军</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=4" target="_blank" title="红芯浏览器致歉：宣传夸大 不应特别强调国产自主">红芯浏览器致歉：宣传夸大 不应特别强调国产自主</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=28" target="_blank" title="new_test">new_test</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" target="_blank" title="金正恩视察温泉设施 出现使用手机和淋雨照(图)">金正恩视察温泉设施 出现使用手机和淋雨照(图)</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=24" target="_blank" title="123">123</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=1" target="_blank" title="习近平对首个“中国医师节”作出指示">习近平对首个“中国医师节”作出指示</a></li>
+    </ul>
+    <ul class="content digg hidden">
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=9&id=19" target="_blank">北京房租近两月涨500到1500 过半房源被代理垄断</a></li>
+    </ul>
+    <ul class="content digg hidden">
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=25" target="_blank">interesting</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=12" target="_blank">辽宁海事局连发两道航行警告：渤黄海将有军事任务</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=20" target="_blank">在现代激烈的商业竞争中，高寿的企业可谓越来越罕见。</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=23" target="_blank">喜才</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=22" target="_blank">小军</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=4" target="_blank">红芯浏览器致歉：宣传夸大 不应特别强调国产自主</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=28" target="_blank">new_test</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=9" target="_blank">金正恩视察温泉设施 出现使用手机和淋雨照(图)</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=24" target="_blank">123</a></li>
+      <li><a href="http://local.pct.com/index.php?m=content&c=index&a=show&catid=6&id=1" target="_blank">习近平对首个“中国医师节”作出指示</a></li>
+    </ul>
+  </div>
+</div><div class="bk10"></div>
+<div class="box">
+  <h5 class="title-2">调查问卷<a href="http://local.pct.com/index.php?m=vote&c=index&siteid=1" class="more">更多>></a></h5>
+
+  <script language="javascript" src="http://local.pct.com/index.php?m=vote&c=index&a=show&action=js&subjectid=1&type=3"></script>
+</div>
+</div>
+<div class="bk10"></div>
+
+<div class="box blogroll ylink">
+ <h5><a href="http://local.pct.com/index.php?m=link&siteid=1" hidefocus="true" class="rt">更多>></a>友情链接<a href="http://local.pct.com/index.php?m=link&c=index&a=register&siteid=1" class="red">申请链接</a></h5>
+ <div class="bk10"></div>
+ <ul class="colli imgul">
+  <li><a href="http://www.phpcms.cn" title="PHPCMS" target="_blank"><img src="http://www.phpcms.cn/images/logo_88_31.gif" width="88" height="31" /></a></li>
+  <li><a href="http://www.sdo.com" title="盛大在线" target="_blank"><img src="http://local.pct.com/statics/images/footer/comp_logo_sdo.jpg" width="88" height="31" /></a></li>
+</ul>
+<div class="bk10"></div>
+<div class="linka">
+</div>
+</div>
+</div>
+<script type="text/javascript"> 
+  $(function(){
+	new slide("#main-slide","cur",310,260,1);//焦点图
+	new SwapTab(".SwapTab","span",".tab-content","ul","fb");//排行TAB
+})
+</script>
+<div class="footer">
+  <p class="info">
+    <a href="http://local.pct.com/html/about/aboutus/" target="_blank">关于我们</a> |  
+    <a href="http://local.pct.com/html/about/contactus/" target="_blank">联系方式</a> |  
+    <a href="http://local.pct.com/index.php?m=content&c=index&a=lists&catid=4" target="_blank">版权声明</a> |  
+    <a href="http://local.pct.com/html/about/hr/" target="_blank">招聘信息</a> |  
+    <a href="http://local.pct.com/index.php?m=link" target="_blank">友情链接</a>
+    <br />
+    Powered by <strong><a href="http://www.phpcms.cn" target="_blank">PHPCMS</a></strong> <em>V9.6.3</em> &copy; 2015 <img src="http://local.pct.com/statics/images/copyright.gif"/></p>
+  </div>
+  <script type="text/javascript">
+    $(function(){
+     $(".picbig").each(function(i){
+      var cur = $(this).find('.img-wrap').eq(0);
+      var w = cur.width();
+      var h = cur.height();
+      $(this).find('.img-wrap img').LoadImage(true, w, h,'http://local.pct.com/statics/images/msg_img/loading.gif');
+    });
+   })
+ </script>
+
+
+ <link href="http://local.pct.com/statics_PDW/css/activity.css" rel="stylesheet" type="text/css" />
+ <link href="http://local.pct.com/statics_PDW/css/public.css" rel="stylesheet" type="text/css" />
+ <script type="text/javascript" src="http://local.pct.com/statics_PDW/js/activity.js"></script>
+ <style>
+ #zxd_x{width:20px; height:20px;text-align:center;font-size:16px;color:red;position:absolute;right:0px; top:0px;cursor:pointer;}
+ .content_fudong {margin:0 auto;width: 25px;text-align: center; line-height: 25px;border:1px solid #333;position: absolute;left:20px;font-size: 25px;}
+ .content_fudong a{text-decoration:none;}
+</style>
+<div style="z-index:99;display: block; position: fixed; left: 0px; top: 200px;">
+  <div id="zxd_x">
+    <a title="点击关闭"><b></b></a></div>
+    <div class="content_fudong">
+      <a id="left_ad" class="join" href="javascript:;">
+        2019年B区院校调剂申请通道
+      </a>
+    </div>
+  </div>
+
+
+  <div class="main clearfix" style="padding-top: 30px;">
+    <style>
+    /*  滑动验证样式 */
+    .slidemask {
+      width: 100%;
+      left: 0;
+      top: 0;
+      background: rgba(0, 0, 0, .6);
+      display: none;
+      z-index: 100
+    }
+    .slideimg {
+      position: absolute !important;
+      left: 50%;
+      top: 55%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+    }
+  </style>
+  <div id="shadow" style="display: none;"></div>
+  <div id="activeJoinBox" class="animated bounceInRight" style="display: none;">
+    <div class="closeBtn">
+      <img src="/statics_PDW/images/close-icon.png" data-bd-imgshare-binded="1">
+    </div>
+    <p class="t">活动报名</p>
+    <form action="" method="post">
+      <div class="inputGroup">
+        <label>手机：</label>
+        <input type="text" name="" id="tel" value="" placeholder="请输入您的手机号" required="">
+        <p class="error">请输入您的手机号</p>
+      </div>
+      <div class="inputGroup">
+        <label>姓名：</label>
+        <input type="text" name="" id="name" value="" placeholder="请输入姓名" required="">
+        <p class="error">请输入您的姓名</p>
+      </div>       
+      <div class="inputGroup">
+        <label>微信：</label>
+        <input type="text" name="" id="wxnum" value="" placeholder="请输入微信" required="">
+        <p class="error">请输入您的微信</p>
+      </div>
+      <div class="inputGroup">
+        <label>分数：</label>
+        <input type="text" id="english" name="english" onblur="counttotal()" onafterpaste="this.value=this.value.replace(/\D/g, '')" onkeyup="this.value=this.value.replace(/\D/g,'');" value="" placeholder="英语" title="英语" maxlength="3" style="width:80px;">
+        <input type="text" id="zonghe" name="zonghe" onblur="counttotal()" onafterpaste="this.value=this.value.replace(/\D/g, '')" onkeyup="this.value=this.value.replace(/\D/g,'');" value="" placeholder="综合" title="综合" maxlength="3" style="width:80px;">
+        <input type="text" id="total" name="total" value="" placeholder="总分" title="总分" readonly="" maxlength="3" style="width:80px;">
+        <p class="error" id="codeError">请输入校验码</p>
+      </div>
+      <div class="inputGroup">
+        <label>校验码：</label>
+        <input required="" type="text" name="verify" id="verify" value="" placeholder="请输入校验码" style="width: 130px;">
+        <img class="validate" id="code_img" onclick="this.src=this.src+&quot;&amp;&quot;+Math.random()" src="http://local.pct.com/api.php?op=checkcode&amp;code_len=4&amp;font_size=20&amp;width=130&amp;height=50&amp;font_color=&amp;background=">           
+      </div>       
+    </form>
+    <input id="signUp" type="button" value="提交" class="btn">
+  </div>
+  <div id="activeJoinReturnBox">
+    <div class="closeBtn">
+      <img src="/statics_PDW/images/close-icon.png" data-bd-imgshare-binded="1">
+    </div>
+    <p class="success"><img src="/statics_PDW/images/icon-success.png" data-bd-imgshare-binded="1">活动报名已成功</p>
+    <p class="defaut"><img src="/statics_PDW/images/icon-defaut.png" data-bd-imgshare-binded="1">活动报名失败，请重新报名</p>
+  </div>
+  <script type="text/javascript">
+    function counttotal() {
+      var e = $('#english').val();
+      var z = $('#zonghe').val();
+      var v = e != '' && z != '' ? parseInt(e) + parseInt(z) : '';
+      $('#total').attr('value', v);
+      var t = '';
+      if ($('#total').val() == '总分' || $('#total').val() == 'NaN' || $('#total').val() == '') {
+        t = '总分';
+      }
+      $('#total').attr('value', t == '' ? v : t);
+    }
+  </script>    
+</body>
+</html>
+

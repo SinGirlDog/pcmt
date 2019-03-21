@@ -47,7 +47,7 @@ class index extends foreground {
 		//加载短信模块配置
  		$sms_setting_arr = getcache('sms','sms');
 		$sms_setting = $sms_setting_arr[$siteid];		
-		
+
 		header("Cache-control: private");
 		if(isset($_POST['dosubmit'])) {
 
@@ -63,6 +63,7 @@ class index extends foreground {
 			$userinfo['encrypt'] = create_randomstr(6);
 
 			$userinfo['username'] = (isset($_POST['username']) && is_username($_POST['username'])) ? $_POST['username'] : exit('0');
+
 			$userinfo['nickname'] = (isset($_POST['nickname']) && is_username($_POST['nickname'])) ? $_POST['nickname'] : '';
 			
 			$userinfo['email'] = (isset($_POST['email']) && is_email($_POST['email'])) ? $_POST['email'] : exit('0');
@@ -142,7 +143,6 @@ class index extends foreground {
 				$this->_init_phpsso();				
 				$status = $this->client->ps_member_register($userinfo['username'], $userinfo['password'], $userinfo['email'], $userinfo['regip'], $userinfo['encrypt']);
 				if($status > 0) {
-		var_dump($_POST);var_dump($this);die;
 
 					$userinfo['phpssouid'] = $status;
 					//传入phpsso为明文密码，加密后存入phpcms_v9
@@ -198,9 +198,9 @@ class index extends foreground {
 				}
 			} else {
 				showmessage(L('enable_register').L('enable_phpsso'), 'index.php?m=member&c=index&a=login');
-			}			
+			}		
 			showmessage(L('operation_failure'), HTTP_REFERER);
-		} else {
+		} else {			
 			if(!pc_base::load_config('system', 'phpsso')) {
 				showmessage(L('enable_register').L('enable_phpsso'), 'index.php?m=member&c=index&a=login');
 			}
@@ -1010,9 +1010,6 @@ class index extends foreground {
 	
 		$this->_init_phpsso();
 		$status = $this->client->ps_checkname($username);
-			
-		//强制修改status为1
-		$status = 1;	
 
 		if($status == -4 || $status == -1) {
 			exit('0');

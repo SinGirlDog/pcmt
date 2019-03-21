@@ -51,7 +51,7 @@ return array(
 
 'phpsso' => '1',	//是否使用phpsso
 'phpsso_appid' => '1',	//应用id	
-'phpsso_api_url' => 'http://local.phpsso.com',	//接口地址
+'phpsso_api_url' => 'http://local.new2019.com:3824/phpsso_server',	//接口地址
 // 'phpsso_api_url' => 'http://'.$_SERVER['HTTP_HOST'].'/phpsso_server',	//接口地址
 'phpsso_auth_key' => '9slga2qomudjiicimvpnd9u5271ta3if', //加密密钥
 'phpsso_version' => '1', //phpsso版本
